@@ -10,16 +10,16 @@ Nederlandse digitale overheid.**
 
 ## Doel en doelgroep van het raamwerk
 
-Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid
+Het doel van het Raamwerk van Geo-Standaarden is om uit de grote verscheidenheid
 aan standaarden de juiste set te kiezen: die standaarden die nodig zijn voor het
 realiseren van een geo-informatie infrastructuur. Bij de keuzes zijn de volgende
 uitgangspunten gehanteerd: internationale aansluiting, volwassenheid en openheid
-van deze geo-standaarden en breed gebruik. Met de in het Raamwerk opgenomen
+van deze geo-standaarden en breed gebruik. Met de in dit raamwerk opgenomen
 geo-standaarden is het mogelijk een solide infrastructuur te bouwen, die
 verenigbaar is met de internationale ontwikkelingen en aansluit op de nationale
 digitale overheid.
 
-Het Raamwerk van geo-standaarden is geschreven voor iedereen, die betrokken is
+Het Raamwerk van Geo-Standaarden is geschreven voor iedereen, die betrokken is
 bij het toepassen van standaarden voor geo-informatie. Zoals stuurgroepleden,
 informatiemanagers, beleidsmedewerkers, projectleiders, adviseurs, architecten,
 IT-leveranciers, en voor personen die standaarden en specificaties implementeren
@@ -31,7 +31,7 @@ Nederland en Europa.
 Om zo breed mogelijk draagvlak voor dit Raamwerk te creëren wordt het Raamwerk
 binnen de overheid formeel belegd via het Geo-Informatie Beraad, de basislijst
 open standaarden van het Forum Standaardisatie en de Nederlandse Overheid
-Referentie Architectuur.
+Referentie Architectuur (NORA).
 
 Vanuit de NEN normcommissie Geo-informatie worden worden de relaties met de
 formele internationale standaardisatie organisaties onderhouden. En via de
@@ -57,16 +57,14 @@ Defensie, het InterProvinciaal Overleg (IPO), de Vereniging Nederlandse
 Gemeenten (VNG), Unie van Waterschappen (UvW), het Kadaster en Rijksgeologische
 Dienst (TNO), Rijkswaterstaat, Netherlands Space Office (NSO), het Centraal
 bureau voor de Statistiek (CBS), het Rijksinstituut voor Volksgezondheid en
-Milieu
-
-(RIVM), Nederlands Instituut Publieke Veiligheid (NIPV) en Geonovum.
+Milieu (RIVM), Nederlands Instituut Publieke Veiligheid (NIPV) en Geonovum.
 
 De taken van het GI-beraad zijn strategisch van aard, waarbij het GI-beraad de
 Minister van Volkshuisvesting en Ruimtelijke Ordening adviseert in de vorm van
 een strategische agenda over de onderwerpen, die de komende jaren aan de orde
 zullen komen op het gebied van de Nederlandse geo-informatie infrastructuur. Het
 GI-beraad heeft het Raamwerk van geo-standaarden vastgesteld als verplichtend
-voor de GI-beraad deelnemers. De programmaraad van Geonovum stelt elke nieuwe
+voor de GI-beraad deelnemers. De [programmaraad van Geonovum](https://www.geonovum.nl/over-geonovum/wie-wij-zijn#Programmaraad) stelt elke nieuwe
 versie van het raamwerk vast.
 
 **Basislijst open standaarden College Standaardisatie**
@@ -81,8 +79,7 @@ standaarden.
 Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt
 dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten
 volgen. Een aantal [geo-standaarden uit het Raamwerk staan op de ‘pas toe of leg
-uit’
-lijst](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden) van
+uit’ lijst](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden) van
 het Forum Standaardisatie.
 
 **NEN normcommissie Geo-informatie**
@@ -91,8 +88,7 @@ Bij NEN, Stichting Koninklijk Nederlands Normalisatie Instituut, worden
 afspraken vastgelegd in normen en richtlijnen. Dit doen ze in nationale en/of
 internationale normcommissies. Dit zijn zowel Nederlandse, Europese als
 internationale normen. De [normcommissie
-Geo-informatie](https://www.nen.nl/normcommissie-geo-informatie#:~:text=De%20normcommissie%20valt%20binnen%20de,(inter)nationale%20relaties%20heeft.)
-valt binnen de normalisatiestructuur van NEN onder de Beleidscommissie Bouw. Het
+Geo-informatie](https://www.nen.nl/normcommissie-geo-informatie) valt binnen de normalisatiestructuur van NEN onder de Beleidscommissie Bouw. Het
 werk in deze normsubcommissie is gerelateerd aan nationale-, Europese- en
 mondiale wet- en regelgeving. Dit betekent dat de commissie veel
 (inter)nationale relaties heeft. Op Europees- en mondiaal niveau volgt de
@@ -100,14 +96,9 @@ normcommissie de normontwikkelingen vanuit de CEN- en de ISO-commissies.
 Hieronder vindt u de nationale- (NEN), Europese- (CEN) en mondiale (ISO) normen,
 die in relatie staan tot de normsubcommissie:
 
--   [NEN
-    3610](https://connect.nen.nl/Standard/Detail/156811?compId=16013&collectionId=0),
-    Basismodel geo-informatie;
--   [CEN/TC
-    287](https://standards.cencenelec.eu/dyn/www/f?p=205:7:0::::FSP_ORG_ID:6268&cs=1D5368A4F6E101B66AD14AB12AC0FC914),
-    Geographic information;
--   [ISO/TC 211](https://www.iso.org/committee/54904.html), Geographic
-    information/Geomatics.
+-   [NEN 3610](https://connect.nen.nl/Standard/Detail/156811?compId=16013&collectionId=0) Basismodel geo-informatie;
+-   [CEN/TC 287](https://standards.cencenelec.eu/dyn/www/f?p=205:7:0::::FSP_ORG_ID:6268&cs=1D5368A4F6E101B66AD14AB12AC0FC914) Geographic information;
+-   [ISO/TC 211](https://www.iso.org/committee/54904.html), Geographic information/Geomatics.
 
 **Nederlandse Samenwerking Geodetische Infrastructuur (NSGI)**
 
@@ -129,8 +120,7 @@ uitvoering van alle publieke taken door publieke en private organisaties.
 
 Dit raamwerk van geo-standaarden is het verdiepingsdocument waarnaar
 [NORA](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/standaardisatie-en-architectuur/nora/)
-en het [NORA dossier
-geo-informatie](https://www.geonovum.nl/uploads/documents/nora_dossier_geo-informatie.pdf)
+en het [NORA dossier geo-informatie](https://www.geonovum.nl/uploads/documents/nora_dossier_geo-informatie.pdf)
 verwijzen voor de te hanteren geo-standaarden.
 
 **INSPIRE Richtlijn**
@@ -236,14 +226,14 @@ Het Raamwerk van geo-standaarden is vergeleken met de vorige versie
 teruggebracht naar uitgebreidere vorm, waarin de samenhang van de
 geo-standaarden centraal staat.
 
-Hoofdstuk 1 biedt achtergrondinformatie over het document. Hoofdstuk 2
+[Hoofdstuk 1](#inleiding) biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geo-standaarden-in-samenhang)
 beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het
 document.
 
 Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de
 vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
-geo-standaarden voor informatiemodellen, visualisatie, API’s, uitwisselformaten,
-metadata en coördinaat-referentiesystemen. In de hoofdstukken 3 tot en met 8
+geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces-API-s), [uitwisselformaten](#uitwisselformaten),
+[metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
 zijn voor deze zes categorieën geo-standaarden lijsten van geldende
 geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en
 nationale geo-standaarden) en komen aspecten van kwaliteit van de
