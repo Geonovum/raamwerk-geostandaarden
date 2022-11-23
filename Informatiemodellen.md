@@ -3,12 +3,12 @@
 **Een informatiemodel, ook wel dataspecificatie genoemd, zet schematisch de
 afspraken over begrippen en definities van gegevens binnen een bepaald domein op
 een rij. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk
-beschrijven we de geostandaarden die de basis vormen van de modellen en
+beschrijven we de geo-standaarden die de basis vormen van de modellen en
 beschrijvingen van geo-informatie.**
 
-## NEN 3610 - Stelsel van informatiemodellen
+## NEN 3610 - Basismodel voor informatiemodellen
 
-Informatiemodellen specificeren de informatieinhoud van dataproducten die middels de NGII worden gepubliceerd. Dataproducten zijn daarbij de datasets of dataservices die binnen de context van sectorale domeinen worden aangeboden. Het informatiemodel en de daarop gebaseerde data zijn altijd een representatie van de werkelijkheid. De data of de registraties daarvan hebben als doel die werkelijkheid beter te kunnen begrijpen te beheren en of te sturen. Het is voor de semantische - en technische interoperabiliteit van belang dat informatiemodellen wat betreft methode en inhoud op elkaar zijn afgestemd. Het NEN 3610 - Stelsel van informatiemodellen heeft dat als doel. NEN 3610:2022 is de basisstandaard voor het opstellen van informatiemodellen en geeft regels voor het eenduidig beschrijven, uitwisselen en op het web publiceren van geo-informatie binnen de NGII. NEN 3610 bekijkt deze infrastructuur vanuit het informatieperspectief door middel van informatiemodellen.
+Informatiemodellen specificeren de informatieinhoud van dataproducten die middels de [NGII](/#ngii-principes) worden gepubliceerd. Dataproducten zijn daarbij de datasets of dataservices die binnen de context van sectorale domeinen worden aangeboden. Het informatiemodel en de daarop gebaseerde data zijn altijd een representatie van de werkelijkheid. De data of de registraties daarvan hebben als doel die werkelijkheid beter te kunnen begrijpen te beheren en of te sturen. Het is voor de semantische - en technische interoperabiliteit van belang dat informatiemodellen wat betreft methode en inhoud op elkaar zijn afgestemd. Het NEN 3610 - Stelsel van informatiemodellen heeft dat als doel. NEN3610:2022 is de basismodel voor informatiemodellen en geeft regels voor het eenduidig beschrijven, uitwisselen en op het web publiceren van geo-informatie binnen de NGII. NEN 3610 bekijkt deze infrastructuur vanuit het informatieperspectief door middel van informatiemodellen.
 
 De focus ligt op semantische interoperabiliteit. Semantische interoperabiliteit wordt gerealiseerd door het harmoniseren van termen en definities gehanteerd door verschillende sectoren en door een gemeenschappelijke reeks van regels, concepten en modelleerpatronen voor het modelleren van de geografische werkelijkheid. NEN 3610 biedt een basis voor verdere uitwerking in sectorale modellen waardoor interoperabiliteit mogelijk wordt voor uitwisseling van geo-informatie binnen en tussen sectoren.
 
@@ -17,7 +17,7 @@ NEN 3610 positioneert informatiemodellen in het bredere kader van een open en to
 De gebruiker is de informatiearchitect en informatiemodelleur die georegistraties en bijbehorende informatiemodellen ontwerpen.
 
 NEN 3610 is afgestemd met internationale standaarden en gebruikt als metamodel de de Nederlandse standaard voor
-meta-informatiemodelering, het Metamodel Informatiemodellering [MIM]. NEN 3610 heeft een relatie met de NEN 2660:2022 - Regels voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaand figuur geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
+meta-informatiemodelering, het Metamodel Informatiemodellering [MIM](#mim-principes). NEN 3610 heeft een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) - Regels voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaand figuur geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
 <figure id="Figuur_x">
 <img src="media/NEN3610StandaardenPackageDiagram.png" alt="">
@@ -30,7 +30,6 @@ meta-informatiemodelering, het Metamodel Informatiemodellering [MIM]. NEN 3610 h
 </figure>
 
 ## Overzicht standaarden informatiemodellen voor Nederland
-
 
 NEN 3610 heeft zijn toepassing in een groeiende aantal sectorale informatiemodellen en omvat
 circa 25 Nederlandse informatiemodellen, zoals voor de toepassingsdomeinen water
