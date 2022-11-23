@@ -30,7 +30,7 @@ NORA onderkent 5 lagen, zoals weergegeven in onderstaande figuur:
 
 NORA is in 2022 flink aangepast. Er is een grote RFC doorgevoerd op 13 september 2022,  goedgekeurd door de NORA Gebruikersraad en 7 november 2022 is de RFC bekrachtigd door de Architectuurraad GDI.
 De Basisprincipes zijn omgezet naar [Kwaliteitsdoelen](https://www.noraonline.nl/wiki/Kwaliteitsdoelen) en de Afgeleide Principes zijn omgezet naar [Architectuurprincipes](https://www.noraonline.nl/wiki/Architectuurprincipes).
-Een mooi overzicht van de Kernwaarden, Kwaliteitsdoelen en Beleidskaders vind je [hier](https://www.noraonline.nl/wiki/Grafisch_overzicht_relaties_Kernwaarden_en_Kwaliteitsdoelen_met_Beleidskaders). 
+Een overzicht van de Kernwaarden, Kwaliteitsdoelen en Beleidskaders vind je [hier](https://www.noraonline.nl/wiki/Grafisch_overzicht_relaties_Kernwaarden_en_Kwaliteitsdoelen_met_Beleidskaders). 
 
 Principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)), [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek [geo-standaarden](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden)), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit het Geonovum missie statement (verkent, verbindt, verankert).
 
@@ -138,7 +138,7 @@ In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het
 ### Gebruikers
 ![Gebruikers](media/pacelayers_gebruikers.png)
 
-De gebruikers zijn de belangrijkste 'componenten' van de architectuurplaat. Immers daar doen we het allemaal voor. De architectuur en alle componenten zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz.. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
+De gebruikers zijn de belangrijkste 'componenten' van de architectuurplaat. Immers daar doen we het allemaal voor. De Architectuur en alle componenten zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz.. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
 
 Gebruikers zijn in te delen in verschillende categorieen. Die categorieën passen op de 3 lagen van het pacelayermodel.
 
@@ -159,7 +159,7 @@ Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij ee
 Lees meer over [Informatiemodellen](#informatiemodellen-0) in dit raamwerk.
 
 ### Coördinaatreferentie systemen
-![Coördinaatreferentiesytemen](media/pacelayers_crs.png)
+![Coordinaatreferentiesytemen](media/pacelayers_crs.png)
 
 Coördinaat referentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS84](https://nl.wikipedia.org/wiki/WGS_84) of [ETRS89](https://nl.wikipedia.org/wiki/Europees_Terrestrisch_Referentiesysteem_1989). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld [RDNAPTRANS](https://www.nsgi.nl/rdnaptrans).
 
