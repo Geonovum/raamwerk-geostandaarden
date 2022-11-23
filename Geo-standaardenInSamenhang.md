@@ -187,7 +187,7 @@ Lees meer over [Metadata](#metadata-0) in dit raamwerk.
 ![API's](media/pacelayers_api.png)
 API's - Application Programming Interfaces zijn hét middel om data en applicaties te ontkoppelen. API's zitten tussen data, informatieproducten en applicaties in. De [Nederlandse API Strategie](https://www.forumstandaardisatie.nl/informatie-aanbieden-apis) beschrijft drie soorten API's. De system API's die dicht tegen de data objecten aanzitten, de orchestratation API's die meerdere system API's aan elkaar koppelen, en tenslotte de convenience API's die kunnen worden aangeroepen vanuit het [SoE](#het-3-laags-pacelayer-model). 
 
-Lees meer over [API's](#application-programming-interfaces-api-s) in dit raamwerk.
+Lees meer over [API's](#application-programming-interfaces) in dit raamwerk.
 
 ## Verkenning NGII
 
