@@ -1,13 +1,12 @@
 # Geo-standaarden in samenhang
 
-Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set
-te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om **'onder Architectuur'** een Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur speelt elke standaard een eigen rol, maar uiteraard wel in samenhang met de andere standaarden.
+**Het doel van het Raamwerk van Geo-Standaarden is om uit de grote verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set
+te kiezen. In combinatie kunnen deze geo-standaarden worden gebruikt om 'onder Architectuur' een Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur speelt elke standaard een eigen rol, maar uiteraard wel in samenhang met de andere standaarden.**
 
 ## Internationale standaarden
 Voor onze nationale (geo)standaarden geldt dat deze ontwikkeld zijn op basis van Europese en internationale standaarden met de voor Nederland geldende specifieke eisen.
 
-Op het moment dat een nationale standaard is ontwikkeld geldt dat een nationale standaard of specificatie leidend is. Is er geen nationale standaard, dan geldtde Europese standaard en bij gebrek daaraan of omdat de internationale standaardde Europese of nationale behoefte afdekt geldt een internationale, wereldwijde
-standaard.
+Op het moment dat een nationale standaard is ontwikkeld geldt dat een nationale standaard of specificatie leidend is. Is er geen nationale standaard, dan geldt de Europese standaard en bij gebrek daaraan omdat de internationale standaard de Europese of nationale behoefte afdekt, geldt een internationale, wereldwijde standaard.
 
 Internationaal zijn voor Nederland de [ISO/TC 211  Geographic information/Geomatics](https://www.iso.org/committee/54904.html), het [Open Geospatial Consortium](https://www.ogc.org/) (OGC) en het [World Wide Web Consortium](https://www.w3.org/) (W3C) van groot belang. ISO/TC211 en het OGC maken als standaardisatie organisaties technische geo-standaarden, die Nederland semantisch en technisch invult. Deze geo-standaarden organisaties hebben
 uiteraard weer liaisons met de algemene ICT en Internet standaardisatie organisaties zoals het W3C. Geonovum participeert namens Nederland actief in deze internationale geo-standaarden organisaties.
@@ -18,23 +17,22 @@ Tot slot, zijn Nederlandse profielen te onderscheiden, die ook gebaseerd zijn of
 
 ## NORA - Nederlandse Overheids Referentie Architectuur
 De geo-standaarden moeten passen binnen de architectuur van organisaties.
-Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de [Nederlandse Overheids Referentie Architectuur[(https://www.noraonline.nl/)] (NORA) heen. 
+Aangezien dat meestal overheden zijn, kunnen en willen wij niet om de [Nederlandse Overheids Referentie Architectuur](https://www.noraonline.nl/) (NORA) heen. 
 
-![NORA - lagen](media/noralagen.png)
-
-NORA onderkent 5 lagen:
+NORA onderkent 5 lagen, zoals weergegeven in onderstaande figuur:
 - De [Grondslagenlaag](https://www.noraonline.nl/wiki/Grondslagenlaag)
 - De [Organisatorische laag](https://www.noraonline.nl/wiki/Organisatorische_laag)
 - De [Informatielaag](https://www.noraonline.nl/wiki/Informatielaag)
 - De [Applicatielaag](https://www.noraonline.nl/wiki/Applicatielaag)
 - De [Netwerklaag](https://www.noraonline.nl/wiki/Netwerklaag)
 
-NORA is in 2022 flink aangepast. Er is een grote RFC doorgevoerd op 13 september 2022 goedgekeurd door de NORA GR en 7 november 2022 is de RFC bekrachtigd door de Architectuurraad GDI.
-De Basisprincipes zijn omgezet naar [Kwaliteitsdoelen](https://www.noraonline.nl/wiki/Kwaliteitsdoelen) en de Afgeleide Principes zijn omgezet naar [Architectuurprincipes](https://www.noraonline.nl/wiki/Architectuurprincipes).
+![NORA - lagen](media/noralagen.png)
 
+NORA is in 2022 flink aangepast. Er is een grote RFC doorgevoerd op 13 september 2022,  goedgekeurd door de NORA Gebruikersraad en 7 november 2022 is de RFC bekrachtigd door de Architectuurraad GDI.
+De Basisprincipes zijn omgezet naar [Kwaliteitsdoelen](https://www.noraonline.nl/wiki/Kwaliteitsdoelen) en de Afgeleide Principes zijn omgezet naar [Architectuurprincipes](https://www.noraonline.nl/wiki/Architectuurprincipes).
 Een mooi overzicht van de Kernwaarden, Kwaliteitsdoelen en Beleidskaders vind je [hier](https://www.noraonline.nl/wiki/Grafisch_overzicht_relaties_Kernwaarden_en_Kwaliteitsdoelen_met_Beleidskaders). 
 
-Principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)), [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek geo-standaarden), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit ons missie statement (verkent, verbindt, verankert).
+Principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)), [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek [geo-standaarden](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden)), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit het Geonovum missie statement (verkent, verbindt, verankert).
 
 ## Architectuur principes
 
@@ -74,11 +72,23 @@ De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en info
 
 ### BOMOS Principes
 
-Hoort BOMOS ook in dit rijtje thuis? Jazeker, immers een niet beheerde standaard is geen standaard! Op levende standaarden komen wijzigingsverzoeken binnen, en juist omdat het om eenstandaard gaat moet die wijziging met de nodige zorg worden gedaan. [BOMOS](https://www.logius.nl/diensten/bomos) biedt daarvoor overzicht, modellen, handreikingen en praktische tips.
+Geonovum heeft het beheer van de alle geo-standaarden ingericht langs de lijnen van het Beheer- en Ontwikkelmodel voor Open Standaarden (BOMOS). Voor ontwikkeling en beheer van de basisset geo-standaarden voeren wij sinds december 2014 het predicaat: Uitstekend beheerproces. Dit predicaat is uitgereikt door het Forum Standaardisatie.
+
+Geonovum gebruikt BOMOS voor alle standaarden die het in beheer heeft, om te garanderen dat deze open zijn volgens de definitie die BOMOS hieraan geeft. De toepassing van BOMOS zorgt er bovendien voor dat de standaarden zonder wettelijke grondslag, die Geonovum beheert en ontwikkelt in aanmerking komen voor: 
+- Plaatsing op de lijst verplichte standaarden of aanbevolen standaarden van het Forum Standaardisatie. Dit is de lijst met open standaarden die Nederlandse overheden en organisaties uit de publieke sector verplicht of vrijwillig zijn te gebruiken bij hun gegevensuitwisseling en de beveiliging daarvan.
+- Predicaat ‘Uitstekend Beheer’ van het Forum Standaardisatie, en dat predicaat geeft recht op het gebruik van de verkorte procedure bij updates van versies van standaarden op de lijsten.
+Geonovum is aangesloten bij de BOMOS community en neemt deel aan de BOMOS klankbordgroep. BOMOS is in beheer bij het Centrum voor Standaarden bij [Logius](https://www.logius.nl/diensten/bomos). 
+
+Kernwaarden van BOMOS die Geonovum uitdraagt:
+1)	Een standaard die niet beheerd wordt is geen standaard.
+2)	Een standaard beheren is geen (tijdelijk) project, maar een proces.
+3)	Een standaard ontwikkelen en beheren is een situationeel proces, en kan daardoor voor elke standaard anders ingevuld zijn.
+4)	Een standaard is nooit af, ook als deze richting het einde van zijn levenscyclus gaat. 
+5)	De openheid van de standaard wordt volledig bepaald door de inrichting van het ontwikkel- en beheerproces.
 
 ![BOMOS](media/bomos.png)
 
-Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie](https://docs.geostandaarden.nl/gbd/gsb/)
+Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie voor de geo-standaarden](https://docs.geostandaarden.nl/gbd/gsb/)
 
 ### MIM Principes
 
@@ -114,7 +124,7 @@ Een model waarin de bovenstaande principes worden gebruikt is het 3-laags pacela
 In het System of Records vind de registratie van (geo)data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen. De data-eigenaar (uit DAMA) heeft een belangrijke rol, immers hij/zij bepaalt welke data wordt geregistreerd bij een obect, en aan welke kwaliteitseisen de data moet voldoen.
 
 **SoI - System of Integration**
-In de laag boven de SoR wordt data gecombineerd en/of verwerkt tot informatieprodcuten. Op die manier ontstaat een geintegreerd beeld van de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwalitiet belangrijk, maar ook is (data) privacy en (data)security hier belangrijk.
+In de laag boven de SoR wordt data gecombineerd en/of verwerkt tot informatieprodcuten. Op die manier ontstaat een geintegreerd beeld van de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwalitiet belangrijk, maar ook is (data)privacy en (data)security hier belangrijk.
 
 **SoE - System of Engagement**
 In de laag boven de SoI worden de informatieproducten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
@@ -122,59 +132,58 @@ In de laag boven de SoI worden de informatieproducten uit de SoI gebruikt en gep
 **API's**
 Om een echte ontkoppeling tussen data en applicaties te bewerkstelligen vind alle 'transport' van data en informatie plaats via API's - Application Programming Interface's. Er is een [API-Strategie voor de Nederlandse Overheid](https://docs.geostandaarden.nl/api/API-Strategie/)
 
-## Het raamwerk Geostandaarden geplot op het pacelayermodel
+## Het Raamwerk Geo-standaarden geplot op het pacelayermodel
 In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde component een rol speelt. Verderop in het document wordt dan op de individuiele componenten ingegaan.
 
 ### Gebruikers
 ![Gebruikers](media/pacelayers_gebruikers.png)
 
-De gebruikers, de belangrijkste 'componenten' van de architectuurplaat! Immers daar doen we het allemaal voor. De Architectuur en alle componenten zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
+De gebruikers zijn de belangrijkste 'componenten' van de architectuurplaat. Immers daar doen we het allemaal voor. De architectuur en alle componenten zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz.. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
 
-Gebruikers zijn in te delen in verschillende categorieen. Die catgorieen passen op de 3 lagen van het pacelayermodel.
+Gebruikers zijn in te delen in verschillende categorieen. Die categorieën passen op de 3 lagen van het pacelayermodel.
 
 **Gebruikers in het SoR**
-Geplot op de 3 lagen zitten in het SoR de 'producenten' van data. Gebruikers in de SoR hebben vaak specialistische applicaties waarmee de data wordt ingevoerd. Alles is gericht op een snelle en foutloze invoer van data. Opslag en Uitwissel formaten van data zijn ook gericht op kwaliteit.
+Geplot op de 3 lagen zitten in het SoR de 'producenten' van data. Gebruikers in de SoR hebben vaak specialistische applicaties waarmee de data wordt ingevoerd. Alles is gericht op een snelle en foutloze invoer van data. Opslag en uitwisselformaten van data zijn ook gericht op kwaliteit.
 
 **Gebruikers in het SoE**
 Gebruikers in het SoE zijn echte afnemers van informatie. Data wordt door hen niet bewerkt. Denk aan de gebrikers van een viewer, of de lezers van een rapport.
 
 **Gebruikers in het SoI**
-In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. Gebruikers in het SoI zijn data-analisten, data-scientists, leveranciers, enz 
+In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. Gebruikers in het SoI zijn data-analisten, data-scientists, leveranciers, enz.. 
 
 ### Informatiemodellen
 ![Informatiemodellen](media/pacelayers_informatiemodel.png)
 
-Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het[ Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. MIM onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel infoematiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
+Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het[ Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. [MIM](#mim-principes) onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel infoematiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
 
-Lees meer over [Informatiemodellen](#informatiemodellen-0) verderop in dit document.
+Lees meer over [Informatiemodellen](#informatiemodellen-0) in dit raamwerk.
 
-### Coordinaatreferentie systemen
-![Coordinaatreferentiesytemen](media/pacelayers_crs.png)
+### Coördinaatreferentie systemen
+![Coördinaatreferentiesytemen](media/pacelayers_crs.png)
 
-Coordinaat referentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS84](https://nl.wikipedia.org/wiki/WGS_84) of [ETRS89](https://nl.wikipedia.org/wiki/Europees_Terrestrisch_Referentiesysteem_1989). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld [RDNAPTRANS](https://www.nsgi.nl/rdnaptrans).
+Coördinaat referentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS84](https://nl.wikipedia.org/wiki/WGS_84) of [ETRS89](https://nl.wikipedia.org/wiki/Europees_Terrestrisch_Referentiesysteem_1989). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld [RDNAPTRANS](https://www.nsgi.nl/rdnaptrans).
 
-Lees meer over [Coordinaatreferentie systemen](#coordinaat-referentiesystemen) verderop in dit document.
+Lees meer over [Coördinaatreferentie systemen](#coördinaat-referentiesystemen) in dit raamwerk.
 
 
 ### Data
 ![Data](media/pacelayers_data.png)
 
-Data is een belangrijk onderdeel van een NGII. Data wordt gegenereerd in het SoR, Data is het 'erts' van de Informatieproducten. Data gaat veel langer mee dan Applicaties, en moet dus ook los van Applicaties kunnen bestaan! Daarom is een open data principe ook zo belangrijk. Aan Data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren! Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. dat noemen we doelbinding. Data wordt in het SoI bewerkt tot informatieproducten. Typpische bewerkingen zijn: het maken van een selectie, agrregatie, combinatie of een berekening. De informatieprodcuten beantwoorden een vraag van een afnemer, dat noemen we vraagestuurd werken. Data kan statische data zijn (eenmalig ingewonnen en eenmalig vastgelegd en (bijna) nooit meer gewijzigd). Data kan transactionele data zijn (data die wordt vastgelegd als er 'iets' gebeurt, of gedaan moet worden met een object), Data kan (near)realtime zijn als het bijvoorbeeld door een sensor wordt ingewonnen en direct beschikbaar wordt gesteld. Tenslotte is het belangrijk dat er data óver de data bekend is, dat noemen we [Metadata](#metadata).
+Data is een belangrijk onderdeel van een [NGII](#ngii-principes). Data wordt gegenereerd in het SoR, Data is het 'erts' van de Informatieproducten. Data gaat veel langer mee dan Applicaties, en moet dus ook los van Applicaties kunnen bestaan! Daarom is een open data principe ook zo belangrijk. Aan Data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren! Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. dat noemen we doelbinding. Data wordt in het SoI bewerkt tot informatieproducten. Typpische bewerkingen zijn: het maken van een selectie, agrregatie, combinatie of een berekening. De informatieprodcuten beantwoorden een vraag van een afnemer, dat noemen we vraagestuurd werken. Data kan statische data zijn (eenmalig ingewonnen en eenmalig vastgelegd en (bijna) nooit meer gewijzigd). Data kan transactionele data zijn (data die wordt vastgelegd als er 'iets' gebeurt, of gedaan moet worden met een object), Data kan (near)realtime zijn als het bijvoorbeeld door een sensor wordt ingewonnen en direct beschikbaar wordt gesteld. Tenslotte is het belangrijk dat er data óver de data bekend is, dat noemen we [Metadata](#metadata).
 
 ### MetaData
 ![Metadata](media/pacelayers_metadata.png)
 
-Metadata is letterlijk data die over data gaat. Het gaat dan om beschrijvingen van de betreffende data, zodat het gemakkelijk gevonden kan worden, door mensen en/of machines (denk in dit verband ook aan de F van de [FAIR](#fair-principes) Principes), of aan de [Vindbaarheid](#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
+Metadata zijn gegevens die de karakteristieken van bepaalde gegevens beschrijven. Het zijn dus eigenlijk data over data. De metadata bij een bepaald document (de gegevens) kunnen bijvoorbeeld zijn: de auteur, de datum van schrijven, de uitgever, het aantal pagina's en de taal waarin de gegevens zijn opgesteld. De metadata helpt mens en computer bij het vinden van de juiste gegevens en bij het juist interpreteren van het document. Er is een directe relatie met [FAIR](#fair-principes), en met [Vindbaarheid](#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
+Metadata beschrijft 'wat' er met data is gebeurd om informatieproduct te worden: Hoe is de data ingewonnen, hoe is de data geregistreerd, heeft er een dataconversie plaatsgevonden, welke bewerkingen zijn er met de data gedaan, enz..  
 
-Meatadata beschrijft ook ''wat' er met data is gebeurd om informatieproduct te worden: Hoe is de data ingewonnen, hoe is de data geregistreerd, heeft er een dataconversie plaatsgevonden, welke bewerkingen zijn er met de data gedaan, enz.  
-
-Lees meer over [Metadata](#metadata-0) verderop in dit document.
+Lees meer over [Metadata](#metadata-0) in dit raamwerk.
 
 ### API's
 ![API's](media/pacelayers_api.png)
 API's - Application Programming Interfaces zijn hét middel om data en applicaties te ontkoppelen. API's zitten tussen data, informatieproducten en applicaties in. De [Nederlandse API Strategie](https://www.forumstandaardisatie.nl/informatie-aanbieden-apis) beschrijft drie soorten API's. De system API's die dicht tegen de data objecten aanzitten, de orchestratation API's die meerdere system API's aan elkaar koppelen, en tenslotte de convenience API's die kunnen worden aangeroepen vanuit het [SoE](#het-3-laags-pacelayer-model). 
 
-Lees meer over [API's](#application-programming-interfaces-api-s) verderop in dit document.
+Lees meer over [API's](#application-programming-interfaces-api-s) in dit raamwerk.
 
 ## Verkenning NGII
 
