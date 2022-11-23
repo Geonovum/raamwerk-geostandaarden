@@ -232,7 +232,7 @@ document.
 
 Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de
 vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
-geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces-API-s), [uitwisselformaten](#uitwisselformaten),
+geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten),
 [metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
 zijn voor deze zes categorieën geo-standaarden lijsten van geldende
 geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en
