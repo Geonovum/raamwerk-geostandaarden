@@ -163,12 +163,12 @@ var respecConfig =
     },
   "GeoDCATAP":
       {
-        title:      " GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe Version 1.1",
-        href:       "https://inspire.ec.europa.eu/good-practice/geodcat-ap",
+        title:      " GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe Version 2.0.0",
+        href:       "https://semiceu.github.io/GeoDCAT-AP/releases/",
         status:     "Final version",
         publisher:  "European Commission",
-        editors:    "EU",
-        date:       "2015-12-23",
+        editors:    "GeoDCAT-AP Working Group (EU ISA² Programme)",
+        date:       "2020-12-23",
     },
     "SLD11":
       {
