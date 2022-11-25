@@ -208,17 +208,9 @@ vastleggen van stappen in het dagelijkse werkproces, planning of hoe de helpdesk
 werkt. Ook kan dit een beheerplan of handboek zijn. Als dit soort documentatie
 publiekelijk beschikbaar wordt gesteld, dan gebeurd dit door middel van ReSpec.
 
-**Encoding standaard**
+**Whitepaper en verkenning**
 
-pm
-
-**Productbeschrijving**
-
-Pm
-
-**Verkenning en whitepaper**
-
-pm
+Een white paper - in het Nederlands 'witboek' - staat voor een document met uitvoerige informatie over een specifiek standaardisatie onderwerp. Daarbij wordt feitelijke informatie in context geplaatst van het standaardisatie onderwerp of de doelgroep. In een verkenning wordt met uitvoerige informatie een specifiek onderwerp aangaande standaardisatie verkend. 
 
 ## Leeswijzer
 
@@ -227,17 +219,11 @@ teruggebracht naar uitgebreidere vorm, waarin de samenhang van de
 geo-standaarden centraal staat.
 
 [Hoofdstuk 1](#inleiding) biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geo-standaarden-in-samenhang)
-beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het
-document.
+beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het document.
 
-Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de
-vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
-geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten),
-[metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
-zijn voor deze zes categorieën geo-standaarden lijsten van geldende
-geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en
-nationale geo-standaarden) en komen aspecten van kwaliteit van de
-geo-standaarden en evt. uitgevoerde verkenningen aan de orde.
+Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
+geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten), [metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
+zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en
+nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en evt. uitgevoerde verkenningen aan de orde.
 
-Tot slot, zijn alle normatieve referenties – de verwijzingen naar de officiële
-standaarden documentatie – opgenomen.
+Tot slot, zijn alle normatieve referenties – de verwijzingen naar de officiële standaarden documentatie – opgenomen.
