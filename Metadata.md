@@ -39,28 +39,22 @@ Tabel 1 - Standaarden en specificaties met betrekking tot metadata standaarden
 
 **Handleiding Metadatakwaliteit**
 
-Het kwaliteitsbeleid voor metadata is vastgelegd in de Handleiding
-metadatakwaliteit. Met behulp van de handleiding kan je aan de hand van 26
+Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding
+metadatakwaliteit](https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf). Met behulp van de handleiding kan je aan de hand van 26
 elementen die in de metadata-standaarden zijn beschreven, de kwaliteit van je
 metadata beoordelen.
 
-[Handleiding
-metadatakwaliteit](https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf)
 
 **Validatie**
 
 Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators
 controleren de correcte toepassing van het Nederlands metadata profiel voor
-datasets of voor services. Voor metadata van datasets of services, die voor
+datasets of voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadat van repsectivelijk datasets en services conform het Nederlands profiel. 
+Voor metadata van datasets of services, die voor
 INSPIRE zijn aangemerkt, gelden er specifiekere vereisten. Gebruik daarvoor
-naast de Nederlandse validator ook de Europese INSPIRE validator om die metadata
+naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspire.ec.europa.eu/validator/home/index.html) om die metadata
 te valideren.
 
-[Validatie Nederlands metadataprofiel op ISO 19115 (datasets) en op ISO 19119
-(dataservices)](https://validatie.geostandaarden.nl/)
-
-[Europese INSPIRE
-validator](https://inspire.ec.europa.eu/validator/home/index.html)
 
 ## Verkenning
 
@@ -68,7 +62,7 @@ Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil.
 Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata
 standaarden.
 
-In de Verkenning Toekomstbeelden Metadata kijken we naar de rol van metadata in
+In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in
 de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer
 samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op
 generieke standaarden en het leggen van relaties tussen data, modellen,
@@ -79,5 +73,4 @@ verkenning wordt in een volgende stap gekeken in hoeverre het nationaal
 georegister voldoet aan dit beeld om op basis daarvan een handelingsperspectief
 op te stellen.
 
-[Verkenning Metadata van de Toekomst
-(2021)](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9)
+
