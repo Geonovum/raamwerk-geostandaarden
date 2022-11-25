@@ -18,7 +18,8 @@ datasets en services toe. Dit is een uitbreiding op de Europese INSPIRE kernset,
 gebaseerd op specifieke behoeften van de gebruikers in Nederland. Pas je de
 Nederlandse profielen toe, dan voldoe je dus ook aan de INSPIRE profielen voor
 metadata. In de Nederlandse profielen is ook de aansluiting op data.overheid.nl
-meegenomen.
+meegenomen. Data.overheid.nl is een datacatalogus, die de datasets gemakkelijk doorzoekbaar en vindbaar maakt. Om datasets overzichtelijk te kunnen presenteren en om gericht naar datasets te kunnen zoeken, worden datasets in data.overheid.nl beschreven met metadata conform de standaard DCAT. DCAT is een metadata standaard van W3C voor de beschrijving van datasets. Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP maakt het mogelijk voor datacatalogi om hun datasetcollecties te beschrijven met behulp van een gestandaardiseerde beschrijving, om dergelijke beschrijvingen samen te voegen tot één toegangspunt waardoor consumenten datasets gemakkelijker kunnen vinden vanaf één toegangspunt. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van geodatasets, dataset series en services. Deze extensie is eveneens afgestemd op de INSPIRE kernset en de Nederlandse profielen. 
+
 
 Tabel 1 - Standaarden en specificaties met betrekking tot metadata standaarden
 
