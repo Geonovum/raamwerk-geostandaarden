@@ -143,6 +143,33 @@ var respecConfig =
   //-- NB: kijk eesrt naar de beschikbare www.specref.org voor verwijziging 
   localBiblio: 
   {
+   "DCAT":
+      {
+        title:      "Data Catalog Vocabulary (DCAT) - Version 2",
+        href:       "https://www.w3.org/TR/vocab-dcat-2/",
+        status:     "W3C Recommendation",
+        publisher:  "World Wide Web Consortium (W3C)",
+        editors:    "W3C",
+        date:       "2020-02-02",
+    },
+  "DCATAP":
+      {
+        title:      "DCAT Application Profile for data portals in Europe Version 1.2",
+        href:       "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/release/12",
+        status:     "Published",
+        publisher:  "European Commission",
+        editors:    "Adina Dragan",
+        date:       "2018-11-18",
+    },
+  "GeoDCATAP":
+      {
+        title:      " GeoDCAT-AP: A geospatial extension for the DCAT application profile for data portals in Europe Version 1.1",
+        href:       "https://inspire.ec.europa.eu/good-practice/geodcat-ap",
+        status:     "Final version",
+        publisher:  "European Commission",
+        editors:    "EU",
+        date:       "2015-12-23",
+    },
     "SLD11":
       {
         title:      "OGC 05-078r4: Styled Layer Descriptor profile of the Web Map Service Implementation Specification, Version 1.1",
