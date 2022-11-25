@@ -62,7 +62,7 @@ var respecConfig =
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
   issueBase: "https://github.com/geonovum/raamwerk-geostandaarden-4.0/issues",
   //-- edDraftURI: de URI van de werkversie van het document
-  edDraftURI: "https://github/geonovum/raamwerk-geostandaarden-4.0",
+  edDraftURI: "https://github.com/geonovum/raamwerk-geostandaarden-4.0",
   //-- de namen van de Editor(s) ------------------------------------------------------
   //-- vul in: per Editor: name:, company:, companyURL: -------------------------------
   editors: 
