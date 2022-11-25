@@ -118,10 +118,7 @@ modellen. Het is een beschrijving van uitgangspunten voor het inrichten van de
 informatiehuishouding van de Nederlandse overheid. NORA is relevant voor de
 uitvoering van alle publieke taken door publieke en private organisaties.
 
-Dit raamwerk van geo-standaarden is het verdiepingsdocument waarnaar
-[NORA](https://www.digitaleoverheid.nl/overzicht-van-alle-onderwerpen/standaardisatie-en-architectuur/nora/)
-en het [NORA dossier geo-informatie](https://www.geonovum.nl/uploads/documents/nora_dossier_geo-informatie.pdf)
-verwijzen voor de te hanteren geo-standaarden.
+Dit raamwerk van geo-standaarden is het verdiepingsdocument voor het [NORA thema GEO](https://www.noraonline.nl/wiki/Geo). 
 
 **INSPIRE Richtlijn**
 
@@ -208,13 +205,10 @@ vastleggen van stappen in het dagelijkse werkproces, planning of hoe de helpdesk
 werkt. Ook kan dit een beheerplan of handboek zijn. Als dit soort documentatie
 publiekelijk beschikbaar wordt gesteld, dan gebeurd dit door middel van ReSpec.
 
-**Whitepaper en verkenning**
-
-Een white paper - in het Nederlands 'witboek' - staat voor een document met uitvoerige informatie over een specifiek standaardisatie onderwerp. Daarbij wordt feitelijke informatie in context geplaatst van het standaardisatie onderwerp of de doelgroep. In een verkenning wordt met uitvoerige informatie een specifiek onderwerp aangaande standaardisatie verkend. 
 
 ## Leeswijzer
 
-Het Raamwerk van geo-standaarden is vergeleken met de vorige versie
+Het raamwerk van geo-standaarden is vergeleken met de vorige versie
 teruggebracht naar uitgebreidere vorm, waarin de samenhang van de
 geo-standaarden centraal staat.
 
@@ -223,7 +217,6 @@ beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het documen
 
 Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
 geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten), [metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
-zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en
-nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en evt. uitgevoerde verkenningen aan de orde.
+zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en evt. uitgevoerde verkenningen aan de orde.
 
 Tot slot, zijn alle normatieve referenties – de verwijzingen naar de officiële standaarden documentatie – opgenomen.
