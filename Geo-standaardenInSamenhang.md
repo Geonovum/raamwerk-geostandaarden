@@ -32,20 +32,16 @@ NORA is in 2022 flink aangepast. Er is een grote RFC doorgevoerd op 13 september
 De Basisprincipes zijn omgezet naar [Kwaliteitsdoelen](https://www.noraonline.nl/wiki/Kwaliteitsdoelen) en de Afgeleide Principes zijn omgezet naar [Architectuurprincipes](https://www.noraonline.nl/wiki/Architectuurprincipes).
 Een overzicht van de Kernwaarden, Kwaliteitsdoelen en Beleidskaders vind je [hier](https://www.noraonline.nl/wiki/Grafisch_overzicht_relaties_Kernwaarden_en_Kwaliteitsdoelen_met_Beleidskaders). 
 
-Principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)), [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) en Standaard zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek [geo-standaarden](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden)), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit het Geonovum missie statement (verkent, verbindt, verankert).
+Principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)) en [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) zijn principes die wij van nature al toepassen op onze producten. NORA stelt de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Overheden zijn daarmee verplicht om bij aanschaf van IT systemen eerst op die lijst te kijken. Onze standaarden staan deels ook op die lijst (de basisset generiek [geo-standaarden](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden)), en daarmee geven we via de grondslagenlaag van NORA o.a. invulling aan het “verankeren” uit het Geonovum missie statement (verkent, verbindt, verankert).
 
 ## Architectuur principes
 
 ### FAIR Principes
 
-Op eenduidige manieren samenwerken om informatie zo beter te kunnen beveiligen,
-makkelijker uit te wisselen en toegankelijker te maken voor iedereen. Dat is hoe
-open standaarden de samenwerking bevorderen tussen de overheid, burger en het
-bedrijfsleven. De [FAIR Principes](https://www.go-fair.org/fair-principles/)
-zijn een hulpmiddel daarin: het doel van de principes is het hergebruik van
-waardevolle data mogelijk maken. De FAIR Principes dwingen geen standaarden af,
-maar moedigen communities aan om data en diensten vindbaar, toegankelijk,
-interoperabel en herbruikbaar te maken.
+Op eenduidige manieren samenwerken om informatie zo beter te kunnen beveiligen,makkelijker uit te wisselen en toegankelijker te maken voor iedereen. Dat is hoe
+open standaarden de samenwerking bevorderen tussen de overheid, burger en het bedrijfsleven. De [FAIR Principes](https://www.go-fair.org/fair-principles/)
+zijn een hulpmiddel daarin: het doel van de principes is het hergebruik van waardevolle data mogelijk maken. De FAIR Principes dwingen geen standaarden af,
+maar moedigen communities aan om data en diensten vindbaar, toegankelijk, interoperabel en herbruikbaar te maken.  
 
 De geo-standaarden maken geo-informatie FAIR: De verbindende kracht van standaardisatie in vindbare, toegankelijke, uitwisselbare en herbruikbare geo-informatie.
 
@@ -114,6 +110,26 @@ Belangrijke eigenschappen (inrichtingsprincipes) van de NGII zijn:
 
 **Uitwisseling en presentatie via open standaarden** Het uitwisselen van data moet zoveel mogelijk met open standaarden worden gedaan. Daarmee wordt de kans dat data ontoegankelijk wordt omdat een standaard niet meer beschikbaar is een heel stuk kleiner.
 
+**Verkenning NGII**
+
+In de afgelopen tien jaar is duidelijk geworden dat data meer zijn dan het bijproduct van specifieke werkprocessen die mogelijk geschikt zijn voor
+hergebruik. Data zijn een essentiële grondstof. Dit vraagt om een frisse blik op de mogelijkheden van onze data-infrastructuur.
+
+Wanneer we data omzetten in informatie en informatie in kennis, dan worden data een essentiële grondstof voor het maken van keuzes. In Europa vinden we het
+daarbij belangrijk dat keuzeprocessen transparant zijn. Betrokken burgers moeten overheidsbeleid kunnen controleren en er zelf actief aan kunnen bijdragen met
+nieuwe initiatieven of alternatieven. Van een infrastructuur die laagdrempelig toegang biedt tot individuele databronnen, verschuift de vraag naar een
+infrastructuur die het kunnen combineren van data uit verschillende bronnen ondersteunt. Het belang van zowel semantische als technische interoperabiliteit
+neemt steeds verder toe.
+
+"De Nederlandse Geo-informatie Infrastructuur is toe aan een upgrade” schreven we in de Geonovum meerjarenvisie 2021-2023. Hoe kan de NGII een upgrade krijgen
+richting een vraaggedreven infrastructuur, die de kracht van locatiedata laagdrempelig inzetbaar maakt voor de grote maatschappelijke opgaven? Welke
+(nieuwe) standaarden spelen daarbij een rol? Hoe hangen allerlei afzonderlijke ontwikkelingen eigenlijk met elkaar samen? En hoe verhoudt de NGII 2.0 zich
+bijvoorbeeld tot een Nationale Digital Twin Infrastructuur? En hoe verhouden die ontwikkelingen zich toch Europese ontwikkelingen rond data en digitalisering? In
+deze white paper zoeken we antwoorden op die vragen. En omdat die antwoorden meer waarde hebben, wanneer ze breed gedragen worden in het werkveld, is deze
+white paper ook in publieke consulatie gebracht en vervolgens aangescherpt.
+
+Eind 2021 heeft Geonovum een visie op de Nederlandse geo-informatie infrastructuur geschetst: [Whitepaper Visie op upgrade Nederlandse Geo-informatie Infrastructuur(NGII)](https://docs.geostandaarden.nl/ngii/wpungii/).
+
 ## Het 3-laags pacelayer model
 
 ![pacelayers](media/pacelayers.png)
@@ -133,7 +149,7 @@ In de laag boven de SoI worden de informatieproducten uit de SoI gebruikt en gep
 Om een echte ontkoppeling tussen data en applicaties te bewerkstelligen vind alle 'transport' van data en informatie plaats via API's - Application Programming Interface's. Er is een [API-Strategie voor de Nederlandse Overheid](https://docs.geostandaarden.nl/api/API-Strategie/)
 
 ## Het Raamwerk Geo-standaarden geplot op het pacelayermodel
-In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde component een rol speelt. Verderop in het document wordt dan op de individuiele componenten ingegaan.
+In deze paragraaf worden de verschillende onderdelen van de NGII 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde component een rol speelt. In de paragrafen in dit hoofdstuk wordt een korte toelichting gegeven van de NGII onderdelen en het waarom ze in 1 of meer lagen van het pacelayermodel zijn opgenomen. Een verdere en meer gedetailleerde uitleg staat in de indivuduele hoofdstukken in dit raamwerk document.
 
 ### Gebruikers
 ![Gebruikers](media/pacelayers_gebruikers.png)
@@ -146,7 +162,7 @@ Gebruikers zijn in te delen in verschillende categorieen. Die categorieën passe
 Geplot op de 3 lagen zitten in het SoR de 'producenten' van data. Gebruikers in de SoR hebben vaak specialistische applicaties waarmee de data wordt ingevoerd. Alles is gericht op een snelle en foutloze invoer van data. Opslag en uitwisselformaten van data zijn ook gericht op kwaliteit.
 
 **Gebruikers in het SoE**
-Gebruikers in het SoE zijn echte afnemers van informatie. Data wordt door hen niet bewerkt. Denk aan de gebrikers van een viewer, of de lezers van een rapport.
+Gebruikers in het SoE zijn echte afnemers van informatie. Data wordt door hen niet bewerkt. Denk aan de gebruikers van een viewer, of de lezers van een rapport.
 
 **Gebruikers in het SoI**
 In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. Gebruikers in het SoI zijn data-analisten, data-scientists, leveranciers, enz.. 
@@ -188,24 +204,3 @@ Lees meer over [Metadata](#metadata-0) in dit raamwerk.
 API's - Application Programming Interfaces zijn hét middel om data en applicaties te ontkoppelen. API's zitten tussen data, informatieproducten en applicaties in. De [Nederlandse API Strategie](https://www.forumstandaardisatie.nl/informatie-aanbieden-apis) beschrijft drie soorten API's. De system API's die dicht tegen de data objecten aanzitten, de orchestratation API's die meerdere system API's aan elkaar koppelen, en tenslotte de convenience API's die kunnen worden aangeroepen vanuit het [SoE](#het-3-laags-pacelayer-model). 
 
 Lees meer over [API's](#application-programming-interfaces) in dit raamwerk.
-
-## Verkenning NGII
-
-In de afgelopen tien jaar is duidelijk geworden dat data meer zijn dan het bijproduct van specifieke werkprocessen die mogelijk geschikt zijn voor
-hergebruik. Data zijn een essentiële grondstof. Dit vraagt om een frisse blik op de mogelijkheden van onze data-infrastructuur.
-
-Wanneer we data omzetten in informatie en informatie in kennis, dan worden data een essentiële grondstof voor het maken van keuzes. In Europa vinden we het
-daarbij belangrijk dat keuzeprocessen transparant zijn. Betrokken burgers moeten overheidsbeleid kunnen controleren en er zelf actief aan kunnen bijdragen met
-nieuwe initiatieven of alternatieven. Van een infrastructuur die laagdrempelig toegang biedt tot individuele databronnen, verschuift de vraag naar een
-infrastructuur die het kunnen combineren van data uit verschillende bronnen ondersteunt. Het belang van zowel semantische als technische interoperabiliteit
-neemt steeds verder toe.
-
-"De Nederlandse Geo-informatie Infrastructuur is toe aan een upgrade” schreven we in de Geonovum meerjarenvisie 2021-2023. Hoe kan de NGII een upgrade krijgen
-richting een vraaggedreven infrastructuur, die de kracht van locatiedata laagdrempelig inzetbaar maakt voor de grote maatschappelijke opgaven? Welke
-(nieuwe) standaarden spelen daarbij een rol? Hoe hangen allerlei afzonderlijke ontwikkelingen eigenlijk met elkaar samen? En hoe verhoudt de NGII 2.0 zich
-bijvoorbeeld tot een Nationale Digital Twin Infrastructuur? En hoe verhouden die ontwikkelingen zich toch Europese ontwikkelingen rond data en digitalisering? In
-deze white paper zoeken we antwoorden op die vragen. En omdat die antwoorden meer waarde hebben, wanneer ze breed gedragen worden in het werkveld, is deze
-white paper ook in publieke consulatie gebracht en vervolgens aangescherpt.
-
-Eind 2021 heeft Geonovum een visie op de Nederlandse geo-informatie infrastructuur geschetst: [Whitepaper Visie op upgrade Nederlandse Geo-informatie Infrastructuur(NGII)](https://docs.geostandaarden.nl/ngii/wpungii/).
-
