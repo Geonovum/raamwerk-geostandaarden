@@ -39,8 +39,7 @@ Tabel 1 - Standaarden en specificaties met betrekking tot metadata standaarden
 
 **Handleiding Metadatakwaliteit**
 
-Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding
-metadatakwaliteit](https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf). Met behulp van de handleiding kan je aan de hand van 26
+Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding metadatakwaliteit](https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf). Met behulp van de handleiding kan je aan de hand van 26
 elementen die in de metadata-standaarden zijn beschreven, de kwaliteit van je
 metadata beoordelen.
 
@@ -59,11 +58,9 @@ te valideren.
 ## Verkenning
 
 Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil.
-Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata
-standaarden.
+Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden.
 
-In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in
-de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer
+In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer
 samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op
 generieke standaarden en het leggen van relaties tussen data, modellen,
 begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van
