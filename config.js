@@ -174,7 +174,7 @@ var respecConfig =
     {
       title:        "ISO 19115:2005  Geographic information -- Metadata",
       href:         "https://www.iso.org/standard/26020.html",
-      status:       ["Adopted specification"],
+      //status:       ["Adopted specification"],
       //authors:      [""],
       publisher:    "International Organization for Standardization",
       date:         "Mei 2003",
@@ -195,7 +195,7 @@ var respecConfig =
       status:       ["Adopted specification"],
       //authors:      [""],
       publisher:    "Open Geospatial Consortium",
-      date:         ["April 2007"],
+      //date:         ["April 2007"],
     },
     "ISO19139-2007": 
     {
@@ -210,7 +210,7 @@ var respecConfig =
     {
       title:        "Implementing Rules for Metadata",
       href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
-      status:       ["Adopted specification"],
+      //status:       ["Adopted specification"],
       authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
       publisher:    "European Commission Joint Research Centre",
       date:         "3 December 2008",
@@ -219,7 +219,7 @@ var respecConfig =
     {
       title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
       href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
-      status:       ["Adopted specification"],
+      //status:       ["Adopted specification"],
       authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
       publisher:    "European Commission Joint Research Centre",
       date:         "26 oktober 2007",
@@ -228,8 +228,8 @@ var respecConfig =
     {
       title:        "Geographic information - Services",
       href:         "https://www.iso.org/standard/39890.html",
-      status:       ["Adopted specification"],
-      authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+      //status:       ["Adopted specification"],
+      //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
       publisher:    "International Organization for Standardization",
       date:         "2005-02",
     },
@@ -239,7 +239,7 @@ var respecConfig =
       href:         "http://portal.opengeospatial.org/files/?artifact_id=22364",
       status:       "Final version",
       publisher:    "Open Geospatial Consortium (OGC)",
-      editors:      ["M. Lupp"],
+      //editors:      ["M. Lupp"],
       date:         "2007-06-29",
     },
     "SE11":
@@ -248,7 +248,7 @@ var respecConfig =
         href:       "https://portal.ogc.org/files/?artifact_id=16700",
         status:     "Final version",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    ["M. Müller"],
+        //editors:    ["M. Müller"],
         date:       "2006-07-21",
     },
     "ISO19117":
