@@ -144,7 +144,7 @@ var respecConfig =
   localBiblio: 
   {
     "NLISO19115":
-    {
+      {
         title:      "Nederlands metadata profiel op ISO 19115 voor geografie versie 2.1.0",
         href:       "https://docs.geostandaarden.nl/md/mdprofiel-iso19115/",
         status:     "Vastgestelde versie",
@@ -153,7 +153,7 @@ var respecConfig =
         date:       "30 juni 2020",
     },
     "NLISO19119":
-    {
+      {
         title:      "Nederlands metadata profiel op ISO 19119 voor services versie 2.1.0",
         href:       "https://docs.geostandaarden.nl/md/mdprofiel-iso19119/",
         status:     "Vastgestelde versie",
@@ -162,85 +162,85 @@ var respecConfig =
         date:       "30 juni 2020",
     },
     "ISO19115-2003": 
-    {
-      title:        "ISO 19115:2003  Geographic information -- Metadata",
-      href:         "https://www.iso.org/standard/26020.html",
-      status:       ["Adopted specification"],
-      //authors:      [""],
-      publisher:    "International Organization for Standardization",
-      date:         "Mei 2003",
+      {
+        title:        "ISO 19115:2003  Geographic information -- Metadata",
+        href:         "https://www.iso.org/standard/26020.html",
+        status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "Mei 2003",
     },
     "ISO19115-2005": 
-    {
-      title:        "ISO 19115:2005  Geographic information -- Metadata",
-      href:         "https://www.iso.org/standard/26020.html",
-      //status:       ["Adopted specification"],
-      //authors:      [""],
-      publisher:    "International Organization for Standardization",
-      date:         "Mei 2003",
+      {
+        title:        "ISO 19115:2005  Geographic information -- Metadata",
+        href:         "https://www.iso.org/standard/26020.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "Mei 2003",
     },
     "ISO19115-2008":
-    {
-      title:        "ISO19115:2005/AC:2008  Geographic information - Metadata, Technical Corrigendum 1",
-      href:         "https://www.iso.org/standard/26020.html",
-      status:       ["Adopted specification"],
-      //authors:      [""],
-      publisher:    "International Organization for Standardization",
-      date:         "2008",
+      {
+        title:        "ISO19115:2005/AC:2008  Geographic information - Metadata, Technical Corrigendum 1",
+        href:         "https://www.iso.org/standard/26020.html",
+        status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "2008",
     },
     "CSW2APISO": 
-    {
-      title:        "OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile",
-      href:         "http://portal.opengeospatial.org/files/?artifact_id=21460",
-      status:       ["Adopted specification"],
-      //authors:      [""],
-      publisher:    "Open Geospatial Consortium",
-      //date:         ["April 2007"],
+      {
+        title:        "OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile",
+        href:         "http://portal.opengeospatial.org/files/?artifact_id=21460",
+        status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "Open Geospatial Consortium",
+        //date:         ["April 2007"],
     },
     "ISO19139-2007": 
-    {
-      title:        "ISO/TS 19139:2007 Geographic information - Metadata - XML schema implementation",
-      href:         "https://www.iso.org/standard/32557.html",
-      status:       ["Adopted specification"],
-      //authors:      [""],
-      publisher:    "International Organization for Standardization",
-      date:         "April 2007",
+      {
+        title:        "ISO/TS 19139:2007 Geographic information - Metadata - XML schema implementation",
+        href:         "https://www.iso.org/standard/32557.html",
+        status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "April 2007",
     },
     "INSPIRE-IRMD":
-    {
-      title:        "Implementing Rules for Metadata",
-      href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
-      //status:       ["Adopted specification"],
-      authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
-      publisher:    "European Commission Joint Research Centre",
-      date:         "3 December 2008",
+      {
+        title:        "Implementing Rules for Metadata",
+        href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
+        //status:       ["Adopted specification"],
+        authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
+        publisher:    "European Commission Joint Research Centre",
+        date:         "3 December 2008",
     },
     "INSPIRE-19115-19119":
-    {
-      title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
-      href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
-      //status:       ["Adopted specification"],
-      authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
-      publisher:    "European Commission Joint Research Centre",
-      date:         "26 oktober 2007",
+      {
+        title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
+        href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
+        //status:       ["Adopted specification"],
+        authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
+        publisher:    "European Commission Joint Research Centre",
+        date:         "26 oktober 2007",
     },
     "ISO19119":
-    {
-      title:        "Geographic information - Services",
-      href:         "https://www.iso.org/standard/39890.html",
-      //status:       ["Adopted specification"],
-      //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
-      publisher:    "International Organization for Standardization",
-      date:         "2005-02",
+      {
+        title:        "Geographic information - Services",
+        href:         "https://www.iso.org/standard/39890.html",
+        //status:       ["Adopted specification"],
+        //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+        publisher:    "International Organization for Standardization",
+        date:         "2005-02",
     },
     "SLD11":
-    {
-      title:        "OGC 05-078r4: Styled Layer Descriptor profile of the Web Map Service Implementation Specification, Version 1.1",
-      href:         "http://portal.opengeospatial.org/files/?artifact_id=22364",
-      status:       "Final version",
-      publisher:    "Open Geospatial Consortium (OGC)",
-      //editors:      ["M. Lupp"],
-      date:         "2007-06-29",
+      {
+        title:        "OGC 05-078r4: Styled Layer Descriptor profile of the Web Map Service Implementation Specification, Version 1.1",
+        href:         "http://portal.opengeospatial.org/files/?artifact_id=22364",
+        status:       "Final version",
+        publisher:    "Open Geospatial Consortium (OGC)",
+        //editors:      ["M. Lupp"],
+        date:         "2007-06-29",
     },
     "SE11":
       {
