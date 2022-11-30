@@ -174,12 +174,12 @@ Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij ee
 
 Lees meer over [Informatiemodellen](#informatiemodellen-0) in dit raamwerk.
 
-### Coördinaatreferentie systemen
+### Coördinaatreferentiesystemen
 ![Coordinaatreferentiesytemen](media/pacelayers_crs.png)
 
-Coördinaat referentie systemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://nl.wikipedia.org/wiki/Rijksdriehoeksco%C3%B6rdinaten). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS84](https://nl.wikipedia.org/wiki/WGS_84) of [ETRS89](https://nl.wikipedia.org/wiki/Europees_Terrestrisch_Referentiesysteem_1989). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld [RDNAPTRANS](https://www.nsgi.nl/rdnaptrans).
+Coördinaatreferentiesystemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://www.nsgi.nl/rijksdriehoeksmeting). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS 84](https://docs.geostandaarden.nl/crs/crs/#wgs-84) of [ETRS89](https://docs.geostandaarden.nl/crs/crs/#europese-crs-en-etrs89-en-evrs). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. Bijvoorbeeld [RDNAPTRANS](https://www.nsgi.nl/rdnaptrans).
 
-Lees meer over [Coördinaatreferentie systemen](#coördinaat-referentiesystemen) in dit raamwerk.
+Lees meer over [Coördinaatreferentiesystemen](#coördinaat-referentiesystemen) in dit raamwerk.
 
 
 ### Data
