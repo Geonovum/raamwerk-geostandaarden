@@ -210,8 +210,8 @@ var respecConfig =
       {
         title:        "Implementing Rules for Metadata",
         href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
-        //status:       ["Adopted specification"],
-        authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
+        // status:       ["Adopted specification"],
+         authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "European Commission Joint Research Centre",
         date:         "3 December 2008",
     },
@@ -220,10 +220,10 @@ var respecConfig =
         title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
         href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
         //status:       ["Adopted specification"],
-        authors:      "Drafting Team Metadata and European Commission Joint Research Centre",
+         authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "European Commission Joint Research Centre",
         date:         "26 oktober 2007",
-    },
+  },
     "ISO19119":
       {
         title:        "Geographic information - Services",
