@@ -9,9 +9,9 @@ functionaliteiten.**
 
 ## Transitie naar nieuwe generatie API's
 
-De internationale standaarden voor API's komen veelal bij de OGC vandaan. Deze standaardenorganisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog services genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, i.e. REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
+De internationale standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. Deze standaardenorganisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog services genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, i.e. REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
 
-Het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) is voornemens de oude generatie services langzaam uit te faseren. De nieuwe API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie services. Hiervoor is software beschikbaar.
+Het OGC is voornemens de oude generatie services langzaam uit te faseren. De nieuwe API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie services. Hiervoor is software beschikbaar.
 
 In onderstaand overzicht zijn de nieuwe generatie API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling zijn. Dit is bij elke standaard duidelijk aangegeven.
 
@@ -124,7 +124,7 @@ Handreikingen voor implementatie:
 **API Strategie overheid (beleid) en REST Design Rules (standaard PTOLU)**
 
 De kwaliteit van services kan op verschillende manieren worden uitgedrukt. Om de
-kwaliteit van een service uit te drukken zijn door Inspire de volgende
+kwaliteit van een service uit te drukken zijn door INSPIRE de volgende
 gedefinieerd.
 
 | Kwaliteitsnorm | Uitleg | Voorbeeld |
