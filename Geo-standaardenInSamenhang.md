@@ -68,7 +68,7 @@ De DAMA Cirkel onderkent een aantal gebieden die van belang zijn om data en info
 
 ### BOMOS Principes
 
-Geonovum heeft het beheer van de alle geo-standaarden ingericht langs de lijnen van het Beheer- en Ontwikkelmodel voor Open Standaarden (BOMOS). Voor ontwikkeling en beheer van de basisset geo-standaarden voeren wij sinds december 2014 het predicaat: Uitstekend beheerproces. Dit predicaat is uitgereikt door het Forum Standaardisatie.
+Geonovum heeft het beheer van de alle geo-standaarden ingericht langs de lijnen van het [Beheer- en Ontwikkelmodel voor Open Standaarden (BOMOS)](https://www.logius.nl/diensten/bomos). Voor ontwikkeling en beheer van de basisset geo-standaarden voeren wij sinds december 2014 het predicaat: Uitstekend beheerproces. Dit predicaat is uitgereikt door het Forum Standaardisatie.
 
 Geonovum gebruikt BOMOS voor alle standaarden die het in beheer heeft, om te garanderen dat deze open zijn volgens de definitie die BOMOS hieraan geeft. De toepassing van BOMOS zorgt er bovendien voor dat de standaarden zonder wettelijke grondslag, die Geonovum beheert en ontwikkelt in aanmerking komen voor: 
 - Plaatsing op de lijst verplichte standaarden of aanbevolen standaarden van het Forum Standaardisatie. Dit is de lijst met open standaarden die Nederlandse overheden en organisaties uit de publieke sector verplicht of vrijwillig zijn te gebruiken bij hun gegevensuitwisseling en de beveiliging daarvan.
@@ -76,11 +76,11 @@ Geonovum gebruikt BOMOS voor alle standaarden die het in beheer heeft, om te gar
 Geonovum is aangesloten bij de BOMOS community en neemt deel aan de BOMOS klankbordgroep. BOMOS is in beheer bij het Centrum voor Standaarden bij [Logius](https://www.logius.nl/diensten/bomos). 
 
 Kernwaarden van BOMOS die Geonovum uitdraagt:
-1)	Een standaard die niet beheerd wordt is geen standaard.
-2)	Een standaard beheren is geen (tijdelijk) project, maar een proces.
-3)	Een standaard ontwikkelen en beheren is een situationeel proces, en kan daardoor voor elke standaard anders ingevuld zijn.
-4)	Een standaard is nooit af, ook als deze richting het einde van zijn levenscyclus gaat. 
-5)	De openheid van de standaard wordt volledig bepaald door de inrichting van het ontwikkel- en beheerproces.
+1. Een standaard die niet beheerd wordt is geen standaard.
+2. Een standaard beheren is geen (tijdelijk) project, maar een proces.
+3. Een standaard ontwikkelen en beheren is een situationeel proces, en kan daardoor voor elke standaard anders ingevuld zijn.
+4. Een standaard is nooit af, ook als deze richting het einde van zijn levenscyclus gaat. 
+5. De openheid van de standaard wordt volledig bepaald door de inrichting van het ontwikkel- en beheerproces.
 
 ![BOMOS](media/bomos.png)
 
