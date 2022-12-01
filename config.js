@@ -242,7 +242,7 @@ var respecConfig =
         publisher:    "International Organization for Standardization",
         date:         "April 2007",
     },
-    "INSPIRE-IRMD":
+    "inspire-irmd":
       {
         title:        "Implementing Rules for Metadata",
         href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
@@ -251,7 +251,7 @@ var respecConfig =
         publisher:    "European Commission Joint Research Centre",
         date:         "3 December 2008",
     },
-    "INSPIRE-CIRMD":
+    "inspire-cirmd":
     {
       title:        "Corrigendum to INSPIRE Metadata Regulation",
       href:         "https://inspire.ec.europa.eu/documents/corrigendum-inspire-metadata-regulation",
@@ -260,7 +260,7 @@ var respecConfig =
       publisher:    "European Commission Joint Research Centre",
       date:         "15 January 2010",
     },
-    "INSPIRE-19115-19119":
+    "inspire-19115-19119":
       {
         title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
         href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
@@ -296,7 +296,7 @@ var respecConfig =
         //editors:    ["M. Müller"],
         date:       "2006-07-21",
     },
-    "ISO19117":
+    "iso19117":
       {
         title:      "Geographic Information - Portrayal (ISO 19117)",
         href:       "https://www.iso.org/standard/46226.html",
@@ -363,6 +363,16 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "2010-11-18",
     },
+    "HRCRS":
+      {
+        title:      "Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie",
+        href:       "https://docs.geostandaarden.nl/crs/crs/",
+        status:     "Definitief",
+        publisher:  "Geonovum",
+        editors:    ["Friso Penninga", "Lennard Huisman"],
+        date:       "14 maart 2022",
+  },
+
     "INSTGVS":
       {
         title:      "Technical Guidance for the implementation of Inspire View Service",
@@ -726,6 +736,22 @@ var respecConfig =
         publisher:    "ISO",
         date:         "November 2022",
     },
+    "isotc19127": 
+      {
+        title:        "ISO/TS 19127 Geographic Information - Geodetic codes and parameters",
+        href:         "https://www.iso.org/standard/41784.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "June 2005",
+    },
+      "epsg": 
+      {
+        title:        "EPSG Geodetic Parameter Dataset",
+        href:         "https://epsg.org/home.html",
+        status:       "Published",
+        publisher:    "Geodesy Subcommittee of the IOGP Geomatics Committee",
+        //date:         "June 2005",
+    },
     "inspire-gcm":
       {
         title:        "Generic Conceptual Model of the INSPIRE data specifications",
@@ -753,6 +779,26 @@ var respecConfig =
         //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2014-04-08",
+    },
+    "inspire-ggs":
+      {
+        title:      "Guidelines INSPIRE Data Specification on Geographical Grid Systems - Technical Guidelines",
+        href:       "https://inspire.ec.europa.eu/id/document/tg/gg",
+        status:     "Published",
+        publisher:  "INSPIRE Thematic Working Group Coordinate Reference Systems & Geographical Grid Systems",
+        //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
+        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+        date:       "April 17, 2014",
+      },
+      "inspire-crs":
+        {
+          title:      "INSPIRE Data Specification on Coordinate Reference Systems - Technical Guidelines",
+          href:       "https://inspire.ec.europa.eu/id/document/tg/rs",
+          status:     "Published",
+          publisher:  "INSPIRE Thematic Working Group Coordinate Reference Systems & Geographical Grid Systems",
+          //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
+          //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+          date:       "April 17, 2014",
     },
     "GML31":
       {
