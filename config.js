@@ -168,27 +168,54 @@ var respecConfig =
         status:       ["Adopted specification"],
         //authors:      [""],
         publisher:    "International Organization for Standardization",
-        date:         "Mei 2003",
+        date:         "May 2003",
     },
-    "ISO19115-2005": 
+    "ISO19115-2006":
       {
-        title:        "ISO 19115:2005  Geographic information -- Metadata",
-        href:         "https://www.iso.org/standard/26020.html",
-        //status:       ["Adopted specification"],
-        //authors:      [""],
-        publisher:    "International Organization for Standardization",
-        date:         "Mei 2003",
-    },
-    "ISO19115-2008":
-      {
-        title:        "ISO19115:2005/AC:2008  Geographic information - Metadata, Technical Corrigendum 1",
+        title:        "ISO 19115:2003/Cor 1:2006 Geographic information — Metadata — Technical Corrigendum 1",
         href:         "https://www.iso.org/standard/26020.html",
         status:       ["Adopted specification"],
         //authors:      [""],
         publisher:    "International Organization for Standardization",
-        date:         "2008",
+        date:         "June 2006",
     },
-    "CSW2APISO": 
+    "ISO19115-2009": 
+      {
+        title:        "ISO 19115-2:2009 Geographic information — Metadata — Part 2: Extensions for imagery and gridded data",
+        href:         "https://www.iso.org/standard/39229.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "February 2009",
+      },
+    "ISO19119-2005": 
+      {
+        title:        "ISO 19119:2005 Geographic information — Services",
+        href:         "https://www.iso.org/standard/39890.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "February 2005",
+      },
+      "ISO19139":
+      {
+        title:        "ISO/TS 19139:2007 Geographic information — Metadata — XML schema implementation",
+        href:         "https://www.iso.org/standard/32557.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "April 2007",
+      },
+      "ISO15836":
+      {
+        title:        "ISO 15836: 2004, Information and documentation - The Dublin Core metadata element set",
+        href:         "https://www.iso.org/standard/37629.htm",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "2004",
+      },
+      "CSW2APISO": 
       {
         title:        "OpenGIS Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile",
         href:         "http://portal.opengeospatial.org/files/?artifact_id=21460",
@@ -210,16 +237,25 @@ var respecConfig =
       {
         title:        "Implementing Rules for Metadata",
         href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
-        // status:       ["Adopted specification"],
+        // status:       ["Legislation"],
          authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "European Commission Joint Research Centre",
         date:         "3 December 2008",
+    },
+    "INSPIRE-CIRMD":
+    {
+      title:        "Corrigendum to INSPIRE Metadata Regulation",
+      href:         "https://inspire.ec.europa.eu/documents/corrigendum-inspire-metadata-regulation",
+      // status:       ["Legislation"],
+       authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+      publisher:    "European Commission Joint Research Centre",
+      date:         "15 January 2010",
     },
     "INSPIRE-19115-19119":
       {
         title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
         href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
-        //status:       ["Adopted specification"],
+        //status:       ["Tehnical Guidance"],
          authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "European Commission Joint Research Centre",
         date:         "26 oktober 2007",
