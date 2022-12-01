@@ -40,24 +40,21 @@ e-overheid deel uit in de NEN 3610 familie, zoals de basisregistraties adressen
 en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie
 (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een informatiestandaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). De documentatie over deze NEN3610 informatiemodellen is te vinden in het [Overzicht geo-standaarden](https://www.geonovum.nl/geo-standaarden/alle-standaarden)   
 
-De Europese informatiestandaarden en informatiemodellen daarin – vnl. afkomstig uit de INSPIRE Richtlijn – zijn een toepassing van de ISO 19100 serie van geo-standaarden. Doordat NEN 3610 hier ook aan conformeert is de structuur en opbouw van de Europese infromatiestandaarden vergelijkbaar met het Nederlandse stelsel. De Europese informatiestandaarden zijn geïmplementeerd aan de aan hand 34
-inhoudelijke thema’s, waarvoor data specificaties zijn opgesteld. Nederlandse
-datasets worden conform deze Europese data specificaties in de Europese
-geo-informatie infrastructuur beschikbaar gesteld.
+De Europese informatiestandaarden en informatiemodellen daarin – vnl. afkomstig uit de INSPIRE Richtlijn – zijn een toepassing van de ISO 19100 serie van geo-standaarden. Doordat NEN 3610 hier ook aan conformeert is de structuur en opbouw van de Europese informatiestandaarden vergelijkbaar met het Nederlandse stelsel. De Europese informatiestandaarden zijn geïmplementeerd aan de aan hand 34 inhoudelijke thema’s, waarvoor data specificaties zijn opgesteld. Nederlandse datasets worden conform deze Europese data specificaties in de Europese geo-informatie infrastructuur beschikbaar gesteld.
 
 *Tabel 3.1 - Standaarden en specificaties met betrekking tot informatiemodellen in Nederlandse en internationale context*
 
 | **Internationale standaarden/specificaties**                                                                                                     | **Europese profielen**                                                   | **Nederlandse profielen**                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------|
-| ISO 19101 Geographic Information – Reference model [[ISO19101]] | INSPIRE: Generic Conceptual Model [[INSPIRE-GCM]] | MIM - Metamodel Informatie Modellering [[MIM11]]; NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] |
-| ISO/TS 19103 Geographic Information - Conceptual schema language [[ISO19103]] | INSPIRE: Methodology for the development of data specifications [[INSPIRE-MDS]] | |
-| ISO 19107 Geographic information - Spatial Schema [[ISO19107]] | | |
-| ISO 19108 Geographic information - Temporal Schema [[ISO19108]] | | |
-| ISO 19109 Geographic information - Rules for application schema [[ISO19109]] |  |  | 
-| ISO 19110 Geographic information - Methodology for feature cataloguing [[ISO19110]] | |
-| ISO 19118 Geographic Information – Encoding [[ISO19118]] | INSPIRE glossary [[INSPIRE-G]] | |
-| ISO 19131 Geographic Information - Data product specification [[ISO19131]] |  | |
-| ISO 19136 Geographic Information - Geography Markup Language (GML) [[ISO19136]] |  | |
+| ISO 19101 Geographic Information – Reference model [[iso19101]] | INSPIRE: Generic Conceptual Model [[inspire-GCM]] | MIM - Metamodel Informatie Modellering [[MIM]]; NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] |
+| ISO/TS 19103 Geographic Information - Conceptual schema language [[iso19103]] | INSPIRE: Methodology for the development of data specifications [[inspire-MDS]] | |
+| ISO 19107 Geographic information - Spatial Schema [[iso19107]] | | |
+| ISO 19108 Geographic information - Temporal Schema [[iso19108]] | | |
+| ISO 19109 Geographic information - Rules for application schema [[iso19109]] |  |  | 
+| ISO 19110 Geographic information - Methodology for feature cataloguing [[iso19110]] | |
+| ISO 19118 Geographic Information – Encoding [[iso19118]] | |
+| ISO 19131 Geographic Information - Data product specification [[iso19131]] |  | |
+| ISO 19136 Geographic Information - Geography Markup Language (GML) [[iso19136]] |  | |
 | Observations and Measurements - Part 1 - Observation Schema 1.0.0 [[OaM1]] |  |  |
 | Observations and Measurements - Part 2 - Sampling Features 1.0.0 [[OaM2]] |  |  |
 | OpenGIS City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML]] |  |  |
