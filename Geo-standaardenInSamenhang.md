@@ -95,26 +95,26 @@ MIM onderkent 4 niveaus van informatiemodellering.
 **Niveau 1 Begrippenmodel**
 Het begrippenmodel bevat de definities van alle gegevens die je voor het uitvoeren van een bepaalde taak gebruikt. Gegevens kunnen afhankelijk van de context waarin ze worden gebruikt, verschillende dingen betekenen. Het begrippenmodel is er om spraakverwarring te voorkomen.
 
+![MIM niveau 1](media/Informatiemodel-4delen_1-4.png) 
 
 **Niveau 2 Conceptueel model**
 In het conceptuele model leggen we alle dingen (concepten) vast die nodig zijn voor de uitvoering van een bepaalde taak. We geven daarbij aan hoe deze dingen zich tot elkaar verhouden en welke eigenschappen van die dingen relevant zijn. Het conceptueel model kan je zien als het vertaalwoordenboek van domeinexperts naar informatie-analisten. Het zorgt ervoor dat ‘de usiness’ en de ICT-specialisten elkaar begrijpen.
+
+![MIM niveau 2](media/Informatiemodel-4delen_2-4.png) 
 
 **Niveau 3 Gegevensmodel, ook wel logisch model**
 In het gegevensmodel maken we een blauwdruk op basis waarvan je een database kunt inrichten. Begrippen, kenmerken en de onderlinge relaties zijn hierin schematisch weergegeven. Het gegevensmodel zorgt ervoor dat iedereen altijd dezelfde kenmerken vastlegt, dezelfde relaties tussen gegevens kan leggen en deze gegevens ook met behoud van context kan uitwisselen. Ongeacht de database of software die iemand gebruikt.
 Het gegevensmodel beschrijft wat er moet worden vastgelegd, zonder voor te schrijven hoe je dit in de praktijk implementeert. Een gegevensmodel is een hulpmiddel voor ontwerpers, bouwers en beheerders van ICT-voorzieningen.
 
+![MIM niveau 3](media/Informatiemodel-4delen_3-4.png) 
+
 **Niveau 4 Datamodel, ook wel technisch model**
 Een datamodel kan je beschouwen als de grammatica voor je data. Het beschrijft de structuur en eigenschappen van de technische taal waarin je informatie kan vastleggen en uitwisselen. Het datamodel kan ook afspraken bevatten over de manier waarop je berichten ‘verpakt’, het (internet)protocol en de logistiek van het berichtenverkeer.
 Het datamodel zorgt ervoor dat de gegevens digitaal verwerkt kunnen worden. Het zijn hulpmiddelen voor software-ontwikkelaars.
 
-
-
+![MIM niveau 4](media/Informatiemodel-4delen_4-4.png) 
  
-![MIM](media/MIM.png) 
-
  
-
-
 ### NGII Principes
 
 Voor het oplossen van de ruimtelijke vraagstukken is toegang tot de betreffende geo-informatie een vereiste. Om deze geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie infrastructuur (NGII). De NGII als concept is het geheel van geo-informatie(bronnen), metadata, standaarden, voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en toegang tot geo-informatie. 
