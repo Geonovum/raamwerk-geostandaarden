@@ -17,7 +17,7 @@ De in Nederland gebruikte CRS-en voor de opslag en uitwisseling van geo-informat
 
 De ISO 19111:2019 standaard geeft een beschrijving welke parameters het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://geonovum.github.io/HR-CRS-Gebruik/#naamgeving-van-crs) kunnen Name Type Sepcifications (NTS) of Uniform Resource names (URN) gebruikt worden, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëeren. 
 
-Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het specificeren hiervan vastgelegd in specifieke guidelines. De relevante INPSIRE guidelines zijn opgenomen in ***tabel ?***.
+Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het specificeren hiervan vastgelegd in specifieke guidelines. De relevante INSPIRE guidelines zijn opgenomen in tabel 7.1.
 
 CRS-en die gebruikt worden in het Nederlandse domein van geo-informatie, kunnen ook worden ingedeeld naar hun geografische toepassingsgebied:
 
@@ -33,14 +33,13 @@ In de onderstaande tabel zijn de standaarden en specificaties benoemd, die van t
 
 | **Internationale standaarden/specificaties**                                            | **Europese profielen**                                                          | **Nederlandse profielen**                                                      |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
-| [ISO 19111:2019](https://www.iso.org/obp/ui/#iso:std:iso:19111)  Geographic Information – Spatial Referencing by Coordinates (gelijk aan [OGC Abstract Specification Topic 2: Referencing by coordinates](http://docs.opengeospatial.org/as/18-005r4/18-005r4.html))       | INSPIRE specification on Geographical Grid Systems – Guidelines **[INSGGS]**    |[Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/)  |
+| Geographic Information – Spatial Referencing by Coordinates [[iso19111]] (gelijk aan [[OREFCO]]) | INSPIRE specification on Geographical Grid Systems – Guidelines **[INSGGS]**    |[Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/)  |
 | ISO 6709 Standard representation of geographic location by coordinates **[ISO 6709]**   | INSPIRE specification on Coordinate Reference Systems – Guidelines **[INSCRS]** | |
-| EPSG codes database & CRS Ids **[EPSG]**    |                                                                                 |                                                                                |
-| ISO/TS 19127 Geographic Information – Geodetic codes and parameters **[ISO/TS 19127]**  |                                                                                 |                                                                                |
+| EPSG codes database & CRS Ids **[EPSG]**  |  |  |
+| ISO/TS 19127 Geographic Information – Geodetic codes and parameters **[ISO/TS 19127]**  |  |  |
 
 
-
-# Kwaliteit en CRS-en
+## Kwaliteit en CRS-en
 
 CRS-en zelf zijn geen geografische data, de kwaliteit van geografische data valt of staat met het goed vastleggen van het gebruikte coördinaatreferentiesysteem. Zonder informatie over het gebruikte CRS zijn coördinaten getallen zonder betekenis, het is namelijk niet duidelijk wat de relatie van de getallen is met de aarde.
 
