@@ -224,7 +224,7 @@ var respecConfig =
         publisher:    "Open Geospatial Consortium",
         //date:         ["April 2007"],
     },
-    "ISO19139-2007": 
+    "ISO19139": 
       {
         title:        "ISO/TS 19139:2007 Geographic information - Metadata - XML schema implementation",
         href:         "https://www.iso.org/standard/32557.html",
