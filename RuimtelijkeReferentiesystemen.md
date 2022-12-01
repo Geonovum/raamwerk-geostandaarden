@@ -1,4 +1,4 @@
-# Coördinaatreferentiesystemen (CRS-en)
+# Coördinaatreferentiesystemen
 
 **Geo-informatie is direct gekoppeld aan een locatie op aarde. De wijze waarop die
 koppeling wordt gelegd, wordt beschreven met het coördinaatreferentiesysteem (CRS) 
@@ -6,9 +6,9 @@ waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerd
 
 ## Overzicht standaarden voor coördinaatreferentiesystemen
 
-Voor de definitie van CRS-en is [ISO 19111:2019](https://www.iso.org/obp/ui/#iso:std:iso:19111) beschikbaar, een CRS is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. Het datum geeft de relatie van het coördinatensysteem met de aarde.
+Voor de definitie van CRS-en is een ISO standaard [[iso19111]] beschikbaar, een CRS is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. Het datum geeft de relatie van het coördinatensysteem met de aarde.
 
-De in Nederland gebruikte CRS-en voor de opslag en uitwisseling van geo-informatie zijn onder te verdelen in verschillende groepen. Op basis van de indeling in ISO 19111:2019.
+De in Nederland gebruikte CRS-en voor de opslag en uitwisseling van geo-informatie zijn onder te verdelen in verschillende groepen. Op basis van de indeling in [[iso19111]].
 
 * **Geografische CRS-en** geven geografische coördinaten in graden (2D breedte en lengte (Engels: latitude en longitude) en voor 3D ook hoogte) ten opzichte van een ellipsoïdisch model van het aardoppervlak. 
 * **Geprojecteerde CRS-en** presenteren geo-informatie op een plat vlak in cartesische (x en y) coördinaten. Een geprojecteerd CRS is een afgeleide van een geografisch CRS, waarbij voor het afbeelden in het platte vlak een kaartprojectie wordt gebruikt.
