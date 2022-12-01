@@ -2,7 +2,7 @@
 
 **Om de geo-informatie visueel te presenteren op een kaart worden er
 visualisatieregels opgesteld. Denk hierbij bijvoorbeeld aan vlakvullingen,
-lijnstijlen, symbologie, etc. Veel inhoudelijke domeinen hebben een standaard
+lijnstijlen, symbologie, etc.. Veel inhoudelijke domeinen hebben een standaard
 visualisatie gedefinieerd voor hun informatiemodel. Deze visualisatieregels
 moeten worden vastgelegd en kunnen dan bijvoorbeeld worden toegepast in een digitale kaart.**
 
@@ -20,7 +20,7 @@ specificaties, die geen van alle direct toepasbaar zijn:
 -   Web Map Context Documents (XML syntax) geeft de mogelijkheid om de status
     van een WMS client (viewer) vast te leggen. Denk aan een combinatie van een
     aantal WMS services, (subset) van een legenda, layers (styles, formats),
-    inzoom schaal, etc. Deze situatie kan op een client worden opgeslagen en
+    inzoom schaal, etc.. Deze situatie kan op een client worden opgeslagen en
     worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map
     Context hebben.
 
@@ -38,7 +38,7 @@ specificaties, die geen van alle direct toepasbaar zijn:
     geschikt voor 3D visualisatie.
 - 3D Tiles is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook **3D Tiles Styles**, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.
 - Indexed 3D Scene Layers is ook een goedgekeurde OGC community standaard. Het specificeert een formaat, opgebouwd uit gestandaardiseerde lagen, voor efficiënte 3D visualisatie op het web.
--   Mapbox Styles is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en het Raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele. 
+-   Mapbox Styles is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele. 
 -   OGC API Styles is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
 
 Diverse Europese en Nederlandse profielen voor visualisatie zijn beschikbaar in
