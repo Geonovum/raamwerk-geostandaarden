@@ -499,7 +499,16 @@ var respecConfig =
         //authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
         date:       "2016-12-16",
     },
-    "OAPIC":
+    "OREFCO":
+      {
+        title:      "OGC Abstract Specification Topic 2: Referencing by coordinates",
+        href:       "http://docs.opengeospatial.org/as/18-005r4/18-005r4.html",
+        status:     "OGC® Publicly Available Standard",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Roger Lott"],
+        date:       "2019-02-08",
+    },
+        "OAPIC":
       {
         title:      "OGC 19-087: OGC API - Coverages - Part 1: Core, version 0.0.6",
         href:       "http://docs.ogc.org/DRAFTS/19-087.html",
@@ -700,6 +709,14 @@ var respecConfig =
         status:       "Published",
         publisher:    "ISO",
         date:         "December 2016",
+    },
+    "iso19111":
+      {
+        title:        "ISO 19111:2019 Geographic information — Referencing by coordinates",
+        href:         "(https://www.iso.org/obp/ui/#iso:std:iso:19111)",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "January 2019",
     },
     "iso19131": 
       {
