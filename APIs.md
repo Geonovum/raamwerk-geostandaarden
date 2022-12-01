@@ -17,21 +17,20 @@ In onderstaand overzicht zijn de nieuwe generatie API standaarden opgenomen die 
 
 ## Overzicht geo-standaarden API’s
 
-In het overzicht van geo-standaarden voor API’s zijn de onderwerpen
-onderscheiden en in onderstaande tabellen opgenomen:
+In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
 
--   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 1);
+-   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 5.1);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC
-    API – Features en ATOM (tabel 2);
+    API – Features en ATOM (tabel 5.2);
 -   API standaarden en specificaties voor het opvragen (downloaden) van
-    rasterdata: OGC WCS en OGC API - Coverages (tabel 3);
+    rasterdata: OGC WCS en OGC API - Coverages (tabel 5.3);
 -   API Standaarden en specificaties voor het opvragen (downloaden) van
-    sensordata: OGC SOS, SensorThings API en Environmental Data Retrieval API (tabel 4);
+    sensordata: OGC SOS, SensorThings API en Environmental Data Retrieval API (tabel 5.4);
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
-    CSW en OGC API- Records (tabel 5);
+    CSW en OGC API- Records (tabel 5.5);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
-    OGC API Tiles, 3D Tiles (tabel 6);
--   API standaarden en specificaties voor linked data: GeoSPARQL (Tabel 7).
+    OGC API Tiles, 3D Tiles (tabel 5.6);
+-   API standaarden en specificaties voor linked data: GeoSPARQL (Tabel 5.7).
 
 ## Web mapping API's
 
