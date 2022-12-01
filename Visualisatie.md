@@ -72,7 +72,7 @@ Tabel 16 - Standaarden en specificaties voor visualisatie
 Om data op een eenduidige manier te presenteren aan gebruikers, kunnen voor data
 producten (en informatiemodellen) visualisatieregels gedefinieerd worden. Denk
 hierbij bijvoorbeeld aan (kleuren van) vlakvullingen, lijnstijlen, symbologie,
-etc. Deze visualisatieregels worden vastgelegd in handreikingen en
+etc.. Deze visualisatieregels worden vastgelegd in handreikingen en
 implementatiebestanden, en kunnen worden toegepast in een view API.
 
 De visualisatie is geen onderdeel van een informatiemodel, maar is een apart
@@ -91,40 +91,40 @@ zeven presentaties beschikbaar. Deze zijn beschreven in de [Handreiking BGT\|IMG
 (2018)](https://docs.geostandaarden.nl/bgt/def-hr-visualisatie-20181015/):
 
 
--   Standaardvisualisatie: een visualisatie voor het gebruik van de
+-  <u>Standaardvisualisatie</u>: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als hoofdthema, die aansluit bij de visualisatie van de
     Basisregistratie Topografie (BRT). In de standaardvisualisatie worden alleen
     de puntsymbolen voor CADO, verkeersdrempel en kering toegepast. Omwille van
     de visuele hiërarchie wordt met klem geadviseerd om de icoonvisualisatie van
     IMGeo puntobjecten NIET af te beelden in combinatie met de
     standaardvisualisatie.
--   Achtergrondvisualisatie: een visualisatie voor het gebruik van de
+-   <u>Achtergrondvisualisatie</u>: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als achtergrondkaart, die aansluit bij de visualisatie van
     de BRT-Achtergrondkaart zoals die is gerealiseerd voor Publieke
     Dienstverlening op de Kaart (PDOK).
--   Icoonvisualisatie: een visualisatie van de puntsymbolen voor het gebruik van
+-   <u>Icoonvisualisatie</u>: een visualisatie van de puntsymbolen voor het gebruik van
     de IMGeo-inhoud, die aansluit bij de hiervoor genoemde
     achtergrondvisualisatie. Omwille van de visuele hiërarchie wordt met klem
     geadviseerd om de icoonvisualisatie NIET af te beelden in combinatie met de
     standaardvisualisatie.
--   Lijngerichte visualisatie: een visualisatie voor het gebruik van de
+-   <u>Lijngerichte visualisatie</u>: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als hoofdthema, die aansluit bij de visualisatie van de
     Grootschalige Basiskaart Nederland (GBKN). Alle individuele objecten met
     dezelfde eigenschappen die aan elkaar grenzen worden aaneengesloten
     gevisualiseerd. De begrenzingen tussen de individuele objecten vallen
     hierbij weg om zo een rustiger kaartbeeld te realiseren. Hiervoor wordt wel
     een witte vlakvulling meegegeven aan de objecten.
--   Omtrekgerichte visualisatie: een visualisatie voor het gebruik van de
+-   <u>Omtrekgerichte visualisatie</u>: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als hoofdthema, die aansluit bij de visualisatie van de
     Grootschalige Basiskaart Nederland (GBKN). Alle individuele objecten worden
     apart gevisualiseerd. De begrenzingen tussen de individuele objecten blijven
     gehandhaafd.
--   Pastelvisualisatie: een visualisatie voor het gebruik van de
+-   <u>Pastelvisualisatie</u>: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als achtergrondkaart, die aansluit bij de behoefte van
     civiel-technische ingenieursbureaus en de kabels- en leidingenketen om
     informatie over haar bouwwerken, kunstwerken en infrastructuur af te beelden
     op de BGT/IMGeo-inhoud.
--   Planvisualisatie: een visualisatie voor het gebruik van de
+-   <u>Planvisualisatie</u>: een visualisatie voor het gebruik van de
     planinformatie-inhoud.
 
 </aside>
@@ -142,7 +142,7 @@ Per 1 juli 2018 geldt het [Tijdelijk besluit ‘Digitale toegankelijkheid
 overheid’](https://zoek.officielebekendmakingen.nl/stb-2018-141.html). Websites
 van de overheid moeten vanaf die datum verplicht voldoen aan de
 toegankelijkheidseisen voor mensen met een beperking. Dit besluit stelt echter
-in artikel 2.2.d expliciet (en volgt daarmee de [Europese
+in artikel 2 lid 2d expliciet (en volgt daarmee de [Europese
 richtlijn](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&qid=1481290140258&from=en)
 inzake de toegankelijkheid van de websites en mobiele applicaties van
 overheidsinstanties) dat het besluit niet van toepassing is op onlinekaarten.
