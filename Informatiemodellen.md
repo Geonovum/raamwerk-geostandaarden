@@ -49,18 +49,18 @@ geo-informatie infrastructuur beschikbaar gesteld.
 
 | **Internationale standaarden/specificaties**                                                                                                     | **Europese profielen**                                                   | **Nederlandse profielen**                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------|
-| ISO 19101 Geographic Information – Reference model **[ISO19101]**                                                                                | INSPIRE: Generic Conceptual Model **[INSGCM]**                           | MIM - Metamodel Informatie Modellering **[MIM]**; NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]**      |
-| ISO/TS 19103 Geographic Information - Conceptual schema language **[ISO19103]** ISO 19108 Geographic information -Temporal Schema **[ISO19108]** | INSPIRE: Methodology for the development of data specifications [INSMDS] | MIM - Metamodel Informatie Modellering **[MIM]**; NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]** |
-| ISO 19107 Geographic information - Spatial Schema **[ISO19107]** | | NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]** [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) |
-| ISO 19108 Geographic information - Temporal Schema **[ISO19108]** | INSPIRE: Methodology for the development of data specifications [INSMDS] | |
-| ISO 19109 Geographic information - Rules for application schema **[ISO19109]**                                                                   | INSPIRE: Guidelines for the encoding of spatial data **[INSGEN]**        |  MIM - Metamodel Informatie Modellering **[MIM]**; NEN 3610:2022 Basismodel Geo-informatie. **[NEN3610]**                    |
-| ISO 19110 Geographic information - Methodology for feature cataloguing **[ISO19110]**                                                            | INSPIRE Feature Concept Dictionary **[INSFCD]**                          |                                                       |
-| ISO 19118 Geographic Information – Encoding **[ISO19118]**                                                                                       | INSPIRE glossary **[INSG]**                                              |                                                       |
-| ISO 19131 Geographic Information - Data product specification **[ISO19131]**                                                                     | INSPIRE Data specifications **[INSDS]**                                  |                                                       |
-| ISO 19136 Geographic Information - Geography Markup Language (GML) **[ISO19136]**                                                                |                                                                          |                                                       |
-| Observations and Measurements - Part 1 - Observation Schema 1.0.0 **[OaM1]**                                                                     |                                                                          |                                                       |
-| Observations and Measurements - Part 2 - Sampling Features 1.0.0 **[OaM1]**                                                                      |                                                                          |                                                       |
-| OpenGIS City Geography Markup Language (CityGML) Encoding Standard, version 2.0 **[CityGML]**                                                    |                                                                          |                                                       |
+| ISO 19101 Geographic Information – Reference model [[ISO19101]] | INSPIRE: Generic Conceptual Model [[INSGCM]] | MIM - Metamodel Informatie Modellering [[MIM]]; NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] |
+| ISO/TS 19103 Geographic Information - Conceptual schema language [[ISO19103]] ISO 19108 Geographic information -Temporal Schema [[ISO19108]] | INSPIRE: Methodology for the development of data specifications [[INSMDS]] | |
+| ISO 19107 Geographic information - Spatial Schema [[ISO19107]] | | |
+| ISO 19108 Geographic information - Temporal Schema [[ISO19108]] | INSPIRE: Methodology for the development of data specifications [[INSMDS]] | |
+| ISO 19109 Geographic information - Rules for application schema [[ISO19109]] | INSPIRE: Guidelines for the encoding of spatial data [[INSGEN]] |  | 
+| ISO 19110 Geographic information - Methodology for feature cataloguing [[ISO19110]] | INSPIRE Feature Concept Dictionary [[INSFCD]] |
+| ISO 19118 Geographic Information – Encoding [[ISO19118]] | INSPIRE glossary [[INSG]] | |
+| ISO 19131 Geographic Information - Data product specification [[ISO19131]] | INSPIRE Data specifications [[INSDS]] | |
+| ISO 19136 Geographic Information - Geography Markup Language (GML)[[ISO19136]] |  | |
+| Observations and Measurements - Part 1 - Observation Schema 1.0.0 [[OaM1]] |  |  |
+| Observations and Measurements - Part 2 - Sampling Features 1.0.0 [[OaM1]] |  |  |
+  OpenGIS City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML]] |  |  |
 
 
 ## Semantische samenhang
