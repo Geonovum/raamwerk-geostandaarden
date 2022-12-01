@@ -709,7 +709,7 @@ var respecConfig =
         publisher:    "ISO",
         date:         "November 2022",
     },
-    "INSPIRE-GCM":
+    "inspire-gcm":
       {
         title:        "Generic Conceptual Model of the INSPIRE data specifications",
         href:         "https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model",
@@ -718,7 +718,7 @@ var respecConfig =
         publisher:    "INSPIRE Drafting Team Data Specifications",
         date:         "April 8, 2014",
     },
-    "INSPIRE-MDS":
+    "inspire-mds":
       {
         title:        "Methodology for the development of data specifications: baseline version (D 2.6, Version 3.0)",
         href:         "https://inspire.ec.europa.eu/documents/methodology-development-data-specifications-baseline-version-d-26-version-30",
@@ -727,7 +727,7 @@ var respecConfig =
         publisher:    "INSPIRE Drafting Team Data Specifications",
         date:         "April 7, 2008",
     },
-    "INSGEN":
+    "inspire-gen":
       {
         title:      "Guidelines for the encoding of spatial data",
         href:       "https://inspire.ec.europa.eu/documents/guidelines-encoding-spatial-data",
