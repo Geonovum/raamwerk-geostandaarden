@@ -617,7 +617,7 @@ var respecConfig =
         authors:    ["Linda van den Brink", "Marco Brattinga", "Marinus Vonhof", "Niels Hoffmann", "Pano Maria", "Hans Schevers", "Ronald van Lanen", "Joep van Genuchten"],
         date:       "2020-03-23",
     },
-    "MIM11":
+    "MIM":
       {
         title:      "MIM - Metamodel Informatie Modellering",
         href:       "https://docs.geostandaarden.nl/mim/mim/",
@@ -626,6 +626,14 @@ var respecConfig =
         editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
         authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2022-02-17",
+    },
+    "NEN3610": 
+      {  
+        title: "NEN 3610:2011 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+        href: "https://www.nen.nl/NEN-Shop/Norm/NEN-36102011-nl.htm",
+        status: "Definitief",
+        publisher: "NEN",
+        date: "2011-03-01",
     },
     "ISO19107-2003":
       {
@@ -636,6 +644,88 @@ var respecConfig =
         //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "2019-12",
+    },
+    "iso19126-2009": 
+      {
+        title:        "ISO 19126:2009 Geographic information -- Feature concept dictionaries and registers",
+        href:         "https://www.iso.org/standard/44875.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "2009-11",
+    },
+    "iso19101": 
+      {
+        title:        "ISO 19101-1:2014 Geographic information — Reference model — Part 1: Fundamentals",
+        href:         "https://www.iso.org/standard/59164.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "November 2014",
+    },
+    "iso19103": 
+      {
+        title:        "ISO 19103:2015 Geographic information — Conceptual schema language",
+        href:         "https://www.iso.org/standard/56734.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "December 2015",
+    },
+    "iso19107": 
+      {
+        title:        "ISO 19107:2019 Geographic information — Spatial schema",
+        href:         "https://www.iso.org/standard/66175.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "December 2019",
+    },
+    "iso19108": 
+      {
+        title:        "ISO 19108:2002 Geographic information — Temporal schema",
+        href:         "https://www.iso.org/standard/26013.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "12-9-2012",
+    },
+    "iso19109": 
+      {
+        title:        "ISO 19109:2015 Geographic information — Rules for application schema",
+        href:         "https://www.iso.org/standard/59193.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "December 2015",
+    },
+    "iso19110": 
+      {
+        title:        "ISO 19110:2016 Geographic information — Methodology for feature cataloguing",
+        href:         "https://www.iso.org/standard/57303.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "December 2016",
+    },
+    "iso19131": 
+      {
+        title:        "ISO 19131:2022 Geographic information — Data product specifications",
+        href:         "https://www.iso.org/standard/85092.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "November 2022",
+    },
+    "INSPIRE-GCM":
+      {
+        title:        "Generic Conceptual Model of the INSPIRE data specifications",
+        href:         "https://inspire.ec.europa.eu/documents/inspire-generic-conceptual-model",
+        status:       "Published",
+        //authors:    ["INSPIRE Drafting Team Data Specifications"],
+        publisher:    "INSPIRE Drafting Team Data Specifications",
+        date:         "April 8, 2014",
+    },
+    "INSPIRE-MDS":
+      {
+        title:        "Methodology for the development of data specifications: baseline version (D 2.6, Version 3.0)",
+        href:         "https://inspire.ec.europa.eu/documents/methodology-development-data-specifications-baseline-version-d-26-version-30",
+        status:       "Published",
+        //authors:    ["INSPIRE Drafting Team Data Specifications"],
+        publisher:    "INSPIRE Drafting Team Data Specifications",
+        date:         "April 7, 2008",
     },
     "INSGEN":
       {
