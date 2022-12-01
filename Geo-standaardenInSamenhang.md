@@ -82,7 +82,7 @@ Kernwaarden van BOMOS die Geonovum uitdraagt:
 4. Een standaard is nooit af, ook als deze richting het einde van zijn levenscyclus gaat. 
 5. De openheid van de standaard wordt volledig bepaald door de inrichting van het ontwikkel- en beheerproces.
 
-![BOMOS](media/bomos.png)
+![BOMOS](media/BOMOS.png)
 
 Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie voor de geo-standaarden](https://docs.geostandaarden.nl/gbd/gsb/)
 
