@@ -33,7 +33,7 @@ geo-objecten in Nederland met cirkelbogen beschreven terwijl cirkelbogen geen
 deel uitmaken van het simple feature profile 3.1.1. Voor ISO 19136:2007 (GML
 3.2.1) is er een simple features profile (OGC 10-100r3, 2011-05-24, version 2.0)
 beschikbaar dat wel voldoet aan de eisen en wensen van Nederland (inclusief
-bogen).
+bogen). Voor deze uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
 *Tabel 6.1 – Uitwisselformaten standaarden en specificaties met betrekking tot vectordata*
 
@@ -49,10 +49,6 @@ bogen).
 | OGC JSON Features and Geometries **draft** [[JSON-FG]]                                                  |                                                                                       |                              |
 | HTML5 [[html5]]                                                                                         |                                                                                       |                              |
 | Resource Description Framework (RDF): Concepts and Abstract Syntax. [[rdf11-concepts]]                  |                                                                                       |                              |
-
-Handreikingen:
-- Er zijn veel uitwisselformaten om uit te kiezen. Daarom is er voor vectorformaten een **Keuzehulp** gemaakt: de handreiking [Geometrie in uitwisselingsformaten](https://docs.geostandaarden.nl/g4w/geox/). Deze legt ook de toepassing uit van de verschillende versies van GML. 
-- De handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) geeft uitleg over het ruimtelijk schema van ISO 19107 en beschrijft het Nederlands profiel op GML.
 
 ## Rasterdata uitwisselstandaarden
 
@@ -91,7 +87,7 @@ geïmplementeerd door over het terrein een regelmatig grid van punten te leggen
 bijvoorbeeld een hoogteaanduiding bepaald middels laser altimetrie of de
 numerieke codering van een kleurenwaarde opgenomen in een satellietbeeld.
 
-Er zijn verschillende geostandaarden voor rasterdata opgenomen in het raamwerk,
+Er zijn verschillende geostandaarden voor rasterdata opgenomen in het raamwerk (zie tabel 6.2),
 zoals NETCDF en HDF5. Ook GeoTIFF (Geo Tagged Image File Format), waarbij
 georeferentie als tags in de file is opgenomen. Daarnaast webstandaarden als JPEG2000 en PNG. De
 laatste wordt vooral toegepast in WMS.
@@ -117,7 +113,7 @@ Met sensoren worden apparaten bedoeld voor het meten van stoffen in water,
 grondsamenstellingen, grondwater, luchtverontreiniging, etc. Deze sensoren
 hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te
 kunnen worden. Voor deze uitwisseling van observations en measurements bestaan
-de volgende standaarden.
+de volgende standaarden (tabel 6.3).
 
 *Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata*
 
@@ -129,6 +125,8 @@ de volgende standaarden.
 
 ## 3D data uitwisselstandaarden
 
+Met 3D data uitwisselstandaarden wordt de uitwisseling van 3-dimensionele data bedoeld, dat wil zeggen data over objecten en verschijnselen in de geografische ruimte, waarin de x-y en z-coordinaat zijn vastgelegd. Voor de uitwisseling van 3D data zijn de volgende standaarden beschikbaar (tabel 6.4).
+
 *Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data*
 
 | **Internationale standaarden/specificaties**                                   | **Europese profielen** | **Nederlandse profielen** |
@@ -138,6 +136,22 @@ de volgende standaarden.
 
 ## Kwaliteit en uitwisselformaten
 
-Geonovum biedt twee GML validators aan:
+**Validatie**
+
+Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze te valideren. Bij voorkeur gebeurt dit met geautomatiseerde processen, dan wel beschreven procedures en validatieregels. Validatie helpt om uitwisselformaten te laten voldoen aan de bij de geostandaard horende validatieregels. Om te helpen bij validatie zijn validatietools beschikbaar. De tools zijn bedoeld als hulpmiddel om fouten in de toepassing van standaarden te verminderen. 
+
+Er zijn twee Nederlandse validators voor de validatie van GML (vectordata):
 - De [GML3.2 Simple Features validator](http://validatie.geostandaarden.nl/gml/simple-features) controleert of een GML 3.2 bestand voldoet aan het GML 3.2 Simple Feature profile, level 2
 - De [Validator voor GML 2D geometrie](http://validatie.geostandaarden.nl/gml/geometrie-2d) controleert of de 2D geometrieën in een GML 3.x bestand conform ISO 19107 (Spatial Schema) zijn.
+
+**Handreiking Geometrie in model en GML**
+
+De handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is daarmee een ondersteuning voor de toepassing van de norm NEN 3610:2011 – Basismodel geo-informatie [NEN3610]. NEN 3610 gaat hierin niet verder dan verwijzing naar de relevante geo-informatie (ISO) normen. Voor het werkveld zijn deze normen niet toegankelijk genoeg om te kunnen toepassen. Middels deze handreiking wordt de brug gelegd. Dit document kan als een zelfstandig document worden gelezen. De inhoud is grotendeels gebaseerd op originele normen. Voor de toegankelijkheid is de tekst vertaald naar het Nederlands en bovendien vereenvoudigd. Deze handreiking kan daarom niet de normen vervangen, maar bijvoorbeeld als introductie worden gebruikt. Voor de normatieve referentie wordt in alle gevallen naar de originele documenten verwezen. 
+
+**Handreiking lichte formaten geometrie**
+
+Voor het uitwisselen van geodata kan je kiezen uit verschillende bestandsformaten. Wat het beste formaat is voor een toepassing, is afhankelijk van meerdere aspecten. In het bij de data behorende informatiemodel kunnen deze aspecten al naar voren komen - bijvoorbeeld de geometrietypes die worden vastgelegd, het gebruikte modelleerparadigma, etc. Echter kun je vanuit één informatiemodel ook weer meerdere implementaties in uitwisselingsformaten afleiden - beslissingen in het model sluiten dit niet per sé uit.
+
+Daarom is voor vectorformaten een keuzehulp gemaakt: de handreiking [Geometrie in uitwisselingsformaten](https://docs.geostandaarden.nl/g4w/geox/). Deze legt ook de toepassing uit van de verschillende versies van GML. De handreiking lichte formaten geometrie [[HRLFG]] geeft handvaten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft gedetaileerde informatie over het uitwisselen van geometrie in de lichte formaten HTML, GML, JSON, GeoPackage en RDF. Deze handreiking zet de belangrijkste aspecten op een rijtje en brengt deze in verband met gangbare toepassingen. De toepassing bepaalt namelijk wat de eisen aan de geometrieën zijn (zijn complexe types nodig? Is een hoge nauwkeurigheid van belang?), en welke verplichtingen aan de orde zijn in de keuze voor standaarden. De antwoorden op deze vragen kunnen al een indicatie geven van de geschiktheid van de formaten. Daarnaast is het van belang om inzicht te hebben in de behoeften van gebruikers: is ondersteuning in bepaalde tools/frameworks van belang? Moeten de bestanden leesbaar zijn voor mensen, en gemakkelijk te vinden? Hoe belangrijk is de semantiek van de data? Deze handreiking geeft handvaten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft in afzonderlijke hoofdstukken gedetailleerde informatie over het uitwisselen van geometrie in GML, HTML, JSON, GeoPackage en RDF. 
+
+
