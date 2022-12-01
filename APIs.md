@@ -20,11 +20,11 @@ In onderstaand overzicht zijn de nieuwe generatie API standaarden opgenomen die 
 In het overzicht van geo-standaarden voor API’s zijn de onderwerpen
 onderscheiden en in onderstaande tabellen opgenomen:
 
--   API standaarden voor het opvragen van webmaps: OGC WMS (tabel 1);
+-   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 1);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC
     API – Features en ATOM (tabel 2);
 -   API standaarden en specificaties voor het opvragen (downloaden) van
-    rasterdata: OGC WCS (tabel 3);
+    rasterdata: OGC WCS en OGC API - Coverages (tabel 3);
 -   API Standaarden en specificaties voor het opvragen (downloaden) van
     sensordata: OGC SOS, SensorThings API en Environmental Data Retrieval API (tabel 4);
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
@@ -35,7 +35,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 ## Web mapping API's
 
-*Tabel 1 - API standaarden en specificaties voor web mapping: WMS*
+*Tabel 5.1 - API standaarden en specificaties voor web mapping: OGC WMS en OGC API Maps*
 
 | **Internationale standaarden/specificaties**                                | **Europese profielen**                                                           | **Nederlandse profielen**                                                                                |
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
@@ -45,7 +45,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 ## Vectordata API's
 
-*Tabel 2 – API standaarden en specificaties voor vectordata: WFS, OGC API – Features en ATOM*
+*Tabel 5.2 – API standaarden en specificaties voor vectordata: OGC WFS, OGC API – Features en ATOM*
 
 | **Internationale standaarden/specificaties**                                               | **Europese profielen**                                                                | **Nederlandse profielen**                                |
 |--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------|
@@ -61,7 +61,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 ## Rasterdata API's
 
-*Tabel 3 – API standaarden en specificaties voor rasterdata: WCS*
+*Tabel 5.3 – API standaarden en specificaties voor rasterdata: OGC WCS en OGC API - Coverages*
 
 | **Internationale standaarden/specificaties**            | **Europese profielen**                                                                                                     | **Nederlandse profielen**           |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
@@ -70,7 +70,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 ## Sensordata API's 
 
-*Tabel 4 – API Standaarden en specificaties voor sensordata: SOS, EDR API en SensorThings API*
+*Tabel 5.4 – API Standaarden en specificaties voor sensordata: OGC SOS, EDR API en SensorThings API*
 
 | **Internationale standaarden/specificaties**                            | **Europese profielen**                                                                                                                        | **Nederlandse profielen**            |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
@@ -81,8 +81,7 @@ onderscheiden en in onderstaande tabellen opgenomen:
 
 ## Metadata API's 
 
-*Tabel 5 – API Standaarden en specificaties voor metadata: CSW en OGC API-
-Records*
+*Tabel 5.5 – API Standaarden en specificaties voor metadata: OGC CSW en OGC API - Records*
 
 | **Internationale standaarden/specificaties**                                                                          | **Europese profielen**                                                                  | **Nederlandse profielen**           |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------|
@@ -92,8 +91,7 @@ Records*
 
 ## Map tile APIs
 
-*Tabel 6 – API standaarden en specificaties voor map tiles: Web Map Tile Service
-(WMTS,) OGC API Tiles, en 3D Tiles*
+*Tabel 5.6 – API standaarden en specificaties voor map tiles: OGC Web Map Tile Service (WMTS,) OGC API - Tiles, en 3D Tiles*
 
 | **Internationale standaarden/specificaties**                          | **Europese profielen**                                                          | **Nederlandse profielen**            |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------|
@@ -107,7 +105,7 @@ Handreikingen voor implementatie:
 
 ## Linked Data API's
 
-Tabel 7 – API standaarden en specificaties voor linked data: GeoSPARQL
+*Tabel 5.7 – API standaarden en specificaties voor linked data: GeoSPARQL*
 
 | **Internationale standaarden/specificaties**                                        | **Europese profielen** | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------------|------------------------|---------------------------|
