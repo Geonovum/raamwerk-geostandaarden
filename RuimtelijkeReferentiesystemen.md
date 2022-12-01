@@ -29,7 +29,7 @@ De gebruikte stelsels binnen Nederland en hun bijbehorende EPSG-code zijn in bij
 
 In de onderstaande tabel zijn de standaarden en specificaties benoemd, die van toepassing zijn op de CRS-en voor Nederland.
 
-**Tabel ?** - Standaarden en specificaties met betrekking tot CRS-en
+*Tabel 7.1 - Standaarden en specificaties met betrekking tot CRS-en*
 
 | **Internationale standaarden/specificaties**                                            | **Europese profielen**                                                          | **Nederlandse profielen**                                                      |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
