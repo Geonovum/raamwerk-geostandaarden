@@ -8,7 +8,14 @@ representeren en uit te wisselen.**
 
 ## Overzicht geostandaarden uitwisselformaten
 
-### Vectordata uitwisselstandaarden
+In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
+
+-   Uitwisselstandaarden voor het uitwisselen van vectordata (tabel 6.1);
+-   Uitwisselstandaarden voor het uitwisselen van rasterdata (tabel 6.2);
+-   Uitwisselstandaarden voor het uitwisselen van sensordata (tabel 6.3);
+-   Uitwisselstandaarden voor het uitwisselen van 3D data (tabel 6.4).
+
+## Vectordata uitwisselstandaarden
 
 De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete fenomenen
 waarin de geometrie van een object wordt beschreven met behulp van primitieven
@@ -47,7 +54,7 @@ Handreikingen:
 - Er zijn veel uitwisselformaten om uit te kiezen. Daarom is er voor vectorformaten een **Keuzehulp** gemaakt: de handreiking [Geometrie in uitwisselingsformaten](https://docs.geostandaarden.nl/g4w/geox/). Deze legt ook de toepassing uit van de verschillende versies van GML. 
 - De handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) geeft uitleg over het ruimtelijk schema van ISO 19107 en beschrijft het Nederlands profiel op GML.
 
-### Rasterdata uitwisselstandaarden
+## Rasterdata uitwisselstandaarden
 
 <aside class="issue">Moeten we  in het raamwerk geostandaarden ook geen aandacht gaan besteden aan uitwisselformaten voor:
 -	Reality data en mesh file formats: Pointclouds, Reality mesh, Photos (zie bijv,. https://communities.bentley.com/products/3d_imaging_and_point_cloud_software/w/wiki/59030/reality-data-formats-best-practices); vangen we dit domein helemaal af met Coverages en geotiff/NETCDF/…
@@ -104,7 +111,7 @@ laatste wordt vooral toegepast in WMS.
 | ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]]                               |                                                                 |                           |
 | CoverageJSON 1.0 **Draft** [[COVJSON]]                                               |                                                                 |                           |
 
-### Sensordata uitwisselstandaarden
+## Sensordata uitwisselstandaarden
 
 Met sensoren worden apparaten bedoeld voor het meten van stoffen in water,
 grondsamenstellingen, grondwater, luchtverontreiniging, etc. Deze sensoren
@@ -120,7 +127,7 @@ de volgende standaarden.
 | W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]]                        |                                                                   |                           |
 | OGC SensorML 2.1 [[SensorML]]                                                 |                                                                   |                           |
 
-### 3D data uitwisselstandaarden
+## 3D data uitwisselstandaarden
 
 *Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data*
 
