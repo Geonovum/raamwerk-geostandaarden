@@ -147,7 +147,7 @@ systeem (juist een federatief stelsel) werkend te krijgen en te houden. Het goed
 beheren en bijhouden hiervan is essentieel en in feite een continu cyclisch
 proces. Meer concreet heeft Geonovum in deze cyclus de volgende taken:
 
--   Verkennen en innoveren;
+    -   Verkennen en innoveren;
     -   Ontwikkelen en beheren van standaarden;
     -   Adviseren over toepassen en implementeren van standaarden.
 
