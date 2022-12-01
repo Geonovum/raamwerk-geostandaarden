@@ -723,7 +723,7 @@ var respecConfig =
     "iso19111":
       {
         title:        "ISO 19111:2019 Geographic information — Referencing by coordinates",
-        href:         "(https://www.iso.org/obp/ui/#iso:std:iso:19111)",
+        href:         "(https://www.iso.org/obp/ui/#iso:std:iso:19111)", 
         status:       "Published",
         publisher:    "ISO",
         date:         "January 2019",
