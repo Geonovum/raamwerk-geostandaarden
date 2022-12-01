@@ -36,7 +36,7 @@ specificaties, die geen van alle direct toepasbaar zijn:
     (op basis van HTML5). Beiden komen vanuit W3C en het is nog onduidelijk
     welke richting het precies op gaat. KML en Collada zijn tevens prima
     geschikt voor 3D visualisatie.
-- 3D Tiles is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook **3D Tiles Styles**, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.
+- 3D Tiles is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.
 - Indexed 3D Scene Layers is ook een goedgekeurde OGC community standaard. Het specificeert een formaat, opgebouwd uit gestandaardiseerde lagen, voor efficiënte 3D visualisatie op het web.
 -   Mapbox Styles is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele. 
 -   OGC API Styles is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
@@ -49,7 +49,7 @@ van de INSPIRE data specificaties is portrayal gedefinieerd volgens SLD en SE.
 In [Visualisatieregels van de BGT](#bgtvoorbeeld) is een voorbeeld opgenomen over hoe visualisatieregels In de
 Nederlandse profielen toegepast zijn voor het dataproduct BGT/IMgeo.
 
-Tabel 16 - Standaarden en specificaties voor visualisatie
+*Tabel 4.1 - Standaarden en specificaties voor visualisatie*
 
 | **Internationale standaarden/specificaties**                                                                | **Europese profielen**                              | **Nederlandse profielen**                  |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|
