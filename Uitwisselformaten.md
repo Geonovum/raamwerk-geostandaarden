@@ -28,8 +28,7 @@ deel uitmaken van het simple feature profile 3.1.1. Voor ISO 19136:2007 (GML
 beschikbaar dat wel voldoet aan de eisen en wensen van Nederland (inclusief
 bogen).
 
-Tabel 3 – Uitwisselformaten standaarden en specificaties met betrekking tot
-vectordata
+*Tabel 6.1 – Uitwisselformaten standaarden en specificaties met betrekking tot vectordata*
 
 | **Internationale standaarden/specificaties**                                                            | **Europese profielen**                                                                | **Nederlandse profielen**    |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------|
@@ -90,8 +89,7 @@ zoals NETCDF en HDF5. Ook GeoTIFF (Geo Tagged Image File Format), waarbij
 georeferentie als tags in de file is opgenomen. Daarnaast webstandaarden als JPEG2000 en PNG. De
 laatste wordt vooral toegepast in WMS.
 
-Tabel 4 - Uitwisselformaten standaarden en specificaties met betrekking tot
-rasterdata
+*Tabel 6.2 - Uitwisselformaten standaarden en specificaties met betrekking tot rasterdata*
 
 | **Internationale standaarden/specificaties**                                         | **Europese profielen**                                          | **Nederlandse profielen** |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------|---------------------------|
@@ -114,8 +112,7 @@ hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te
 kunnen worden. Voor deze uitwisseling van observations en measurements bestaan
 de volgende standaarden.
 
-Tabel 5 – Uitwisselformaten standaarden en specificaties met betrekking tot
-sensordata
+*Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata*
 
 | **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
@@ -125,8 +122,7 @@ sensordata
 
 ### 3D data uitwisselstandaarden
 
-Tabel 5 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D
-data
+*Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data*
 
 | **Internationale standaarden/specificaties**                                   | **Europese profielen** | **Nederlandse profielen** |
 |--------------------------------------------------------------------------------|------------------------|---------------------------|
