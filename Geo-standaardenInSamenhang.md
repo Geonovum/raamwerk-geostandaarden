@@ -88,15 +88,31 @@ Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocument
 
 ### MIM Principes
 
+Om alle informatiemodellen in Nederland nog beter op elkaar aan te laten sluiten is een metamodel ontwikkeld voor informatiemodellering. [MIM](https://docs.geostandaarden.nl/mim/mim/) (Metamodel voor Informatiemodellering) dient als gemeenschappelijk vertrekpunt voor het opstellen van informatiemodellen, zodat informatiemodellen en de daarop gebaseerde standaarden voor gegevensuitwisseling meer compatibel worden. MIM voorziet enerzijds in duidelijke afspraken over het vastleggen van gegevensspecificaties en biedt anderzijds ruimte aan de verschillende niveaus van modellering. De expertgroep Gegevensmanagement van [NORA](https://www.noraonline.nl/wiki/MIM_(Metamodel_voor_informatiemodellen)) heeft voor het thema Gegevensmanagement het MIM gebruikt als voorzet voor een gemeenschappelijke taal waarin we gegevenswoordenboeken, informatiemodellen etc. kunnen beschrijven. 
+
+MIM onderkent 4 niveaus van informatiemodellering.
+
+**Niveau 1 Begrippenmodel**
+Het begrippenmodel bevat de definities van alle gegevens die je voor het uitvoeren van een bepaalde taak gebruikt. Gegevens kunnen afhankelijk van de context waarin ze worden gebruikt, verschillende dingen betekenen. Het begrippenmodel is er om spraakverwarring te voorkomen.
+
+
+**Niveau 2 Conceptueel model**
+In het conceptuele model leggen we alle dingen (concepten) vast die nodig zijn voor de uitvoering van een bepaalde taak. We geven daarbij aan hoe deze dingen zich tot elkaar verhouden en welke eigenschappen van die dingen relevant zijn. Het conceptueel model kan je zien als het vertaalwoordenboek van domeinexperts naar informatie-analisten. Het zorgt ervoor dat ‘de usiness’ en de ICT-specialisten elkaar begrijpen.
+
+**Niveau 3 Gegevensmodel, ook wel logisch model**
+In het gegevensmodel maken we een blauwdruk op basis waarvan je een database kunt inrichten. Begrippen, kenmerken en de onderlinge relaties zijn hierin schematisch weergegeven. Het gegevensmodel zorgt ervoor dat iedereen altijd dezelfde kenmerken vastlegt, dezelfde relaties tussen gegevens kan leggen en deze gegevens ook met behoud van context kan uitwisselen. Ongeacht de database of software die iemand gebruikt.
+Het gegevensmodel beschrijft wat er moet worden vastgelegd, zonder voor te schrijven hoe je dit in de praktijk implementeert. Een gegevensmodel is een hulpmiddel voor ontwerpers, bouwers en beheerders van ICT-voorzieningen.
+
+**Niveau 4 Datamodel, ook wel technisch model**
+Een datamodel kan je beschouwen als de grammatica voor je data. Het beschrijft de structuur en eigenschappen van de technische taal waarin je informatie kan vastleggen en uitwisselen. Het datamodel kan ook afspraken bevatten over de manier waarop je berichten ‘verpakt’, het (internet)protocol en de logistiek van het berichtenverkeer.
+Het datamodel zorgt ervoor dat de gegevens digitaal verwerkt kunnen worden. Het zijn hulpmiddelen voor software-ontwikkelaars.
+
+
+
+ 
 ![MIM](media/MIM.png) 
 
-Wanneer we informatie over bepaalde onderwerpen willen inwinnen, registreren of uitwisselen, dan is het van belang om deze informatie eerst goed te beschrijven. We doen dit zodat het voor eenieder die met de informatie aan de slag gaat helder en eenduidig is
-
-MIM onderkent 4 lagen:
-- [Model van begrippen](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Model_van_begrippen)
-- [Conceptueel Informatiemodel](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Conceptueel_informatiemodel)
-- [Logisch model (ook wel gegevensmodel)](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Logisch_informatie-_of_gegevensmodel)
-- [Datamodel (ook wel Fysiek of Technisch model)](https://www.noraonline.nl/wiki/MIM_conceptueel_framework#Fysiek_of_technisch_gegevens-_of_datamodel) 
+ 
 
 
 ### NGII Principes
