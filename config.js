@@ -380,6 +380,7 @@ var respecConfig =
         publisher:  "Geonovum",
         editors:    ["Linda van den Brink", "Gabriella Wiersma"],
         date:       "4 februari 2022",
+      },
 
     "INSTGVS":
       {
