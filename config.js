@@ -197,6 +197,15 @@ var respecConfig =
         publisher:    "International Organization for Standardization",
         date:         "February 2005",
       },
+      "ISO19119-2008": 
+      {
+        title:        "ISO 19119:2005/Amd 1:2008 Geographic information — Services — Amendment 1: Extensions of the service metadata model",
+        href:         "https://www.iso.org/standard/44268.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "May 2008",
+      },
       "ISO19139":
       {
         title:        "ISO/TS 19139:2007 Geographic information — Metadata — XML schema implementation",
