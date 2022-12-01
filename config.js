@@ -371,7 +371,15 @@ var respecConfig =
         publisher:  "Geonovum",
         editors:    ["Friso Penninga", "Lennard Huisman"],
         date:       "14 maart 2022",
-  },
+    },
+    "HRLFG":
+      {
+        title:      "Geometrie in uitwisselingsformaten",
+        href:       "https://docs.geostandaarden.nl/g4w/geox/#inleiding",
+        status:     "Definitief",
+        publisher:  "Geonovum",
+        editors:    ["Linda van den Brink", "Gabriella Wiersma"],
+        date:       "4 februari 2022",
 
     "INSTGVS":
       {
