@@ -2,7 +2,7 @@
 
 **Geo-informatie is direct gekoppeld aan een locatie op aarde. De wijze waarop die
 koppeling wordt gelegd, wordt beschreven met het coördinaatreferentiesysteem (CRS) 
-waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerdere CRS-en beschikbaar. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van CRS-en.**
+waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerdere CRS-en beschikbaar. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.**
 
 ## Overzicht standaarden voor coördinaatreferentiesystemen
 
@@ -42,7 +42,7 @@ In de onderstaande tabel zijn de standaarden en specificaties benoemd, die van t
 
 # Kwaliteit en CRS-en
 
-CRS-en zelf zijn geen geografische data, de kwaliteit van geografische data valt of staat met het goed vastleggen van het gebruikte CRS. Zonder informatie over het gebruikte CRS zijn coördinaten getallen zonder betekenis, het is namelijk niet duidelijk wat de relatie van de getallen is met de aarde.
+CRS-en zelf zijn geen geografische data, de kwaliteit van geografische data valt of staat met het goed vastleggen van het gebruikte coördinaatreferentiesysteem. Zonder informatie over het gebruikte CRS zijn coördinaten getallen zonder betekenis, het is namelijk niet duidelijk wat de relatie van de getallen is met de aarde.
 
 In de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) worden achtergronden bij CRS-en en diverse aandachtspunten besproken bij het omgaan met CRS-en, zoals:
 

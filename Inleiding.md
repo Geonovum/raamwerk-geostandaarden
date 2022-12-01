@@ -48,8 +48,8 @@ GI-beraad- ingesteld om de regierol van de Minister van Volkshuisvesting en
 Ruimtelijke Ordening (gezeteld in het Ministerie van Binnenlandse Zaken) waar te
 kunnen maken.
 
-Het GI-beraad is een ambtelijk adviescollege ingesteld op 2 juni 2006 en [het
-instellingsbesluit](https://zoek.officielebekendmakingen.nl/stcrt-2006-112-p20-SC75499.html)
+Het GI-beraad is een ambtelijk adviescollege ingesteld op 2 juni 2006 en <a href='https://zoek.officielebekendmakingen.nl/stcrt-2006-112-p20-SC75499.html' target='_blank'>het
+instellingsbesluit</a>
 is in de Staatscourant gepubliceerd. In het GI-beraad zitten vertegenwoordigers
 van het Ministerie van Landbouw, Natuur en Voedselkwaliteit, het Ministerie van
 Economische Zaken, het Ministerie van Binnenlandse Zaken, het Ministerie van
@@ -64,22 +64,22 @@ Minister van Volkshuisvesting en Ruimtelijke Ordening adviseert in de vorm van
 een strategische agenda over de onderwerpen, die de komende jaren aan de orde
 zullen komen op het gebied van de Nederlandse geo-informatie infrastructuur. Het
 GI-beraad heeft het Raamwerk van geo-standaarden vastgesteld als verplichtend
-voor de GI-beraad deelnemers. De [programmaraad van Geonovum](https://www.geonovum.nl/over-geonovum/wie-wij-zijn#Programmaraad) stelt elke nieuwe
+voor de GI-beraad deelnemers. De <a href='https://www.geonovum.nl/over-geonovum/wie-wij-zijn#Programmaraad' target='_blank'>programmaraad van Geonovum</a> stelt elke nieuwe
 versie van het raamwerk vast.
 
 **Basislijst open standaarden College Standaardisatie**
 
 Het **Forum en College Standaardisatie** zijn de instellingen, die de
-Nederlandse overheid adviseren over het gebruik van [open
-standaarden](https://www.forumstandaardisatie.nl/open-standaarden). Deze
+Nederlandse overheid adviseren over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open
+standaarden</a>. Deze
 instellingen voeren het beheer over twee lijsten, namelijk de lijst met open
 standaarden voor ‘pas toe of leg uit’ en een lijst met gangbare open
 standaarden.
 
 Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt
 dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten
-volgen. Een aantal [geo-standaarden uit het Raamwerk staan op de ‘pas toe of leg
-uit’ lijst](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden) van
+volgen. Een aantal <a href='https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden' target='_blank'>geo-standaarden uit het Raamwerk staan op de ‘pas toe of leg
+uit’ lijst</a> van
 het Forum Standaardisatie.
 
 **NEN normcommissie Geo-informatie**
@@ -87,8 +87,8 @@ het Forum Standaardisatie.
 Bij NEN, Stichting Koninklijk Nederlands Normalisatie Instituut, worden
 afspraken vastgelegd in normen en richtlijnen. Dit doen ze in nationale en/of
 internationale normcommissies. Dit zijn zowel Nederlandse, Europese als
-internationale normen. De [normcommissie
-Geo-informatie](https://www.nen.nl/normcommissie-geo-informatie) valt binnen de normalisatiestructuur van NEN onder de Beleidscommissie Bouw. Het
+internationale normen. De <a href='https://www.nen.nl/normcommissie-geo-informatie' target='_blank'>normcommissie
+Geo-informatie</a> valt binnen de normalisatiestructuur van NEN onder de Beleidscommissie Bouw. Het
 werk in deze normsubcommissie is gerelateerd aan nationale-, Europese- en
 mondiale wet- en regelgeving. Dit betekent dat de commissie veel
 (inter)nationale relaties heeft. Op Europees- en mondiaal niveau volgt de
@@ -96,15 +96,15 @@ normcommissie de normontwikkelingen vanuit de CEN- en de ISO-commissies.
 Hieronder vindt u de nationale- (NEN), Europese- (CEN) en mondiale (ISO) normen,
 die in relatie staan tot de normsubcommissie:
 
--   [NEN 3610](https://connect.nen.nl/Standard/Detail/156811?compId=16013&collectionId=0) Basismodel geo-informatie;
--   [CEN/TC 287](https://standards.cencenelec.eu/dyn/www/f?p=205:7:0::::FSP_ORG_ID:6268&cs=1D5368A4F6E101B66AD14AB12AC0FC914) Geographic information;
--   [ISO/TC 211](https://www.iso.org/committee/54904.html), Geographic information/Geomatics.
+- <a href='https://connect.nen.nl/Standard/Detail/156811?compId=16013&collectionId=0' target='_blank'>Basismodel geo-informatie: NEN 3610</a>;
+- <a href='https://standards.cencenelec.eu/dyn/www/f?p=205:7:0::::FSP_ORG_ID:6268&cs=1D5368A4F6E101B66AD14AB12AC0FC914' target='_blank'>Geographic information: CEN/TC 287</a>;
+- <a href='https://www.iso.org/committee/54904.html' target='_blank'>Geographic information/Geomatics: ISO/TC 211</a>.
 
 **Nederlandse Samenwerking Geodetische Infrastructuur (NSGI)**
 
 Het Kadaster, Rijkswaterstaat en de Dienst der Hydrografie van de Koninklijke
-Marine werken samen in de [Nederlandse Samenwerking Geodetische
-Infrastructuur](https://www.nsgi.nl/) (NSGI). Zij zorgen voor het tot stand
+Marine werken samen in de <a href='https://www.nsgi.nl/' target='_blank'>Nederlandse Samenwerking Geodetische
+Infrastructuur</a> (NSGI). Zij zorgen voor het tot stand
 komen, onderhouden en publiceren van elementen van de geodetische infrastructuur
 waarin de afspraken en standaarden voor de coördinaat-referentiesystemen worden
 gemaakt en beheerd.
@@ -118,14 +118,14 @@ modellen. Het is een beschrijving van uitgangspunten voor het inrichten van de
 informatiehuishouding van de Nederlandse overheid. NORA is relevant voor de
 uitvoering van alle publieke taken door publieke en private organisaties.
 
-Dit raamwerk van geo-standaarden is het verdiepingsdocument voor het [NORA thema GEO](https://www.noraonline.nl/wiki/Geo). 
+Dit raamwerk van geo-standaarden is het verdiepingsdocument voor het <a href='https://www.noraonline.nl/wiki/Geo' target='_blank'>NORA thema GEO</a>. 
 
 **INSPIRE Richtlijn**
 
 Sinds 15 mei 2007 is de Europese kaderrichtlijn INSPIRE formeel van kracht. Deze
 richtlijn leidt tot een Europese geo-informatie infrastructuur. De invoering van
-INSPIRE is met een implementatiewet sinds 2009 in de Nederlandse [INSPIRE
-wet](https://wetten.overheid.nl/BWBR0026158/2022-05-01) verankerd. In een
+INSPIRE is met een implementatiewet sinds 2009 in de Nederlandse <a href='https://wetten.overheid.nl/BWBR0026158/2022-05-01' target='_blank'>INSPIRE
+wet</a> verankerd. In een
 notendop verplicht de Europese lidstaten geo-informatie (datasets) over 34
 thema's te voorzien van metadata en de datasets ‘as is’ en Europees
 geharmoniseerd beschikbaar te stellen via netwerkdiensten (zoek-, view- en
@@ -212,11 +212,11 @@ Het raamwerk van geo-standaarden is vergeleken met de vorige versie
 teruggebracht naar uitgebreidere vorm, waarin de samenhang van de
 geo-standaarden centraal staat.
 
-[Hoofdstuk 1](#inleiding) biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geo-standaarden-in-samenhang)
+Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geo-standaarden-in-samenhang)
 beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het document.
 
 Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
-geo-standaarden voor [informatiemodellen](#informatiemodellen-0), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten), [metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
+geo-standaarden voor [informatiemodellen](#informatiemodellen-0), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten), [metadata](#metadata-0) en [coördinaat-referentiesystemen](#coordinaatreferentiesystemen-crs-en). In de hoofdstukken 3 tot en met 8
 zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en evt. uitgevoerde verkenningen aan de orde.
 
-Tot slot, zijn alle normatieve referenties – de verwijzingen naar de officiële standaarden documentatie – opgenomen.
+Tot slot, zijn alle normatieve [referenties](#references) – de verwijzingen naar de officiële standaarden documentatie – opgenomen.
