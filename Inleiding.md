@@ -216,7 +216,7 @@ geo-standaarden centraal staat.
 beschrijft de geo-standaarden in samenhang. Dit is het hoofddoel van het document.
 
 Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de vorige versies van dit raamwerk onderscheiden naar een zestal categorieën:
-geo-standaarden voor [informatiemodellen](#informatiemodellen), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten), [metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
+geo-standaarden voor [informatiemodellen](#informatiemodellen-0), [visualisatie](#visualisatie), [API’s](#application-programming-interfaces), [uitwisselformaten](#uitwisselformaten), [metadata](#metadata) en [coördinaat-referentiesystemen](coördinaat-referentiesystemen). In de hoofdstukken 3 tot en met 8
 zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en evt. uitgevoerde verkenningen aan de orde.
 
 Tot slot, zijn alle normatieve referenties – de verwijzingen naar de officiële standaarden documentatie – opgenomen.
