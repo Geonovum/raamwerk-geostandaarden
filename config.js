@@ -398,6 +398,14 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "2015-04-24",
     }, 
+    "NLAPIS"
+      {
+        title:      "API Strategie Algemeen (Nederlandse API Strategie I)",
+        href:       "https://docs.geostandaarden.nl/api/API-Strategie/",
+        status:     "Vastgesteld",
+        publisher:  "Geonovum",
+        date:       "9 maart 2022",
+    },
     "OGCAPIMAPS":
       {
         title:      "OGC 20-058: OGC API - Maps - Part 1: Core, Version 0.1.0",
