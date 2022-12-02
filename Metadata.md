@@ -25,9 +25,9 @@ meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, 
 
 | **Internationale standaarden/specificaties**                                                                                              | **Europese profielen**                                                                                           | **Nederlandse profielen**                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] | Implementing Rule INSPIRE – Metadata [[INSPIRE-IRMD]] | Nederlands profiel ISO 19115 voor geografie, versie 2.0.1 [[NLISO19115]] |
-| ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]]  | Corrigendum to metadata regulation [[INSPIRE-CIRMD]] | Nederlands profiel ISO 19119 voor services, versie 1.2.1 [[NLISO19119]]  |
-| ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] | Technical Guidelines based on EN ISO 19115 and EN ISO 19119 [[INSPIRE-19115-19119]] |  |
+| ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] | Implementing Rule INSPIRE – Metadata [[inspire-irmd]] | Nederlands profiel ISO 19115 voor geografie, versie 2.0.1 [[NLISO19115]] |
+| ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]]  | Corrigendum to metadata regulation [[inspire-cirmd]] | Nederlands profiel ISO 19119 voor services, versie 1.2.1 [[NLISO19119]]  |
+| ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] | Technical Guidelines based on EN ISO 19115 and EN ISO 19119 [[inspire-19115-19119]] |  |
 | ISO 19119:2005, Geographic information – Services [[ISO19119-2005]] |  |  |
 | ISO 19119:2005/Amd 1:2008, Extensions of the service metadata model [[ISO19119-2008]] |  |  |
 | ISO/TS 19139:2007, Geographic information - Metadata – XML Schema Implementation [[ISO19139]]  |  |  |
@@ -40,35 +40,20 @@ meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, 
 
 **Handleiding Metadatakwaliteit**
 
-Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding metadatakwaliteit](https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf). Met behulp van de handleiding kan je aan de hand van 26
-elementen die in de metadata-standaarden zijn beschreven, de kwaliteit van je
-metadata beoordelen.
+Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding metadatakwaliteit](https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf). Met behulp van de handleiding kan aan de hand van 26 elementen, die in de metadata-standaarden zijn beschreven, de kwaliteit van metadata worden beoordeeld.
 
 
 **Validatie**
 
-Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators
-controleren de correcte toepassing van het Nederlands metadata profiel voor
-datasets of voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadat van repsectivelijk datasets en services conform het Nederlands profiel. 
-Voor metadata van datasets of services, die voor
-INSPIRE zijn aangemerkt, gelden er specifiekere vereisten. Gebruik daarvoor
-naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspire.ec.europa.eu/validator/home/index.html) om die metadata
-te valideren.
+Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators controleren de correcte toepassing van het Nederlands metadata profiel voor datasets of voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadata van respectivelijk datasets en services conform het Nederlands profiel. 
+
+Voor metadata van datasets of services, die voor INSPIRE zijn aangemerkt, gelden er specifiekere vereisten. Gebruik daarvoor
+naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspire.ec.europa.eu/validator/home/index.html) om metadata te valideren.
 
 
 ## Verkenning
 
-Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil.
-Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden.
-
-In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer
-samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op
-generieke standaarden en het leggen van relaties tussen data, modellen,
-begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van
-data-aanbieder en data-gebruiker is een aandachtsgebied. Daarnaast valt op dat
-vanuit beleid meer samenhang in sturing wordt verwacht. Op basis van deze
-verkenning wordt in een volgende stap gekeken in hoeverre het nationaal
-georegister voldoet aan dit beeld om op basis daarvan een handelingsperspectief
+Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op generieke standaarden en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en data-gebruiker is een aandachtsgebied. Daarnaast valt op dat vanuit beleid meer samenhang in sturing wordt verwacht. Op basis van deze verkenning wordt in een volgende stap gekeken in hoeverre het nationaal georegister voldoet aan dit beeld om op basis daarvan een handelingsperspectief
 op te stellen.
 
 
