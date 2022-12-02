@@ -119,10 +119,14 @@ Handreikingen voor implementatie:
 ## Kwaliteit van API’s
 
 **API Strategie overheid (beleid) en REST Design Rules**
-pm
+In de Nederlandse API strategie en Rest Design Rules worden diverse aanbevelingen gedaaan voor de kwaliteit van API's. 
 
-**Afspraken Quality of Services**
-Om de kwaliteit van een service uit te drukken zijn door INSPIRE de drie typen kwaliteitsnormen voor services gedefinieerd (tabel 5.8).
+De Nederlandse API Strategie [[NLAPIS]] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen zijn aangemeld voor plaatsing op de ‘Pas toe of leg uit’-lijst van het Forum Standaardisatie. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. 
+
+De [Rest Design Rules](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules) is een lijst afspraken, die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is wel zo prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen. 
+
+**Afspraken over quality of service**
+Het is van belang om als service provider afspraken te maken met de service afnemers over de dienstverlening. Om de kwaliteit van een service uit te drukken zijn door INSPIRE bijvoorbeeld de drie typen kwaliteitsnormen voor services gedefinieerd (tabel 5.8).
 
 *Tabel 5.8 – Voorbeeld van kwaliteitnormen voor services*
 
@@ -131,8 +135,6 @@ Om de kwaliteit van een service uit te drukken zijn door INSPIRE de drie typen k
 | Reliability    | Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem mag teruggeven in een afgesproken tijd.| Bijvoorbeeld `10 \*` een gefaalde request voor een geo-service per week.|
 | Beschikbaarheid| Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime).| Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn.|
 | Performance / response tijd| De performance uitgedrukt in response tijd.| Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden.|
-
-Het is van belang om als service provider hier afspraken over te maken met de service afnemers.
 
 **Validators**
 
