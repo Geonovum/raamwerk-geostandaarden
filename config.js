@@ -296,14 +296,6 @@ var respecConfig =
         //editors:    ["M. Müller"],
         date:       "2006-07-21",
     },
-    "iso19117":
-      {
-        title:      "Geographic Information - Portrayal (ISO 19117)",
-        href:       "https://www.iso.org/standard/46226.html",
-        status:     "Published",
-        publisher:  "ISO",
-        date:       "2012-12",
-    },   
     "WMC11":
       {
         title:      "OpenGIS 05-005: Web Map Context Documents Implementation Specification, version 1.1",
