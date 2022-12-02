@@ -737,6 +737,22 @@ var respecConfig =
         publisher:    "ISO",
         date:         "January 2019",
     },
+    "iso19117":
+      {
+        title:        "ISO 19117:2012 Geographic Information - Portrayal",
+        href:         "https://www.iso.org/standard/46226.html", 
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "December 2012",
+    },
+    "iso19118":
+      {
+        title:        "ISO 19118:2011 Geographic information — Encoding",
+        href:         "https://www.iso.org/standard/44212.html", 
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "Oktober 2011",
+    },
     "iso19131": 
       {
         title:        "ISO 19131:2022 Geographic information — Data product specifications",
@@ -744,6 +760,14 @@ var respecConfig =
         status:       "Published",
         publisher:    "ISO",
         date:         "November 2022",
+    },
+    "iso19136": 
+      {
+        title:        "ISO 19136-1:2020 Geographic information — Geography Markup Language (GML) — Part 1: Fundamentals",
+        href:         "https://www.iso.org/standard/75676.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "January 2020", 
     },
     "isotc19127": 
       {
@@ -753,6 +777,14 @@ var respecConfig =
         publisher:    "ISO",
         date:         "June 2005",
     },
+    "iso6709": 
+      {
+        title:        "ISO 6709:2022 Standard representation of geographic point location by coordinates",
+        href:         "https://www.iso.org/standard/75147.html",
+        status:       "Published",
+        publisher:    "ISO",
+        date:         "September 2022",
+    }, 
       "epsg": 
       {
         title:        "EPSG Geodetic Parameter Dataset",
