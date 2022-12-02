@@ -398,8 +398,8 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "2015-04-24",
     }, 
-    "NLAPIS"
-      {
+    "NLAPIS":
+     {
         title:      "API Strategie Algemeen (Nederlandse API Strategie I)",
         href:       "https://docs.geostandaarden.nl/api/API-Strategie/",
         status:     "Vastgesteld",
