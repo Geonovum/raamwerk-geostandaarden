@@ -55,7 +55,7 @@ Nederlandse profielen toegepast zijn voor het dataproduct BGT/IMgeo.
 
 | **Internationale standaarden/specificaties**                                                                | **Europese profielen**                              | **Nederlandse profielen**                  |
 |-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|
-| ISO 19117 Geographic Information – Portrayal [[ISO19117]] | Visualisatieregels voor INSPIRE data specificaties | Visualisatieregels voor informatiemodellen |
+| ISO 19117 Geographic Information – Portrayal [[iso19117]] | Visualisatieregels voor INSPIRE data specificaties | Visualisatieregels voor informatiemodellen |
 | OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 [[SLD11]]  | |
 | OGC Symbology Encoding Implementation Specification, version 1.1.0 [[SE11]]  |  |  |
 | OGC Web Map Context Documents Implementation Specification, version 1.1 [[WMC11]]  |  |
