@@ -39,16 +39,16 @@ bogen). Voor deze uitwisseling van vectordata bestaan de volgende standaarden (t
 
 | **Internationale standaarden/specificaties**                                                            | **Europese profielen**                                                                | **Nederlandse profielen**    |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------|
-| ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]]                                    | INSPIRE Guidelines for the encoding of spatial data [[INSGEN]]                        |                              |
-| OGC Geography Markup Language (GML) Encoding Specification, version 3.1.1. [[GML31]]                    |                                                                                       |                              |
-| OGC Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) [[iso-19136-2007]]    |                                                                                       |                              |
-| OGC Geography Markup Language (GML) Encoding standard, version 3.3  [[GML33]]                           |                                                                                       |                              |
-| Simple Features profile (OGC 10-100r3, version 2.0) op ISO 19136:2007 (GML 3.2.1)  [[GMLSF]]            |                                                                                       |                              |
-| OGC GeoPackage Encoding Standard, version 1.3.1 [[GeoPackage]]                                          | GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]]   |                              |
-| The GeoJSON Format [[rfc7946]]                                                                          |                                                                                       |                              |
-| OGC JSON Features and Geometries **draft** [[JSON-FG]]                                                  |                                                                                       |                              |
-| HTML5 [[html5]]                                                                                         |                                                                                       |                              |
-| Resource Description Framework (RDF): Concepts and Abstract Syntax. [[rdf11-concepts]]                  |                                                                                       |                              |
+| ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]]  | INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] |
+| OGC Geography Markup Language (GML) Encoding Specification, version 3.1.1. [[GML31]]  |  |  |
+| OGC Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) [[iso-19136-2007]]  |  |  |
+| OGC Geography Markup Language (GML) Encoding standard, version 3.3  [[GML33]]  |  |   |
+| Simple Features profile (OGC 10-100r3, version 2.0) op ISO 19136:2007 (GML 3.2.1)  [[GMLSF]]  |  |  |
+| OGC GeoPackage Encoding Standard, version 1.3.1 [[GeoPackage]]  | GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]] |  |
+| The GeoJSON Format [[rfc7946]] |  |  |
+| OGC JSON Features and Geometries **draft** [[JSON-FG]]  |  |  |
+| HTML5 [[html5]] |  |                              |
+| Resource Description Framework (RDF): Concepts and Abstract Syntax. [[rdf11-concepts]]  |  |    |
 
 ## Rasterdata uitwisselstandaarden
 
@@ -96,7 +96,7 @@ laatste wordt vooral toegepast in WMS.
 
 | **Internationale standaarden/specificaties**                                         | **Europese profielen**                                          | **Nederlandse profielen** |
 |--------------------------------------------------------------------------------------|-----------------------------------------------------------------|---------------------------|
-| OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. [[NETCDF]] | INSPIRE Guidelines for the encoding of spatial data [[INSGEN]]  |                           |
+| OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. [[NETCDF]] | INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]]  |                           |
 | Hierarchical Data Format 1.0 [[HDF5]]                                                |                                                                 |                           |
 | HDF-EOS5 Data Model, File Format and Library (v1.1)        [[HDFEOS]]                |                                                                 |                           |
 | OGC GeoTIFF Standard, version 1.1 [[GeoTIFF]]                                        |                                                                 |                           |
@@ -119,7 +119,7 @@ de volgende standaarden (tabel 6.3).
 
 | **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
-| OGC Observations and Measurements version (ISO 19156) 3.0 **goedgekeurd, nog niet gepubliceerd** [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[INSGEN]]| Informatiemodel Metingen [[IMMetingen]] |
+| OGC Observations and Measurements version (ISO 19156) 3.0 **goedgekeurd, nog niet gepubliceerd** [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[inspire-gen]]| Informatiemodel Metingen [[IMMetingen]] |
 | W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]]                        |                                                                   |                           |
 | OGC SensorML 2.1 [[SensorML]]                                                 |                                                                   |                           |
 
