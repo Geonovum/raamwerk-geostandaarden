@@ -121,10 +121,10 @@ Handreikingen voor implementatie:
 **API Strategie overheid (beleid) en REST Design Rules**
 pm
 
-**Quality of Services**  
-Om de kwaliteit van een service uit te drukken zijn door INSPIRE de volgende kwaliteitsnromen voor services gedefinieerd (tabel 5.8).
+**Afspraken Quality of Services**
+Om de kwaliteit van een service uit te drukken zijn door INSPIRE de drie typen kwaliteitsnormen voor services gedefinieerd (tabel 5.8).
 
-*Tabel 5.8 – Kwaliteistnormen voor INSPIRE services*
+*Tabel 5.8 – Voorbeeld van kwaliteitnormen voor services*
 
 | Kwaliteitsnorm | Uitleg | Voorbeeld |
 |----------------|--------|-----------|
@@ -132,7 +132,7 @@ Om de kwaliteit van een service uit te drukken zijn door INSPIRE de volgende kwa
 | Beschikbaarheid| Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime).| Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn.|
 | Performance / response tijd| De performance uitgedrukt in response tijd.| Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden.|
 
-Het is van belang om als service provider hier afspraken over te maken met de afnemers.
+Het is van belang om als service provider hier afspraken over te maken met de service afnemers.
 
 **Validators**
 
