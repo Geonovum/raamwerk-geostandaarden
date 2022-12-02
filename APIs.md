@@ -9,11 +9,11 @@ functionaliteiten.**
 
 ## Transitie naar nieuwe generatie API's
 
-De internationale standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. Deze standaardenorganisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog services genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, i.e. REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
+De internationale standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. Deze standaardistaie organisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
 
-Het OGC is voornemens de oude generatie services langzaam uit te faseren. De nieuwe API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie services. Hiervoor is software beschikbaar.
+Het OGC is voornemens de oude generatie 'services' standaarden langzaam uit te faseren. De nieuwe OGC API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe OGC API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
 
-In onderstaand overzicht zijn de nieuwe generatie API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling zijn. Dit is bij elke standaard duidelijk aangegeven.
+In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling of **draft** zijn. Dit is bij elke standaard aangegeven.
 
 ## Overzicht geo-standaarden API’s
 
@@ -49,14 +49,14 @@ In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderschei
 | **Internationale standaarden/specificaties**                                               | **Europese profielen**                                                                | **Nederlandse profielen**                                |
 |--------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|----------------------------------------------------------|
 | Web Feature Service (WFS) Implementation Specification, version 1.1.3 [[WFS11]]            | Technical Guidance for the implementation of Inspire Download Services. [[INSTGDS]]   | Nederlands WFS Profiel 1.0 op OGC WFS 1.1.0 [[NLWFS]]    | 
-| ISO 19142, Geographic information - Web Feature Service (= WFS version 2.0) [[iso-19142-2010]], [[WFS]] |                                                                          |                                                          |
-| OGC Filter Encoding 2.0 Encoding Standard - With Corrigendum [[FE20]]                      |                                                                                       |                                                          |
-| ISO 19143, Geographic information – Filter encoding [[iso-19143-2010]]                     |                                                                                       |                                                          |
-| OGC API – Features Part 1 Core [[OAPIF1]]                                                  | OGC API – Features as an INSPIRE download service [[INSGPOAPIF]]                      | API Design Rules Geomodule **Draft** [[adr-mod-geo]]     |
-| OGC API – Features Part 2 CRS by reference [[OAPIF2]]                                      |                                                                                       | API Design Rules Geomodule **Draft** [[adr-mod-geo]]     |
-| OGC API – Features Part 3 Filtering **Draft** [[OAPIF3]]                                   |                                                                                       |                                                          |
-| OGC API – Features Part 4 Create Replace Update and Delete **Draft** [[OAPIF4]]            |                                                                                       |                                                          |
-| ATOM [[rfc4287]]                                                                           |                                                                                       |                                                          |
+| ISO 19142, Geographic information - Web Feature Service (= WFS version 2.0) [[iso-19142-2010]], [[WFS]] |  |  |
+| OGC Filter Encoding 2.0 Encoding Standard - With Corrigendum [[FE20]]  |  |  |
+| ISO 19143, Geographic information – Filter encoding [[iso-19143-2010]]  |  |   |
+| OGC API – Features Part 1 Core [[OAPIF1]]  | OGC API – Features as an INSPIRE download service [[INSGPOAPIF]]  | API Design Rules Geomodule **Draft** [[adr-mod-geo]]     |
+| OGC API – Features Part 2 CRS by reference [[OAPIF2]]  |  | API Design Rules Geomodule **Draft** [[adr-mod-geo]]  |
+| OGC API – Features Part 3 Filtering **Draft** [[OAPIF3]]  |  |                                                          |
+| OGC API – Features Part 4 Create Replace Update and Delete **Draft** [[OAPIF4]]  |  |  |
+| ATOM [[rfc4287]]  |  |   |
 
 ## Rasterdata API's
 
@@ -64,8 +64,8 @@ In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderschei
 
 | **Internationale standaarden/specificaties**            | **Europese profielen**                                                                                                     | **Nederlandse profielen**           |
 |---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| OGC Web Coverage Service (WCS), version 2.1 [[WCS21]]   | Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS). [[INSTGDSWCS]]   | Hetzelfde als het Europese profiel. |
-| OGC API - Coverages - Part 1: Core, version 0.0.6 **Draft** [[OAPIC]] |                                                                                                                        |                                     |
+| OGC Web Coverage Service (WCS), version 2.1 [[WCS21]] | Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS). [[INSTGDSWCS]] | Hetzelfde als het Europese profiel |
+| OGC API - Coverages - Part 1: Core, version 0.0.6 **Draft** [[OAPIC]] |  |  |
 
 ## Sensordata API's 
 
@@ -74,9 +74,9 @@ In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderschei
 | **Internationale standaarden/specificaties**                            | **Europese profielen**                                                                                                                        | **Nederlandse profielen**            |
 |-------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
 | OGC Sensor Observation Service Interface Standard version 2.0 [[SOS]]   | Technical Guidance for implementing download services using the OGC Sensor Observation Service and ISO 19143 Filter Encoding [[INSTGDSSOS]]   | Hetzelfde als het Europese profiel.  |
-| OGC SensorThings API part 1 Sensing, version 1.1 [[STAS]]               | OGC SensorThings API as an INSPIRE download service (good practice) [[INSGPSTA]]                                                              |                                      |
-| OGC SensorThings API Part 2 Tasking Core, version 1.0 [[STAT]]          |                                                                                                                                               |                                      |
-| OGC API - Environmental Data Retrieval Standard, version 1.0.1 [[EDR]]  |                                                                                                                                               |                                      |
+| OGC SensorThings API part 1 Sensing, version 1.1 [[STAS]] | OGC SensorThings API as an INSPIRE download service (good practice) [[INSGPSTA]]  |  |
+| OGC SensorThings API Part 2 Tasking Core, version 1.0 [[STAT]] |  |  |
+| OGC API - Environmental Data Retrieval Standard, version 1.0.1 [[EDR]]  |  |  |
 
 ## Metadata API's 
 
@@ -84,9 +84,9 @@ In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderschei
 
 | **Internationale standaarden/specificaties**                                                                          | **Europese profielen**                                                                  | **Nederlandse profielen**           |
 |-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|-------------------------------------|
-| OGC Catalogue Service for the Web (CSW) Implementation Specification, version 2.0.2 [[CSW]]                           | Technical Guidance for the implementation of Inspire Discovery Services. [[INSTGDiS]]   | Hetzelfde als het Europese profiel. |
-| CSW2 AP ISO, Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, [[CSWISOAP]]   |                                                                                         |                                     |
-| OGC API - Records - Part 1: Core **Draft** [[OAPIRECORDS1]]                                                                 |                                                                                         |                                     |
+| OGC Catalogue Service for the Web (CSW) Implementation Specification, version 2.0.2 [[CSW]]  | Technical Guidance for the implementation of Inspire Discovery Services. [[INSTGDiS]]   | Hetzelfde als het Europese profiel |
+| CSW2 AP ISO, Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, [[CSWISOAP]]  |  |  |
+| OGC API - Records - Part 1: Core **Draft** [[OAPIRECORDS1]]  |  |  |
 
 ## Map tile APIs
 
@@ -94,9 +94,9 @@ In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderschei
 
 | **Internationale standaarden/specificaties**                          | **Europese profielen**                                                          | **Nederlandse profielen**            |
 |-----------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------|
-| Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]]   | Technical Guidance for the implementation of Inspire View Service [[INSTGVS]]   | Hetzelfde als het Europese profiel.  |
-| OGC API - Tiles - Part 1: Core [[OAPITILES1]]|                                                                   |                                      |
-| OGC 3D Tiles 1.0 [[3DTILES]]                                          |                                                                                 |                                      |
+| Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]]   | Technical Guidance for the implementation of Inspire View Service [[INSTGVS]]   | Hetzelfde als het Europese profiel | 
+| OGC API - Tiles - Part 1: Core [[OAPITILES1]] |  |  |
+| OGC 3D Tiles 1.0 [[3DTILES]] |  |  |
 
 Handreikingen voor implementatie:
 -   [Praktijkrichtlijn Vector Tiling (2021)](https://docs.geostandaarden.nl/serv/vt/)
@@ -108,8 +108,8 @@ Handreikingen voor implementatie:
 
 | **Internationale standaarden/specificaties**                                        | **Europese profielen** | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------------|------------------------|---------------------------|
-| GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]]             |                        |                           |
-| GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GEOSPARQL11]] |                        |                           |
+| GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]]  |  |  |
+| GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GEOSPARQL11]] |  |  |
 
 Handreikingen voor implementatie: 
 - NEN 3610 - Linked Data [[NLDP]]
@@ -118,11 +118,13 @@ Handreikingen voor implementatie:
  
 ## Kwaliteit van API’s
 
-**API Strategie overheid (beleid) en REST Design Rules (standaard PTOLU)**
+**API Strategie overheid (beleid) en REST Design Rules**
+pm
 
-De kwaliteit van services kan op verschillende manieren worden uitgedrukt. Om de
-kwaliteit van een service uit te drukken zijn door INSPIRE de volgende
-gedefinieerd.
+**Quality of Services**  
+Om de kwaliteit van een service uit te drukken zijn door INSPIRE de volgende kwaliteitsnromen voor services gedefinieerd (tabel 5.8).
+
+*Tabel 5.8 – Kwaliteistnormen voor INSPIRE services*
 
 | Kwaliteitsnorm | Uitleg | Voorbeeld |
 |----------------|--------|-----------|
@@ -130,14 +132,9 @@ gedefinieerd.
 | Beschikbaarheid| Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime).| Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn.|
 | Performance / response tijd| De performance uitgedrukt in response tijd.| Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden.|
 
-Het is van belang om als service provider hier afspraken over te maken met de
-afnemers.
+Het is van belang om als service provider hier afspraken over te maken met de afnemers.
 
-Deze kwaliteit komt terug in de conformiteittoetsing uit 4.16.
+**Validators**
 
-Voor implementatie ondersteuning van services zijn de volgende hulpmiddelen
-ingericht:
+Voor het valideren van services (WMS en WFS) zijn [validators](https://validatie.geostandaarden.nl/) beschikbaar. Met de ETF validator kan de kwaliteit van de WMS en WFS voor het grootste deel getoetst worden.
 
--**Validator**. Voor het valideren van WMS en WFS zijn validators beschikbaar. Deze zijn te
-    vinden op http://www.geonovum.nl/wegwijzer/validatie. Met de ETF validator kan de kwaliteit van de services zoals in 4.14 benoemd voor het grootste deel getoetst worden.
-- **Conformiteittoetsing**. Met een conformiteittoets controleert u of standaarden technisch correct zijn toegepast. Voor de toetsen zie: http://www.geonovum.nl/wegwijzer/validatie. 
