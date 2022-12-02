@@ -657,11 +657,11 @@ var respecConfig =
     },
     "NEN3610": 
       {  
-        title: "NEN 3610:2011 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
-        href: "https://www.nen.nl/NEN-Shop/Norm/NEN-36102011-nl.htm",
-        status: "Definitief",
-        publisher: "NEN",
-        date: "2011-03-01",
+        title:      "NEN 3610:2022 nl - BBasismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+        href:       "https://www.nen.nl/nen-3610-2022-nl-296137",
+        status:     "Definitief",
+        publisher:  "NEN",
+        date:       "1 jun. 2022",
     },
     "ISO19107-2003":
       {
