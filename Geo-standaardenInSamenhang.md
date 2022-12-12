@@ -140,7 +140,7 @@ In de laag **System of Engagement** (SoE) boven de SoI worden de informatieprodu
 Om een echte ontkoppeling tussen data en applicaties te bewerkstelligen vind alle 'transport' van data en informatie plaats via **API's** - Application Programming Interface's. Er is een [API-Strategie voor de Nederlandse Overheid](https://docs.geostandaarden.nl/api/API-Strategie/).
 
 ## Het Raamwerk Geo-standaarden geplot op het pacelayermodel
-In deze paragraaf worden de verschillende categorien geo-standaarden 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde categorie geo-standaarden een rol speelt. In de paragrafen in dit hoofdstuk wordt een korte toelichting gegeven van de geo-standaarden en het waarom ze in één of meer lagen van het pacelayermodel zijn opgenomen. 
+In deze paragraaf worden de verschillende categorieën geo-standaarden 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde categorie geo-standaarden een rol speelt. In de paragrafen in dit hoofdstuk wordt een korte toelichting gegeven van de geo-standaarden en waarom ze in één of meer lagen van het pacelayermodel zijn opgenomen. 
 
 ### Gebruikers
 De gebruikers zijn de belangrijkste onderdelen van de architectuurplaat. Immers daar doen we het allemaal voor. De architectuur en alle onderdelen zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz.. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
@@ -154,10 +154,10 @@ Geplot op de 3 lagen zitten in het SoR de 'producenten' van data. **Gebruikers i
 
 In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. **Gebruikers in het SoI** zijn data-analisten, data-scientists, leveranciers, enz..  
 
-Samengevat: Gebruikers komen in alle 3 lagen van het paceayer model voor, maar elk van de 3 lagen kent zijn eigen speiciefe gebruikers. 
+Samengevat: Gebruikers komen in alle 3 lagen van het paceayer model voor, maar elk van de 3 lagen kent zijn eigen specifieke gebruikers. 
 
 ### Informatiemodellen
-Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het [Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. [MIM](#mim-principes) onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel infoematiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
+Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het [Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. [MIM](#mim-principes) onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel informatiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
 
 ![Informatiemodellen](media/pacelayers_informatiemodel.png)
 
@@ -180,18 +180,18 @@ Data is een representatie van observaties, objecten of andere entiteiten uit de 
 
 ![Data](media/pacelayers_data.png)
 
-Data wordt gegenereerd in het SoR, data is het 'erts' van de informatieproducten. Data gaat veel langer mee dan applicaties, en moet dus ook los van applicaties kunnen bestaan. Daarom is een open data principe ook zo belangrijk. Aan data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren. Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. dat noemen we doelbinding. 
+Data wordt gegenereerd in het SoR, data is het 'erts' van de informatieproducten. Data gaat veel langer mee dan applicaties, en moet dus ook los van applicaties kunnen bestaan. Daarom is een open data principe ook zo belangrijk. Aan data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren. Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. Dat noemen we doelbinding. 
 
 Data wordt in het SoI bewerkt tot informatieproducten. Typische bewerkingen zijn: het maken van een selectie, agrregatie, combinatie of een berekening. De informatieproducten beantwoorden een vraag van een afnemer, dat noemen we vraagestuurd werken. Data kan statische data zijn (eenmalig ingewonnen en eenmalig vastgelegd en (bijna) nooit meer gewijzigd). Data kan transactionele data zijn (data die wordt vastgelegd als er 'iets' gebeurt, of gedaan moet worden met een object), Data kan (near)realtime zijn als het bijvoorbeeld door een sensor wordt ingewonnen en direct beschikbaar wordt gesteld. 
 
 ### Metadata
-Metadata zijn data, die de karakteristieken van data beschrijven. Het zijn dus eigenlijk data over data. De metadata bij een bepaald document (de data) kunnen bijvoorbeeld zijn: de auteur, de datum van schrijven, de uitgever, het aantal pagina's en de taal waarin de data zijn opgesteld. De metadata helpt mens en computer bij het vinden van de juiste data en bij het juist interpreteren van het document. Er is een directe relatie met [FAIR](#fair-principes), en met [Vindbaarheid] (#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
+Metadata zijn data, die de karakteristieken van data beschrijven. Het zijn dus eigenlijk data over data. De metadata bij een bepaald document (de data) kunnen bijvoorbeeld zijn: de auteur, de datum van schrijven, de uitgever, het aantal pagina's en de taal waarin de data zijn opgesteld. De metadata helpt mens en computer bij het vinden van de juiste data en bij het juist interpreteren van het document. Er is een directe relatie met [FAIR](#fair-principes), en met [Vindbaarheid](#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
 
 ![Metadata](media/pacelayers_metadata.png)
 
 Metadata beschrijft ook 'wat' er met data is gebeurd om informatieproduct te worden: Hoe is de data ingewonnen, hoe is de data geregistreerd, heeft er een dataconversie plaatsgevonden, welke bewerkingen zijn er met de data gedaan, enz.. 
 
-en belangrijk: _de één zijn data is de ander zijn meta-data en vice versa_
+En belangrijk: _de één zijn data is de ander zijn meta-data en vice versa._
 
 Lees meer over de geo-standaarden voor [Metadata](#metadata-0) in dit Raamwerk.
 
