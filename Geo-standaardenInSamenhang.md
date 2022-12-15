@@ -165,6 +165,13 @@ In de 3 lagen van het pacelayer model zal het van onder naar boven eerst over da
 
 Lees meer over de geo-standaarden voor [Informatiemodellen](#informatiemodellen-0) in dit Raamwerk.
 
+### Uitwisselformaten
+Uitwisselformaten zijn gebaseerd op de Informatiemodellen en zorgen ervoor dat data uitgewisseld kan worden tussen de verschillende systemen onderling. In de architectuurplaten bevinden de uitwisselformaten zich tussen de verschillende lagen. Uitwisselformaten zullen door [API's](#application-programming-interfaces) worden gebruikt om te bepalen wat er dor die API's wordt geleverd. 
+
+![Uitwisselformaten](media/pacelayers_uitwisselformaten.png)
+
+Lees meer over de geo-standaarden voor [Uitwisselformaten](#uitwisselformaten) in dit Raamwerk.
+
 ### Coördinaatreferentiesystemen
 
 Coördinaatreferentiesystemen (CRS) komen in alle 3 de pacelayers voor. Er wordt data geregistreerd in een bepaald CRS, bijvoorbeeld het [rijksdriehoekstelsel (RD)](https://www.nsgi.nl/rijksdriehoeksmeting). Data wordt getransformeerd naar een CRS, bijvoorbeeld [WGS 84](https://docs.geostandaarden.nl/crs/crs/#wgs-84) of [ETRS89](https://docs.geostandaarden.nl/crs/crs/#europese-crs-en-etrs89-en-evrs). Data wordt geserveerd in een bepaald CRS. Dát er in verschillende CRS'en wordt geregistreerd is helemaal niet erg, zolang er maar wel gebruik gemaakt wordt van een standaard omrekening. 
@@ -174,13 +181,12 @@ Coördinaatreferentiesystemen (CRS) komen in alle 3 de pacelayers voor. Er wordt
 Lees meer over de geo-standaarden voor [Coördinaatreferentiesystemen](#coördinaat-referentiesystemen) in dit Raamwerk.
 
 
-
 ### Data
 Data is een representatie van observaties, objecten of andere entiteiten uit de werkelijkheid. Data refereert naar iets (een object) dat is verzameld, geobserveerd of gemeten. Zodra data wordt bewerkt (gekoppeld met andere data, geaggregeerd, gefilterd, berekend, enz.) ontstaat Informatie. En Informatie wordt door de mens gebruikt als een basis om beslissingen te nemen.
 
 ![Data](media/pacelayers_data.png)
 
-Data wordt gegenereerd in het SoR, data is het 'erts' van de informatieproducten. Data gaat veel langer mee dan applicaties, en moet dus ook los van applicaties kunnen bestaan. Daarom is een open data principe ook zo belangrijk. Aan data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren. Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. Dat noemen we doelbinding. 
+Data wordt gegenereerd in het SoR, data is het 'erts' van de informatieproducten. Data gaat veel langer mee dan applicaties, en moet dus ook los van applicaties kunnen bestaan. Daarom is een open data principe ook zo belangrijk. Aan data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren. 
 
 Data wordt in het SoI bewerkt tot informatieproducten. Typische bewerkingen zijn: het maken van een selectie, agrregatie, combinatie of een berekening. De informatieproducten beantwoorden een vraag van een afnemer, dat noemen we vraagestuurd werken. Data kan statische data zijn (eenmalig ingewonnen en eenmalig vastgelegd en (bijna) nooit meer gewijzigd). Data kan transactionele data zijn (data die wordt vastgelegd als er 'iets' gebeurt, of gedaan moet worden met een object), Data kan (near)realtime zijn als het bijvoorbeeld door een sensor wordt ingewonnen en direct beschikbaar wordt gesteld. 
 
