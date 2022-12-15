@@ -6,7 +6,7 @@ te kiezen. In combinatie kunnen de geo-standaarden worden gebruikt om 'onder Arc
 In dit hoofdstuk is gekeken naar de principes zoals die gelden in onze (Nederlandse) situatie. Er is gekeken naar internationale standaarden, en de architectuurprincipes die van  [NORA](#nora-nederlandse-overheids-referentie-architectuur), [FAIR](#fair-principes), [DAMA](#dama-dmbok-principes) en [NGII](#ngii-principes).
 
 Belangrijk is de constatering dat er een zekere overlap zit in de verschillende sets aan principes.
-Zo komen **Vindbaarheid** en **Toegankelijkheid** van data en informatie producten voor in NORA, FAIR en DAMA. FAIR legt daarnaast de nadruk op Interoperabel en Herbruikbaarheid van data, terwijl DAMA juist weer veel zegt over het borgen van de datakwaliteit.
+Zo komen **Vindbaarheid** en **Toegankelijkheid** van data- en informatie-producten voor in NORA, FAIR en DAMA. FAIR legt daarnaast de nadruk op Interoperabel en Herbruikbaarheid van data, terwijl DAMA juist weer veel zegt over het borgen van de datakwaliteit.
 Bij elkaar opgeteld vormen de verschillende Architectuurprincipes een mooi dekkende set aan principes.
 
 ## Internationale standaarden
@@ -127,13 +127,19 @@ neemt steeds verder toe.
 
 ## Het 3-laags pacelayer model
 
-Een model waarin de bovenstaande principes worden gebruikt is het 3-laags pacelayermodel van Gartner. Dit model ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records (SoR), het System of Integration (SoI) en het System of Engagement (SoE). 
+Het 3-laags pacelayermodel waarin de bovenstaande principes worden gebruikt is gebaseerd op het 3-laags pacelayermodel van Gartner, het [5-lagenmodel van Common Ground](https://componentencatalogus.commonground.nl/5-lagen-model) en het 5-lagenmodel van [NORA](https://www.noraonline.nl/wiki/Vijflaagsmodel). 
+
+Het 3-lagenmodel (gebaseerd op het Gartnermodel) ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records (SoR), het System of Integration (SoI) en het System of Engagement (SoE).
+
+De NORA-Applicatielaag past op het SoR en de SoE, de NORA-Informatielaag past op de SOR en de SoI. Als we kijken naar het common ground 5-lagenmodel, is de Interactielaag zowel in de SoR (voor de bijhoudingvan de data) als in de SoE (voor het gebruiken van de informatie) te vinden. De Integratielaag is het SoI, de Datalaag zit in het SoR, de Proceslaag zit in het SoI, en de Servicelaag zijn de API's die de communicatie tussen SoR, SoI en SoE verzorgen. 
+
+**NB: Het huidige Model van Gartner spreekt niet meer over System of Integration en System of Engagema, maar heeft het behalve over het System of Records over Systems of Differentiation en Systems of Innovation. Voor dit raamwerk dat over geostandaarden op het gebied van geodata, de vastlegging, de uitwisseling en het gebruik ervan past de eerdere definitie van System of Integration en System of Engagement beter.**
 
 ![pacelayers](media/pacelayers.png)
 
 In het **System of Records** vind de registratie van data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen. De data-eigenaar (zie DAMA) heeft een belangrijke rol, immers de data-eigenaar bepaalt welke data wordt geregistreerd bij een object, en aan welke kwaliteitseisen (zie DAMA) de data moet voldoen.
 
-In de laag **System of Integration** (SoI) wordt data gecombineerd en/of verwerkt tot informatieproducten. Op die manier ontstaat een intgraal beeld over de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwalitiet belangrijk, maar ook is (data)privacy en (data)security hier belangrijk.
+In de laag **System of Integration** (SoI) wordt data gecombineerd en/of verwerkt tot informatieproducten. Op die manier ontstaat een intgraal beeld over de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwaliteit belangrijk, maar ook is (data)privacy en (data)security hier belangrijk.
 
 In de laag **System of Engagement** (SoE) boven de SoI worden de informatieproducten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
 
