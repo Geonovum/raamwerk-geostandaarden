@@ -57,7 +57,7 @@ Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorzi
 - NEN 3610 heeft een semantisch model dat de werkelijkheid indeeld naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen.
 - Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De door Geonovum ingerichte [conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van.
 - Samenwerking en afstemming tussen secorale modellen.
-- Knowledge graphs worden ontwikkeld om begrippenkaders aan elkaar te verbinden.
+- Knowledge graphs worden ontwikkeld om informatiemodellen aan elkaar te verbinden.
 
 ## Kwaliteit van informatiemodellen
 
