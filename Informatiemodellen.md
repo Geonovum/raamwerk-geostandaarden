@@ -47,7 +47,7 @@ De Europese standaarden voor informatiemodellen – vnl. afkomstig uit de INSPIR
 | ISO 19136 Geographic Information - Geography Markup Language (GML) [[iso19136]] |  | |
 | Observations and Measurements - Part 1 - Observation Schema 1.0.0 [[OaM1]] |  |  |
 | Observations and Measurements - Part 2 - Sampling Features 1.0.0 [[OaM2]] |  |  |
-| OpenGIS City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML]] |  |  |
+| OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0. [[CityGML3]] |||
 | | INSPIRE Data specifications | Nederlandse toepassingsprofielen |
 
 

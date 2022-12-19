@@ -999,6 +999,15 @@ var respecConfig =
         editors:  ["Mike Botts", "Alexandre Robin", "Eric Hirschorn"],
         date:     "2020-08-10",
     },
+	"CityGML2": 
+      {
+        title:    "OGC City Geography Markup Language (CityGML) Encoding Standard",
+        href:     "https://portal.ogc.org/files/?artifact_id=47842",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Gerhard Gröger", "Thomas H. Kolbe", "Claus Nagel", "Karl-Heinz Häfele"],
+        date:     "2012-04-04",
+    },
     "CityGML3": 
       {
         title:    "OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0",

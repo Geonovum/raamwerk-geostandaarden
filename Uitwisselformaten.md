@@ -131,7 +131,7 @@ Met 3D data uitwisselstandaarden wordt de uitwisseling van 3-dimensionele data b
 
 | **Internationale standaarden/specificaties**                                   | **Europese profielen** | **Nederlandse profielen** |
 |--------------------------------------------------------------------------------|------------------------|---------------------------|
-| City Geography Markup Language Encoding Standard, version 3.0. [[CityGML3]]    |                        |                           |
+| OGC City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML2]] |              |                           |
 | CityJSON Community Standard, version 1.1.2 [[CityJSON]]                        |                        |                           |
 
 ## Kwaliteit en uitwisselformaten
