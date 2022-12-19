@@ -3,6 +3,12 @@
 **Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set 
 te kiezen. In combinatie kunnen de geo-standaarden worden gebruikt om 'onder Architectuur' een geo-informatie infrastructuur te realiseren. In een dergelijke infrastructuur speelt elke standaard een eigen rol, maar uiteraard wel in samenhang met de andere standaarden.**
 
+In dit hoofdstuk is gekeken naar de principes zoals die gelden in onze (Nederlandse) situatie. Er is gekeken naar internationale standaarden, en de architectuurprincipes die van  [NORA](#nora-nederlandse-overheids-referentie-architectuur), [FAIR](#fair-principes), [DAMA](#dama-dmbok-principes) en [NGII](#ngii-principes).
+
+Belangrijk is de constatering dat er een zekere overlap zit in de verschillende sets aan principes.
+Zo komen **Vindbaarheid** en **Toegankelijkheid** van data- en informatie-producten voor in NORA, FAIR en DAMA. FAIR legt daarnaast de nadruk op Interoperabel en Herbruikbaarheid van data, terwijl DAMA juist weer veel zegt over het borgen van de datakwaliteit.
+Bij elkaar opgeteld vormen de verschillende Architectuurprincipes een mooi dekkende set aan principes.
+
 ## Internationale standaarden
 Voor onze nationale geo-standaarden geldt dat deze ontwikkeld zijn op basis van Europese en internationale standaarden met de voor Nederland geldende specifieke eisen.
 
@@ -49,6 +55,8 @@ Er is veel (geo)data beschikbaar binnen de overheid. Zaak dus dat deze data goed
 ![DAMA-Cirkel](media/dama-cirkel.png)
 
 De DAMA Cirkel onderkent een aantal gebieden, die van belang zijn om data goed te kunnen managen. Zaken als data-kwaliteit, data integratie en interoperabiliteit staan uiteraard in deze cirkel.
+
+DAMA is niet zozeer een standaard die de data zelf beschrijft, maar het beschrijft wel hoe data als een asset moet worden gezien, en hoe de governance is geregeld. DAMA kent kwaliteits principes zoals "1-Bron-1-Waarheid", waarmee wordt bedoeld dat er bij het hebben van meerdere bronnen met dezelfde data over hetzelfde object nooit met zekerheid gezegd kan worden welke bron de waarheid bevat. Iets dat steeds belangrijker wordt als we meer van federatieve systemen gebruik gaan maken. Dan moet heel duidelijk afgesproken worden **wie** de **data eigenaar** is, en **wat** er met de data mag worden gedaan. En daarom is DAMA in dit raamwerk opgenomen.  
 
 ### BOMOS Principes
 
@@ -98,13 +106,12 @@ Het datamodel zorgt ervoor dat de gegevens digitaal verwerkt kunnen worden. Het 
 
 ![MIM niveau 4](media/Informatiemodel-4delen_4-4.png) 
  
- 
 ### NGII Principes
 
 Om geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie Infrastructuur (NGII). De NGII als concept is het geheel van geo-informatie(bronnen), metadata, standaarden, voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en toegang tot geo-informatie. 
 
 Belangrijke eigenschappen (inrichtingsprincipes) van de NGII zijn: 
-- **1 Bron, 1 Waarheid**. Hiermee wordt bedoeld dat data slechts 1 maal wordt opgeslagen, en op meervoudig gebruikt wordt. 
+- **1 Bron, 1 Waarheid**. Hiermee wordt bedoeld dat data slechts 1 maal wordt opgeslagen, en op meervoudig gebruikt wordt.
 - **Scheiding applicaties, voorzieningen en data** Data hoort niet opgesloten te zitten in applicaties. Data is veel belangrijker dan applicaties, en bestaat ook langer dan de meeste applicaties. Een applicatie gaat gemiddeld 10 tot 15 mee, terwijl sommige data meer dan 100 jaar oud is. 
 - **Uitwisseling en presentatie via open standaarden** Het uitwisselen van data moet zoveel mogelijk met open standaarden worden gedaan. Daarmee wordt de kans dat data ontoegankelijk wordt omdat een standaard niet meer beschikbaar is een heel stuk kleiner.
 
@@ -120,20 +127,26 @@ neemt steeds verder toe.
 
 ## Het 3-laags pacelayer model
 
-Een model waarin de bovenstaande principes worden gebruikt is het 3-laags pacelayermodel van Gartner. Dit model ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records, het System of Integration en het System of Engagement. 
+Het 3-laags pacelayermodel waarin de bovenstaande principes worden gebruikt is gebaseerd op het 3-laags pacelayermodel van Gartner, het [5-lagenmodel van Common Ground](https://componentencatalogus.commonground.nl/5-lagen-model) en het 5-lagenmodel van [NORA](https://www.noraonline.nl/wiki/Vijflaagsmodel). 
+
+Het 3-lagenmodel (gebaseerd op het Gartnermodel) ontkoppelt data en applicaties, data-silo's komen in het model niet voor, er wordt een duidelijk onderscheid gemaakt tussen data en informatie, en het bijhouden van data, het bewerken van data tot informatie en het gebruiken van de informatieprodcuten. De 3 lagen in dit model zijn Het System of Records (SoR), het System of Integration (SoI) en het System of Engagement (SoE).
+
+De NORA-Applicatielaag past op het SoR en de SoE, de NORA-Informatielaag past op de SOR en de SoI. Als we kijken naar het common ground 5-lagenmodel, is de Interactielaag zowel in de SoR (voor de bijhoudingvan de data) als in de SoE (voor het gebruiken van de informatie) te vinden. De Integratielaag is het SoI, de Datalaag zit in het SoR, de Proceslaag zit in het SoI, en de Servicelaag zijn de API's die de communicatie tussen SoR, SoI en SoE verzorgen. 
+
+**NB: Het huidige Model van Gartner spreekt niet meer over System of Integration en System of Engagema, maar heeft het behalve over het System of Records over Systems of Differentiation en Systems of Innovation. Voor dit raamwerk dat over geostandaarden op het gebied van geodata, de vastlegging, de uitwisseling en het gebruik ervan past de eerdere definitie van System of Integration en System of Engagement beter.**
 
 ![pacelayers](media/pacelayers.png)
 
-In het **System of Records** vind de registratie van data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen. De data-eigenaar heeft een belangrijke rol, immers de data-eigenaar bepaalt welke data wordt geregistreerd bij een object, en aan welke kwaliteitseisen de data moet voldoen.
+In het **System of Records** vind de registratie van data plaats. Bij registreren is het datakwaliteit heel belangrijk. Om die kwaliteit te borgen werken standaarden, informatiemodellen en applicaties nauw samen. De data-eigenaar (zie DAMA) heeft een belangrijke rol, immers de data-eigenaar bepaalt welke data wordt geregistreerd bij een object, en aan welke kwaliteitseisen (zie DAMA) de data moet voldoen.
 
-In de laag **System of Integration** (SoI) wordt data gecombineerd en/of verwerkt tot informatieprodcuten. Op die manier ontstaat een geintegreerd beeld van de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwalitiet belangrijk, maar ook is (data)privacy en (data)security hier belangrijk.
+In de laag **System of Integration** (SoI) wordt data gecombineerd en/of verwerkt tot informatieproducten. Op die manier ontstaat een intgraal beeld over de verschillenden objecten. Ook hier speelt de data-eigeaar een belangrijke rol. Immers de data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwaliteit belangrijk, maar ook is (data)privacy en (data)security hier belangrijk.
 
 In de laag **System of Engagement** (SoE) boven de SoI worden de informatieproducten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
 
 Om een echte ontkoppeling tussen data en applicaties te bewerkstelligen vind alle 'transport' van data en informatie plaats via **API's** - Application Programming Interface's. Er is een [API-Strategie voor de Nederlandse Overheid](https://docs.geostandaarden.nl/api/API-Strategie/).
 
 ## Het Raamwerk Geo-standaarden geplot op het pacelayermodel
-In deze paragraaf worden de verschillende categorien geo-standaarden 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde categorie geo-standaarden een rol speelt. In de paragrafen in dit hoofdstuk wordt een korte toelichting gegeven van de geo-standaarden en het waarom ze in één of meer lagen van het pacelayermodel zijn opgenomen. 
+In deze paragraaf worden de verschillende categorieën geo-standaarden 'geplot' op het pacelayermodel. Dat geeft meteen een indicatie van 'waar' in het landschap een bepaalde categorie geo-standaarden een rol speelt. In de paragrafen in dit hoofdstuk wordt een korte toelichting gegeven van de geo-standaarden en waarom ze in één of meer lagen van het pacelayermodel zijn opgenomen. 
 
 ### Gebruikers
 De gebruikers zijn de belangrijkste onderdelen van de architectuurplaat. Immers daar doen we het allemaal voor. De architectuur en alle onderdelen zijn erop gericht om een goede informatieverstrekking te kunnen doen. Informatie waarop beslissingen worden gebaseerd. Gebruikers kunnen op allerlei verschillende manieren toegang krijgen tot de informatie. Denk hierbij aan viewers, dashboards, rapportages enz.. Het medium maakt niet uit, zolang er maar dezelfde informatie wordt gegeven.
@@ -145,14 +158,25 @@ Geplot op de 3 lagen zitten in het SoR de 'producenten' van data. **Gebruikers i
 
 **Gebruikers in het SoE** zijn echte afnemers van informatie. Data wordt door hen niet bewerkt. Denk aan de gebruikers van een viewer, of de lezers van een rapport.
 
-In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. **Gebruikers in het SoI** zijn data-analisten, data-scientists, leveranciers, enz.. 
+In het SoI wordt data verwerkt tot informatie. Data uit één of meerdere bronnen wordt gevalidideerd, gecombineerd, gefilterd, geaggregeerd, er vinden berekeningen plaats, er zijn modellen. Het resultaat is een informatieproduct. **Gebruikers in het SoI** zijn data-analisten, data-scientists, leveranciers, enz..  
+
+Samengevat: Gebruikers komen in alle 3 lagen van het paceayer model voor, maar elk van de 3 lagen kent zijn eigen specifieke gebruikers. 
 
 ### Informatiemodellen
-Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het[ Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. [MIM](#mim-principes) onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel infoematiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
+Informatiemodellen zorgen ervoor dat iedereen elkaar begrijpt. Het begint bij een gemeenschappelijke begrippenlijst. Het [Metamodel voor Informatiemodellering (MIM)](https://docs.geostandaarden.nl/mim/mim/) beschrjft een standaard aanpak voor het modelleren van informatie. [MIM](#mim-principes) onderkent 4 lagen in een informatiemodel. Het hoogste niveau is de begrippenlijst, het 'woordenboek' waarin de ondeling afgesproken begrippen staan. Daaronder komt het conceptueel informatiemodel. Onder het conceptueel informatiemodel komt het logisch of gegevensmodel. Als onderste laag het fysiek datamodel.
 
 ![Informatiemodellen](media/pacelayers_informatiemodel.png)
 
+In de 3 lagen van het pacelayer model zal het van onder naar boven eerst over datamodellen in de onderste laag (het SoR) gaan, in de middelste laag is het belangrijk dat er gebruik gemaakt wordt van een semantische laag (op elkaar afgestemde begrippen), die in de bovenste laag worden gebruikt. 
+
 Lees meer over de geo-standaarden voor [Informatiemodellen](#informatiemodellen-0) in dit Raamwerk.
+
+### Uitwisselformaten
+Uitwisselformaten zijn gebaseerd op de Informatiemodellen en zorgen ervoor dat data uitgewisseld kan worden tussen de verschillende systemen onderling. In de architectuurplaten bevinden de uitwisselformaten zich tussen de verschillende lagen. Uitwisselformaten zullen door [API's](#application-programming-interfaces) worden gebruikt om te bepalen wat er dor die API's wordt geleverd. 
+
+![Uitwisselformaten](media/pacelayers_uitwisselformaten.png)
+
+Lees meer over de geo-standaarden voor [Uitwisselformaten](#uitwisselformaten) in dit Raamwerk.
 
 ### Coördinaatreferentiesystemen
 
@@ -162,21 +186,24 @@ Coördinaatreferentiesystemen (CRS) komen in alle 3 de pacelayers voor. Er wordt
 
 Lees meer over de geo-standaarden voor [Coördinaatreferentiesystemen](#coördinaat-referentiesystemen) in dit Raamwerk.
 
+
 ### Data
-Data is een representatie van observaties, objecten of andere entiteiten uit de werkelijkheid. Data refereert naar iets dat is verzameld, geobserveerd, gegenereerd of afgeleid. Data wordt door de mens gebruikt als een basis om te redeneren, discussiëren of calculeren.
+Data is een representatie van observaties, objecten of andere entiteiten uit de werkelijkheid. Data refereert naar iets (een object) dat is verzameld, geobserveerd of gemeten. Zodra data wordt bewerkt (gekoppeld met andere data, geaggregeerd, gefilterd, berekend, enz.) ontstaat Informatie. En Informatie wordt door de mens gebruikt als een basis om beslissingen te nemen.
 
 ![Data](media/pacelayers_data.png)
 
-Data wordt gegenereerd in het SoR, data is het 'erts' van de informatieproducten. Data gaat veel langer mee dan applicaties, en moet dus ook los van applicaties kunnen bestaan. Daarom is een open data principe ook zo belangrijk. Aan data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren. Data wordt voor een bepaald doel ingewonnen, en moet ook voor dat doel worden gebruikt. dat noemen we doelbinding. 
+Data wordt gegenereerd in het SoR, data is het 'erts' van de informatieproducten. Data gaat veel langer mee dan applicaties, en moet dus ook los van applicaties kunnen bestaan. Daarom is een open data principe ook zo belangrijk. Aan data die 'opgesloten' zit heeft niemand wat. Data moet een eigenaar kennen, iemand of een organisatie die bepaalt welke data wordt vastgelegd, aan welke kwaliteitseisen de data moet voldoen, én wat er met de data mag gebeuren. 
 
 Data wordt in het SoI bewerkt tot informatieproducten. Typische bewerkingen zijn: het maken van een selectie, agrregatie, combinatie of een berekening. De informatieproducten beantwoorden een vraag van een afnemer, dat noemen we vraagestuurd werken. Data kan statische data zijn (eenmalig ingewonnen en eenmalig vastgelegd en (bijna) nooit meer gewijzigd). Data kan transactionele data zijn (data die wordt vastgelegd als er 'iets' gebeurt, of gedaan moet worden met een object), Data kan (near)realtime zijn als het bijvoorbeeld door een sensor wordt ingewonnen en direct beschikbaar wordt gesteld. 
 
 ### Metadata
-Metadata zijn data, die de karakteristieken van data beschrijven. Het zijn dus eigenlijk data over data. De metadata bij een bepaald document (de data) kunnen bijvoorbeeld zijn: de auteur, de datum van schrijven, de uitgever, het aantal pagina's en de taal waarin de data zijn opgesteld. De metadata helpt mens en computer bij het vinden van de juiste data en bij het juist interpreteren van het document. Er is een directe relatie met [FAIR](#fair-principes), en met [Vindbaarheid] (#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
+Metadata zijn data, die de karakteristieken van data beschrijven. Het zijn dus eigenlijk data over data. De metadata bij een bepaald document (de data) kunnen bijvoorbeeld zijn: de auteur, de datum van schrijven, de uitgever, het aantal pagina's en de taal waarin de data zijn opgesteld. De metadata helpt mens en computer bij het vinden van de juiste data en bij het juist interpreteren van het document. Er is een directe relatie met [FAIR](#fair-principes), en met [Vindbaarheid](#nora-nederlandse-overheids-referentie-architectuur) zoals [NORA](#nora-nederlandse-overheids-referentie-architectuur) definieert. Metadata is zo als het ware de 'wegwijzer' voor het vinden van data.
 
 ![Metadata](media/pacelayers_metadata.png)
 
-Metadata beschrijft 'wat' er met data is gebeurd om informatieproduct te worden: Hoe is de data ingewonnen, hoe is de data geregistreerd, heeft er een dataconversie plaatsgevonden, welke bewerkingen zijn er met de data gedaan, enz..  
+Metadata beschrijft ook 'wat' er met data is gebeurd om informatieproduct te worden: Hoe is de data ingewonnen, hoe is de data geregistreerd, heeft er een dataconversie plaatsgevonden, welke bewerkingen zijn er met de data gedaan, enz.. 
+
+En belangrijk: _de één zijn data is de ander zijn meta-data en vice versa._
 
 Lees meer over de geo-standaarden voor [Metadata](#metadata-0) in dit Raamwerk.
 
