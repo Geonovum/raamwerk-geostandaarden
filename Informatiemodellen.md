@@ -26,7 +26,7 @@ meta-informatiemodelering, het Metamodel Informatiemodellering [MIM](#mim-princi
 <figcaption>Figuur 3.2 - Vorige figuur 3.1 weergegeven in de 'NEN 3610 - piramide'</figcaption>
 </figure>
 
-## MIM Metamodel vooor Informatiemodellering
+## MIM Metamodel voor Informatiemodellering
 
 Het Metamodel voor informatiemodellering ([MIM]) is een standaard die het metamodel beschrijft waar informatiemodellen mee gemaakt worden. Het beschrijft de metaklassen, metastructuur en metagegevens als grondslag voor een informatiemodel. Doel hiervan is standaardiseren van de methode van informatiemodelleren waarmee afstemming tussen informatiemodellen, vergelijkbaarheid in publicatie en gebruik van gemeenschappelijke tooling mogelijk wordt. Conformiteit aan MIM faciliteert hiermee het ontstaan van een overheidsbreed stelsel van vergelijkbare en samenhangende informatiemodellen. Het MIM metamodel is conceptueel beschreven en is uitgewerkt voor een toepassing in UML en in Linked Data. NEN 3610:2022 conformeert aan MIM.
 
