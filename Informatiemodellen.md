@@ -26,6 +26,12 @@ meta-informatiemodelering, het Metamodel Informatiemodellering [MIM](#mim-princi
 <figcaption>Figuur 3.2 - Vorige figuur 3.1 weergegeven in de 'NEN 3610 - piramide'</figcaption>
 </figure>
 
+## MIM Metamodel vooor Informatiemodellering
+
+Het Metamodel voor informatiemodellering ([MIM]) is een standaard die het metamodel beschrijft waar informatiemodellen mee gemaakt worden. Het beschrijft de metaklassen, metastructuur en metagegevens als grondslag voor een informatiemodel. Doel hiervan is standaardiseren van de methode van informatiemodelleren waarmee afstemming tussen informatiemodellen, vergelijkbaarheid in publicatie en gebruik van gemeenschappelijke tooling mogelijk wordt. Conformiteit aan MIM faciliteert hiermee het ontstaan van een overheidsbreed stelsel van vergelijkbare en samenhangende informatiemodellen. Het MIM metamodel is conceptueel beschreven en is uitgewerkt voor een toepassing in UML en in Linked Data. NEN 3610:2022 conformeert aan MIM.
+
+
+
 ## Overzicht standaarden informatiemodellen voor Nederland
 
 NEN 3610 heeft zijn toepassing in een groeiende aantal sectorale informatiemodellen en omvat circa 25 informatiemodellen, zoals voor de toepassingsdomeinen water (IMWA), openbare ruimte (IMBOR, IMSW), milieu (IMGeluid, IMAER), natuurbeheer (IMNA), verkeer en vervoer (IMWV,) kabels en leidingen (IMKL) en openbare orde en veiligheid (IMOOV, IMDBK, IMEV). Ook maken enkele basisregistraties voor de e-overheid deel uit in de NEN 3610 familie, zoals de basisregistraties adressen en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een standaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). De documentatie over de sectorale NEN 3610 informatiemodellen is te vinden in het [Overzicht geo-standaarden](https://www.geonovum.nl/geo-standaarden/alle-standaarden)   
@@ -45,8 +51,9 @@ De Europese standaarden voor informatiemodellen – vnl. afkomstig uit de INSPIR
 | ISO 19118 Geographic Information – Encoding [[iso19118]] | |
 | ISO 19131 Geographic Information - Data product specification [[iso19131]] |  | |
 | ISO 19136 Geographic Information - Geography Markup Language (GML) [[iso19136]] |  | |
-| Observations and Measurements - Part 1 - Observation Schema 1.0.0 [[OaM1]] |  |  |
-| Observations and Measurements - Part 2 - Sampling Features 1.0.0 [[OaM2]] |  |  |
+| Observations and Measurements - XML Implementation 3.0[[OaM3]] |  |  |
+| Observations and Measurements - XML Implementation 2.0[[OaMx2]] |  |  |
+| Timeseries Profile of Observations and Measurements 1.0[[OaMt2]] |  |  |
 | OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0. [[CityGML3]] |||
 | | INSPIRE Data specifications | Nederlandse toepassingsprofielen |
 
@@ -63,9 +70,9 @@ Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorzi
 
 Informatiemodellen zijn nog geen data en kunnen daarom alleen op conceptueel niveau op kwaliteit beoordeeld worden. Er zijn een aantal mechanismen om de kwaliteit te borgen.
 
--	NEN 3610 conformiteit. NEN 3610 bevat een abstracte testsuite voor het testen van de conformiteit van een informatiemodel aan NEN 3610. De regels en aanbevelingen van NEN 3610 zijn daarin vertaald naar conformiteitsklassen.
+-	NEN 3610:2022 conformiteit. NEN 3610:2022 bevat een abstracte testsuite voor het testen van de conformiteit van een informatiemodel aan NEN 3610. De regels en aanbevelingen van NEN 3610 zijn daarin vertaald naar conformiteitsklassen.
 
--	Er is een NEN 3610 template beschikbaar voor UML modellering in Enterprise Architect.
+-	Er is een NEN 3610:2022 template beschikbaar voor UML modellering in Enterprise Architect.
 
 -	Publicatie en implementatie van een NEN 3610 model in implementatieschema's wordt ondersteund door tooling. In de tooling zit een test op MIM conformiteit.
 
