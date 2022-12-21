@@ -2,15 +2,15 @@
 
 **Allereerst moet de informatie, die via de infrastructuur wordt verspreid,
 beschreven worden. Karakteristieken van datasets, zoals de eigenaar en de
-actualiteit, worden beschreven met behulp van metadata. Metadata wijst de weg in
+actualiteit, worden beschreven met behulp van metadata. Metadata wijzen de weg in
 onze informatiehuishouding, voorkomt dubbele inwinning en beheer van data en
-zorgt ervoor dat geo-informatie snel kan worden gevonden.**
+zorgen ervoor dat geo-informatie snel kan worden gevonden.**
 
 ## Overzicht geo-standaarden metadata
 
 Er zijn verschillende niveaus waarvoor metadata aangemaakt kunnen worden.
-Metadata van data, beschrijft de dataset of dataset reeks. Metadata van
-services, beschrijft de ‘service’ of API (WMS,WFS) waarmee (een) ruimtelijke
+Metadata van data, beschrijven de dataset of dataset reeks. Metadata van
+services, beschrijven de ‘service’ of API (WMS,WFS) waarmee (een) ruimtelijke
 dataset(s) wordt ontsloten. Internationaal gelden de ISO metadata normen, ISO
 19115 voor data en ISO 19119 voor services en waar relevant de OGC
 specificaties. In Nederland passen we het Nederlands metadataprofiel voor
@@ -53,7 +53,6 @@ naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspi
 
 ## Verkenning
 
-Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op generieke standaarden en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en data-gebruiker is een aandachtsgebied. Daarnaast valt op dat vanuit beleid meer samenhang in sturing wordt verwacht. Op basis van deze verkenning wordt in een volgende stap gekeken in hoeverre het nationaal georegister voldoet aan dit beeld om op basis daarvan een handelingsperspectief
-op te stellen.
+Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op generieke standaarden en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en data-gebruiker is een aandachtsgebied. Daarnaast valt op dat vanuit beleid meer samenhang in sturing wordt verwacht. Op basis van deze verkenning wordt in een volgende stap gekeken in hoeverre het nationaal georegister voldoet aan dit beeld om op basis daarvan een handelingsperspectief op te stellen.
 
 
