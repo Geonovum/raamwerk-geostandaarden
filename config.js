@@ -972,7 +972,25 @@ var respecConfig =
         editors:  ["Chris Little", "Jon Blower", "Maik Riechert"],
         //date:     "2018-08-27",
     },
-    "OMS3": 
+	"OaMx2": 
+      {
+        title:    "Observations and Measurements - XML Implementation v2.0",
+        href:     "https://portal.ogc.org/files/?artifact_id=41510",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Simon Cox"],
+        //date:     "2011-03-22",
+    },
+	"OaMt1": 
+      {
+        title:    "OGC Timeseries Profile of Observations and Measurements v1.0",
+        href:     "http://docs.opengeospatial.org/is/15-043r3/15-043r3.html",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["James Tomkins", "Dominic Lowe"],
+        //date:     "2016-09-09",
+    },
+	"OMS3": 
       {
         title:    "OGC Abstract Specification Geographic information — Observations and measurements v3.0",
         href:     "https://portal.ogc.org/files/95653",
@@ -984,11 +1002,11 @@ var respecConfig =
     "IMMetingen": 
       {
         title:    "Informatiemodel Metingen",
-        href:     "https://www.aquo.nl/index.php/IM_Metingen",
+        href:     "https://www.sikb.nl/datastandaarden/richtlijnen/sikb0101",
         status:   "Vastgesteld",
-        publisher:"IHW en SIKB",
-        //editors:  ["Katharina Schleidt", "Ilkka Rinne"],
-        //date:     "2018-08-27",
+        publisher:"SIKB en IHW",
+        //editors:  [],
+        //date:     "2022-06-24",
     },
     "SensorML": 
       {
@@ -998,6 +1016,15 @@ var respecConfig =
         publisher:"Open Geospatial Consortium",
         editors:  ["Mike Botts", "Alexandre Robin", "Eric Hirschorn"],
         date:     "2020-08-10",
+    },
+	"CityGML2": 
+      {
+        title:    "OGC City Geography Markup Language (CityGML) Encoding Standard",
+        href:     "https://portal.ogc.org/files/?artifact_id=47842",
+        status:   "Published",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Gerhard Gröger", "Thomas H. Kolbe", "Claus Nagel", "Karl-Heinz Häfele"],
+        date:     "2012-04-04",
     },
     "CityGML3": 
       {

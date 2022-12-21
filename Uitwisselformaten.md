@@ -120,6 +120,7 @@ de volgende standaarden (tabel 6.3).
 | **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
 | OGC Observations and Measurements version (ISO 19156) 3.0 **goedgekeurd, nog niet gepubliceerd** [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[inspire-gen]]| Informatiemodel Metingen [[IMMetingen]] |
+| Observations and Measurements - XML Implementation 2.0[[OaMx2]]| | |
 | W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]]                        |                                                                   |                           |
 | OGC SensorML 2.1 [[SensorML]]                                                 |                                                                   |                           |
 
@@ -131,7 +132,7 @@ Met 3D data uitwisselstandaarden wordt de uitwisseling van 3-dimensionele data b
 
 | **Internationale standaarden/specificaties**                                   | **Europese profielen** | **Nederlandse profielen** |
 |--------------------------------------------------------------------------------|------------------------|---------------------------|
-| City Geography Markup Language Encoding Standard, version 3.0. [[CityGML3]]    |                        |                           |
+| OGC City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML2]] |              |                           |
 | CityJSON Community Standard, version 1.1.2 [[CityJSON]]                        |                        |                           |
 
 ## Kwaliteit en uitwisselformaten
