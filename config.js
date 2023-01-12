@@ -233,48 +233,49 @@ var respecConfig =
         publisher:    "Open Geospatial Consortium",
         //date:         ["April 2007"],
     },
-    "ISO19139": 
-      {
-        title:        "ISO/TS 19139:2007 Geographic information - Metadata - XML schema implementation",
-        href:         "https://www.iso.org/standard/32557.html",
-        status:       ["Adopted specification"],
-        //authors:      [""],
-        publisher:    "International Organization for Standardization",
-        date:         "April 2007",
-    },
     "inspire-irmd":
       {
         title:        "Implementing Rules for Metadata",
         href:         "http://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX:32008R1205",
-        // status:       ["Legislation"],
-         authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
-        publisher:    "European Commission Joint Research Centre",
+        status:       ["Legislation"],
+        // authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+        publisher:    "European Commission",
         date:         "3 December 2008",
     },
     "inspire-cirmd":
     {
       title:        "Corrigendum to INSPIRE Metadata Regulation",
-      href:         "https://inspire.ec.europa.eu/documents/corrigendum-inspire-metadata-regulation",
-      // status:       ["Legislation"],
-       authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
-      publisher:    "European Commission Joint Research Centre",
+      href:         "https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32008R1205R(02)&from=EN",
+      status:       ["Legislation"],
+      // authors:      ["European Commission Joint Research Centre"],
+      publisher:    "European Commission",
       date:         "15 January 2010",
     },
+	"inspire-airmd":
+    {
+      title:        "Amendment to INSPIRE Metadata Regulation",
+      href:         "https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32014R1311&from=EN",
+      status:       ["Legislation"],
+       // authors:      ["European Commission Joint Research Centre"],
+      publisher:    "European Commission",
+      date:         "11 December 2014",
+    },  
+	  
     "inspire-19115-19119":
       {
-        title:        "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
-        href:         "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
-        //status:       ["Tehnical Guidance"],
-         authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
-        publisher:    "European Commission Joint Research Centre",
-        date:         "26 oktober 2007",
+        title:        "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007",
+        href:         "https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc",
+        status:       ["Tehnical Guidance"],
+         authors:      ["Temporary MIWP 2021-2024 sub-group 2.3.1"],
+        publisher:    "INSPIRE Maintenance and Implementation Group (MIG)",
+        date:         "1 augustus 2022",
   },
     "ISO19119":
       {
         title:        "Geographic information - Services",
         href:         "https://www.iso.org/standard/39890.html",
         //status:       ["Adopted specification"],
-        //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+        //authors:      [" "],
         publisher:    "International Organization for Standardization",
         date:         "2005-02",
     },
