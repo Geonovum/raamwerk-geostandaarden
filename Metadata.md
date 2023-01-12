@@ -25,13 +25,12 @@ meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, 
 
 | **Internationale standaarden/specificaties**                                                                                              | **Europese profielen**                                                                                           | **Nederlandse profielen**                                                   |
 |-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
-| ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] | Implementing Rule INSPIRE – Metadata [[inspire-irmd]] | Nederlands profiel ISO 19115 voor geografie, versie 2.0.1 [[NLISO19115]] |
-| ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]]  | Corrigendum to metadata regulation [[inspire-cirmd]] | Nederlands profiel ISO 19119 voor services, versie 1.2.1 [[NLISO19119]]  |
-| ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] | Technical Guidelines based on EN ISO 19115 and EN ISO 19119 [[inspire-19115-19119]] |  |
+| ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] |  Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007 [[inspire-19115-19119]] | Nederlands profiel ISO 19115 voor geografie, versie 2.1.0 [[NLISO19115]] |
+| ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]]  |  | Nederlands profiel ISO 19119 voor services, versie 2.1.0 [[NLISO19119]]  |
+| ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] | |  |
 | ISO 19119:2005, Geographic information – Services [[ISO19119-2005]] |  |  |
 | ISO 19119:2005/Amd 1:2008, Extensions of the service metadata model [[ISO19119-2008]] |  |  |
 | ISO/TS 19139:2007, Geographic information - Metadata – XML Schema Implementation [[ISO19139]]  |  |  |
-| ISO 15836: 2004, Information and documentation – The Dublin Core metadata element set [[ISO15836]] |  |  |
 | Data Catalog Vocabulary (DCAT) version 2.0 [[vocab-dcat-2]] | DCAT-AP - An extension for the DCAT application profile for data portals in Europe version 1.2 [[dcat-ap]]| 
 | | GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] | |
 
