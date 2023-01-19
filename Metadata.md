@@ -14,11 +14,11 @@ services, beschrijft de ‘service’ of API (WMS,WFS) waarmee (een) ruimtelijke
 dataset(s) wordt ontsloten. Internationaal gelden de ISO metadata normen, ISO
 19115 voor data en ISO 19119 voor services en waar relevant de OGC
 specificaties. In Nederland passen we het Nederlands metadataprofiel voor
-datasets en services toe. Dit is een uitbreiding op de Europese INSPIRE kernset,
+datasets en services toe. Dit is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereisten,
 gebaseerd op specifieke behoeften van de gebruikers in Nederland. Pas je de
-Nederlandse profielen toe, dan voldoe je dus ook aan de INSPIRE profielen voor
+Nederlandse profielen toe, dan kun je ook voldoen aan de INSPIRE profielen voor
 metadata. In de Nederlandse profielen is ook de aansluiting op data.overheid.nl
-meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, die de datasets gemakkelijk doorzoekbaar en vindbaar maakt. Om datasets overzichtelijk te kunnen presenteren en om gericht naar datasets te kunnen zoeken, worden datasets in data.overheid.nl beschreven met metadata conform de standaard DCAT. DCAT is een metadata standaard van W3C voor de beschrijving van datasets. Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP maakt het mogelijk voor datacatalogi om hun datasetcollecties te beschrijven met behulp van een gestandaardiseerde beschrijving, om dergelijke beschrijvingen samen te voegen tot één toegangspunt waardoor consumenten datasets gemakkelijker kunnen vinden vanaf één toegangspunt. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van geodatasets, dataset series en services. Deze extensie is eveneens afgestemd op de INSPIRE kernset en de Nederlandse profielen. 
+meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, die de datasets voor allerlij soorten open data. Om datasets overzichtelijk te kunnen presenteren en om gericht naar datasets te kunnen zoeken, worden datasets in data.overheid.nl beschreven met metadata conform de standaard DCAT. DCAT is een metadata standaard van W3C voor de beschrijving van datasets in een catalog. Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP maakt het mogelijk voor datacatalogi om hun datasetcollecties te beschrijven met behulp van een gestandaardiseerde beschrijving, om dergelijke beschrijvingen samen te voegen tot één toegangspunt waardoor consumenten datasets gemakkelijker kunnen vinden vanaf één toegangspunt. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van geodatasets, dataset series en services. Deze extensie is eveneens afgestemd op de INSPIRE kernset en de Nederlandse profielen. 
 
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
@@ -35,6 +35,7 @@ meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, 
 | Data Catalog Vocabulary (DCAT) version 2.0 [[vocab-dcat-2]] | DCAT-AP - An extension for the DCAT application profile for data portals in Europe version 1.2 [[dcat-ap]]| 
 | | GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] | |
 
+<aside class="note">De TG metadata INSPIRE is gebaseerd op... Dit is de reden dat het NL profiel ook op .. is gebaseerd en niet op de nieuwere ... </aside>
 
 ## Kwaliteit van metadata
 
