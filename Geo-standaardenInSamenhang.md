@@ -4,7 +4,7 @@
 
 In dit hoofdstuk wordt belangrijke context voor het gebruik van geo-standaarden beschreven, evenals de samenhang tussen de geo-standaarden. Vanuit de nationale geo-informatie infrastructuur wordt inzicht gegeven in de wereld van de internationale standaarden, die richtinggevend zijn voor de Nederlandese geo-standaarden. De nationale geo-informatie infrastructuur voldoet tevens aan de FAIR principes, hetgeen hier niet onvermeld mag blijven. De Nederlandse geo-standaarden maken deel uit van de Nederlandse architectuur (NORA) en de Nederlandse (BOMOS). De samenhang
 
-**Nationale geo-informatie infrastructuur**
+## Nationale geo-informatie infrastructuur
 
 Om geo-informatie zo laagdrempelig mogelijk te ontsluiten is in Nederland de afgelopen jaren gewerkt aan een Nationale Geo-Informatie Infrastructuur (NGII). De NGII als concept is het geheel van geo-informatie(bronnen), metadata, standaarden, voorzieningen, netwerkdiensten, organisatie en afspraken voor de efficiënte uitwisseling van en toegang tot geo-informatie. 
 
@@ -13,7 +13,7 @@ Data zijn een essentiële grondstof voor het maken van keuzes. In Europa vinden 
 
 "De Nederlandse Geo-informatie Infrastructuur is toe aan een upgrade” schreven we in de Geonovum meerjarenvisie 2021-2023. Hoe kan de NGII een upgrade krijgen richting een vraaggedreven infrastructuur, die de kracht van locatiedata laagdrempelig inzetbaar maakt voor de grote maatschappelijke opgaven? Welke (nieuwe) standaarden spelen daarbij een rol? Hoe hangen allerlei afzonderlijke ontwikkelingen eigenlijk met elkaar samen? En hoe verhoudt de NGII 2.0 zich bijvoorbeeld tot een Nationale Digital Twin Infrastructuur? En hoe verhouden die ontwikkelingen zich toch Europese ontwikkelingen rond data en digitalisering? In een [Whitepaper Visie op upgrade Nederlandse Geo-informatie Infrastructuur(NGII)](https://docs.geostandaarden.nl/ngii/wpungii/) zijn de antwoorden gezocht op die vragen. En omdat die antwoorden meer waarde hebben, wanneer ze breed gedragen worden in het werkveld, is dit white paper ook in publieke consulatie gebracht en vervolgens aangescherpt. 
 
-## FAIR
+## FAIR principes
 
 Op eenduidige wijze samenwerken om informatie zo beter te kunnen beveiligen, makkelijker uit te wisselen en toegankelijker te maken voor iedereen. Dat is hoe open standaarden de samenwerking bevorderen tussen de overheid, burger en het bedrijfsleven. De [FAIR Principes](https://www.go-fair.org/fair-principles/) zijn een hulpmiddel daarin: het doel van de principes is het hergebruik van waardevolle data mogelijk maken. De FAIR Principes dwingen geen standaarden af, maar moedigen communities aan om data en diensten vindbaar, toegankelijk, interoperabel en herbruikbaar te maken.  
 
