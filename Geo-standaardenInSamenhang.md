@@ -56,7 +56,7 @@ Het 3-lagenmodel (gebaseerd op het Gartnermodel) ontkoppelt data en applicaties,
 
 ![pacelayers](media/pacelayers.png)
 
-In het **System of Records** of Registratie vind de registratie van data plaats. Bij registreren is datakwaliteit heel belangrijk. De data-eigenaar (zie DAMA) bepaalt welke data worden geregistreerd bij een object, en aan welke kwaliteitseisen (zie DAMA) de data moeten voldoen. 
+In het **System of Records** of Registratie vind de registratie van data plaats. Bij registreren is datakwaliteit heel belangrijk. De data-eigenaar bepaalt welke data worden geregistreerd bij een object, en aan welke kwaliteitseisen de data moeten voldoen. 
 In de laag **System of Integration** of Integratie worden data gecombineerd en/of verwerkt tot informatieproducten. Op die manier ontstaat een integraal beeld over de verschillenden objecten. De data eigenaar bepaalt wat er met de data kan en mag gebeuren. Daarbij zijn principes als datakwaliteit belangrijk, maar ook (data)privacy en (data)security zijn hier belangrijk.
 In de laag **System of Engagement** of distributie worden de informatieproducten uit de SoI gebruikt en gepresenteerd aan de afnemers van die informatieproducten. 
 Om ontkoppeling tussen data en applicaties te bewerkstelligen vindt alle 'transport' van data en informatie plaats via API's - Application Programming Interface's. Er is een API-Strategie voor de Nederlandse Overheid.
