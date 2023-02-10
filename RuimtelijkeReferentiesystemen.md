@@ -1,19 +1,19 @@
 # Coördinaatreferentiesystemen
 
-**Geo-informatie is direct gekoppeld aan een locatie op aarde. De wijze waarop die koppeling wordt gelegd, wordt beschreven met het coördinaatreferentiesysteem (CRS) waarin coördinaten van een locatie worden vastgelegd. Voor Nederland zijn meerdere CRS-en beschikbaar. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.**
+**Geo-informatie is direct gekoppeld aan een locatie op aarde. Via het coördinaatreferentiesysteem (CRS) leggen we coördinaten van een locatie vast. Voor Nederland zijn meerdere CRS-en beschikbaar. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.**
 
 ## Overzicht standaarden voor coördinaatreferentiesystemen
 
-Voor de definitie van CRS-en is een ISO standaard [[iso19111]] beschikbaar, een CRS is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. Het datum geeft de relatie van het coördinatensysteem met de aarde.
+Voor de definitie van CRS-en is een ISO standaard [iso19111] beschikbaar. Een CRS is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. De datum geeft de relatie van het coördinatensysteem met de aarde.
 
-De in Nederland gebruikte CRS-en voor de opslag en uitwisseling van geo-informatie zijn onder te verdelen in verschillende groepen. Op basis van de indeling in [[iso19111]].
+De in Nederland gebruikte CRS-en voor de opslag en uitwisseling van geo-informatie zijn onder te verdelen in verschillende groepen:
 
 * **Geografische CRS-en** geven geografische coördinaten in graden (2D breedte en lengte (Engels: latitude en longitude) en voor 3D ook hoogte) ten opzichte van een ellipsoïdisch model van het aardoppervlak. 
 * **Geprojecteerde CRS-en** presenteren geo-informatie op een plat vlak in cartesische (x en y) coördinaten. Een geprojecteerd CRS is een afgeleide van een geografisch CRS, waarbij voor het afbeelden in het platte vlak een kaartprojectie wordt gebruikt.
 * **Verticale CRS-en** voor de vastlegging van hoogte en diepte ten opzichte van een referentievlak. Dit referentievlak is vaak gebaseerd op de richting van de zwaartekracht en valt normaal gesproken niet samen met oppervlak van een ellipsoïde. 
 * **Samengestelde CRS-en** in het Engels 'Compound CRS' zijn samengestelde CRS-en, bijvoorbeeld samengesteld uit een geprojecteerde CRS en een verticale.
 
-De ISO 19111:2019 standaard geeft een beschrijving welke parameters het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://geonovum.github.io/HR-CRS-Gebruik/#naamgeving-van-crs) kunnen Name Type Specification (NTS), Uniform Resource names (URN), of Uniform Resource Locators (URL) gebruikt worden, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëren. 
+De [[iso19111]] standaard geeft een beschrijving van parameters die het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://geonovum.github.io/HR-CRS-Gebruik/#naamgeving-van-crs) kunnen Name Type Specification (NTS), Uniform Resource names (URN), of Uniform Resource Locators (URL) worden gebruikt, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëren.  
 
 Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het specificeren hiervan vastgelegd in specifieke guidelines. De relevante CRS-en die gebruikt worden in het Nederlandse domein van geo-informatie, kunnen ook worden ingedeeld naar hun geografische toepassingsgebied:
 * Een **wereldwijd CRS** is een CRS dat gemiddeld zo goed mogelijk bij de gehele aarde aansluit. Wereldwijde CRS-en zijn bedoeld voor kleinschalige of wereldwijde toepassingen, bijvoorbeeld wereldkaarten, satellietnavigatie en het beschrijven processen zoals zeestromingen en platentektoniek. Wereldwijde CRS-en zijn minder geschikt voor het nauwkeurig vastleggen van geo-informatie, doordat in een wereldwijd CRS de coördinaten tijdsafhankelijk zijn als gevolg van platentektoniek;
@@ -22,7 +22,7 @@ Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het sp
 
 De gebruikte stelsels binnen Nederland en hun bijbehorende EPSG-code zijn in bijlage A van de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) opgenomen.
 
-In de onderstaande tabel zijn de standaarden en specificaties benoemd, die van toepassing zijn op de CRS-en voor Nederland.
+In de onderstaande tabel 7.1 zijn de standaarden en specificaties benoemd, die van toepassing zijn op de CRS-en voor Nederland.
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot CRS-en*
 
