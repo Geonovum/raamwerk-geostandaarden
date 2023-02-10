@@ -9,15 +9,15 @@ functionaliteiten.**
 
 ## Transitie naar nieuwe generatie API's
 
-De internationale standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. Deze standaardistaie organisatie bestaat al sinds 1994. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
+De internationale geo-standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
 
-Het OGC is voornemens de oude generatie 'services' standaarden langzaam uit te faseren. De nieuwe OGC API standaarden zijn in ontwikkeling en komen één voor één gereed. Op moment van schrijven zijn er al een paar goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe OGC API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
+Het OGC is voornemens de oude generatie 'services' standaarden langzaam uit te faseren. De nieuwe OGC API standaarden zijn deels in ontwikkeling, deels al goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe OGC API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
 
-In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling of **draft** zijn. Dit is bij elke standaard aangegeven.
+In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling of draft zijn. Dit is bij elke standaard aangegeven.
 
 ## Overzicht geo-standaarden API’s
 
-In het overzicht van geo-standaarden voor API’s zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
+In het overzicht van geo-standaarden voor API’s zijn de standaarden per thema in tabellen opgenomen:
 
 -   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 5.1);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC
@@ -120,11 +120,11 @@ Handreikingen voor implementatie:
 
 **API Strategie overheid (beleid) en REST Design Rules**
 
-In de Nederlandse API strategie en Rest Design Rules worden diverse aanbevelingen gedaaan voor de kwaliteit van API's. 
+In de Nederlandse API strategie en Rest Design Rules worden diverse aanbevelingen gedaan voor de kwaliteit van API's. 
 
 De Nederlandse API Strategie [[NLAPIS]] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen zijn aangemeld voor plaatsing op de ‘Pas toe of leg uit’-lijst van het Forum Standaardisatie. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. 
 
-De [Rest Design Rules](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules) is een lijst afspraken, die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is wel zo prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen. 
+De [Rest Design Rules](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules) is een lijst afspraken, die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen. 
 
 **Afspraken over quality of service**
 
