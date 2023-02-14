@@ -254,7 +254,7 @@ var respecConfig =
     "inspire-cirmd":
     {
       title:        "Corrigendum to INSPIRE Metadata Regulation",
-      href:         "https://inspire.ec.europa.eu/documents/corrigendum-inspire-metadata-regulation",
+      href:         "https://eur-lex.europa.eu/legal-content/NL/TXT/PDF/?uri=CELEX:32008R1205R(02)&from=EN",
       // status:       ["Legislation"],
        authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
       publisher:    "European Commission Joint Research Centre",
@@ -268,6 +268,15 @@ var respecConfig =
          authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "European Commission Joint Research Centre",
         date:         "26 oktober 2007",
+  },
+	   "inspire-TG-metadata":
+      {
+	title:        "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007",
+        href:         "https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc",
+        status:       ["Tehnical Guidance"],
+        authors:      ["Temporary MIWP 2021-2024 sub-group 2.3.1"],
+        publisher:    "INSPIRE Maintenance and Implementation Group (MIG)",
+        date:         "1 augustus 2022",
   },
     "ISO19119":
       {
