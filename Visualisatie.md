@@ -5,17 +5,16 @@
 ## Overzicht geostandaarden visualisatie
 
 Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, etc.) wordt steeds belangrijker. Veel inhoudelijke domeinen overwegen het formeel vastleggen van een standaard visualisatie voor hun informatiemodel en zoeken een geschikte standaard om dit vast te leggen. OGC biedt hiervoor diverse specificaties: 
-•	**Styled Layer Descriptor** (SLD) en **Symbology Encoding** (SE): Deze standaarden beschrijven samen de specificatie voor het beschrijven van visualisaties voor OGC services.
-•	**Web Map Context Documents** (XML syntax) geeft de mogelijkheid om de status van een WMS client (viewer) vast te leggen. Denk aan een combinatie van een aantal WMS services, (subset) van een legenda, layers (styles, formats), inzoom schaal, etc.. Deze situatie kan op een client worden opgeslagen en worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map Context hebben.
 
+-   **Styled Layer Descriptor** (SLD) en **Symbology Encoding** (SE): Deze standaarden beschrijven samen de specificatie voor het beschrijven van visualisaties voor OGC services;
 
--  <aside class="issue">Er is vooralsnog bij de OGC geen opvolger voorzien van WMC als REST API. WMC handhaven of verwijderen?</aside>
+-   **Web Map Context Documents** (XML syntax) geeft de mogelijkheid om de status van een WMS client (viewer) vast te leggen. Denk aan een combinatie van een aantal WMS services, (subset) van een legenda, layers (styles, formats), inzoom schaal, etc.. Deze situatie kan op een client worden opgeslagen en worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map Context hebben;
 
--   **Mapbox Styles** is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele. 
+-   **Mapbox Styles** is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele; 
 
--   **OGC API Styles** is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt.
+-   **OGC API Styles** is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt;
 
-- **3D Tiles** is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen.
+- **3D Tiles** is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen;
 
 - **Indexed 3D Scene Layers** (i3S) is ook een goedgekeurde OGC community standaard. Het specificeert een formaat, opgebouwd uit gestandaardiseerde lagen, voor efficiënte 3D visualisatie op het web.
 
@@ -30,10 +29,11 @@ Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, et
     welke richting het precies op gaat. KML en Collada zijn tevens prima
     geschikt voor 3D visualisatie.</aside>
 
-Diverse Europese en Nederlandse profielen voor visualisatie zijn beschikbaar in de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze zijn beschreven in SLD en SE voor de Europese profielen; in de hoofdstukken 11 van de INSPIRE data specificaties is portrayal gedefinieerd volgens SLD en SE.
+ Europese profielen voor visualisatie zijn beschikbaar in de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze zijn beschreven in SLD en SE voor de Europese INSPIRE profielen; in de hoofdstukken 11 van de INSPIRE data specificaties is portrayal gedefinieerd volgens **Styled Layer Descriptor** en **Symbology Encoding**.
 
-In [Visualisatieregels van de BGT](#bgtvoorbeeld) is een voorbeeld opgenomen over hoe visualisatieregels in de
-Nederlandse profielen toegepast zijn voor het dataproduct BGT/IMgeo.
+Ook in Nederlandse profielen worden visualisatieregels toegepast zoals in de [Visualisatieregels van de BGT](#bgtvoorbeeld).
+
+In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen. 
 
 *Tabel 4.1 - Standaarden en specificaties voor visualisatie*
 
@@ -49,7 +49,6 @@ Nederlandse profielen toegepast zijn voor het dataproduct BGT/IMgeo.
 | 3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification  |  |  |
 | OGC Indexed 3D Scene Layers v1.2 [[I3S]] |   |  |
 
-<aside class="issue">Moeten we X3D, Collada ook opnemen? </aside>
 
 ## Kwaliteit en visualisatie
 
@@ -59,9 +58,8 @@ Een visualisatie is geen onderdeel van een informatiemodel of dataproduct, maar 
 
 <aside class="example" title="Visualisatieregels van de BGT" id="bgtvoorbeeld">
 
-Bijvoorbeeld voor de BGT\|IMGeo zijn zeven presentaties beschikbaar. Deze zijn beschreven in de [Handreiking BGT\|IMGeo Visualisatieregels 2.3
+Voor de BGT|IMGeo zijn zeven presentaties beschikbaar. Deze zijn beschreven in de [Handreiking BGT\|IMGeo Visualisatieregels 2.3
 (2018)](https://docs.geostandaarden.nl/bgt/def-hr-visualisatie-20181015/):
-
 
 -  <u>Standaardvisualisatie</u>: een visualisatie voor het gebruik van de
     BGT/IMGeo-inhoud als hoofdthema, die aansluit bij de visualisatie van de
