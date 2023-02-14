@@ -59,17 +59,17 @@ NEN 3610 is de basis van waaruit verschillende sectorale geo-informatiemodellen 
 
 
 ## Afstemming begrippenkaders
-Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er zijn een aantal mechanismen om die afstemming te sturen.
-•	NEN 3610 heeft een semantisch model dat de werkelijkheid indeelt naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen;
-•	Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De door Geonovum ingerichte [conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van;
-•	Zoek bij het (door-)ontwikkelen van sectorale modellen samenwerking en afstemming tussen sectorale modellen;
-•	Knowledge graphs kunnen helpen om begrippenkaders aan elkaar te verbinden.
+Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er zijn een aantal mechanismen om die afstemming te sturen:
+
+- NEN 3610 heeft een semantisch model dat de werkelijkheid indeelt naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen;
+- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De door Geonovum ingerichte [conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van;- Zoek bij het (door-)ontwikkelen van sectorale modellen samenwerking en afstemming tussen sectorale modellen;
+- Knowledge graphs kunnen helpen om begrippenkaders aan elkaar te verbinden.
 
 ## Kwaliteit van informatiemodellen
 
 Informatiemodellen zijn nog geen data en kunnen daarom alleen op conceptueel niveau op kwaliteit beoordeeld worden. Er zijn een aantal mechanismen om de kwaliteit te borgen:
 
-•	NEN 3610:2022 conformiteit. NEN 3610:2022 bevat een abstracte testsuite voor het testen van de conformiteit van een informatiemodel aan NEN 3610. De regels en aanbevelingen van NEN 3610 zijn daarin vertaald naar conformiteitsklassen.
-•	Er is een NEN 3610:2022 [template](https://register.geostandaarden.nl/?url=nen3610/index.html) beschikbaar voor UML modellering in Enterprise Architect.
-•	Publicatie en implementatie van een NEN 3610 model in implementatieschema's wordt ondersteund door tooling. In de tooling zit een test op MIM conformiteit.
-•	Er is een handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschikbaar. Deze handreiking beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is een ondersteuning voor de toepassing van het basismodel geo-informatie (NEN3610) en GML. De handreiking geeft onder meer uitleg over welke geometrieën er zijn, Simple Feature profielen en transformatieregels voor het kunnen genereren van GML uit UML.
+- NEN 3610:2022 conformiteit. NEN 3610:2022 bevat een abstracte testsuite voor het testen van de conformiteit van een informatiemodel aan NEN 3610. De regels en aanbevelingen van NEN 3610 zijn daarin vertaald naar conformiteitsklassen;
+- Er is een NEN 3610:2022 [template](https://register.geostandaarden.nl/?url=nen3610/index.html) beschikbaar voor UML modellering in Enterprise Architect;
+- Publicatie en implementatie van een NEN 3610 model in implementatieschema's wordt ondersteund door tooling. In de tooling zit een test op MIM conformiteit;
+- Er is een handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschikbaar. Deze handreiking beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is een ondersteuning voor de toepassing van het basismodel geo-informatie (NEN3610) en GML. De handreiking geeft onder meer uitleg over welke geometrieën er zijn, Simple Feature profielen en transformatieregels voor het kunnen genereren van GML uit UML.
