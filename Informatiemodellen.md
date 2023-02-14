@@ -19,12 +19,12 @@ NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-
 
 <figure id="Figuur_x">
 <img src="media/NEN3610StandaardenPackageDiagram.png" alt="">
-<figcaption>Figuur 3.1 - UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
+<figcaption>UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
 </figure>
 
 <figure id="Figuur_x">
 <img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="">
-<figcaption>Figuur 3.2 - Vorige figuur 3.1 weergegeven in de 'NEN 3610 - piramide'</figcaption>
+<figcaption>Vorige figuur 1 weergegeven in de 'NEN 3610 - piramide'</figcaption>
 </figure>
 
 ## MIM Metamodel voor Informatiemodellering
