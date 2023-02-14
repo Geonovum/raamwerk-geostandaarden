@@ -42,11 +42,7 @@ NORA stelt ook de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/op
 ## BOMOS
 
 Geonovum heeft het beheer van alle geo-standaarden ingericht langs de lijnen van het [Beheer- en Ontwikkelmodel voor Open Standaarden](https://www.logius.nl/diensten/bomos) (BOMOS). BOMOS is in beheer bij het Centrum voor Standaarden bij [Logius](https://www.logius.nl/diensten/bomos). 
-Geonovum gebruikt BOMOS voor alle standaarden die het in beheer heeft, om te garanderen dat deze open zijn volgens de definitie die BOMOS hieraan geeft. De toepassing van BOMOS zorgt er bovendien voor dat standaarden die Geonovum beheert en ontwikkelt in aanmerking komen voor plaatsing op de lijst verplichte standaarden en op de lijst met aanbevolen standaarden van het Forum Standaardisatie. 
-
-![BOMOS](media/BOMOS.png)
- 
-Hoe wij binnen Geonovum BOMOS gebruiken staat beschreven in onze [beheerdocumentatie voor de geo-standaarden](https://docs.geostandaarden.nl/gbd/gsb/).
+Geonovum gebruikt BOMOS voor alle standaarden die het in beheer heeft, om te garanderen dat deze open zijn volgens de definitie die BOMOS hieraan geeft. De toepassing van BOMOS zorgt er bovendien voor dat standaarden die Geonovum beheert en ontwikkelt in aanmerking komen voor plaatsing op de lijst verplichte standaarden en op de lijst met aanbevolen standaarden van het Forum Standaardisatie. Het gebruik van BOMOS voor het beheeer van geo-standaarden staat beschreven in [beheerdocumentatie voor de geo-standaarden](https://docs.geostandaarden.nl/gbd/gsb/).
 
 ## Het 3-laags pacelayer model
 
