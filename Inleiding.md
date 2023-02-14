@@ -2,6 +2,7 @@
 
 **Bij de opzet en ontwikkeling van een geo-informatie infrastructuur is het de uitdaging om steeds de juiste set standaarden te kiezen. Het Raamwerk van Geo-Standaarden helpt daarbij. Het benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.**
 
+
 ## Doel en doelgroep van het raamwerk
 
 Het Raamwerk van geo-standaarden is geschreven voor iedereen die geodatasets vastlegt, uitwisselt en beheert en voor iedereen die informatiebeleid maakt. 
@@ -90,7 +91,6 @@ Meer concreet heeft Geonovum in deze cyclus de volgende taken:
 In dit Raamwerk gebruiken we verschillende termen om documentatie mee aan te duiden. Wij sommen deze hieronder op, voorzien van hun betekenis.
 
 **Norm**
-
 Een norm is bij een officieel standaardisatie instituut ondergebracht en bevat
 bindende afspraken. Naast het gebruik van normen is NEN 3610 de enige norm waar
 Geonovum een inhoudelijke verantwoordelijkheid heeft. Het formele beheer en
@@ -98,11 +98,9 @@ beslissingen worden genomen in de NEN normcommissie 351 240 waar Geonovum de
 voorzitter van is.
 
 **Standaard**
-
 Een document met (bindende) afspraken.
 
 **Informatiemodel**
-
 Een standaard waarbij door de term informatiemodel te hanteren wordt aangegeven
 dat het een abstractie (het model) vormt van de werkelijkheid zoals beschreven
 binnen een bepaalde sector/domein. Informatiemodellen zijn een semantische
@@ -110,23 +108,19 @@ invulling van normen voor sectoren zoals ruimtelijke ordening, kabels en
 leidingen, water, etc..
 
 **Praktijkrichtlijn**
-
 Praktijkrichtlijnen zijn producten die informatie geven, vaak met een technisch
 karakter, die nodig is voor het toepassen van standaarden. Een praktijkrichtlijn
 hoort altijd bij een standaard/norm.
 
 **Handreiking**
-
 Op zichzelf staande documentatie dat als doel heeft een hulpmiddel te zijn, niet
 verplichtend maar ondersteunend.
 
 **Werkafspraak**
-
 Legt uit hoe wetgeving moet worden toegepast bij onduidelijkheden, discrepanties
 of fouten in de standaarden.
 
 **Beheerdocumentatie**
-
 Documentatie met betrekking tot het beheerproces van de standaard. Deze
 documentatie betreft niet een standaard of onderdeel daarvan, zoals een
 handreiking of werkafspraak. Dit kan interne gerichte documentatie zijn voor
@@ -141,15 +135,16 @@ Het Raamwerk van geo-standaarden is vergeleken met de vorige versie teruggebrach
 geo-standaarden centraal staat. 
 
 Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geo-standaarden-in-samenhang)
-beschrijft de geo-standaarden in samenhang en vanuit architectuur. Dit is het hoofddoel van het document.
+beschrijft enige context en de geo-standaarden in samenhang. 
 
 Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de vorige versies van dit raamwerk verdeeld over zes categorieën: 
--  geo-standaarden voor [informatiemodellen](#informatiemodellen-0);
--  geo-standaarden voor [visualisatie](#visualisatie);
--  geo-standaarden voor [Application Programming Interfaces (API’s)](#application-programming-interfaces); 
--  geo-standaarden voor [uitwisselformaten](#uitwisselformaten);
--  geo-standaarden voor [metadata](#metadata-0); en 
--  geo-standaarden voor [coördinaat-referentiesystemen](#coordinaatreferentiesystemen-crs-en). 
+-  Geo-standaarden voor [informatiemodellen](#informatiemodellen-0);
+-  Geo-standaarden voor [visualisatie](#visualisatie);
+-  Geo-standaarden voor [Application Programming Interfaces (API’s)](#application-programming-interfaces); 
+-  Geo-standaarden voor [uitwisselformaten](#uitwisselformaten);
+-  Geo-standaarden voor [metadata](#metadata-0); en 
+-  Geo-standaarden voor [coördinaat-referentiesystemen](#coordinaatreferentiesystemen-crs-en).
+
 In de hoofdstukken 3 tot en met 8 zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en eventueel uitgevoerde verkenningen aan de orde.
 
 Tot slot, zijn alle normatieve [referenties](#references) – de verwijzingen naar de officiële standaarden documentatie – opgenomen.
