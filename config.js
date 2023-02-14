@@ -68,11 +68,6 @@ var respecConfig =
   editors: 
  [
     {
-      name:       "Jan van Gelder",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    }, 
-    {
       name:       "Michel Grothe",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
