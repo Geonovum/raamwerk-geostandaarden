@@ -40,8 +40,8 @@ CRS-en zelf zijn geen geografische data, de kwaliteit van geografische data valt
 
 In de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) worden achtergronden bij CRS-en en diverse aandachtspunten besproken bij het omgaan met CRS-en, zoals:
 
-* CRS-keuze voor informatiemodellen;
-* het meegeven van informatie over CRS-en in informatiemodellen en metadata;
-* eenduidige naamgeving van CRS-en;
-* eenduidige coördinaattransformaties;
-* ondersteuning van CRS-en in uitwisselingsformaten en software(bibliotheken). 
+- CRS-keuze voor informatiemodellen;
+- Het meegeven van informatie over CRS-en in informatiemodellen en metadata;
+- Eenduidige naamgeving van CRS-en;
+- Eenduidige coördinaattransformaties;
+- Ondersteuning van CRS-en in uitwisselingsformaten en software(bibliotheken). 
