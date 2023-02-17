@@ -4,10 +4,10 @@
 
 ## Overzicht geo-standaarden metadata
 
-Er zijn verschillende niveaus waarop metadata aangemaakt kunnen worden. Metadata van data beschrijft de dataset of dataset reeks. Metadata van services, beschrijft de ‘service’ of API (WMS,WFS) waarmee (een) ruimtelijke dataset(s) wordt ontsloten. In Nederland passen we het Nederlands metadataprofiel voor datasets en services toe. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services en waar relevant aangevuld met OGC specificaties en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, voldoe je ook aan de INSPIRE profielen voor metadata. 
+Er zijn verschillende niveaus waarop metadata aangemaakt kunnen worden. Metadata van data beschrijft de dataset of dataset reeks. Metadata van services, beschrijft de ‘service’ of API (WMS,WFS) waarmee (een) ruimtelijke dataset(s) wordt ontsloten. In Nederland passen we het Nederlands metadataprofiel voor datasets en services toe. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services. Het is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereistenen en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, kan je voldoen aan de INSPIRE profielen voor metadata. 
 
-In de Nederlandse metadataprofielen is ook de aansluiting op data.overheid.nl meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, die de datasets gemakkelijk doorzoekbaar en vindbaar maakt. Om datasets overzichtelijk te kunnen presenteren en om gericht naar datasets te kunnen zoeken, worden datasets in data.overheid.nl beschreven met metadata conform de standaard DCAT. DCAT is een metadata standaard van W3C voor de beschrijving van datasets. 
-Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP maakt het mogelijk om datasetcollecties te beschrijven en om dergelijke beschrijvingen samen te voegen. Hierdoor kunnen gebruikers datasets gemakkelijker vinden vanaf één toegangspunt. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van geodatasets, dataset series en services. Deze extensie is eveneens afgestemd op de INSPIRE kernset en de Nederlandse profielen. 
+In de Nederlandse metadataprofielen is ook de aansluiting op data.overheid.nl meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, voor alle open data van de overheid. Om naar datasets uit verschillende domeinen te kunnen zoeken, worden datasets in data.overheid.nl beschreven met metadata conform de standaard DCAT. DCAT is een metadata standaard van W3C voor het uitwisselen van metadata tussen verschillende datacatalogi. 
+Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van geodatasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. 
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
 
@@ -21,6 +21,10 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
 | ISO/TS 19139:2007, Geographic information - Metadata – XML Schema Implementation [[ISO19139]]  |  |  |
 | Data Catalog Vocabulary (DCAT) version 2.0 [[vocab-dcat-2]] | DCAT-AP - An extension for the DCAT application profile for data portals in Europe version 2.1.1 [[DCAT-AP-2.1.1]]| 
 | | GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] | |
+
+
+<aside class="note">De [[inspire-TG-metadata]] is gebaseerd op [[ISO19115-2003]] Dit is de reden dat het NL profiel ook op [[ISO19115-2003]] is gebaseerd en niet op de nieuwere [[ISO19115-2014]] </aside>
+
 
 ## Kwaliteit van metadata
 
@@ -37,6 +41,6 @@ naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspi
 
 ## Verkenning
 
-Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op generieke standaarden en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en data-gebruiker is een aandachtsgebied. 
+Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op generieke standaarden, zoals DCAT en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en data-gebruiker is een aandachtsgebied. 
 
 
