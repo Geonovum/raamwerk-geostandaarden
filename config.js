@@ -201,6 +201,15 @@ var respecConfig =
         publisher:    "International Organization for Standardization",
         date:         "May 2008",
       },
+	    "ISO19115-2014": 
+      {
+        title:        "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
+        href:         "https://www.iso.org/standard/53798.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "April 2014",
+      },
       "ISO19139":
       {
         title:        "ISO/TS 19139:2007 Geographic information — Metadata — XML schema implementation",
