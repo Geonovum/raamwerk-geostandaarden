@@ -282,6 +282,15 @@ var respecConfig =
         publisher:    "International Organization for Standardization",
         date:         "2005-02",
     },
+	   "DCAT-AP-2.1.1":
+      {
+        title:        "DCAT Application Profile for data portals in Europe 2.1.1",
+        href:         "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/releases",
+        //status:       ["Adopted specification"],
+        //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+        publisher:    "European Commission",
+        date:         "2022-06-24",
+    },
     "SLD11":
       {
         title:        "OGC 05-078r4: Styled Layer Descriptor profile of the Web Map Service Implementation Specification, Version 1.1",
