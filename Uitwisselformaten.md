@@ -17,9 +17,9 @@ In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen 
 
 ## Vectordata uitwisselstandaarden
 
-De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten waarbij de geometrie wordt beschreven met behulp van: punt, lijn en vlak (2D) of met volvlakken (3D). De vectorrepresentatie is uitgebreid beschreven in de internationale standaard [[ISO19107]]. Deze standaard geeft ook aanwijzingen voor het expliciet vastleggen van onderlinge relaties tussen geografische objecten. De ISO standaard is zeer uitgebreid. Voor de meeste toepassingen kan je goed uit de voeten met de door OGC opgestelde subset uit deze standaard: het simple features profile 3.1.1.   
+De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten waarbij de geometrie wordt beschreven met behulp van: punt, lijn en vlak (2D) of met volvlakken (3D). De vectorrepresentatie is uitgebreid beschreven in de internationale standaard [[ISO19107]]. Deze standaard geeft ook aanwijzingen voor het expliciet vastleggen van onderlinge relaties tussen geografische objecten. De ISO standaard is zeer uitgebreid. Voor de meeste toepassingen kan je goed uit de voeten met de door OGC opgestelde subset uit deze standaard: Simple Feature Access [[iso-19125-1-2004]].   
 
-<aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC 10-100r3, 2011-05-24, version 2.0 simple features profile dat je vindt in GML 3.2.1 [[ISO19136]].</aside>
+<aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC Simple Features profile voor GML [[GMLSF]] dat de Simple Features subset van geometrietypen, met als extra toevoeging cirkelbogen, toepast op  GML 3.2.1 [[ISO19136]].</aside>
 
 Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
@@ -29,13 +29,14 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 | **Internationale standaarden/specificaties**                                                            | **Europese profielen**                                                                | **Nederlandse profielen**    |
 |---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------|
 | ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]]  | INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] |
+| ISO 19125 Simple Feature Access Part 1: Common Architecture, version 1.2.1 [[iso-19125-1-2004]]  |  |  |
 | OGC Geography Markup Language (GML) Encoding Specification, version 3.1.1. [[GML31]]  |  |  |
 | OGC Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) [[iso-19136-2007]]  |  |  |
 | OGC Geography Markup Language (GML) Encoding standard, version 3.3  [[GML33]]  |  |   |
-| Simple Features profile (OGC 10-100r3, version 2.0) op ISO 19136:2007 (GML 3.2.1)  [[GMLSF]]  |  |  |
+| OGC Simple Features profile (OGC 10-100r3, version 2.0) op ISO 19136:2007 (GML 3.2.1)  [[GMLSF]]  |  |  |
 | OGC GeoPackage Encoding Standard, version 1.3.1 [[GeoPackage]]  | GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]] |  |
 | The GeoJSON Format [[rfc7946]] |  |  |
-| OGC JSON Features and Geometries **draft** [[JSON-FG]]  |  |  |
+| OGC JSON Features and Geometries, version 0.1 **draft** [[JSON-FG]]  |  |  |
 | HTML5 [[html5]] |  |                              |
 | Resource Description Framework (RDF): Concepts and Abstract Syntax. [[rdf11-concepts]]  |  |    |
 
