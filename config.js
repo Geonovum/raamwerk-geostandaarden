@@ -78,7 +78,7 @@ var respecConfig =
   authors: 
   [
     {
-      name:       "Michel Grothe",
+      name:       "Linda van den Brink ",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     },
@@ -87,30 +87,30 @@ var respecConfig =
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     },
+    {
+      name:       "Michel Grothe",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    },
+    { name:       "Lennard Huisman",
+      company:    "Kadaster",
+      companyURL: 'http://www.kadaster.nl'
+    },
     {      
       name:       "Paul Janssen",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
-    {
-      name:       "Linda van den Brink ",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-   }, 
-   {
-      name:       "Ine de Visser",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-   },
-   {  name:       "Lennard Huisman",
-      company:    "Kadaster",
-      companyURL: 'http://www.kadaster.nl'
-   },
-   {    
+    {    
       name:       "Monique van Scherpenzeel",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl" 
-   }
+    },
+    {
+      name:       "Ine de Visser",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    },
  ],
   //-- shortName is verplicht! (komt in de URL: kies logische naam) --------------------
   shortName: "rw",  	              // Wordt gebruikt in de document URL
