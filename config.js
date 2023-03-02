@@ -201,6 +201,15 @@ var respecConfig =
         publisher:    "International Organization for Standardization",
         date:         "May 2008",
       },
+	    "ISO19115-2014": 
+      {
+        title:        "ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals",
+        href:         "https://www.iso.org/standard/53798.html",
+        //status:       ["Adopted specification"],
+        //authors:      [""],
+        publisher:    "International Organization for Standardization",
+        date:         "April 2014",
+      },
       "ISO19139":
       {
         title:        "ISO/TS 19139:2007 Geographic information — Metadata — XML schema implementation",
@@ -281,6 +290,15 @@ var respecConfig =
         //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "International Organization for Standardization",
         date:         "2005-02",
+    },
+	   "DCAT-AP-2.1.1":
+      {
+        title:        "DCAT Application Profile for data portals in Europe 2.1.1",
+        href:         "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/releases",
+        //status:       ["Adopted specification"],
+        //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+        publisher:    "European Commission",
+        date:         "2022-06-24",
     },
     "SLD11":
       {
