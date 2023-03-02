@@ -19,7 +19,7 @@ In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen 
 
 De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten waarbij de geometrie wordt beschreven met behulp van: punt, lijn en vlak (2D) of met volvlakken (3D). De vectorrepresentatie is uitgebreid beschreven in de internationale standaard [[ISO19107]]. Deze standaard geeft ook aanwijzingen voor het expliciet vastleggen van onderlinge relaties tussen geografische objecten. De ISO standaard is zeer uitgebreid. Voor de meeste toepassingen kan je goed uit de voeten met de door OGC opgestelde subset uit deze standaard: het simple features profile 3.1.1.   
 
-<aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC 10-100r3, 2011-05-24, version 2.0 simple features profile dat je vindt in GML 3.2.1 [[ISO19136]].<aside>
+<aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC 10-100r3, 2011-05-24, version 2.0 simple features profile dat je vindt in GML 3.2.1 [[ISO19136]].</aside>
 
 Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
