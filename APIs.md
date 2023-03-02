@@ -98,6 +98,8 @@ In het overzicht van geo-standaarden voor API’s zijn de standaarden per thema 
 | OGC API - Tiles - Part 1: Core [[OAPITILES1]] |  |  |
 | OGC 3D Tiles 1.0 [[3DTILES]] |  |  |
 
+**Handreikingen**
+
 Handreikingen voor implementatie:
 -   [Praktijkrichtlijn Vector Tiling (2021)](https://docs.geostandaarden.nl/serv/vt/)
 -   [Handreiking Best practices Vector Tiling (2021)](https://geonovum.github.io/vector-tiling-best-practices/)
@@ -110,6 +112,8 @@ Handreikingen voor implementatie:
 |-------------------------------------------------------------------------------------|------------------------|---------------------------|
 | GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]]  |  |  |
 | GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GEOSPARQL11]] |  |  |
+
+**Handreikingen**
 
 Handreikingen voor implementatie: 
 - NEN 3610 - Linked Data [[NLDP]]
