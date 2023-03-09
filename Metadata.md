@@ -23,7 +23,7 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
 | | GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] | |
 
 
-<aside class="note">De [[inspire-TG-metadata]] is gebaseerd op [[ISO19115-2003]] Dit is de reden dat het NL profiel ook op [[ISO19115-2003]] is gebaseerd en niet op de nieuwere [[ISO19115-2014]] </aside>
+<aside class="note">De [[inspire-TG-metadata]] is gebaseerd op [[ISO19115-2003]]. Dit is de reden dat het NL profiel ook op [[ISO19115-2003]] is gebaseerd en niet op [[ISO19115-2014]]. </aside>
 
 
 ## Kwaliteit van metadata
