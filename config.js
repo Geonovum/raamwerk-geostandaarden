@@ -994,7 +994,7 @@ var respecConfig =
         editors:  ["Chris Little", "Jon Blower", "Maik Riechert"],
         //date:     "2018-08-27",
     },
-	"OaMx2": 
+	  "OaMx2": 
       {
         title:    "Observations and Measurements - XML Implementation v2.0",
         href:     "https://portal.ogc.org/files/?artifact_id=41510",
@@ -1003,7 +1003,7 @@ var respecConfig =
         editors:  ["Simon Cox"],
         //date:     "2011-03-22",
     },
-	"OaMt1": 
+	  "OaMt1": 
       {
         title:    "OGC Timeseries Profile of Observations and Measurements v1.0",
         href:     "http://docs.opengeospatial.org/is/15-043r3/15-043r3.html",
@@ -1012,7 +1012,7 @@ var respecConfig =
         editors:  ["James Tomkins", "Dominic Lowe"],
         //date:     "2016-09-09",
     },
-	"OMS3": 
+	  "OMS3": 
       {
         title:    "OGC Abstract Specification Geographic information — Observations and measurements v3.0",
         href:     "https://portal.ogc.org/files/95653",
@@ -1039,7 +1039,7 @@ var respecConfig =
         editors:  ["Mike Botts", "Alexandre Robin", "Eric Hirschorn"],
         date:     "2020-08-10",
     },
-	"CityGML2": 
+	  "CityGML2": 
       {
         title:    "OGC City Geography Markup Language (CityGML) Encoding Standard",
         href:     "https://portal.ogc.org/files/?artifact_id=47842",
