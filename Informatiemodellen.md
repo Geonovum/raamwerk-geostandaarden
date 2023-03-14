@@ -17,12 +17,12 @@ NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangri
 
 NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaande figuren 3.1 en 3.2 geven schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
-<figure id="Figuur_x">
+<figure id="pd">
 <img src="media/NEN3610StandaardenPackageDiagram.png" alt="">
 <figcaption>UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
 </figure>
 
-<figure id="Figuur_x">
+<figure id="pd-piramide">
 <img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="">
 <figcaption>Vorige figuur 1 weergegeven in de 'NEN 3610 - piramide'</figcaption>
 </figure>
