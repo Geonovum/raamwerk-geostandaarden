@@ -20,9 +20,13 @@ var respecConfig = {
   //previousPublishDate: "2023-01-17",
   previousPublishDate: "2023-03-14", 
   previousMaturity: "cv",
-  previousPublishVersion: "0.0.1",
+  //previousPublishVersion: "0.0.1",
   // werkt niet 
   //content: {"Versiebeheer": "informative", "Inleiding": "", "Geo-standaardenInSamenhang": "", "Informatiemodellen": "", "Visualisatie": "", "APIs": "", "Uitwisselformaten": "", "Metadata": "", "RuimtelijkeReferentiesystemen": ""},
+  edDraftURI: "https://geonovum.github.io/raamwerk-geostandaarden",
+  latestVersion: ["nl_organisationPublishURL", "pubDomain", "/"],
+  thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+  prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
   editors:
  [
     {
