@@ -13,7 +13,7 @@ De gebruiker van NEN 3610 is de informatiearchitect en informatiemodelleur, die 
 
 ## Samenhang internationale en nationale standaarden
 
-NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangrijk om te vermelden, is dat de structuur en opbouw van NEN 3610 conformeert aan de ISO 19100 serie. Aan deze ISO standaard moeten veel geodatasets voldoen in het kader van Europese regels (INSPIRE-richtlijn). Door de internationale afstemming is de structuur en opbouw van de Nederlandse informatiemodellen conform NEN 3610, vergelijkbaar met die van Europese informatiestandaarden. De Europese INSPIRE standaarden zijn geïmplementeerd aan de aan hand 34 inhoudelijke thema’s, waarvoor nadere 'dataspecificaties' zijn opgesteld. Nederlandse datasets die onder INSPIRE vallen, worden conform deze Europese dataspecificaties via de Europese geo-informatie infrastructuur beschikbaar gesteld.
+NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangrijk om te vermelden, is dat de structuur en opbouw van NEN 3610 conformeert aan de ISO 19100 serie. Aan deze ISO standaard moeten veel geodatasets voldoen in het kader van Europese regels (INSPIRE-richtlijn). Door de internationale afstemming is de structuur en opbouw van de Nederlandse informatiemodellen conform NEN 3610, vergelijkbaar met die van Europese informatiestandaarden. De Europese INSPIRE standaarden zijn geïmplementeerd aan de hand van 34 inhoudelijke thema’s, waarvoor  'dataspecificaties' zijn opgesteld. Nederlandse datasets, die onder INSPIRE vallen, worden conform deze Europese dataspecificaties via de Europese geo-informatie infrastructuur beschikbaar gesteld.
 
 NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaande figuren 3.1 en 3.2 geven schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
@@ -27,12 +27,12 @@ NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-
 <figcaption>Vorige figuur 1 weergegeven in de 'NEN 3610 - piramide'</figcaption>
 </figure>
 
-## MIM Metamodel voor Informatiemodellering
+## MIM - Metamodel voor Informatiemodellering
 
 Het Metamodel voor informatiemodellering [[MIM]] is een standaard die het metamodel beschrijft waarmee informatiemodellen – ook voor andere dan geo-informatie - worden gemaakt. Het beschrijft de metaklassen, metastructuur en metagegevens die de grondslag vormen voor een informatiemodel. Doel van MIM is het standaardiseren van de methode van informatiemodelleren. Hierdoor wordt afstemming tussen informatiemodellen, vergelijkbaarheid in publicatie en gebruik van gemeenschappelijke tooling mogelijk. Conformiteit aan MIM faciliteert het ontstaan van een overheidsbreed stelsel van vergelijkbare en samenhangende informatiemodellen. 
-Het MIM metamodel is conceptueel beschreven en uitgewerkt voor toepassing in UML en in Linked Data. NEN 3610:2022 conformeert aan MIM.
+Het MIM metamodel is conceptueel beschreven en uitgewerkt voor toepassing in UML en in Linked Data. 
 
-Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digitale overheid, gebruikt NEN 3610 als metamodel de Nederlandse standaard voor meta-informatiemodellering: het Metamodel Informatiemodellering [MIM](#mim-principes). 
+Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digitale overheid, gebruikt NEN 3610 als metamodel de Nederlandse standaard voor meta-informatiemodellering: het Metamodel Informatiemodellering [MIM](#mim-principes). NEN 3610:2022 conformeert aan MIM.
 
 ## Overzicht standaarden informatiemodellen voor Nederland
 
@@ -59,10 +59,11 @@ NEN 3610 is de basis van waaruit verschillende sectorale geo-informatiemodellen 
 
 
 ## Afstemming begrippenkaders
-Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er zijn een aantal mechanismen om die afstemming te sturen:
+Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er is een aantal mechanismen om die afstemming te sturen:
 
 - NEN 3610 heeft een semantisch model dat de werkelijkheid indeelt naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen;
-- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De door Geonovum ingerichte [conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van;- Zoek bij het (door-)ontwikkelen van sectorale modellen samenwerking en afstemming tussen sectorale modellen;
+- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De door Geonovum ingerichte [conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van;
+- Zoek bij het (door-)ontwikkelen van sectorale modellen samenwerking en afstemming tussen sectorale modellen;
 - Knowledge graphs kunnen helpen om begrippenkaders aan elkaar te verbinden.
 
 ## Kwaliteit van informatiemodellen
