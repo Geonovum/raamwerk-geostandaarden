@@ -6,12 +6,12 @@
 ## Doel en doelgroep van het raamwerk
 
 Het Raamwerk van geo-standaarden is geschreven voor iedereen die geodatasets vastlegt, uitwisselt en beheert en voor iedereen die informatiebeleid maakt. 
-Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden de juiste set te kiezen: die standaarden die nodig zijn om geodata vindbaar, toegankelijk, uitwisselbaar en herbruikbaar te maken. Wij baseren de keuzes voor standaarden in het Raamwerk op de volgende uitgangspunten: internationale aansluiting, volwassenheid en openheid van deze geo-standaarden en brede adoptie en gebruik. Met het toepassen van de in dit raamwerk opgenomen geo-standaarden, draag je bij aan een solide infrastructuur, in lijn met internationale ontwikkelingen en aansluitend op de nationale digitale overheid.
+Het doel van het Raamwerk van geo-standaarden is om uit de grote verscheidenheid aan standaarden de juiste set te kiezen: die standaarden die nodig zijn om geodata vindbaar, toegankelijk, uitwisselbaar en herbruikbaar te maken. Wij baseren de keuzes voor standaarden in het Raamwerk op de volgende uitgangspunten: internationale aansluiting, volwassenheid en openheid van deze geo-standaarden en brede adoptie en gebruik. Het toepassen van de in dit raamwerk opgenomen geo-standaarden, draagt aan een solide geo-informatie infrastructuur, in lijn met internationale ontwikkelingen en aansluitend op de nationale digitale overheid.
 
 
 ## Status van het raamwerk
 
-Het Raamwerk voor Geo-Standaarden is richtinggevend voor het gebruik van standaarden binnen de Nederlandse geo-informatie infrastructuur. Voor Nederlandse overheidsorganisaties is het daarmee de leidraad voor toe te passen geo-standaarden. 
+Het Raamwerk van geo-standaarden is richtinggevend voor het gebruik van standaarden binnen de Nederlandse geo-informatie infrastructuur. Voor Nederlandse overheidsorganisaties is het daarmee de leidraad voor toe te passen geo-standaarden. 
 Het Raamwerk is binnen de overheid verankerd via het Geo-Informatie Beraad. Het Raamwerk is afgestemd met de basislijst open standaarden van het Forum Standaardisatie en vormt het verdiepende hoofdstuk over geo binnen de Nederlandse Overheid Referentie Architectuur (NORA).
 Met betrekking tot coördinaatreferentiesystemen volgt het Raamwerk de aanbevelingen van de Nederlandse Samenwerking Geodetische Infrastructuur (NSGI). Via de NEN normcommissie Geo-informatie worden relaties met de NEN, CEN en ISO standaardisatie organisaties onderhouden. Daarnaast zijn de in het Raamwerk genoemde geo-standaarden in lijn met de Europese geo-informatie infrastructuur volgens de INSPIRE Richtlijn. In de volgende alinea’s lees je meer over deze verschillende organisaties en programma’s en hun relatie tot het Raamwerk.
 
@@ -34,15 +34,14 @@ De taken van het GI-beraad zijn strategisch van aard, waarbij het GI-beraad de M
 
 **Forum Standaardisatie**
 
-Het Forum Standaardisatie adviseert de Nederlandse overheid adviseren over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open standaarden</a>. Het Forum Standaardisatie voert het beheer over twee lijsten, namelijk de lijst met verplichte open standaarden voor ‘pas toe of leg uit’ en een lijst met aanbevolen open standaarden.
+Het Forum Standaardisatie adviseert de Nederlandse overheid over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open standaarden</a>. Het Forum Standaardisatie voert het beheer over twee lijsten, namelijk de lijst met verplichte open standaarden voor ‘pas toe of leg uit’ en een lijst met aanbevolen open standaarden.
 
-Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten volgen. Een aantal <a href='https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden' target='_blank'>geo-standaarden uit het Raamwerk staat op de ‘pas toe of leg uit’ lijst</a> van het Forum Standaardisatie.
+Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten volgen. Een aantal <a href='https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden' target='_blank'>geo-standaarden uit het Raamwerk van geo-standaarden staat op de ‘pas toe of leg uit’ lijst</a> van het Forum Standaardisatie.
 
 **NEN normcommissie Geo-informatie**
 
 Bij NEN, Stichting Koninklijk Nederlands Normalisatie Instituut, worden
-afspraken vastgelegd in normen en richtlijnen. Dit doen de NEN in nationale en/of
-internationale normcommissies. De <a href='https://www.nen.nl/normcommissie-geo-informatie' target='_blank'>normcommissie
+afspraken via nationale en/of internationale normcommissie vastgelegd in normen en richtlijnen. De <a href='https://www.nen.nl/normcommissie-geo-informatie' target='_blank'>normcommissie
 Geo-informatie</a> valt binnen de normalisatiestructuur van NEN onder de Beleidscommissie Bouw. Het
 werk in deze normsubcommissie is gerelateerd aan nationale-, Europese- en mondiale wet- en regelgeving. Op Europees- en mondiaal niveau volgt de normcommissie de normontwikkelingen vanuit de CEN- en de ISO-commissies. Hieronder vindt u de nationale- (NEN), Europese- (CEN) en mondiale (ISO) normen, die in relatie staan tot de normsubcommissie:
 
@@ -91,53 +90,39 @@ Meer concreet heeft Geonovum in deze cyclus de volgende taken:
 In dit Raamwerk gebruiken we verschillende termen om documentatie mee aan te duiden. Wij sommen deze hieronder op, voorzien van hun betekenis.
 
 **Norm**
-Een norm is bij een officieel standaardisatie instituut ondergebracht en bevat
-bindende afspraken. Naast het gebruik van normen is NEN 3610 de enige norm waar
-Geonovum een inhoudelijke verantwoordelijkheid heeft. Het formele beheer en
-beslissingen worden genomen in de NEN normcommissie 351 240 waar Geonovum de
-voorzitter van is.
+Een norm is bij een officieel standaardisatie instituut ondergebracht en bevat bindende afspraken. Naast het gebruik van normen is NEN 3610 de enige norm waar Geonovum een inhoudelijke verantwoordelijkheid heeft. Het formele beheer en beslissingen worden genomen in de NEN normcommissie 351 240 waar Geonovum de voorzitter van is.
 
 **Standaard**
 Een document met (bindende) afspraken.
 
 **Informatiemodel**
-Een standaard waarbij door de term informatiemodel te hanteren wordt aangegeven
-dat het een abstractie (het model) vormt van de werkelijkheid zoals beschreven
-binnen een bepaalde sector/domein. Informatiemodellen zijn een semantische
-invulling van normen voor sectoren zoals ruimtelijke ordening, kabels en
-leidingen, water, etc..
+Een standaard waarbij door de term informatiemodel te hanteren wordt aangegeven dat het een abstractie (het model) vormt van de werkelijkheid zoals beschreven binnen een bepaalde sector/domein. Informatiemodellen zijn een semantische invulling van normen voor sectoren zoals ruimtelijke ordening, kabels en leidingen, water, etc..
 
 **Praktijkrichtlijn**
-Praktijkrichtlijnen zijn producten die informatie geven, vaak met een technisch
-karakter, die nodig is voor het toepassen van standaarden. Een praktijkrichtlijn
-hoort altijd bij een standaard/norm.
+Praktijkrichtlijnen zijn producten die informatie geven, vaak met een technisch karakter, die nodig is voor het toepassen van standaarden. Een praktijkrichtlijn hoort altijd bij een norm of standaard.
 
 **Handreiking**
-Op zichzelf staande documentatie dat als doel heeft een hulpmiddel te zijn, niet
-verplichtend maar ondersteunend.
+Op zichzelf staande documentatie dat als doel heeft een hulpmiddel te zijn, niet verplichtend maar ondersteunend.
 
 **Werkafspraak**
-Legt uit hoe wetgeving moet worden toegepast bij onduidelijkheden, discrepanties
-of fouten in de standaarden.
+Legt uit hoe wetgeving moet worden toegepast bij onduidelijkheden, discrepanties of fouten in de standaarden.
 
 **Beheerdocumentatie**
 Documentatie met betrekking tot het beheerproces van de standaard. Deze
 documentatie betreft niet een standaard of onderdeel daarvan, zoals een
 handreiking of werkafspraak. Dit kan interne gerichte documentatie zijn voor
-vastleggen van stappen in het dagelijkse werkproces, planning of hoe de helpdesk
-werkt. Ook kan dit een beheerplan of handboek zijn. Als dit soort documentatie
-publiekelijk beschikbaar wordt gesteld, dan gebeurd dit door middel van ReSpec.
+vastleggen van stappen in het dagelijkse werkproces, planning of hoe de helpdesk werkt. Ook kan dit een beheerplan of handboek zijn. 
 
 
 ## Leeswijzer
 
-Het Raamwerk van geo-standaarden is vergeleken met de vorige versie teruggebracht naar uitgebreidere vorm, waarin de samenhang van de
-geo-standaarden centraal staat. 
+Het Raamwerk van geo-standaarden is vergeleken met de vorige versie teruggebracht naar een uitgebreide vorm, waarin de samenhang van de
+geo-standaarden is benoemd en de geo-standaarden zijn opgenomen als  internationale standaard en indien van toepassing de Europese en nationale toepassingsprofielen. 
 
 Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geo-standaarden-in-samenhang)
 beschrijft enige context en de geo-standaarden in samenhang. 
 
-Voor alle verdieping en actuele zaken zijn de geo-standaarden net als in de vorige versies van dit raamwerk verdeeld over zes categorieën: 
+De geo-standaarden zijn net als in de vorige versies van dit raamwerk verdeeld over zes categorieën: 
 -  Geo-standaarden voor [informatiemodellen](#informatiemodellen-0);
 -  Geo-standaarden voor [visualisatie](#visualisatie);
 -  Geo-standaarden voor [Application Programming Interfaces (API’s)](#application-programming-interfaces); 
