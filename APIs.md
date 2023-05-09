@@ -4,16 +4,13 @@
 Internet zijn Application Programming Interfaces (API’s) in gebruik. API’s
 spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
-ervoor dat een applicatie automatisch toegang krijgt tot bepaalde data en/of
-functionaliteiten.**
+ervoor dat een applicatie automatisch toegang krijgt tot de data.**
 
 ## Transitie naar nieuwe generatie API's
 
-De internationale geo-standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door de nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat ze geo-informatie onderdeel maken van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk.
+De internationale geo-standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door een nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat geo-informatie onderdeel wordt van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk is.
 
-Het OGC is voornemens de oude generatie 'services' standaarden langzaam uit te faseren. De nieuwe OGC API standaarden zijn deels in ontwikkeling, deels al goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. Bestaande voorzieningen die op de oude standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe OGC API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
-
-In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook diegenen die nog in ontwikkeling of draft zijn. Dit is bij elke standaard aangegeven.
+Het OGC is voornemens de oude generatie 'services' standaarden langzaam uit te faseren. De nieuwe OGC API standaarden zijn deels in ontwikkeling, deels al goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. Bestaande voorzieningen, die op de oude 'services' standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Nieuwe OGC API's kunnen daarnaast gezet worden. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
 
 ## Overzicht geo-standaarden API’s
 
@@ -21,16 +18,18 @@ In het overzicht van geo-standaarden voor API’s zijn de standaarden per thema 
 
 -   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 5.1);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC
-    API – Features en ATOM (tabel 5.2);
+    API Features en ATOM (tabel 5.2);
 -   API standaarden en specificaties voor het opvragen (downloaden) van
-    rasterdata: OGC WCS en OGC API - Coverages (tabel 5.3);
+    rasterdata: OGC WCS en OGC API Coverages (tabel 5.3);
 -   API Standaarden en specificaties voor het opvragen (downloaden) van
-    sensordata: OGC SOS, SensorThings API en Environmental Data Retrieval API (tabel 5.4);
+    sensordata: OGC SOS, OGC SensorThings API en OGC API Environmental Data Retrieval (tabel 5.4);
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
-    CSW en OGC API- Records (tabel 5.5);
+    CSW en OGC API Records (tabel 5.5);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
     OGC API Tiles, 3D Tiles (tabel 5.6);
 -   API standaarden en specificaties voor linked data: GeoSPARQL (Tabel 5.7).
+
+In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook de OGC API standaarden die nog in ontwikkeling of draft zijn. Dit is bij elke standaard aangegeven.
 
 ## Web mapping API's
 
@@ -118,7 +117,7 @@ Handreikingen voor implementatie:
 Handreikingen voor implementatie: 
 - NEN 3610 - Linked Data [[NLDP]]
 
-<aside class="note">GeoSPARQL heeft een interactiedeel en een beknopt datamodel (ontologie) voor geodata. Deze handreiking gaat vooral over de datamodel-kant. Misschien hoort de verwijzing meer thuis in het informatiemodel hoofdstuk. </aside>
+<aside class="note">GeoSPARQL heeft een interactiedeel en een beknopt informatiemodel (ontologie) voor geodata. Deze handreiking gaat vooral over het informatiemodel. Daarmee hoort heeft deze verwijzing of noot ook een relatie met het hoofdstuk over informatiemodellen. </aside>
  
 ## Kwaliteit van API’s
 
