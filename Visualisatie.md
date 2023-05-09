@@ -54,7 +54,7 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
 
 ### Visualisatieregels data producten en informatiemodellen
 
-Een visualisatie is geen onderdeel van een informatiemodel of dataproduct, maar is een apart aspect. Alleen over de visualisatie van teksten wordt indien nodig iets gezegd in de informatiemodellen. De visualisatie van objecten en dataproducten wordt beschreven in visualisatieregels. Deze worden vastgelegd in een bijlage of in een handreiking. In elke visualisatieregel is vastgelegd van welke selectie van objecten dit de visualisatie is. 
+Een visualisatie is geen onderdeel van een informatiemodel of dataproduct, maar is een apart aspect. Alleen over de visualisatie van teksten wordt indien nodig iets gezegd in de informatiemodellen. De visualisatie van objecten en dataproducten wordt beschreven in visualisatieregels. Deze worden vastgelegd in een bijlage of in een handreiking. In elke visualisatieregel is vastgelegd van welke selectie van objecten dit de visualisatie is (zie voorbeeld 1 hieronder). 
 
 <aside class="example" title="Visualisatieregels van de BGT" id="bgtvoorbeeld">
 
