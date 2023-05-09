@@ -39,7 +39,7 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 |-----------------------------------------------------------------------------|----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | Web Map Server (WMS) Implementation Specification, version 1.3.0 [[WMS]]     | Technical Guidance for the implementation of Inspire View Service. [[INSTGVS]] | Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.0 [[NLWMS]] |
 | ISO 19128 Geographic Information – Web Map Service (WMS) [[iso-19128-2005]] | | |
-| OGC API Maps **Draft** [[OGCAPIMAPS]] | | | 
+| OGC API Maps **Draft** [[OAPIMAPS]] | | | 
 
 ## Vectordata API's
 
@@ -75,7 +75,7 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 | OGC Sensor Observation Service Interface Standard version 2.0 [[SOS]]   | Technical Guidance for implementing download services using the OGC Sensor Observation Service and ISO 19143 Filter Encoding [[INSTGDSSOS]]   | Hetzelfde als het Europese profiel.  |
 | OGC SensorThings API part 1 Sensing, version 1.1 [[STAS]] | OGC SensorThings API as an INSPIRE download service (good practice) [[INSGPSTA]]  |  |
 | OGC SensorThings API Part 2 Tasking Core, version 1.0 [[STAT]] |  |  |
-| OGC API - Environmental Data Retrieval Standard, version 1.0.1 [[EDR]]  |  |  |
+| OGC API - Environmental Data Retrieval Standard, version 1.0.1 [[OAPIEDR]]  |  |  |
 
 ## Metadata API's 
 
