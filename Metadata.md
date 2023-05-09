@@ -1,13 +1,13 @@
 # Metadata
 
-**Om data vindbaar te maken en in staat te zijn een eerste indruk te krijgen van haar toepasbaarheid voor een nieuw doel, moeten de gegevens in de geo-informatie infrastructuur worden beschreven. Karakteristieken van datasets, zoals de eigenaar en de actualiteit, leg je vast met behulp van metadata. Metadata wijst de weg in onze informatiehuishouding, helpt dubbele inwinning en beheer van data te verminderen en zorgt ervoor dat geo-informatie snel kan worden gevonden.**
+**Om data vindbaar te maken en in staat te zijn een eerste indruk te krijgen van haar toepasbaarheid voor gebruik, moeten de data in de geo-informatie infrastructuur worden beschreven. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met behulp van metadata. Metadata zorgt ervoor dat geo-informatie kan worden gevonden en gebruikt.**
 
 ## Overzicht geo-standaarden metadata
 
-Er zijn verschillende niveaus waarop metadata aangemaakt kunnen worden. Metadata van data beschrijft de dataset of dataset reeks. Metadata van services, beschrijft de ‘service’ of API (WMS,WFS) waarmee (een) ruimtelijke dataset(s) wordt ontsloten. In Nederland passen we het Nederlands metadataprofiel voor datasets en services toe. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services. Het is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereistenen en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, kan je voldoen aan de INSPIRE profielen voor metadata. 
+Er zijn verschillende niveaus waarop metadata aangemaakt worden. Metadata van data beschrijft de dataset of dataset reeks (ook dataset series). Metadata van services beschrijft de ‘service’ of API. In Nederland wordt het Nederlands metadataprofiel voor datasets en services toegepast. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services. Het is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereisten en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, wordt ook voldaan aan de INSPIRE profielen voor metadata. 
 
 In de Nederlandse metadataprofielen is ook de aansluiting op data.overheid.nl meegenomen. [Data.overheid.nl](https://data.overheid.nl/) is een datacatalogus, voor alle open data van de overheid. Om naar datasets uit verschillende domeinen te kunnen zoeken, worden datasets in data.overheid.nl beschreven met metadata conform de standaard DCAT. DCAT is een metadata standaard van W3C voor het uitwisselen van metadata tussen verschillende datacatalogi. 
-Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van geodatasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. 
+Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van datasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. In tabel 7.1 zijn de geo-standaarden voor metadata opgenomen.    
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
 
@@ -34,13 +34,13 @@ Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding metadatakwal
 
 **Validatie**
 
-Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators controleren de correcte toepassing van het Nederlands metadata profiel voor datasets of voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadata van respectivelijk datasets en services conform het Nederlands profiel. 
+Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators controleren de correcte toepassing van het Nederlands metadataprofiel voor datasets en voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadata van respectivelijk datasets en services conform het Nederlands profiel. 
 
 Voor metadata van datasets of services, die voor INSPIRE zijn aangemerkt, gelden er specifiekere vereisten. Gebruik daarvoor
 naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspire.ec.europa.eu/validator/home/index.html) om metadata te valideren.
 
 ## Verkenning
 
-Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) kijken we naar de rol van metadata in de nabije toekomst. In de verkenning tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata-werelden. Aansluiting op generieke standaarden, zoals DCAT en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van data-aanbieder en data-gebruiker is een aandachtsgebied. 
+Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de [Verkenning Toekomstbeelden Metadata](https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9) tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata standaarden. Aansluiting op generieke standaarden, zoals DCAT en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van aanbieders en gebruikers van data is een aandachtsgebied. 
 
 
