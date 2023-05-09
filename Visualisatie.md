@@ -45,7 +45,7 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
 | OGC Web Map Context Documents Implementation Specification, version 1.1 [[WMC11]]  |  |
 | Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 [[WMCC11]] |  |   |
 | Mapbox Styles [[MBS]] |   |  |
-| OGC API Styles 1.0.0 **Draft** [[OGCAPISTYLES]]  |  |                                            |
+| OGC API Styles 1.0.0 **Draft** [[OAPISTYLES]]  |  |                                            |
 | 3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification  |  |  |
 | OGC Indexed 3D Scene Layers v1.2 [[I3S]] |   |  |
 
