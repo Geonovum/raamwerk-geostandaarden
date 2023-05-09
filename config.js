@@ -273,9 +273,9 @@ var respecConfig =
         publisher:    "European Commission Joint Research Centre",
         date:         "26 oktober 2007",
   },
-	   "inspire-TG-metadata":
+	  "inspire-TG-metadata":
       {
-	title:        "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007",
+	      title:        "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007",
         href:         "https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc",
         status:       ["Tehnical Guidance"],
         authors:      ["Temporary MIWP 2021-2024 sub-group 2.3.1"],
@@ -343,7 +343,7 @@ var respecConfig =
         status:     "Unofficial",
         publisher:  "Mapbox",
     },
-    "OGCAPISTYLES":
+    "OAPISTYLES":
       {
         title:      "OGC 20-009: OGC API Styles",
         href:       "http://docs.opengeospatial.org/DRAFTS/20-009.html",
@@ -420,7 +420,7 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "9 maart 2022",
     },
-    "OGCAPIMAPS":
+    "OAPIMAPS":
       {
         title:      "OGC 20-058: OGC API - Maps - Part 1: Core, Version 0.1.0",
         href:       "http://docs.ogc.org/DRAFTS/20-058.html",
@@ -549,7 +549,7 @@ var respecConfig =
         editors:    ["Roger Lott"],
         date:       "2019-02-08",
     },
-        "OAPIC":
+    "OAPIC":
       {
         title:      "OGC 19-087: OGC API - Coverages - Part 1: Core, version 0.0.6",
         href:       "http://docs.ogc.org/DRAFTS/19-087.html",
@@ -594,7 +594,7 @@ var respecConfig =
         //editors:    ["Steve Liang","Tania Khalafbeigi"],
         //date:       "2019-01-08",
     },
-    "EDR":
+    "OAPIEDR":
       {
         title:      "OGC 19-086r5: OGC API - Environmental Data Retrieval Standard, Version 1.0.1",
         href:       "https://docs.ogc.org/is/19-086r5/19-086r5.html",
@@ -791,7 +791,7 @@ var respecConfig =
         publisher:    "ISO",
         date:         "January 2020", 
     },
-    "isotc19127": 
+    "isots19127": 
       {
         title:        "ISO/TS 19127 Geographic Information - Geodetic codes and parameters",
         href:         "https://www.iso.org/standard/41784.html",
@@ -852,7 +852,7 @@ var respecConfig =
         //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
         date:       "April 17, 2014",
-      },
+    },
       "inspire-crs":
         {
           title:      "INSPIRE Data Specification on Coordinate Reference Systems - Technical Guidelines",
