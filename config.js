@@ -697,14 +697,22 @@ var respecConfig =
     },
     "iso19126-2009": 
       {
-        title:        "ISO 19126:2009 Geographic information -- Feature concept dictionaries and registers",
+        title:        "ISO 19126:2009 Geographic information - Feature concept dictionaries and registers",
         href:         "https://www.iso.org/standard/44875.html",
         status:       "Published",
         publisher:    "ISO",
         date:         "2009-11",
     },
+    "isots19127": 
+    {
+      title:        "ISO/TS 19127:2005- Geographic information — Geodetic codes and parameters",
+      href:         "https://www.iso.org/standard/41784.html",
+      status:       "Published",
+      publisher:    "ISO",
+      date:         "2005-06",
+    },
     "iso19101": 
-      {
+    {
         title:        "ISO 19101-1:2014 Geographic information — Reference model — Part 1: Fundamentals",
         href:         "https://www.iso.org/standard/59164.html",
         status:       "Published",
