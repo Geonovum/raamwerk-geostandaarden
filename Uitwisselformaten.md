@@ -68,7 +68,7 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
 
 | **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
 |-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
-| OGC Observations and Measurements version (ISO 19156) 3.0 **goedgekeurd, nog niet gepubliceerd** [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[inspire-gen]]| Informatiemodel Metingen [[IMMetingen]] |
+| OGC Observations and Measurements version (ISO 19156) 3.0  [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[inspire-gen]]| Informatiemodel Metingen [[IMMetingen]] |
 | Observations and Measurements - XML Implementation 2.0 [[OaMx2]]| | |
 | W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]]  |
 | OGC SensorML 2.1 [[SensorML]]  |      | 
