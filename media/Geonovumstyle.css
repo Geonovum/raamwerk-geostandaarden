@@ -48,39 +48,38 @@ blockquote:before
   font: italic 400%/1 Esteban, serif;
   color: grey;
 }
-
-/*-- Definite van tabellen ---------------------------------------------------------*/
-table
-{
-  empty-cells: show;
-  min-width: 90%;
-  border-color: grey;
-  border-style: solid;
+  /* Style the tables */
+  table, th, td {
+    background-color: #F2F2F2;
+    border-collapse: collapse;}
+table {
+    border: 1px solid #000000;
+    width: 100%;
+}
+caption {
+    font-style: italic;
+    text-align: left;
+}
+th, td {
+    border: 1px inset #CCCCCC;
+    hyphens: auto;
+    padding: 0.25em;
+}
+th {
+    color: #005A9C;
 }
 
-/*-- Definite van de kopregel van een tabel ----------------------------------------*/
-thead
-{
-  background-color: grey;
-  color: white;
+.table-small td {
+    vertical-align:top;
+    padding: 2px;
 }
-/*-- Definite van de body van een tabel --------------------------------------------*/
-tbody
-{
-  border-color: darkolivegreen;
-  background-color: lightgrey
+.table-small p {
+    font-size:8pt;
+    margin:2px;
 }
 
-/*-- Definite van de tabel-rij (deze zorgt voor 2 kleuren in de rijen) -------------*/
-tr:nth-child(even) 
-{
-  background-color:  darkgrey;
-}
-
-/*-- Definite van de tabel-cel (data) ----------------------------------------------*/
-td 
-{
-  min-width: 100px;     /* lege kolommen hebben deze minimale breedte */
+.cell-req td {
+    background-color: #fee;
 }
 
 /*-- Definite van rode tekst -------------------------------------------------------*/
