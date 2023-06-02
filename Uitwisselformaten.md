@@ -26,8 +26,8 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
 *Tabel 6.1 – Uitwisselformaten standaarden en specificaties met betrekking tot vectordata*
 
-| **Internationale standaarden/specificaties**                                                            | **Europese profielen**                                                                | **Nederlandse profielen**    |
-|---------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------|------------------------------|
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
 | ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]]  | INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] |
 | ISO 19125 Simple Feature Access Part 1: Common Architecture, version 1.2.1 [[iso-19125-1-2004]]  |  |  |
 | OGC Geography Markup Language (GML) Encoding Specification, version 3.1.1. [[GML31]]  |  |  |
@@ -47,18 +47,18 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
 
 *Tabel 6.2 - Uitwisselformaten standaarden en specificaties met betrekking tot rasterdata*
 
-| **Internationale standaarden/specificaties**                                         | **Europese profielen**                                          | **Nederlandse profielen** |
-|--------------------------------------------------------------------------------------|-----------------------------------------------------------------|---------------------------|
-| OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. [[NETCDF]] | INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]]  |                           |
-| Hierarchical Data Format 1.0 [[HDF5]]                                                |                                                                 |                           |
-| HDF-EOS5 Data Model, File Format and Library (v1.1)        [[HDFEOS]]                |                                                                 |                           |
-| OGC GeoTIFF Standard, version 1.1 [[GeoTIFF]]                                        |                                                                 |                           |
-| ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[JPEG2000]]                    |                                                                 |                           |
-| ISO 19123-1: Coverage Fundamentals [[iso-19123-2005]]                                |                                                                 |                           |
-| ISO 19123-2: Coverage Implementation Schema (CIS 1.0) [[CIS10]]                      |                                                                 |                           |
-| GML for JPEG 2000  [[GMLJPEG2000]]                                                   |                                                                 |                           |
-| ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]]                               |                                                                 |                           |
-| CoverageJSON 1.0 **Draft** [[COVJSON]]                                               |                                                                 |                           |
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
+| OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. [[NETCDF]] | INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]]  |   |
+| Hierarchical Data Format 1.0 [[HDF5]]   |    |
+| HDF-EOS5 Data Model, File Format and Library (v1.1) [[HDFEOS]]  |   |
+| OGC GeoTIFF Standard, version 1.1 [[GeoTIFF]]  |  |  |
+| ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[JPEG2000]]  |   |    |
+| ISO 19123-1: Coverage Fundamentals [[iso-19123-2005]]    |    |     |
+| ISO 19123-2: Coverage Implementation Schema (CIS 1.0) [[CIS10]]  |    |    |
+| GML for JPEG 2000  [[GMLJPEG2000]] |    |   |
+| ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]]  |    |    |
+| CoverageJSON 1.0 **Draft** [COVJSON]]  |    |    |
 
 ## Sensordata uitwisselstandaarden
 
@@ -66,12 +66,12 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
 
 *Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata*
 
-| **Internationale standaarden/specificaties**                                  | **Europese profielen**                                            | **Nederlandse profielen** |
-|-------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------|
-| OGC Observations and Measurements version (ISO 19156) 3.0  [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[inspire-gen]]| Informatiemodel Metingen [[IMMetingen]] |
-| Observations and Measurements - XML Implementation 2.0 [[OaMx2]]| | |
-| W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]]  |
-| OGC SensorML 2.1 [[SensorML]]  |      | 
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
+| OGC Observations and Measurements version (ISO 19156) 3.0  [[OMS3]]| INSPIRE Guidelines for the encoding of spatial data. [[inspire-gen]]| Informatiemodel Metingen [[IMMetingen]] |   | 
+| Observations and Measurements - XML Implementation 2.0 [[OaMx2]] |  |  |
+| W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]] |   |  |
+| OGC SensorML 2.1 [[SensorML]]  |    |   |
 
 ## 3D data uitwisselstandaarden
 
@@ -79,10 +79,10 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
 
 *Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data*
 
-| **Internationale standaarden/specificaties**                                   | **Europese profielen** | **Nederlandse profielen** |
-|--------------------------------------------------------------------------------|------------------------|---------------------------|
-| OGC City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML2]] |              |                           |
-| CityJSON Community Standard, version 1.1.2 [[CityJSON]]                        |                        |                           |
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
+| OGC City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML2]] |     |      |
+| CityJSON Community Standard, version 1.1.2 [[CityJSON]]   |    |     |
 
 ## Kwaliteit en uitwisselformaten
 
