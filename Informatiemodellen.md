@@ -41,8 +41,8 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
 
 *Tabel 3.1 - Standaarden en specificaties met betrekking tot informatiemodellen*
 
-| **Internationale standaarden/specificaties**                                                                                                     | **Europese profielen**                                                   | **Nederlandse profielen**                             |
-|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------|-------------------------------------------------------|
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
 | ISO 19101 Geographic Information – Reference model [[iso19101]] | INSPIRE: Generic Conceptual Model [[inspire-gcm]] | MIM - Metamodel Informatie Modellering [[MIM]] |
 | ISO/TS 19103 Geographic Information - Conceptual schema language [[iso19103]] | INSPIRE: Methodology for the development of data specifications [[inspire-mds]] | NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] |
 | ISO 19107 Geographic information - Spatial Schema [[iso19107]] | | |
