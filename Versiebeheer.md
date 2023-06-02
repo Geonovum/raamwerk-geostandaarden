@@ -12,7 +12,7 @@
       <th>Versie</th>
       <th>Datum</th>
       <th>Status</th>
-      <th>Toelichting</th>
+      <th>Toelichting - Test</th>
     </tr>
   </thead>
   <tbody>
