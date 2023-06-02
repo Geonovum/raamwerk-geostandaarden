@@ -37,8 +37,8 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
 
 *Tabel 4.1 - Standaarden en specificaties voor visualisatie*
 
-| **Internationale standaarden/specificaties**                                                                | **Europese profielen**                              | **Nederlandse profielen**                  |
-|-------------------------------------------------------------------------------------------------------------|-----------------------------------------------------|--------------------------------------------|
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
 | ISO 19117 Geographic Information – Portrayal [[iso19117]] | Visualisatieregels voor INSPIRE data specificaties | Visualisatieregels voor informatiemodellen |
 | OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 [[SLD11]]  | |
 | OGC Symbology Encoding Implementation Specification, version 1.1.0 [[SE11]]  |  |  |
