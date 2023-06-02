@@ -1,10 +1,10 @@
-<table>
+<table style="table-layout: auto">
   <caption>Versiebeheer</caption>
   <colgroup>
-    <col width="10%">
-    <col width="10%">
-    <col width="10%">
-    <col width="70%">
+    <col width="10%" style="width:10;">
+    <col width="10%" style="width:10;">
+    <col width="10%" style="width:10;">
+    <col width="70%" style="width:70;">
   </colgroup>
   <thead>
     <tr>
