@@ -1,10 +1,5 @@
 <table>
-  <colgroup>
-    <col style="width:10;">
-    <col style="width:10;">
-    <col style="width:10;">
-    <col style="width:70;">
-  </colgroup>
+  <caption>Versiebeheer</caption>
   <thead>
     <tr>
       <th>Versie</th>
