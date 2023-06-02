@@ -28,8 +28,8 @@ In de onderstaande tabel 7.1 zijn de standaarden en specificaties benoemd, die v
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot CRS-en*
 
-| **Internationale standaarden/specificaties**                                            | **Europese profielen**                                                          | **Nederlandse profielen**                                                      |
-|-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
 | Geographic Information – Spatial Referencing by Coordinates [[iso19111]] (gelijk aan [[OREFCO]]) | INSPIRE specification on Geographical Grid Systems – Guidelines [[inspire-ggs]] | Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie [[HRCRS]] |
 | ISO 6709 Standard representation of geographic location by coordinates [[iso6709]] | INSPIRE specification on Coordinate Reference Systems – Guidelines [[inspire-crs]] | |
 | EPSG codes database & CRS Ids [[epsg]]  |  |  |
