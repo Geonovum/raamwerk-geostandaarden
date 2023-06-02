@@ -11,8 +11,8 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
 
-| **Internationale standaarden/specificaties**                                                                                              | **Europese profielen**                                                                                           | **Nederlandse profielen**                                                   |
-|-------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
+|----------------------------------------------------|------------------------------|----------------------------|
 | ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] |  Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007 [[inspire-TG-metadata]] | Nederlands profiel ISO 19115 voor geografie, versie 2.1.0 [[NLISO19115]] |
 | ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]]  |  | Nederlands profiel ISO 19119 voor services, versie 2.1.0 [[NLISO19119]]  |
 | ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] | |  |
