@@ -1,18 +1,17 @@
-**Versiebeheer**
-
 <table>
+  <caption>Versiebeheer</caption>
   <colgroup>
-    <col style="width:10*;">
-    <col style="width:10*;">
-    <col style="width:10*;">
-    <col style="width:70*;">
+    <col width="10%">
+    <col width="10%">
+    <col width="10%">
+    <col width="70%">
   </colgroup>
   <thead>
     <tr>
       <th>Versie</th>
       <th>Datum</th>
       <th>Status</th>
-      <th>Toelichting - Test</th>
+      <th>Toelichting</th>
     </tr>
   </thead>
   <tbody>
