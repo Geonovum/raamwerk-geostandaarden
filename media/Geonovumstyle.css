@@ -11,14 +11,6 @@
 //-- Log . . . :  20181009 - JvG - Initiele versie 
 //-----------------------------------------------------------------------------------*/
 
-/* Extra toevoeging voor afbreking */
-
-body
-{
-  hyphens: manual;
-  word-break: keep-all;
-}
-
 /*-- Definitie van Image ------------------------------------------------------------*/
 img 
 {
