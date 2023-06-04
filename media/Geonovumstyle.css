@@ -16,6 +16,7 @@
 body
 {
   hyphens: manual;
+  word-break: keep-all;
 }
 
 /*-- Definitie van Image ------------------------------------------------------------*/
