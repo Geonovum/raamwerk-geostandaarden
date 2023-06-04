@@ -1,7 +1,5 @@
 **Versiebeheer**
-
 <table>
-  <caption>Versiebeheer</caption>
   <thead>
     <tr>
       <th>Versie</th>
