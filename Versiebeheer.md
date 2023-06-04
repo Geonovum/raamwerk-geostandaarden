@@ -1,7 +1,7 @@
 **Versiebeheer**
 <table>
-  <colgroup width="10%">
-  <colgroup width="10%">
+  <colgroup width="7.5%">
+  <colgroup width="12.5%">
   <colgroup width="10%">
   <colgroup width="70%">
   <thead>
