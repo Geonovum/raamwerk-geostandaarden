@@ -1,9 +1,9 @@
 **Versiebeheer**
 <table>
   <colgroup width="7.5%">
-  <colgroup width="12.5%">
   <colgroup width="10%">
-  <colgroup width="70%">
+  <colgroup width="10%">
+  <colgroup width="72.5%">
   <thead>
     <tr>
       <th>Versie</th>
