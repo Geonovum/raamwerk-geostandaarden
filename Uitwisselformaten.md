@@ -140,7 +140,6 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
       <td> </td>
     </tr>  
-    </tr>
        <tr>
       <td>ISO 19123-2: Coverage Implementation Schema (CIS 1.0) [[CIS10]] </td>
       <td> </td>
@@ -155,7 +154,6 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td>ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]] </td>
       <td> </td>
       <td> </td>
-    </tr>  
     </tr>
        <tr>
       <td>CoverageJSON 1.0 **Draft** [COVJSON]] </td>
