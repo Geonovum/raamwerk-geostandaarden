@@ -120,21 +120,6 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
   </tbody>
 </table>
 
-| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
-|----------------------------------------------------|------------------------------|----------------------------|
-| | | |
-|  |  |  | 
-|  | |
-|  | |
-| |  | |
-|  |  | |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |||
-| | |
-
-
 ## Afstemming begrippenkaders
 Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er is een aantal mechanismen om die afstemming te sturen:
 
