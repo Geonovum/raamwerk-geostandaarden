@@ -69,46 +69,70 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td> </td>
     </tr>
     <tr>
-      <td>2.2</td>
-      <td>Maart 2012</td>
-      <td>Vervallen</td>
+      <td>ISO 19108 Geographic information - Temporal Schema [[iso19108]] </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td>2.1</td>
-      <td>Maart 2010</td>
-      <td>Vervallen</td>
+      <td>ISO 19109 Geographic information - Rules for application schema [[iso19109]] </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td>2.0</td>
-      <td>Oktober 2007</td>
-      <td>Vervallen</td>
+      <td>ISO 19110 Geographic information - Methodology for feature cataloguing [[iso19110]] </td>
+      <td> </td>
+      <td> </td>
     </tr>
     <tr>
-      <td>1.1</td>
-      <td>Juni 2006</td>
-      <td>Vervallen</td>
+      <td>ISO 19118 Geographic Information – Encoding [[iso19118]]</td>
+      <td> </td>
+      <td> </td>
+    </tr>    <tr>
+      <tr>
+      <td>ISO 19131 Geographic Information - Data product specification [[iso19131]] </td>
+      <td> </td>
+      <td> </td>
     </tr>
-    <tr>
-      <td>1.0</td>
-      <td>Februari 2006</td>
-      <td>Vervallen</td>
+      <td>ISO 19136 Geographic Information - Geography Markup Language (GML) [[iso19136]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+      <td>Observations and Measurements - XML Implementation 3.0 [[OMS3]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+      <td>Observations and Measurements - XML Implementation 2.0 [[OaMx2]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+      <td>Timeseries Profile of Observations and Measurements 1.0 [[OaMt1]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+      <td>OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0 [[CityGML3]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+      <td> </td>
+      <td>INSPIRE Data specifications </td>
+      <td>Nederlandse toepassingsprofielen </td>
     </tr>
   </tbody>
 </table>
 
 | **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
 |----------------------------------------------------|------------------------------|----------------------------|
-| ISO 19108 Geographic information - Temporal Schema [[iso19108]] | | |
-| ISO 19109 Geographic information - Rules for application schema [[iso19109]] |  |  | 
-| ISO 19110 Geographic information - Methodology for feature cataloguing [[iso19110]] | |
-| ISO 19118 Geographic Information – Encoding [[iso19118]] | |
-| ISO 19131 Geographic Information - Data product specification [[iso19131]] |  | |
-| ISO 19136 Geographic Information - Geography Markup Language (GML) [[iso19136]] |  | |
-| Observations and Measurements - XML Implementation 3.0[[OMS3]] |  |  |
-| Observations and Measurements - XML Implementation 2.0[[OaMx2]] |  |  |
-| Timeseries Profile of Observations and Measurements 1.0[[OaMt1]] |  |  |
-| OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0. [[CityGML3]] |||
-| | INSPIRE Data specifications | Nederlandse toepassingsprofielen |
+| | | |
+|  |  |  | 
+|  | |
+|  | |
+| |  | |
+|  |  | |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |||
+| | |
 
 
 ## Afstemming begrippenkaders
