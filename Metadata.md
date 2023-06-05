@@ -10,18 +10,60 @@ In de Nederlandse metadataprofielen is ook de aansluiting op data.overheid.nl me
 Voor Europese portalen is het “DCAT Application Profile for Data Portals in Europe" (DCAT-AP) opgesteld. DCAT-AP heeft een extensie GeoDCAT-AP voor het beschrijven van datasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. In tabel 7.1 zijn de geo-standaarden voor metadata opgenomen.    
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
-
-| **Internationale standaarden en specificaties**    | **Europese profielen**       | **Nederlandse profielen**  |
-|----------------------------------------------------|------------------------------|----------------------------|
-| ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] |  Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007 [[inspire-TG-metadata]] | Nederlands profiel ISO 19115 voor geografie, versie 2.1.0 [[NLISO19115]] |
-| ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]]  |  | Nederlands profiel ISO 19119 voor services, versie 2.1.0 [[NLISO19119]]  |
-| ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] | |  |
-| ISO 19119:2005, Geographic information – Services [[ISO19119-2005]] |  |  |
-| ISO 19119:2005/Amd 1:2008, Extensions of the service metadata model [[ISO19119-2008]] |  |  |
-| ISO/TS 19139:2007, Geographic information - Metadata – XML Schema Implementation [[ISO19139]]  |  |  |
-| Data Catalog Vocabulary (DCAT) version 2.0 [[vocab-dcat-2]] | DCAT-AP - An extension for the DCAT application profile for data portals in Europe version 2.1.1 [[DCAT-AP-2.1.1]]| 
-| | GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] | |
-
+<table>
+  <colgroup width="34%">
+  <colgroup width="33%">
+  <colgroup width="33%">
+  <thead>
+    <tr>
+      <th> Internationale standaarden en specificaties </th>
+      <th> Europese profielen </th>
+      <th> Nederlandse profielen </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] </td>
+      <td>Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007 [[inspire-TG-metadata]] </td>
+      <td> Nederlands profiel ISO 19115 voor geografie, versie 2.1.0 [[NLISO19115]] </td>
+    </tr>
+    <tr>
+      <td>ISO 19115/Cor.1:2006, Geographic information – Metadata, Technical Corrigendum 1 [[ISO19115-2006]] </td>
+      <td> </td>
+      <td>Nederlands profiel ISO 19119 voor services, versie 2.1.0 [[NLISO19119]] </td>
+    </tr>
+    <tr>
+      <td>ISO 19115-2:2009, Geographic information – Metadata – Part 2: Extensions for imagery and gridded data [[ISO19115-2009]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ISO 19119:2005, Geographic information – Services [[ISO19119-2005]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ISO 19119:2005/Amd 1:2008, Extensions of the service metadata model [[ISO19119-2008]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>ISO/TS 19139:2007, Geographic information - Metadata – XML Schema Implementation [[ISO19139]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>Data Catalog Vocabulary (DCAT) version 2.0 [[vocab-dcat-2]] </td>
+      <td>DCAT-AP - An extension for the DCAT application profile for data portals in Europe version 2.1.1 [[DCAT-AP-2.1.1]] </td>
+      <td> </td>
+    </tr>
+   <tr>
+      <td> </td>
+      <td>GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] </td>
+      <td> </td>
+    </tr>
+      </tbody>
+</table>
 
 <aside class="note">De [[inspire-TG-metadata]] is gebaseerd op [[ISO19115-2003]]. Dit is de reden dat het NL profiel ook op [[ISO19115-2003]] is gebaseerd en niet op [[ISO19115-2014]]. </aside>
 
