@@ -40,9 +40,9 @@ var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  specStatus: "GN-WV",                  // Werk Versie
+  //specStatus: "GN-WV",                  // Werk Versie
   //specStatus: "GN-CV",                // Consultatie Versie
-  //specStatus: "GN-VV",                // Vaststellings Versie
+  specStatus: "GN-VV",                // Vaststellings Versie
   //specStatus: "GN-DEF",               // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
@@ -123,7 +123,8 @@ var respecConfig =
   //pubDomain: "kl", 	              // Kabels en Leidingen
   //pubDomain: "liv", 	            // Landelijke Informatievoorziening Vastgoedgebruik
   //pubDomain: "md", 	              // Metadata
-  pubDomain: "nen3610", 	        // Basismodel NEN3610
+  pubDomain: "rwgs",                 // Raamwerk geostandaarden
+  //pubDomain: "nen3610", 	        // Basismodel NEN3610
   //pubDomain: "oov", 	            // Openbare Orde en Veiligheid
   //pubDomain: "ro", 	              // Ruimtelijke Ordening
   //pubDomain: "serv", 	            // Services
@@ -1088,7 +1089,7 @@ var respecConfig =
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
   previousPublishDate: "2023-03-14",  	    // Format is "YYY-MM-DD"
-  previousMaturity: "CV",                   // kies 1 van deze 2 regels  	  
+  previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
   //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
 
   //-- Optionele parameters:
