@@ -43,9 +43,9 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
