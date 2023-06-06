@@ -121,12 +121,12 @@ Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2
 beschrijft enige context en de geo-standaarden in samenhang. 
 
 De geo-standaarden zijn net als in de vorige versies van dit raamwerk verdeeld over zes categorieën: 
--  Geo-standaarden voor [informatiemodellen](#informatiemodellen-0);
+-  Geo-standaarden voor [informatiemodellen](#informatiemodellen);
 -  Geo-standaarden voor [visualisatie](#visualisatie);
 -  Geo-standaarden voor [Application Programming Interfaces (API’s)](#application-programming-interfaces); 
 -  Geo-standaarden voor [uitwisselformaten](#uitwisselformaten);
--  Geo-standaarden voor [metadata](#metadata-0); en 
--  Geo-standaarden voor [coördinaatreferentiesystemen](#coordinaatreferentiesystemen-crs-en).
+-  Geo-standaarden voor [metadata](#metadata); en 
+-  Geo-standaarden voor [coördinaatreferentiesystemen](#coordinaatreferentiesystemen).
 
 In de hoofdstukken 3 tot en met 8 zijn voor deze zes categorieën geo-standaarden lijsten van geldende geo-standaarden opgenomen (naar een hiërarchie van internationale, Europese en nationale geo-standaarden) en komen aspecten van kwaliteit van de geo-standaarden en eventueel uitgevoerde verkenningen aan de orde.
 
