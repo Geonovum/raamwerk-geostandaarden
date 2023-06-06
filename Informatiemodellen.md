@@ -42,9 +42,11 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
 *Tabel 3.1 - Standaarden en specificaties met betrekking tot informatiemodellen*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -57,32 +59,26 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td>ISO 19101 Geographic Information – Reference model [[iso19101]] </td>
       <td>INSPIRE: Generic Conceptual Model [[inspire-gcm]] </td>
       <td>MIM - Metamodel Informatie Modellering [[MIM]] </td>
-    </tr>
     <tr>
       <td>ISO/TS 19103 Geographic Information - Conceptual schema language [[iso19103]] </td>
       <td>INSPIRE: Methodology for the development of data specifications [[inspire-mds]] </td>
       <td>NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] </td>
-    </tr>
     <tr>
       <td>ISO 19107 Geographic information - Spatial Schema [[iso19107]] </td>
       <td> </td>
       <td> </td>
-    </tr>
     <tr>
       <td>ISO 19108 Geographic information - Temporal Schema [[iso19108]] </td>
       <td> </td>
       <td> </td>
-    </tr>
     <tr>
       <td>ISO 19109 Geographic information - Rules for application schema [[iso19109]] </td>
       <td> </td>
       <td> </td>
-    </tr>
     <tr>
       <td>ISO 19110 Geographic information - Methodology for feature cataloguing [[iso19110]] </td>
       <td> </td>
       <td> </td>
-    </tr>
     <tr>
       <td>ISO 19118 Geographic Information – Encoding [[iso19118]]</td>
       <td> </td>
