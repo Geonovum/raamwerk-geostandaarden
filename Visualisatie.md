@@ -55,47 +55,47 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
       <td>ISO 19117 Geographic Information – Portrayal [[iso19117]] </td>
       <td>Visualisatieregels voor INSPIRE data specificaties </td>
       <td>Visualisatieregels voor informatiemodellen </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>OGC Styled Layer Descriptor Implementation Specification, version 1.1.0 [[SLD11]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>OGC Symbology Encoding Implementation Specification, version 1.1.0 [[SE11]]  </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>OGC Web Map Context Documents Implementation Specification, version 1.1 [[WMC11]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>Corrigendum for Implementation Standard Web Map Context Documents – Corrigendum 1, version 1.1.0 [[WMCC11]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>Mapbox Styles [[MBS]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>OGC API Styles 1.0.0 **Draft** [[OAPISTYLES]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification </td>
       <td> </td>
       <td> </td>
-    </tr>
-   <tr>
+     </tr>
+    <tr>
       <td>OGC Indexed 3D Scene Layers v1.2 [[I3S]] </td>
       <td> </td>
       <td> </td>
-    </tr> 
+     </tr> 
   </tbody>
 </table>
 
