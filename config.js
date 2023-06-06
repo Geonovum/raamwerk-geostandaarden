@@ -40,9 +40,9 @@ var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  //specStatus: "GN-WV",                  // Werk Versie
+  specStatus: "GN-WV",                  // Werk Versie
   //specStatus: "GN-CV",                // Consultatie Versie
-  specStatus: "GN-VV",                // Vaststellings Versie
+  //specStatus: "GN-VV",                // Vaststellings Versie
   //specStatus: "GN-DEF",               // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
@@ -56,7 +56,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown" - JvG W3C aangepast, op 1 plek markdown aangeven    
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  //publishDate: "2023-03-14",  	    // Format is "YYYY-MM-DD"
+  //publishDate: "2023-06-06",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/raamwerk-geostandaarden",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
@@ -763,7 +763,7 @@ var respecConfig =
     "iso19111":
       {
         title:        "ISO 19111:2019 Geographic information — Referencing by coordinates",
-        href:         "(https://www.iso.org/standard/74039.html)", 
+        href:         "https://www.iso.org/standard/74039.html", 
         status:       "Published",
         publisher:    "ISO",
         date:         "January 2019",
