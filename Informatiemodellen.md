@@ -33,7 +33,7 @@ Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen sta
 Het Metamodel voor informatiemodellering [[MIM]] is een standaard die het metamodel beschrijft waarmee informatiemodellen – ook voor andere dan geo-informatie - worden gemaakt. Het beschrijft de metaklassen, metastructuur en metagegevens die de grondslag vormen voor een informatiemodel. Doel van MIM is het standaardiseren van de methode van informatiemodelleren. Hierdoor wordt afstemming tussen informatiemodellen, vergelijkbaarheid in publicatie en gebruik van gemeenschappelijke tooling mogelijk. Conformiteit aan MIM faciliteert het ontstaan van een overheidsbreed stelsel van vergelijkbare en samenhangende informatiemodellen. 
 Het MIM metamodel is conceptueel beschreven en uitgewerkt voor toepassing in UML en in Linked Data. 
 
-Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digitale overheid, gebruikt NEN 3610 als metamodel de Nederlandse standaard voor meta-informatiemodellering [MIM](#mim-principes). NEN 3610 conformeert aan MIM.
+Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digitale overheid, gebruikt NEN 3610 als metamodel de Nederlandse standaard voor meta-informatiemodellering. NEN 3610 conformeert aan MIM.
 
 ## Overzicht standaarden informatiemodellen voor Nederland
 
