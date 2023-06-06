@@ -36,9 +36,11 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 *Tabel 5.1 - API standaarden en specificaties voor web mapping: OGC WMS en OGC API Maps*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -68,9 +70,11 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 *Tabel 5.2 – API standaarden en specificaties voor vectordata: OGC WFS, OGC API – Features en ATOM*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -128,9 +132,11 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 *Tabel 5.3 – API standaarden en specificaties voor rasterdata: OGC WCS en OGC API - Coverages*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -156,9 +162,11 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 *Tabel 5.4 – API Standaarden en specificaties voor sensordata: OGC SOS, EDR API en SensorThings API*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -191,9 +199,11 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 
 *Tabel 5.5 – API Standaarden en specificaties voor metadata: OGC CSW en OGC API - Records*
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -223,9 +233,11 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 *Tabel 5.6 – API standaarden en specificaties voor map tiles: OGC Web Map Tile Service (WMTS,) OGC API - Tiles, en 3D Tiles*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -261,9 +273,11 @@ Handreikingen voor implementatie:
 *Tabel 5.7 – API standaarden en specificaties voor linked data: GeoSPARQL*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -307,11 +321,35 @@ Het is van belang om als service provider afspraken te maken met de service afne
 
 *Tabel 5.8 – Voorbeeld van kwaliteitnormen voor services*
 
-| **Kwaliteitsnorm** | **Uitleg** | **Voorbeeld** |
-|--------------------|------------|---------------|
-| Reliability    | Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem mag teruggeven in een afgesproken tijd.| Bijvoorbeeld `10 \*` een gefaalde request voor een geo-service per week.|
-| Beschikbaarheid| Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime).| Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn.|
-| Performance / response tijd| De performance uitgedrukt in response tijd.| Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden.|
+<table>
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
+  <thead>
+    <tr>
+      <th>Kwaliteitsnorm </th>
+      <th>Uitleg </th>
+      <th>Voorbeeld </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Reliability </td>
+      <td>Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem mag teruggeven in een afgesproken tijd. </td>
+      <td>Bijvoorbeeld `10 \*` een gefaalde request voor een geo-service per week. </td>
+    </tr>
+      <td>Beschikbaarheid </td>
+      <td>Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime). </td>
+      <td>Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn. </td>
+    </tr>
+      <td>Performance / response tijd </td>
+      <td>De performance uitgedrukt in response tijd. </td>
+      <td>Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden. </td>
+    </tr>
+  </tbody>
+</table>
 
 **Validators**
 
