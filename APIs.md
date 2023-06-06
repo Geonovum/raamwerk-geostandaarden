@@ -52,16 +52,18 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
     <tr>
       <td>Web Map Server (WMS) Implementation Specification, version 1.3.0 [[WMS]] </td>
       <td>Technical Guidance for the implementation of Inspire View Service. [[INSTGVS]] </td>
-      <td>Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.0 [[NLWMS]] </td>
-    </tr>
+      <td>Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.0 [[NLWMS]] </td> 
+     </tr>
+    <tr>
       <td>ISO 19128 Geographic Information – Web Map Service (WMS) [[iso-19128-2005]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API Maps **Draft** [[OAPIMAPS]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
@@ -87,43 +89,52 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
       <td>Web Feature Service (WFS) Implementation Specification, version 1.1.3 [[WFS11]] </td>
       <td>Technical Guidance for the implementation of Inspire Download Services. [[INSTGDS]] </td>
       <td>Nederlands WFS Profiel 1.0 op OGC WFS 1.1.0 [[NLWFS]] </td>
-    </tr>
+     </tr>
+    <tr>
       <td>ISO 19142, Geographic information - Web Feature Service (= WFS version 2.0) [[iso-19142-2010]], [[WFS]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC Filter Encoding 2.0 Encoding Standard - With Corrigendum [[FE20]] </td>
       <td> </td>
       <td> </td>
+     </tr>
     <tr>
       <td>ISO 19143, Geographic information – Filter encoding [[iso-19143-2010]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API – Features Part 1 Core [[OAPIF1]] </td>
       <td>OGC API – Features as an INSPIRE download service [[INSGPOAPIF]] </td>
       <td>API Design Rules Geomodule **Draft** [[adr-mod-geo]] </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API – Features Part 2 CRS by reference [[OAPIF2]] </td>
       <td> </td>
       <td>API Design Rules Geomodule **Draft** [[adr-mod-geo]] </td>
+     </tr>
     <tr>
       <td>OGC API – Features Part 3 Filtering **Draft** [[OAPIF3]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API – Features Part 3 Filtering **Draft** [[OAPIF3]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API – Features Part 4 Create Replace Update and Delete **Draft** [[OAPIF4]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>ATOM [[rfc4287]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
@@ -149,11 +160,12 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
       <td>OGC Web Coverage Service (WCS), version 2.1 [[WCS21]] </td>
       <td>Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS). [[INSTGDSWCS]] </td>
       <td>Hetzelfde als het Europese profiel </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API - Coverages - Part 1: Core, version 0.0.6 **Draft** [[OAPIC]] </td>
       <td> </td>
       <td> </td>
-    <tr>
+     </tr>
   </tbody>
 </table>
 
@@ -179,19 +191,22 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
       <td>OGC Sensor Observation Service Interface Standard version 2.0 [[SOS]] </td>
       <td>Technical Guidance for implementing download services using the OGC Sensor Observation Service and ISO 19143 Filter Encoding [[INSTGDSSOS]] </td>
       <td> Hetzelfde als het Europese profiel </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC SensorThings API part 1 Sensing, version 1.1 [[STAS]] </td>
       <td> OGC SensorThings API as an INSPIRE download service (good practice) [[INSGPSTA]] </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC SensorThings API Part 2 Tasking Core, version 1.0 [[STAT]] </td>
       <td> </td>
       <td> </td>
+     </tr>
     <tr>
       <td>OGC API - Environmental Data Retrieval Standard, version 1.0.1 [[OAPIEDR]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
@@ -216,15 +231,17 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
       <td>OGC Catalogue Service for the Web (CSW) Implementation Specification, version 2.0.2 [[CSW]] </td>
       <td>Technical Guidance for the implementation of Inspire Discovery Services. [[INSTGDiS]] </td>
       <td>Hetzelfde als het Europese profiel </td>
-    </tr>
+     </tr>
+    <tr>
       <td>CSW2 AP ISO, Catalogue Services Specification 2.0.2 - ISO Metadata Application Profile, Version 1.0.0, [[CSWISOAP]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API - Records - Part 1: Core **Draft** [[OAPIRECORDS1]] </td>
       <td> </td>
       <td> </td>
-    <tr>
+     </tr>
   </tbody>
 </table>
 
@@ -250,15 +267,17 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
       <td>Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]] </td>
       <td>Technical Guidance for the implementation of Inspire View Service [[INSTGVS]] </td>
       <td>Hetzelfde als het Europese profiel </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC API - Tiles - Part 1: Core [[OAPITILES1]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC 3D Tiles 1.0 [[3DTILES]] </td>
       <td> </td>
       <td> </td>
-    <tr>
+     </tr>
   </tbody>
 </table>
 
@@ -290,11 +309,12 @@ Handreikingen voor implementatie:
       <td>GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>GeoSPARQL - A Geographic Query Language for RDF Data v1.1 **Draft** [[GEOSPARQL11]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
@@ -339,15 +359,17 @@ Het is van belang om als service provider afspraken te maken met de service afne
       <td>Reliability </td>
       <td>Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem mag teruggeven in een afgesproken tijd. </td>
       <td>Bijvoorbeeld `10 \*` een gefaalde request voor een geo-service per week. </td>
-    </tr>
+     </tr>
+    <tr>
       <td>Beschikbaarheid </td>
       <td>Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime). </td>
       <td>Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn. </td>
-    </tr>
+     </tr>
+    <tr>
       <td>Performance / response tijd </td>
       <td>De performance uitgedrukt in response tijd. </td>
       <td>Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden. </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
