@@ -30,9 +30,9 @@ In de onderstaande tabel 7.1 zijn de standaarden en specificaties benoemd, die v
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
