@@ -1031,12 +1031,12 @@ var respecConfig =
     },
 	  "OMS3": 
       {
-        title:    "OGC Abstract Specification Geographic information — Observations and measurements v3.0",
-        href:     "https://portal.ogc.org/files/95653",
-        status:   "Draft",
+        title:    "OGC Abstract Specification Topic 20: Observations, measurements and samples v3.0.0",
+        href:     "https://docs.ogc.org/as/20-082r4/20-082r4.html",
+        status:   "Published",
         publisher:"Open Geospatial Consortium",
         editors:  ["Katharina Schleidt", "Ilkka Rinne"],
-        //date:     "2018-08-27",
+        date:     "2023-05-26",
     },
     "IMMetingen": 
       {
