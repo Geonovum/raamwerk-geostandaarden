@@ -131,7 +131,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
     </tr>
        <tr>
-      <td>ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[JPEG2000]] </td>
+      <td>ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[isoJPEG2000]] </td>
       <td> </td>
       <td> </td>
     </tr>
