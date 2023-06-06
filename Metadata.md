@@ -11,9 +11,11 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
