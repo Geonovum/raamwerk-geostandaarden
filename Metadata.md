@@ -63,7 +63,7 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
       <td> </td>
       <td>GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] </td>
       <td> </td>
-    </tr>
+     </tr>
       </tbody>
 </table>
 
