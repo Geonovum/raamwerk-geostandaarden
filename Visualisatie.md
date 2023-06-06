@@ -38,9 +38,11 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
 *Tabel 4.1 - Standaarden en specificaties voor visualisatie*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
