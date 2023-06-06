@@ -1,10 +1,10 @@
 **Versiebeheer**
 <table>
   <colgroup>
-    <col width="7.5%">
-    <col width="15%">
-    <col width="10%">
-    <col width="67.5%">
+    <col style="column-width:750">
+    <col style="column-width:1500">
+    <col style="column-width:1000">
+    <col style="column-width:6750">
   </colgroup>
   <thead>
     <tr>
