@@ -28,9 +28,9 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -102,9 +102,9 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -175,9 +175,9 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -218,9 +218,9 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
