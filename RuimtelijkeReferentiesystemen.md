@@ -29,9 +29,11 @@ In de onderstaande tabel 7.1 zijn de standaarden en specificaties benoemd, die v
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot CRS-en*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
