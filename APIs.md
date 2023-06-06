@@ -94,7 +94,7 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
     <tr>
       <td>ISO 19143, Geographic information – Filter encoding [[iso-19143-2010]] </td>
       <td> </td>
-      <td></td>
+      <td> </td>
     </tr>
       <td>OGC API – Features Part 1 Core [[OAPIF1]] </td>
       <td>OGC API – Features as an INSPIRE download service [[INSGPOAPIF]] </td>
@@ -106,7 +106,7 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
     <tr>
       <td>OGC API – Features Part 3 Filtering **Draft** [[OAPIF3]] </td>
       <td> </td>
-      <td></td>
+      <td> </td>
     </tr>
       <td>OGC API – Features Part 3 Filtering **Draft** [[OAPIF3]] </td>
       <td> </td>
