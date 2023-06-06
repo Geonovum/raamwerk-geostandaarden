@@ -101,17 +101,17 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td> </td>
      </tr>
     <tr>
-      <td>Observations and Measurements - XML Implementation 3.0 [[OMS3]] </td>
+      <td>OGC Observations, measurements and samples v3.0 [[OMS3]] </td>
       <td> </td>
       <td> </td>
      </tr>
     <tr>
-      <td>Observations and Measurements - XML Implementation 2.0 [[OaMx2]] </td>
+      <td>OGC Observations and Measurements - XML Implementation 2.0 [[OaMx2]] </td>
       <td> </td>
       <td> </td>
      </tr>
     <tr>
-      <td>Timeseries Profile of Observations and Measurements 1.0 [[OaMt1]] </td>
+      <td>OGC Timeseries Profile of Observations and Measurements 1.0 [[OaMt1]] </td>
       <td> </td>
       <td> </td>
      </tr>
