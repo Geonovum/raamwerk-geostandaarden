@@ -44,48 +44,48 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
       <td>ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>ISO 19125 Simple Feature Access Part 1: Common Architecture, version 1.2.1 [[iso-19125-1-2004]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC Geography Markup Language (GML) Encoding standard, version 3.2.1 (=ISO 19136) [[iso-19136-2007]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC Geography Markup Language (GML) Encoding standard, version 3.3  [[GML33]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC Simple Features profile (OGC 10-100r3, version 2.0) op ISO 19136:2007 (GML 3.2.1) [[GMLSF]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC GeoPackage Encoding Standard, version 1.3.1 [[GeoPackage]] </td>
       <td>GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]] </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>The GeoJSON Format [[rfc7946]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC JSON Features and Geometries, version 0.1 **draft** [[JSON-FG]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>HTML5 [[html5]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>Resource Description Framework (RDF): Concepts and Abstract Syntax. [[rdf11-concepts]] </td>
       <td> </td>
       <td> </td>
@@ -118,52 +118,52 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td>OGC Network Common Data Form (NetCDF) Core Encoding Standard version 1.0. [[NETCDF]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]]  </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>Hierarchical Data Format 1.0 [[HDF5]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>HDF-EOS5 Data Model, File Format and Library (v1.1) [[HDFEOS]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC GeoTIFF Standard, version 1.1 [[GeoTIFF]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>ISO/IEC 15444-1:2019 - JPEG 2000 image coding system [[isoJPEG2000]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>ISO 19123-1: Coverage Fundamentals [[iso-19123-2005]]  </td>
       <td> </td>
       <td> </td>
-    </tr>  
-       <tr>
+     </tr>
+    <tr>
       <td>ISO 19123-2: Coverage Implementation Schema (CIS 1.0) [[CIS10]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>GML for JPEG 2000 [[GMLJPEG2000]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>ISO/IEC 15948:2004 - Portable Network Graphics [[PNG]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>CoverageJSON 1.0 **Draft** [[COVJSON]] </td>
       <td> </td>
       <td> </td>
-    </tr>  
+     </tr>  
   </tbody>
 </table>
 
@@ -191,22 +191,22 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
       <td>OGC Observations and Measurements version 3.0 (ISO 19156) [[OMS3]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td>Informatiemodel Metingen [[IMMetingen]] </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>Observations and Measurements - XML Implementation 2.0 [[OaMx2]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td> W3C/OGC Semantic Sensor Network Ontology [[vocab-ssn]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>OGC SensorML 2.1 [[SensorML]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
@@ -234,12 +234,12 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
       <td>OGC City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML2]] </td>
       <td> </td>
       <td> </td>
-    </tr>
-       <tr>
+     </tr>
+    <tr>
       <td>CityJSON Community Standard, version 1.1.2 [[CityJSON]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
