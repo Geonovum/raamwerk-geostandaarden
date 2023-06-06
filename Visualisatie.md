@@ -39,9 +39,9 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
