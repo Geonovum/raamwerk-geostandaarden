@@ -59,56 +59,68 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td>ISO 19101 Geographic Information – Reference model [[iso19101]] </td>
       <td>INSPIRE: Generic Conceptual Model [[inspire-gcm]] </td>
       <td>MIM - Metamodel Informatie Modellering [[MIM]] </td>
+     </tr>
     <tr>
       <td>ISO/TS 19103 Geographic Information - Conceptual schema language [[iso19103]] </td>
       <td>INSPIRE: Methodology for the development of data specifications [[inspire-mds]] </td>
       <td>NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] </td>
+     </tr>
     <tr>
       <td>ISO 19107 Geographic information - Spatial Schema [[iso19107]] </td>
       <td> </td>
       <td> </td>
+     </tr>
     <tr>
       <td>ISO 19108 Geographic information - Temporal Schema [[iso19108]] </td>
       <td> </td>
       <td> </td>
+     </tr>
     <tr>
       <td>ISO 19109 Geographic information - Rules for application schema [[iso19109]] </td>
       <td> </td>
       <td> </td>
+     </tr>
     <tr>
       <td>ISO 19110 Geographic information - Methodology for feature cataloguing [[iso19110]] </td>
       <td> </td>
       <td> </td>
+     </tr>
     <tr>
       <td>ISO 19118 Geographic Information – Encoding [[iso19118]]</td>
       <td> </td>
       <td> </td>
-    </tr>    <tr>
-      <tr>
+     </tr>
+    <tr>
       <td>ISO 19131 Geographic Information - Data product specification [[iso19131]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>ISO 19136 Geographic Information - Geography Markup Language (GML) [[iso19136]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>Observations and Measurements - XML Implementation 3.0 [[OMS3]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>Observations and Measurements - XML Implementation 2.0 [[OaMx2]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>Timeseries Profile of Observations and Measurements 1.0 [[OaMt1]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td>OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0 [[CityGML3]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
+    <tr>
       <td> </td>
       <td>INSPIRE Data specifications </td>
       <td>Nederlandse toepassingsprofielen </td>
