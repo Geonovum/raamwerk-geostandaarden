@@ -19,7 +19,7 @@
       <td>4.0</td>
       <td>Februari 2023</td>
       <td>Actueel</td>
-      <td>Actuele versie met diverse updates bijgewerkt op basis met verwijzingen naar normatieve en informatieve referenties, handreikingen en verkenningen en geo-standaarden in samenhang beschreven</td>
+      <td>Actuele versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context (geo-standaarden in samenhang). </td>
     </tr>
     <tr>
       <td>3.0</td>
