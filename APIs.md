@@ -37,9 +37,9 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -73,9 +73,9 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -144,9 +144,9 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -175,9 +175,9 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -215,9 +215,9 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 *Tabel 5.5 – API Standaarden en specificaties voor metadata: OGC CSW en OGC API - Records*
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -251,9 +251,9 @@ In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen 
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -293,9 +293,9 @@ Handreikingen voor implementatie:
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style= "width: 34%;" >
+  <col style= "width: 33%;" >
+  <col style= "width: 33%;" >
    </colgroup>
   <thead>
     <tr>
@@ -343,9 +343,9 @@ Het is van belang om als service provider afspraken te maken met de service afne
 
 <table>
   <colgroup>
-  <col% style= "width: 34%;" >
-  <col% style= "width: 33%;" >
-  <col% style= "width: 33%;" >
+  <col style="width: 34%;">
+  <col style="width: 33%;">
+  <col style="width: 33%;">
    </colgroup>
   <thead>
     <tr>
