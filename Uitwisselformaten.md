@@ -27,9 +27,11 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 *Tabel 6.1 – Uitwisselformaten standaarden en specificaties met betrekking tot vectordata*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -99,9 +101,11 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
 *Tabel 6.2 - Uitwisselformaten standaarden en specificaties met betrekking tot rasterdata*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -156,7 +160,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
     </tr>
        <tr>
-      <td>CoverageJSON 1.0 **Draft** [COVJSON]] </td>
+      <td>CoverageJSON 1.0 **Draft** [[COVJSON]] </td>
       <td> </td>
       <td> </td>
     </tr>  
@@ -170,9 +174,11 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
 *Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
@@ -211,9 +217,11 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
 *Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data*
 
 <table>
-  <colgroup width="34%">
-  <colgroup width="33%">
-  <colgroup width="33%">
+  <colgroup>
+  <col% style= "width: 34%;" >
+  <col% style= "width: 33%;" >
+  <col% style= "width: 33%;" >
+   </colgroup>
   <thead>
     <tr>
       <th> Internationale standaarden en specificaties </th>
