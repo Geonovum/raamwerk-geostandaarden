@@ -51,17 +51,17 @@ In de onderstaande tabel 7.1 zijn de standaarden en specificaties benoemd, die v
       <td>ISO 6709 Standard representation of geographic location by coordinates [[iso6709]] </td>
       <td>INSPIRE specification on Coordinate Reference Systems – Guidelines [[inspire-crs]] </td>
       <td> </td>
-    </tr>
+     </tr>
     <tr>
       <td>EPSG codes database & CRS Ids [[epsg]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
     <tr>
       <td>ISO/TS 19127 Geographic Information – Geodetic codes and parameters [[isots19127]] </td>
       <td> </td>
       <td> </td>
-    </tr>
+     </tr>
   </tbody>
 </table>
 
