@@ -762,7 +762,7 @@ var respecConfig =
     "iso19111":
       {
         title:        "ISO 19111:2019 Geographic information — Referencing by coordinates",
-        href:         "(https://www.iso.org/obp/ui/#iso:std:iso:19111)", 
+        href:         "(https://www.iso.org/standard/74039.html)", 
         status:       "Published",
         publisher:    "ISO",
         date:         "January 2019",
@@ -983,7 +983,16 @@ var respecConfig =
         publisher:"ISD",
         //editors:  ["Emmanuel Devys", "Ted Habermann", "Chuck Heazel", "Roger Lott", "Even Rouault"],
         date:     "2018-10",
-    },
+      },
+    "isoJPEG2000": 
+      {
+        title:    "ISO/IEC 15444-1:2019 Information technology — JPEG 2000 image coding system — Part 1: Core coding system",
+        href:     "https://www.iso.org/standard/78321.html",
+        status:   "Published",
+        publisher:"ISO",
+        date:     "2019-10",
+      },
+
     "GMLJPEG2000": 
       {
         title:    "OGC® GML in JPEG 2000 (GMLJP2) Encoding Standard Part 1: Core v.2.1",
@@ -992,7 +1001,7 @@ var respecConfig =
         publisher:"Open Geospatial Consortium",
         editors:  ["Lucio Colaiacomo", "Joan Masó", "Emmanuel Devys", "Eric Hirschorn"],
         date:     "2018-08-27",
-    },
+      },
     "COVJSON": 
       {
         title:    "OGC CoverageJSON Community Standard 1.0-draft_0.2.2",
