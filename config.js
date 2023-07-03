@@ -40,10 +40,10 @@ var respecConfig =
 {
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  //specStatus: "GN-WV",                  // Werk Versie
+  specStatus: "GN-WV",                  // Werk Versie
   //specStatus: "GN-CV",                // Consultatie Versie
   //specStatus: "GN-VV",                // Vaststellings Versie
-  specStatus: "GN-DEF",               // Definitieve Versie
+  //specStatus: "GN-DEF",               // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
   //specType: "ST",                       // Standaard
@@ -56,7 +56,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown" - JvG W3C aangepast, op 1 plek markdown aangeven    
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2023-06-22",  	    // Format is "YYYY-MM-DD"
+  //publishDate: "2023-06-22",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/raamwerk-geostandaarden",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
@@ -1088,9 +1088,10 @@ var respecConfig =
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2023-03-14",  	    // Format is "YYY-MM-DD"
-  previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
-  //previousMaturity: "VV",  	                // kies 1 van deze 2 regels
+  previousPublishDate: "2023-06-22",  	    // Format is "YYY-MM-DD"
+  //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
+  //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
+  previousMaturity: "GN-DEF",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
 
   //-- Optionele parameters:
   //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
