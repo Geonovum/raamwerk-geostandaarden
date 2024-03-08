@@ -68,7 +68,7 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
     <tr>
       <td>ISO 19107 Geographic information - Spatial Schema [[iso19107]] </td>
       <td> </td>
-      <td> </td>
+      <td>SBB: Standaard voor het Beschrijven van Begrippen [[SBB]]</td>
      </tr>
     <tr>
       <td>ISO 19108 Geographic information - Temporal Schema [[iso19108]] </td>
@@ -132,9 +132,10 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
 Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er is een aantal mechanismen om die afstemming te sturen:
 
 - NEN 3610 heeft een semantisch model dat de werkelijkheid indeelt naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen;
-- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. De [NEN3610 conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is daar een voorbeeld van;
+- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. Begrippenkaders en registers voldoen aan de Standaard voor het Beschrijven van Begrippen [[SBB]]. De [NEN3610 conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is een voorbeeld van een register met begrippenkaders die voldoen aan de SBB standaard;
 - Zoek bij het (door-)ontwikkelen van sectorale modellen samenwerking en afstemming tussen sectorale modellen;
 - Knowledge graphs kunnen helpen om begrippenkaders aan elkaar te verbinden.
+- De standaard voor het Beschrijven van Begrippen [[SBB]] zorgt voor interoperabiliteit tussen gepubliceerde begrippenkaders en vergemakkelijkt de afstemming tussen begrippen kaders als ook het verwijzen naar elkaars begrippen. 
 
 ## Kwaliteit van informatiemodellen
 

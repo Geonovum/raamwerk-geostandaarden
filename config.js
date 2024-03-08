@@ -1083,6 +1083,15 @@ var respecConfig =
         publisher:"Open Geospatial Consortium",
         editors:  ["Hugo Ledoux"],
         date:     "2021-08-13",
+    }, 
+    "SBB": 
+      {
+        title:    "Standaard voor het Beschrijven van Begrippen",
+        href:     "https://www.geonovum.nl/geo-standaarden/standaard-voor-beschrijven-van-begrippen-sbb#:~:text=De%20Standaard%20voor%20het%20beschrijven,kader%20voor%20het%20vastleggen%20begrippen.",
+        status:   "Versie ter vaststelling",
+        publisher:"Geonovum",
+        editors:  ["Jesse Bakker, Arjen Santema, Kees TRautwein"],
+        date:     "2024-03-01",
     },
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
