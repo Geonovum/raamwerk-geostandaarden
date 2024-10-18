@@ -354,12 +354,12 @@ var respecConfig =
     },
     "3DTILES":
       {
-        title:      "3D Tiles Specification 1.0",
-        href:       "http://docs.opengeospatial.org/cs/18-053r2/18-053r2.html",
-        status:     "Approved for pubic release",
+        title:      "3D Tiles Specification 1.1",
+        href:       "https://docs.ogc.org/cs/22-025r4/22-025r4.html",
+        status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    ["Patrick Cozzi", "Sean Lilley", "Gabby Getz"],
-        date:       "2019-01-31",
+        editors:    ["Patrick Cozzi", "Sean Lilley"],
+        date:       "2023-01-12",
     },
     "HRTOEG":
       {
@@ -642,12 +642,12 @@ var respecConfig =
     },
     "I3S":
       {
-        title:      "OGC Indexed 3d Scene Layer (I3S) and Scene Layer Package (*.slpk) Format Community Standard Version 1.2",
-        href:       "http://docs.opengeospatial.org/cs/17-014r8/17-014r8.html",
+        title:      "OGC Indexed 3d Scene Layer (I3S) and Scene Layer Package (*.slpk) Format Community Standard Version 1.3",
+        href:       "https://docs.ogc.org/cs/17-014r9/17-014r9.html",
         status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Carl Reed", "Tamrat Belayneh"],
-        date:       "2021-05-11",
+        date:       "2023-01-11",
     },
     "GEOSPARQL11":
       {
@@ -1077,12 +1077,12 @@ var respecConfig =
     },
     "CityJSON": 
       {
-        title:    "CityJSON Community Standard 1.0",
-        href:     "https://docs.ogc.org/cs/20-072r2/20-072r2.html",
-        status:   "Published",
+        title:    "CityJSON Community Standard 2.0",
+        href:     "https://docs.ogc.org/cs/20-072r5/20-072r5.html",
+        status:   "Approved",
         publisher:"Open Geospatial Consortium",
         editors:  ["Hugo Ledoux"],
-        date:     "2021-08-13",
+        date:     "2023-10-20",
     }, 
     "SBB": 
       {
