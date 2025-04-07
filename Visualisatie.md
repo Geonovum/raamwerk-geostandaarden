@@ -87,12 +87,12 @@ In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen.
       <td> </td>
      </tr>
     <tr>
-      <td>3D Tiles 1.0 [[3DTILES]] chapter 11, Declarative styling specification </td>
+      <td>3D Tiles 1.1 [[3DTILES]] chapter 10, Declarative styling specification </td>
       <td> </td>
       <td> </td>
      </tr>
     <tr>
-      <td>OGC Indexed 3D Scene Layers v1.2 [[I3S]] </td>
+      <td>OGC Indexed 3D Scene Layers v1.3 [[I3S]] </td>
       <td> </td>
       <td> </td>
      </tr> 
@@ -151,6 +151,10 @@ Voor de BGT|IMGeo zijn zeven presentaties beschikbaar. Deze zijn beschreven in d
 ### Kaartvisualisatie voor webapplicaties
 
 Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking webcartografie ontwikkeld. In de handreiking webcartografie [[HRWC]] vind je praktische tips over hoe je geo-informatie - waar mogelijk - binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden.
+
+### Handreiking 3D Tiling
+
+De handreiking 3D Tiling [HR3DT] heeft tot doel bij te dragen aan het breder gebruik van 3D data in Nederland met de adoptie van 3D Tiles in het bijzonder. Door best practises (praktische richtlijnen) te bieden voor de implementatie van 3D Tiles, kunnen verschillende systemen en softwareoplossingen (tools) beter met elkaar samenwerken, wat cruciaal is voor de uitwisseling van de visualisaties van 3D data in GIS applicaties en digital twins. Via de best practises biedt de handreiking mogelijkheden voor bredere acceptatie en verspreiding van 3D Tiles binnen de Nederlandse gebruiksgemeenschap en vele verschillende belanghebbende organisaties.
 
 ### Toegankelijkheid & geo-informatie
 
