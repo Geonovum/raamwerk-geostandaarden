@@ -58,7 +58,7 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
     <tr>
       <td>ISO 19101 Geographic Information – Reference model [[iso19101]] </td>
       <td>INSPIRE: Generic Conceptual Model [[inspire-gcm]] </td>
-      <td>MIM - Metamodel Informatie Modellering [[MIM]] </td>
+      <td>MIM - Metamodel Informatie Modellering versie 1.2 [[MIM]] </td>
      </tr>
     <tr>
       <td>ISO/TS 19103 Geographic Information - Conceptual schema language [[iso19103]] </td>
