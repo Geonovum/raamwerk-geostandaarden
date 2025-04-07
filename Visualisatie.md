@@ -154,7 +154,7 @@ Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking we
 
 ### Handreiking 3D Tiling
 
-De handreiking 3D Tiling [HR3DT] heeft tot doel bij te dragen aan het breder gebruik van 3D data in Nederland met de adoptie van 3D Tiles in het bijzonder. Door best practises (praktische richtlijnen) te bieden voor de implementatie van 3D Tiles, kunnen verschillende systemen en softwareoplossingen (tools) beter met elkaar samenwerken, wat cruciaal is voor de uitwisseling van de visualisaties van 3D data in GIS applicaties en digital twins. Via de best practises biedt de handreiking mogelijkheden voor bredere acceptatie en verspreiding van 3D Tiles binnen de Nederlandse gebruiksgemeenschap en vele verschillende belanghebbende organisaties.
+De handreiking 3D Tiling [[HR3DT]] heeft tot doel bij te dragen aan het breder gebruik van 3D data in Nederland met de adoptie van 3D Tiles in het bijzonder. Door best practises (praktische richtlijnen) te bieden voor de implementatie van 3D Tiles, kunnen verschillende systemen en softwareoplossingen (tools) beter met elkaar samenwerken, wat cruciaal is voor de uitwisseling van de visualisaties van 3D data in GIS applicaties en digital twins. Via de best practises biedt de handreiking mogelijkheden voor bredere acceptatie en verspreiding van 3D Tiles binnen de Nederlandse gebruiksgemeenschap en vele verschillende belanghebbende organisaties.
 
 ### Toegankelijkheid & geo-informatie
 
