@@ -319,7 +319,7 @@ var respecConfig =
         title:        "DCAT-AP-NL 3.0",
         href:         "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/",
         status:       "Vastgestelde versie",
-        authors:      "Ine de Visser, Jan Skornsek",
+        authors:      ["Ine de Visser", "Jan Skornsek"],
         publisher:    "Geonovum",
         date:         "12 december 2024",
     },
@@ -389,7 +389,7 @@ var respecConfig =
         href:       "http://www.opengis.net/doc/cs/3D-Tiles/1.1",
         status:     "Approved for pubic release",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    "Patrick Cozzi, Sean Lilley",
+        editors:    ["Patrick Cozzi", "Sean Lilley"],
         date:       "2022-12-17",
     },
     "HRTOEG":
@@ -398,7 +398,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/visu/toeg/",
         status:     "Vastgesteld",
         publisher:  "Geonovum",
-        editors:    "Edward Mac Gillavry, Sjors Slaats, Theo OVerduin, Thijs Brentjens, Victor Zuydweg",
+        editors:    ["Edward Mac Gillavry", "Sjors Slaats", "Theo OVerduin","Thijs Brentjens", "Victor Zuydweg"],
         date:       "2021-08-02",
     },
     "HRWC":
@@ -415,7 +415,7 @@ var respecConfig =
       href:       "https://docs.geostandaarden.nl/3d/3d-tiling/",
       status:     "Levend document",
       publisher:  "Geonovum",
-      editors:    "Arnoud de Boer, Michel Grothe",
+      editors:    ["Arnoud de Boer", "Michel Grothe"],
       date:       "13 januari 2025",
     },
     "HRCRS":
@@ -424,7 +424,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/crs/crs/",
         status:     "Definitief",
         publisher:  "Geonovum",
-        editors:    "Friso Penninga, Lennard Huisman",
+        editors:    ["Friso Penninga", "Lennard Huisman"],
         date:       "14 maart 2022",
     },
     "HRLFG":
@@ -433,7 +433,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/g4w/geox/#inleiding",
         status:     "Definitief",
         publisher:  "Geonovum",
-        editors:    "Linda van den Brink, Gabriella Wiersma",
+        editors:    ["Linda van den Brink", "Gabriella Wiersma"],
         date:       "4 februari 2022",
       },
       "HRWW3D":
@@ -442,7 +442,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/3d/hr-3d-standaarden/",
         status:     "Vastgestelde versie",
         publisher:  "Geonovum",
-        editors:    "Yneke van Iersel, Linda van den Brink",
+        editors:    ["Yneke van Iersel", "Linda van den Brink"],
         date:       "28 januari 2025",
       },
     "INSTGVS":
@@ -575,8 +575,6 @@ var respecConfig =
         href:       "http://docs.opengeospatial.org/is/17-089r1/17-089r1.html",
         status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
-        //editors:    ["Linda van den Brink"],
-        //authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
         date:       "2018-08-16",
     },
     "INSTGDSWCS":
@@ -585,8 +583,6 @@ var respecConfig =
         href:       "https://inspire.ec.europa.eu/id/document/tg/download-wcs",
         status:     "Approved",
         publisher:  "INSPIRE Maintenance and Implementation Group (MIG)",
-        //editors:    ["Linda van den Brink"],
-        //authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
         date:       "2016-12-16",
     },
     "OREFCO":
