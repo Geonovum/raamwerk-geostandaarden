@@ -55,13 +55,13 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
       <td> </td>
     </tr>
     <tr>
-      <td>Data Catalog Vocabulary (DCAT) version 3.0 **W3C Recommendation** [vocab-dcat-3] </td>
+      <td>Data Catalog Vocabulary (DCAT) version 3.0 **W3C Recommendation** [[vocab-dcat-3]] </td>
       <td>DCAT-AP 3.0 [[dcat-ap]] </td>
-      <td>DCAT-AP-NL 3.0 [dcat-ap-nl] </td>
+      <td>DCAT-AP-NL 3.0 [[dcat-ap-nl]] </td>
     </tr>
    <tr>
       <td> </td>
-      <td>DCAT-AP High Value Datasets ** Semic Recommendation ** version 3.0.0 [dcat-ap-hvd] </td>
+      <td>DCAT-AP High Value Datasets ** Semic Recommendation ** version 3.0.0 [[dcat-ap-hvd]] </td>
       <td> </td>
      </tr>
    <tr>
