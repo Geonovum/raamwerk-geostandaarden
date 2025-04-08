@@ -101,7 +101,7 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td> </td>
      </tr>
     <tr>
-      <td>OGC Observations, measurements and samples v3.0 [[OMS3]] </td>
+      <td>OGC Observations, measurements and samples version 3.0 [[OMS3]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -116,7 +116,7 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td> </td>
      </tr>
     <tr>
-      <td>OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0 [[CityGML3]] </td>
+      <td>OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard version 3.0 [[CityGML3]] </td>
       <td> </td>
       <td> </td>
      </tr>
