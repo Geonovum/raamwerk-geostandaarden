@@ -66,7 +66,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
       <td> </td>
      </tr>
     <tr>
-      <td>OGC GeoPackage Encoding Standard, version 1.3.1 [[GeoPackage]] </td>
+      <td>OGC GeoPackage Encoding Standard, version 1.4 [[GeoPackage]] </td>
       <td>GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]] </td>
       <td> </td>
      </tr>
@@ -76,7 +76,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
       <td> </td>
      </tr>
     <tr>
-      <td>OGC JSON Features and Geometries, version 0.1 **draft** [[JSON-FG]] </td>
+      <td>OGC JSON Features and Geometries, version 0.2.2 **draft** [[JSON-FG]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -140,7 +140,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>
     <tr>
-      <td>ISO 19123-1: Coverage Fundamentals [[iso-19123-2005]]  </td>
+      <td>ISO 19123-1:2023: Geographic information — Schema for coverage geometry and functions Part 1: Fundamentals [[iso-19123-2023]]  </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -150,7 +150,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>
     <tr>
-      <td>GML for JPEG 2000 [[GMLJPEG2000]] </td>
+      <td>OGC GML for JPEG 2000 [[GMLJPEG2000]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -160,7 +160,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>
     <tr>
-      <td>CoverageJSON 1.0 **Draft** [[COVJSON]] </td>
+      <td>OGC CoverageJSON Community Standard version 1.0 [[COVJSON]] </td>
       <td> </td>
       <td> </td>
      </tr>  
@@ -188,7 +188,7 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
   </thead>
   <tbody>
     <tr>
-      <td>OGC Observations and Measurements version 3.0 (ISO 19156) [[OMS3]] </td>
+      <td>OGC Observations and Measurements version 3.0 [[OMS3]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td>Informatiemodel Metingen [[IMMetingen]] </td>
      </tr>
@@ -231,12 +231,12 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
   </thead>
   <tbody>
     <tr>
-      <td>OGC City Geography Markup Language (CityGML) Encoding Standard, version 2.0 [[CityGML2]] </td>
+      <td>OGC City Geography Markup Language (CityGML) Encoding Standard version 3.0 [[CityGML3]] </td>
       <td> </td>
       <td> </td>
      </tr>
     <tr>
-      <td>CityJSON Community Standard, version 1.1.2 [[CityJSON]] </td>
+      <td>CityJSON Community Standard version 2.0 [[CityJSON]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -263,4 +263,7 @@ Voor het uitwisselen van geo-informatie kan je kiezen uit verschillende uitwisse
 
 Daarom is voor vectorformaten een keuzehulp gemaakt: de handreiking 'Geometrie in uitwisselingsformaten' [[HRLFG]]. Deze legt ook de toepassing uit van de verschillende versies van GML. De handreiking geeft handvaten voor het kiezen van het juiste uitwisselformaat voor de juiste situatie, en geeft gedetaileerde informatie over het uitwisselen van geometrie in de lichte formaten HTML, GML, JSON, GeoPackage en RDF. Deze handreiking zet de belangrijkste aspecten op een rijtje en brengt deze in verband met gangbare toepassingen. De toepassing bepaalt namelijk wat de eisen aan de geometrieën zijn (zijn complexe types nodig? Is een hoge nauwkeurigheid van belang?), en welke verplichtingen aan de orde zijn in de keuze voor standaarden. De antwoorden op deze vragen kunnen al een indicatie geven van de geschiktheid van de uitwisselformaten. Daarnaast is het van belang om inzicht te hebben in de behoeften van gebruikers: is ondersteuning in bepaalde tools/frameworks van belang? Moeten de bestanden leesbaar zijn voor mensen en gemakkelijk te vinden? Hoe belangrijk is de semantiek van de data? Deze handreiking geeft handvaten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft in afzonderlijke hoofdstukken gedetailleerde informatie over het uitwisselen van geometrie in GML, HTML, JSON, GeoPackage en RDF. 
 
+**Wegwijzer 3D standaarden**
+
+De Wegwijzer 3D standaarden is een wegwijzer over het uitwisselen van 3D data [[HRWW3D]]. Het geeft een overzicht van de verschillende bestandsformaten die je hiervoor kunt gebruiken, geeft handvatten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft in afzonderlijke hoofdstukken gedetailleerde informatie over het uitwisselen van 3D data in CityJSON, CityGML, 3D Tiles, I3S, IFC en LAZ.
 
