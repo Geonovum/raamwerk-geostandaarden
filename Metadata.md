@@ -55,20 +55,25 @@ Voor Europese portalen is het “DCAT Application Profile for Data Portals in Eu
       <td> </td>
     </tr>
     <tr>
-      <td>Data Catalog Vocabulary (DCAT) version 2.0 [[vocab-dcat-2]] </td>
-      <td>DCAT-AP - An extension for the DCAT application profile for data portals in Europe version 2.1.1 [[DCAT-AP-2.1.1]] </td>
-      <td> </td>
+      <td>Data Catalog Vocabulary (DCAT) version 3.0 **W3C Recommendation** [vocab-dcat-3] </td>
+      <td>DCAT-AP 3.0 [[dcat-ap]] </td>
+      <td>DCAT-AP-NL 3.0 [dcat-ap-nl] </td>
     </tr>
    <tr>
       <td> </td>
-      <td>GeoDCAT-AP - A geospatial extension for the DCAT application profile for data portals in Europe version 2.0.0 [[geodcat-ap]] </td>
+      <td>DCAT-AP High Value Datasets ** Semic Recommendation ** version 3.0.0 [dcat-ap-hvd] </td>
+      <td> </td>
+     </tr>
+   <tr>
+      <td> </td>
+      <td>GeoDCAT Application Profile for data portals in Europe version 3.0.0 [[geodcat-ap]] </td>
       <td> </td>
      </tr>
       </tbody>
 </table>
 
-<aside class="note">De [[inspire-TG-metadata]] is gebaseerd op [[ISO19115-2003]]. Dit is de reden dat het NL profiel ook op [[ISO19115-2003]] is gebaseerd en niet op [[ISO19115-2014]]. </aside>
-
+<aside class="note">De [[inspire-TG-metadata]] is gebaseerd op [[ISO19115-2003]]. Dit is de reden dat het NL profiel ook op [[ISO19115-2003]] is gebaseerd en niet op [[ISO19115-2014]].
+ </aside>
 
 ## Kwaliteit van metadata
 
