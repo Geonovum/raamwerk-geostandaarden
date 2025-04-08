@@ -83,11 +83,6 @@ var respecConfig =
       companyURL: "https://www.geonovum.nl"
     },
     {
-      name:       "Jan van Gelder",
-      company:    "Geonovum",
-      companyURL: "https://www.geonovum.nl"
-    },
-    {
       name:       "Michel Grothe",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
@@ -292,14 +287,50 @@ var respecConfig =
         publisher:    "International Organization for Standardization",
         date:         "2005-02",
     },
-	   "DCAT-AP-2.1.1":
+    "vocab-dcat-3":
+    {
+      title:        "Data Catalog Vocabulary (DCAT) - Version 3",
+      href:         "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/releases",
+      status:       "W3C Recommendation",
+      //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
+      publisher:    "W3C",
+      date:         "22 August 2024",
+  },
+    "dcat-ap":
       {
-        title:        "DCAT Application Profile for data portals in Europe 2.1.1",
-        href:         "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/releases",
+        title:        "DCAT AP 3.0",
+        href:         "https://semiceu.github.io/DCAT-AP/releases/3.0.0/",
         //status:       ["Adopted specification"],
         //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
         publisher:    "European Commission",
-        date:         "2022-06-24",
+        date:         "14 June 2024",
+    },
+    "dcat-ap-hvd":
+    {
+      title:        "DCAT-AP High Value Datasets version 3.0.0",
+      href:         "https://semiceu.github.io/DCAT-AP/releases/3.0.0-hvd",
+      status:       "Semic Recommendation",
+      //authors:    ["Drafting Team Metadata and European Commission Joint Research Centre"],
+      publisher:    "European Commission",
+      date:         "14 December 2023",
+    },
+    "dcat-ap-nl":
+    {
+    title:        "DCAT-AP-NL 3.0",
+    href:         "https://docs.geostandaarden.nl/dcat/dcat-ap-nl30/",
+    status:       "Vastgestelde versie",
+    authors:      "Ine de Visser, Jan Skornsek",
+    publisher:    "Geonovum",
+    date:         "12 december 2024",
+    },
+    "geodcat-ap":
+    {
+    title:        "GeoDCAT-AP 3.0.0",
+    href:         "https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/",
+    //status:       "",
+    //authors:      "",
+    publisher:    "European Commission",
+    date:         "04 October 2024",
     },
     "SLD11":
       {
@@ -354,12 +385,12 @@ var respecConfig =
     },
     "3DTILES":
       {
-        title:      "3D Tiles Specification 1.0",
-        href:       "http://docs.opengeospatial.org/cs/18-053r2/18-053r2.html",
+        title:      "3D Tiles Specification 1.1",
+        href:       "http://www.opengis.net/doc/cs/3D-Tiles/1.1",
         status:     "Approved for pubic release",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    ["Patrick Cozzi", "Sean Lilley", "Gabby Getz"],
-        date:       "2019-01-31",
+        editors:    "Patrick Cozzi", "Sean Lilley",
+        date:       "2022-12-17",
     },
     "HRTOEG":
       {
@@ -367,7 +398,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/visu/toeg/",
         status:     "Vastgesteld",
         publisher:  "Geonovum",
-        editors:    ["Edward Mac Gillavry", "Sjors Slaats", "Theo OVerduin", "Thijs Brentjens", "Victor Zuydweg"],
+        editors:    "Edward Mac Gillavry", "Sjors Slaats", "Theo OVerduin", "Thijs Brentjens", "Victor Zuydweg",
         date:       "2021-08-02",
     },
     "HRWC":
@@ -378,13 +409,22 @@ var respecConfig =
         publisher:  "Geonovum",
         date:       "2010-11-18",
     },
+    "HR3DT":
+    {
+      title:      "Handreiking 3d Tiling",
+      href:       "https://docs.geostandaarden.nl/3d/3d-tiling/",
+      status:     "Levend document",
+      publisher:  "Geonovum",
+      editors:    "Arnoud de Boer", "Michel Grothe",
+      date:       "13 januari 2025",
+    },
     "HRCRS":
       {
         title:      "Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie",
         href:       "https://docs.geostandaarden.nl/crs/crs/",
         status:     "Definitief",
         publisher:  "Geonovum",
-        editors:    ["Friso Penninga", "Lennard Huisman"],
+        editors:    "Friso Penninga", "Lennard Huisman",
         date:       "14 maart 2022",
     },
     "HRLFG":
@@ -393,10 +433,18 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/g4w/geox/#inleiding",
         status:     "Definitief",
         publisher:  "Geonovum",
-        editors:    ["Linda van den Brink", "Gabriella Wiersma"],
+        editors:    "Linda van den Brink", "Gabriella Wiersma",
         date:       "4 februari 2022",
       },
-
+      "HRWW3D":
+      {
+        title:      "Wegwijzer 3D standaarden",
+        href:       "https://docs.geostandaarden.nl/3d/hr-3d-standaarden/",
+        status:     "Vastgestelde versie",
+        publisher:  "Geonovum",
+        editors:    "Yneke van Iersel, Linda van den Brink",
+        date:       "28 januari 2025",
+      },
     "INSTGVS":
       {
         title:      "Technical Guidance for the implementation of Inspire View Service",
@@ -423,12 +471,12 @@ var respecConfig =
     },
     "OAPIMAPS":
       {
-        title:      "OGC 20-058: OGC API - Maps - Part 1: Core, Version 0.1.0",
-        href:       "http://docs.ogc.org/DRAFTS/20-058.html",
-        status:     "Draft",
+        title:      "OGC 20-058: OGC API - Maps - Part 1: Core, Version 1.0",
+        href:       "http://www.opengis.net/doc/IS/ogcapi-maps-1/1.0",
+        status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    "Joan Masó",
-        date:       "2022-06-06",
+        editors:    "Joan Masó, Jérôme Jacovella-St-Louis",
+        date:       "2024-06-12",
     },
     "WFS11":
       {
@@ -486,21 +534,21 @@ var respecConfig =
     },
     "OAPIF2":
       {
-        title:      "OGC 18-058: OGC API - Features - Part 2: Coordinate Reference Systems by Reference, Version 1.0",
-        href:       "https://docs.opengeospatial.org/is/18-058r1/18-058r1.html",
+        title:      "OGC 18-058: OGC API - Features - Part 2: Coordinate Reference Systems by Reference corrigendum, Version 1.0.1",
+        href:       "http://www.opengis.net/doc/IS/ogcapi-features-2/1.0.1",
         status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele"],
-        date:       "2020-11-02",
+        date:       "2022-04-05",
     },
     "OAPIF3":
       {
-        title:      "OGC 19-079r1: OGC API - Features - Part 3: Filtering, Version 1.0.0-rc1",
-        href:       "http://docs.ogc.org/DRAFTS/19-079r1.html",
-        status:     "Draft",
+        title:      "OGC 19-079r1: OGC API - Features - Part 3: Filtering, Version 1.0",
+        href:       "http://www.opengis.net/doc/IS/ogcapi-features-3/1.0",
+        status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele"],
-        //date:       "2022-05-11",
+        date:       "2024-05-23",
     },
     "OAPIF4":
       {
@@ -515,11 +563,11 @@ var respecConfig =
       {
         title:      "API Design rules Module: Geospatial",
         href:       "https://docs.geostandaarden.nl/api/API-Strategie-mod-geo/",
-        status:     "Consultatieversie",
+        status:     "Vastgestelde versie",
         publisher:  "Geonovum",
         editors:    ["Linda van den Brink"],
         authors:    ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
-        date:       "2022-09-30",
+        date:       "23 mei 2023",
     },
     "WCS21":
       {
@@ -552,7 +600,7 @@ var respecConfig =
     },
     "OAPIC":
       {
-        title:      "OGC 19-087: OGC API - Coverages - Part 1: Core, version 0.0.6",
+        title:      "OGC 19-087: OGC API - Coverages - Part 1: Core, version 0.0.7",
         href:       "http://docs.ogc.org/DRAFTS/19-087.html",
         status:     "Draft",
         publisher:  "Open Geospatial Consortium (OGC)",
@@ -597,12 +645,12 @@ var respecConfig =
     },
     "OAPIEDR":
       {
-        title:      "OGC 19-086r5: OGC API - Environmental Data Retrieval Standard, Version 1.0.1",
-        href:       "https://docs.ogc.org/is/19-086r5/19-086r5.html",
+        title:      "OGC API - Environmental Data Retrieval Standard, Version 1.1",
+        href:       "http://www.opengis.net/doc/IS/ogcapi-edr-1/1.1",
         status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Mark Burgoyne","David Blodgett","Charles Heazel","Chris Little"],
-        date:       "2022-08-05",
+        date:       "2022-09-30",
     },
     "INSTGDiS":
       {
@@ -642,21 +690,21 @@ var respecConfig =
     },
     "I3S":
       {
-        title:      "OGC Indexed 3d Scene Layer (I3S) and Scene Layer Package (*.slpk) Format Community Standard Version 1.2",
-        href:       "http://docs.opengeospatial.org/cs/17-014r8/17-014r8.html",
+        title:      "OGC Indexed 3d Scene Layer (I3S) and Scene Layer Package (*.slpk) Format Community Standard Version 1.3",
+        href:       "http://www.opengis.net/doc/CS/i3s/1.3",
         status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Carl Reed", "Tamrat Belayneh"],
-        date:       "2021-05-11",
+        date:       "2022-12-12",
     },
     "GEOSPARQL11":
       {
-        title:      "OGC GeoSPARQL - A Geographic Query Language for RDF Data",
-        href:       "https://opengeospatial.github.io/ogc-geosparql/geosparql11/spec.html",
-        status:     "Draft",
+        title:      "OGC GeoSPARQL - A Geographic Query Language for RDF Data Version 1.1",
+        href:       "http://www.opengis.net/doc/IS/geosparql/1.1",
+        status:     "Approved",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    ["Nicholas J. Car", "Timo Homburg", "Matthew Perry", "John Herring", "Frans Knibbe", "Simon J.D. Cox", "Joseph Abhayaratna", "Mathias Bonduel"],
-        date:       "2022",
+        editors:    ["Nicholas J. Car", "Timo Homburg", "Matthew Perry", "Frans Knibbe", "Simon J.D. Cox", "Joseph Abhayaratna", "Mathias Bonduel, Paul J. Cripps, Krzysztof Janowicz"],
+        date:       "2024-01-29",
     },
     "NLDP":
       {
@@ -894,13 +942,13 @@ var respecConfig =
     },
     "GeoPackage":
       {
-        title:      "OGC GeoPackage Encoding Standard - with Corrigendum, v1.3.1",
-        href:       "https://www.geopackage.org/spec131/",
-        status:     "Published",
+        title:      "OGC GeoPackage Encoding Standard version 1.4.0",
+        href:       "https://www.geopackage.org/spec140/",
+        status:     "Approved",
         publisher:  "Open Geospatial Consortium",
         editors:    ["Jeff Yutzler"],
         //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
-        date:       "2021-11-16",
+        date:       "2023-12-05",
     },
     "INSGPGeopackage":
       {
@@ -914,8 +962,8 @@ var respecConfig =
     },
     "JSON-FG":
       {
-        title:      "OGC Features and Geometries JSON - Part 1: Core",
-        href:       "https://docs.ogc.org/DRAFTS/21-045.html",
+        title:      "OGC Features and Geometries JSON - Part 1: Core version 0.2.2",
+        href:       "https://portal.ogc.org/files/107269",
         status:     "Draft",
         publisher:  "Open Geospatial Consortium",
         editors:    ["Clemens Portele", "Panagiotis (Peter) A. Vretanos"],
@@ -984,6 +1032,15 @@ var respecConfig =
         publisher:"ISD",
         //editors:  ["Emmanuel Devys", "Ted Habermann", "Chuck Heazel", "Roger Lott", "Even Rouault"],
         date:     "2018-10",
+    },
+      "iso-19123-2023": 
+      {
+        title:    "ISO 19123-1:2023 Geographic information — Schema for coverage geometry and functions — Part 1: Fundamentals",
+        href:     "https://www.iso.org/standard/70743.html",
+        status:   "Published",
+        publisher:"ISD",
+        //editors:  ["Emmanuel Devys", "Ted Habermann", "Chuck Heazel", "Roger Lott", "Even Rouault"],
+        date:     "2023-06",
       },
     "isoJPEG2000": 
       {
@@ -996,7 +1053,7 @@ var respecConfig =
 
     "GMLJPEG2000": 
       {
-        title:    "OGC® GML in JPEG 2000 (GMLJP2) Encoding Standard Part 1: Core v.2.1",
+        title:    "OGC GML in JPEG 2000 (GMLJP2) Encoding Standard version 2.1",
         href:     "http://docs.opengeospatial.org/is/08-085r8/08-085r8.html",
         status:   "Published",
         publisher:"Open Geospatial Consortium",
@@ -1005,12 +1062,12 @@ var respecConfig =
       },
     "COVJSON": 
       {
-        title:    "OGC CoverageJSON Community Standard 1.0-draft_0.2.2",
-        href:     "https://portal.ogc.org/files/102051",
-        status:   "Draft",
+        title:    "OGC CoverageJSON Community Standard version 1.0",
+        href:     "https://docs.ogc.org/cs/21-069r2/21-069r2.html",
+        status:   "Published",
         publisher:"Open Geospatial Consortium",
         editors:  ["Chris Little", "Jon Blower", "Maik Riechert"],
-        //date:     "2018-08-27",
+        date:     "2023-08-22",
     },
 	  "OaMx2": 
       {
@@ -1023,7 +1080,7 @@ var respecConfig =
     },
 	  "OaMt1": 
       {
-        title:    "OGC Timeseries Profile of Observations and Measurements v1.0",
+        title:    "OGC Timeseries Profile of Observations and Measurements version 1.0",
         href:     "http://docs.opengeospatial.org/is/15-043r3/15-043r3.html",
         status:   "Published",
         publisher:"Open Geospatial Consortium",
@@ -1032,7 +1089,7 @@ var respecConfig =
     },
 	  "OMS3": 
       {
-        title:    "OGC Abstract Specification Topic 20: Observations, measurements and samples v3.0.0",
+        title:    "OGC Abstract Specification Topic 20: Observations, measurements and samples version 3.0.0",
         href:     "https://docs.ogc.org/as/20-082r4/20-082r4.html",
         status:   "Published",
         publisher:"Open Geospatial Consortium",
@@ -1057,32 +1114,23 @@ var respecConfig =
         editors:  ["Mike Botts", "Alexandre Robin", "Eric Hirschorn"],
         date:     "2020-08-10",
     },
-	  "CityGML2": 
-      {
-        title:    "OGC City Geography Markup Language (CityGML) Encoding Standard",
-        href:     "https://portal.ogc.org/files/?artifact_id=47842",
-        status:   "Published",
-        publisher:"Open Geospatial Consortium",
-        editors:  ["Gerhard Gröger", "Thomas H. Kolbe", "Claus Nagel", "Karl-Heinz Häfele"],
-        date:     "2012-04-04",
-    },
     "CityGML3": 
       {
-        title:    "OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard v3.0",
+        title:    "OGC City Geography Markup Language (CityGML) Part 1: Conceptual Model Standard version 3.0",
         href:     "https://docs.ogc.org/is/20-010/20-010.html",
-        status:   "Published",
+        status:   "Approved",
         publisher:"Open Geospatial Consortium",
         editors:  ["Thomas H. Kolbe", "Tatjana Kutzner", "Carl Stephen Smyth", "Claus Nagel", "Carsten Roensdorf", "Charles Heazel"],
         date:     "2021-09-13",
     },
     "CityJSON": 
       {
-        title:    "CityJSON Community Standard 1.0",
-        href:     "https://docs.ogc.org/cs/20-072r2/20-072r2.html",
-        status:   "Published",
+        title:    "CityJSON Community Standard version 2.0",
+        href:     "https://docs.ogc.org/cs/20-072r5/20-072r5.html",
+        status:   "Approved",
         publisher:"Open Geospatial Consortium",
-        editors:  ["Hugo Ledoux"],
-        date:     "2021-08-13",
+        editors:  ["Hugo Ledoux, Balázs Dukai"],
+        date:     "2023-10-20",
     }, 
     "SBB": 
       {
