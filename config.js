@@ -290,7 +290,7 @@ var respecConfig =
     "vocab-dcat-3":
     {
       title:        "Data Catalog Vocabulary (DCAT) - Version 3",
-      href:         "https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic/solution/dcat-application-profile-data-portals-europe/releases",
+      href:         "https://www.w3.org/TR/vocab-dcat-3/",
       status:       "W3C Recommendation",
       //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
       publisher:    "W3C",
