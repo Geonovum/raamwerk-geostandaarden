@@ -389,7 +389,7 @@ var respecConfig =
         href:       "http://www.opengis.net/doc/cs/3D-Tiles/1.1",
         status:     "Approved for pubic release",
         publisher:  "Open Geospatial Consortium (OGC)",
-        editors:    "Patrick Cozzi", "Sean Lilley",
+        editors:    "Patrick Cozzi, Sean Lilley",
         date:       "2022-12-17",
     },
     "HRTOEG":
@@ -398,7 +398,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/visu/toeg/",
         status:     "Vastgesteld",
         publisher:  "Geonovum",
-        editors:    "Edward Mac Gillavry", "Sjors Slaats", "Theo OVerduin", "Thijs Brentjens", "Victor Zuydweg",
+        editors:    "Edward Mac Gillavry, Sjors Slaats, Theo OVerduin, Thijs Brentjens, Victor Zuydweg",
         date:       "2021-08-02",
     },
     "HRWC":
@@ -415,7 +415,7 @@ var respecConfig =
       href:       "https://docs.geostandaarden.nl/3d/3d-tiling/",
       status:     "Levend document",
       publisher:  "Geonovum",
-      editors:    "Arnoud de Boer", "Michel Grothe",
+      editors:    "Arnoud de Boer, Michel Grothe",
       date:       "13 januari 2025",
     },
     "HRCRS":
@@ -424,7 +424,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/crs/crs/",
         status:     "Definitief",
         publisher:  "Geonovum",
-        editors:    "Friso Penninga", "Lennard Huisman",
+        editors:    "Friso Penninga, Lennard Huisman",
         date:       "14 maart 2022",
     },
     "HRLFG":
@@ -433,7 +433,7 @@ var respecConfig =
         href:       "https://docs.geostandaarden.nl/g4w/geox/#inleiding",
         status:     "Definitief",
         publisher:  "Geonovum",
-        editors:    "Linda van den Brink", "Gabriella Wiersma",
+        editors:    "Linda van den Brink, Gabriella Wiersma",
         date:       "4 februari 2022",
       },
       "HRWW3D":
