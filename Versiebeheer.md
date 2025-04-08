@@ -16,6 +16,12 @@
   </thead>
   <tbody>
     <tr>
+      <td>4.1</td>
+      <td>Maart 2025</td>
+      <td>Actueel</td>
+      <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen en enkele tekstuele updates. </td>
+    </tr>
+    <tr>
       <td>4.0</td>
       <td>Februari 2023</td>
       <td>Actueel</td>
