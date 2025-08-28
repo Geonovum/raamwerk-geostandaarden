@@ -2,6 +2,8 @@
 
 **Om geo-informatie te presenteren op een kaart worden er visualisatieregels opgesteld. Denk bijvoorbeeld aan vlakvullingen, lijnstijlen, symbologie, etc.. Diverse domeinen hebben een standaard voor visualisatie gedefinieerd voor een informatiemodel. Door die regels te volgen, ziet een bepaald type gegevens er altijd hetzelfde uit in een visualisatie.**
 
+> TBD
+
 ## Overzicht geostandaarden visualisatie
 
 Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, etc.) wordt steeds belangrijker. Veel inhoudelijke domeinen overwegen het formeel vastleggen van een standaard visualisatie voor hun informatiemodel en zoeken een geschikte standaard om dit vast te leggen. OGC biedt hiervoor diverse specificaties: 

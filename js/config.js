@@ -68,7 +68,7 @@ var respecConfig =
   editors: 
  [
     {
-      name:       "Michel Grothe",
+      name:       "Niels Hoffmann",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
@@ -84,6 +84,11 @@ var respecConfig =
     },
     {
       name:       "Michel Grothe",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    },
+    {
+      name:       "Niels Hoffmann",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     },

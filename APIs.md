@@ -6,6 +6,13 @@ spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
 ervoor dat een applicatie automatisch toegang krijgt tot de data.**
 
+> Denk bij het maken, gebruiken of doorontwikkelen van API's aan de volgende onderwerpen:
+  - Uitfaseren van WMS/WFS en inzetten op de nieuwe generatie OGC API's</li>
+  - De huidige versie van de OGC API's is nog gebaseerd op OAS 3.0.x, ondersteuning voor OAS 3.1 (json schema compatibiliteit) zit eraan te komen.</li>
+  - De OGC API Standaarden worden nog verder uitgebreid, dit gebeurt via zogenaamde 'parts', check welke parts er aan komen met aanvullende functionaliteit die relevant kan zijn voor het beoogde gebruik.
+  - De OGC API's sluiten aan bij de API Designrules van Kennisplatform API's.
+  
+
 ## Transitie naar nieuwe generatie API's
 
 De internationale geo-standaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door een nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat geo-informatie onderdeel wordt van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk is.

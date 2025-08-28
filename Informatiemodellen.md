@@ -2,6 +2,11 @@
 
 **Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geo-standaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
 
+> Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
+  - Voor Informatiemodellen gebaseerd op NEN 3610: Doe een NEN3610 Conformiteitstoets.
+  - Structureer je informatiemodel conform MIM, denk aan Begrippenkaders en het verschil tussen een Conceptueel- en een Logisch Informatiemodel.
+  - Ontwerp een informatiemodel vanuit de gedachte van samenhang. Kijk naar hergebruik van Objecttypen en het verwijzen naar bestaande begrippenkaders. 
+
 ## NEN 3610 - Basismodel voor informatiemodellen
 
 NEN 3610 is het basismodel voor geo-informatiemodellen. Informatiemodellen, ook wel dataspecificaties genoemd, specificeren de inhoud van datasets of dataservices. NEN 3610 geeft regels voor het eenduidig beschrijven, uitwisselen van geo-informatie binnen de geo-informatie infrastructuur. 
