@@ -27,27 +27,19 @@ img#Geonovum
 }
 
 /*-- Definite van BlockQuotes (uitgelichte tekstblokken) ----------------------------*/
-blockquote 
+blockquote
 {
-  /* margin-left: 20px !important; */
-  font-family:  'Esteban', serif !important;
   font-style: italic;
-  border-color: transparent !important;
-  border-style: none !important;
-  background-color: darkgray;
-  color: white;
+  /* font-size: 100%;
+  font-weight: bold; */
+  background-color: whitesmoke !important;
 }
 
-/*-- Optioneel een symbool voor de blockquote --------------------------------------*/
-blockquote:before 
-{
-  display: block;
-  height: 0;
-  /* content: "|"; */   
-  margin-left: -0.95em;
-  font: italic 400%/1 Esteban, serif;
-  color: grey;
+
+blockquote p {
+  display: inline;
 }
+
   /* Style the tables */
   table, th, td {
     background-color: #F2F2F2;
