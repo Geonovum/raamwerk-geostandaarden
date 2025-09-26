@@ -2,6 +2,12 @@
 
 **Geo-informatie is direct gekoppeld aan een locatie op aarde. Via het coördinaatreferentiesysteem leggen we coördinaten van een locatie vast. Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in gebruik. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen, die een .**
 
+> Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
+- Standaarden die opgesteld worden voor het Omgevingswet domein moeten RD ondersteunen (en uitwisselbaar zijn naar ETRS89)
+- Fouten in het juist definieren van coordinaatsystemen of onjuist transformeren tussen coordinaatsystemen kunnen verstrekkende gevolgen hebben. 
+- Niet elke analyse kan redelijkerwijs in elk coordinaatsysteem uitgevoerd worden, bijvoorbeeld omdat afstanden of oppervlaktes niet representatief hoeven te zijn in bepaalde coordinaatsystemen.
+
+
 ## Overzicht standaarden voor coördinaatreferentiesystemen
 
 Een coördinaatreferentiesysteem (CRS) is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. De datum geeft de relatie van het coördinatensysteem met de aarde. 

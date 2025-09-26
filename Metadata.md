@@ -2,6 +2,13 @@
 
 **Om data vindbaar te maken en in staat te zijn een eerste indruk te krijgen van haar toepasbaarheid voor gebruik, moeten de data in de geo-informatie infrastructuur worden beschreven. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met behulp van metadata. Metadata zorgt ervoor dat geo-informatie kan worden gevonden en gebruikt.**
 
+> Denk bij het maken, gebruiken of doorontwikkelen van metadata aan de volgende onderwerpen:
+- Ook, of misschien juist, met de ontwikkelingen van AI (Artificiele Intelligentie) blijft metadata belangrijk. 
+- Bedenk voor welke doelgroep de metadata is en pas deze daar op aan. Een technisch publiek heeft behoefte aan doorverwijzingen naar meer technische beschrijvingen terwijl vanuit een beleidsoptiek verwijzing naar de (juridische) kaders belangrijk kan zijn.
+- Bedenk dat er veel tooling is waarmee metadata gemaakt kan worden, deze tooling slaat de metadata vervolgens op in een van de relevante standaarden. De standaarden spelen dan nog steeds een grote rol bij de uitwisselbaarheid en uniformiteit van metadata maar zijn niet vanzelfsprekend zichtbaar in de gebruikersinterface.
+- Metadata kan geconverteerd worden vanuit de ISO standaarden naar de DCAT standaarden. 
+
+
 ## Overzicht geo-standaarden metadata
 
 Er zijn verschillende niveaus waarop metadata aangemaakt worden. Metadata van data beschrijft de dataset of dataset reeks (ook dataset series). Metadata van services beschrijft de ‘service’ of API. In Nederland wordt het Nederlands metadataprofiel voor datasets en services toegepast. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services. Het is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereisten en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, wordt ook voldaan aan de INSPIRE profielen voor metadata.
