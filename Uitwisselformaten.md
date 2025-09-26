@@ -6,6 +6,10 @@ vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
 wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
 representeren en uit te wisselen.**
 
+> Denk bij het maken, gebruiken of doorontwikkelen van uitwisselformaten aan de volgende onderwerpen:
+- Naast GML/XML is JSON steeds populairder. 
+- Bedenk dat er in een Cloud omgeving vaak ook specifieke formaten bestaan die geoptimaliseerd zijn voor dit soort omgevingen.
+
 ## Overzicht geostandaarden uitwisselformaten
 
 In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
@@ -20,6 +24,8 @@ In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen 
 De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten waarbij de geometrie wordt beschreven met behulp van: punt, lijn en vlak (2D) of met volvlakken (3D). De vectorrepresentatie is uitgebreid beschreven in de internationale standaard [[iso19107]]. Deze standaard geeft ook aanwijzingen voor het expliciet vastleggen van onderlinge relaties tussen geografische objecten. De ISO standaard is zeer uitgebreid. Voor de meeste toepassingen kan je goed uit de voeten met de door OGC opgestelde subset uit deze standaard: Simple Feature Access [[iso-19125-1-2004]].
 
 <aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC Simple Features profile voor GML [[GMLSF]] dat de Simple Features subset van geometrietypen, met als extra toevoeging cirkelbogen, toepast op  GML 3.2.1 [[ISO19136]].</aside>
+
+Er komt steeds meer aandacht voor zogenaamde 'cloudnative' systemen. Dit zijn oplossingen die geheel gebaseerd zijn op de componenten die door grote cloudleveranciers geleverd worden. In deze systemen wordt veel gewerkt met het Parquet formaat, of het [[GeoParquet]] formaat voor geodata. 
 
 Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
@@ -90,6 +96,11 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
       <td> </td>
       <td> </td>
     </tr>
+    <tr>
+      <td>GeoParquet [[GeoParquet]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
   </tbody>
 </table>
 
@@ -97,6 +108,8 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
 De raster representatie gebruik je voor het vastleggen van gegevens waarbij aan ieder punt op het aardoppervlak een dynamische waarde wordt toegekend. Voorbeelden zijn de luchtdruk boven Nederland, waardes van een schadelijke stof, temperatuur of – zoals bij een foto - reflectiewaarden. In OGC en ISO/TC 211 termen heet dit een 'coverage'. Zo’n coverage wordt vaak geïmplementeerd door over het terrein een regelmatig grid van punten te leggen (een raster) en voor ieder punt een waarde op te nemen. Deze waarde is bijvoorbeeld een hoogteaanduiding bepaald met behulp van laser altimetrie, of de numerieke codering van een kleurenwaarde opgenomen in een satellietbeeld.
 Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2), zoals NETCDF en HDF5. Ook GeoTIFF (Geo Tagged Image File Format), waarbij georeferentie als tags in de file zijn opgenomen. Daarnaast zie je hier ook webstandaarden vermeld als JPEG2000 en PNG. De laatste wordt vooral toegepast in WMS.
+
+In Cloudnative omgevingen komt de [[COG]] Cloud Optimized GeoTIFF Standaard steeds vaker voor. Dit is een standaard waarbij GeoTIFF files bijzonder efficient over HTTP uitgewisseld kunnen worden.
 
 *Tabel 6.2 - Uitwisselformaten standaarden en specificaties met betrekking tot rasterdata*
 
@@ -161,6 +174,11 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
      </tr>
     <tr>
       <td>OGC CoverageJSON Community Standard version 1.0 [[COVJSON]] </td>
+      <td> </td>
+      <td> </td>
+     </tr>  
+     <tr>
+      <td>Cloud Optimized GeoTIFF [[COG]]</td>
       <td> </td>
       <td> </td>
      </tr>  
