@@ -6,6 +6,12 @@ vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
 wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
 representeren en uit te wisselen.**
 
+<figure id="pd">
+<a href="media/Raamwerk Uitwisselformaten_versie 0.91.png" target="_blank"><img src="media/Raamwerk Uitwisselformaten_versie 0.91.png" alt=""></a>
+<figcaption>Uitwisselformaten</figcaption>
+</figure>
+
+
 > Denk bij het maken, gebruiken of doorontwikkelen van uitwisselformaten aan de volgende onderwerpen:
 - Naast GML/XML is JSON steeds populairder. 
 - Bedenk dat er in een Cloud omgeving vaak ook specifieke formaten bestaan die geoptimaliseerd zijn voor dit soort omgevingen.

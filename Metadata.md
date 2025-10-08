@@ -1,6 +1,13 @@
 # Metadata
 
-**Om data vindbaar te maken en in staat te zijn een eerste indruk te krijgen van haar toepasbaarheid voor gebruik, moeten de data in de geo-informatie infrastructuur worden beschreven. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met behulp van metadata. Metadata zorgt ervoor dat geo-informatie kan worden gevonden en gebruikt.**
+**Metadata zijn gegevens die de data of dataset beschrijven. Hierdoor wordt data vindbaar en krijg je een eerste indruk van de toepasbaarheid voor gebruik. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met metadata. Door overal dezelfde karakteristieken te gebruiken om data(sets) te beschrijven en dit op dezelfde manier te doen, ofwel te standaardiseren, is het nog makkelijker om verschillende datasets met elkaar te vergelijken en te doorzoeken.**
+
+~~**Om data vindbaar te maken en in staat te zijn een eerste indruk te krijgen van haar toepasbaarheid voor gebruik, moeten de data in de geo-informatie infrastructuur worden beschreven. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met behulp van metadata. Metadata zorgt ervoor dat geo-informatie kan worden gevonden en gebruikt.**~~
+
+<figure id="pd">
+<a href="media/Raamwerk Metadata_versie 0.91.png" target="_blank"><img src="media/Raamwerk Metadata_versie 0.91.png" alt=""></a>
+<figcaption>Metadata</figcaption>
+</figure>
 
 > Denk bij het maken, gebruiken of doorontwikkelen van metadata aan de volgende onderwerpen:
 - Ook, of misschien juist, met de ontwikkelingen van AI (Artificiele Intelligentie) blijft metadata belangrijk. 

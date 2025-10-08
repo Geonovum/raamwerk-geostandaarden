@@ -6,6 +6,11 @@ spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
 ervoor dat een applicatie automatisch toegang krijgt tot de data.**
 
+<figure id="pd">
+<a href="media/Raamwerk API_ versie 0.91.png" target="_blank"><img src="media/Raamwerk API_ versie 0.91.png" alt=""></a>
+<figcaption>Application Programming Interfaces</figcaption>
+</figure>
+
 > Denk bij het maken, gebruiken of doorontwikkelen van API's aan de volgende onderwerpen:
   - Uitfaseren van WMS/WFS en inzetten op de nieuwe generatie OGC API's.
   - De huidige versie van de OGC API's is nog gebaseerd op OAS 3.0.x, ondersteuning voor OAS 3.1 (json schema compatibiliteit) zit eraan te komen.

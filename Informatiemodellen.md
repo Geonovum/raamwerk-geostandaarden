@@ -2,6 +2,11 @@
 
 **Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geo-standaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
 
+<figure id="pd">
+<a href="media/Raamwerk informatiemodellen_0.91.png" target="_blank"><img src="media/Raamwerk informatiemodellen_0.91.png" alt=""></a>
+<figcaption>Informatiemodellen</figcaption>
+</figure>
+
 > Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
   - Voor Informatiemodellen gebaseerd op NEN 3610: Doe een NEN3610 Conformiteitstoets.
   - Structureer je informatiemodel conform MIM, denk aan Begrippenkaders en het verschil tussen een Conceptueel- en een Logisch Informatiemodel.
@@ -30,7 +35,7 @@ Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen sta
 
 <figure id="pd-piramide">
 <img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="">
-<figcaption>Vorige figuur 1 weergegeven in de 'NEN 3610 piramide'</figcaption>
+<figcaption>Vorige figuur weergegeven in de 'NEN 3610 piramide'</figcaption>
 </figure>
 
 ## MIM - Metamodel voor Informatiemodellering
