@@ -7,7 +7,7 @@ wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
 representeren en uit te wisselen.**
 
 <figure id="pd">
-<a href="media/Raamwerk Uitwisselformaten_versie_0.91.png" target="_blank"><img src="media/Raamwerk Uitwisselformaten_versie_0.91.png" alt=""></a>
+<a href="media/Raamwerk_Uitwisselformaten_versie_0.91.png" target="_blank"><img src="media/Raamwerk_Uitwisselformaten_versie_0.91.png" alt=""></a>
 <figcaption>Uitwisselformaten</figcaption>
 </figure>
 

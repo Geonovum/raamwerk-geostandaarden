@@ -5,7 +5,7 @@
 ~~**Om data vindbaar te maken en in staat te zijn een eerste indruk te krijgen van haar toepasbaarheid voor gebruik, moeten de data in de geo-informatie infrastructuur worden beschreven. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met behulp van metadata. Metadata zorgt ervoor dat geo-informatie kan worden gevonden en gebruikt.**~~
 
 <figure id="pd">
-<a href="media/Raamwerk Metadata_versie_0.91.png" target="_blank"><img src="media/Raamwerk Metadata_versie_0.91.png" alt=""></a>
+<a href="media/Raamwerk_Metadata_versie_0.91.png" target="_blank"><img src="media/Raamwerk_Metadata_versie_0.91.png" alt=""></a>
 <figcaption>Metadata</figcaption>
 </figure>
 

@@ -3,7 +3,7 @@
 **Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geo-standaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
 
 <figure id="pd">
-<a href="media/Raamwerk informatiemodellen_0.91.png" target="_blank"><img src="media/Raamwerk informatiemodellen_0.91.png" alt=""></a>
+<a href="media/Raamwerk_informatiemodellen_0.91.png" target="_blank"><img src="media/Raamwerk_informatiemodellen_0.91.png" alt=""></a>
 <figcaption>Informatiemodellen</figcaption>
 </figure>
 
