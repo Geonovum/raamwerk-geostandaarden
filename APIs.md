@@ -6,7 +6,7 @@ spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
 ervoor dat een applicatie automatisch toegang krijgt tot de data.**
 
-<figure id="pd">
+<figure id="pd3">
 <a href="media/Raamwerk_API_ versie_0.91.png" target="_blank"><img src="media/Raamwerk_API_ versie_0.91.png" alt=""></a>
 <figcaption>Application Programming Interfaces</figcaption>
 </figure>

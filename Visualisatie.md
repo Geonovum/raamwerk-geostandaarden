@@ -2,7 +2,7 @@
 
 **Om geo-informatie te presenteren op een kaart worden er visualisatieregels opgesteld. Denk bijvoorbeeld aan vlakvullingen, lijnstijlen, symbologie, etc.. Diverse domeinen hebben een standaard voor visualisatie gedefinieerd voor een informatiemodel. Door die regels te volgen, ziet een bepaald type gegevens er altijd hetzelfde uit in een visualisatie.**
 
-<figure id="pd">
+<figure id="pd2">
 <a href="media/Raamwerk_Visualisatie_versie_0.91.png" target="_blank"><img src="media/Raamwerk_Visualisatie_versie_0.91.png" alt=""></a>
 <figcaption>Visualisatie</figcaption>
 </figure>

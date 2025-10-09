@@ -3,7 +3,7 @@
 **Geo-informatie is direct gekoppeld aan een locatie op aarde. Via het coördinaatreferentiesysteem leggen we coördinaten van een locatie vast. Door afspraken te maken over hoe de locatie berekend en geschreven is, en wanneer welk coördinaatreferentiesysteem gebruikt wordt, is er geen verwarring over waar een object zoals een gebouw zich bevindt.
 Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in gebruik. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.**
 
-<figure id="pd">
+<figure id="pd6">
 <a href="media/Raamwerk_Coördinaatreferentiesysteem_versie_0.91.png" target="_blank"><img src="media/Raamwerk_Coördinaatreferentiesysteem_versie_0.91.png" alt=""></a>
 <figcaption>Coördinaatreferentiesystemen</figcaption>
 </figure>
