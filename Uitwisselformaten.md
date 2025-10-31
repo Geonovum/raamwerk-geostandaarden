@@ -1,10 +1,9 @@
 # Uitwisselformaten
 
-**Op basis van de informatiemodellen worden uitwisselformaten gedefinieerd. Waar
-een informatiemodel de semantiek bepaalt, beschrijft een uitwisselformaat de
-vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
-wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
-representeren en uit te wisselen.**
+**Om data van aanbieder naar afnemer te krijgen zijn uitwisselformaten nodig.**
+
+**Door geo-informatie op te slaan en uit te wisselen in een afgesproken formaat zorg je ervoor dat jouw data door de software van de gebruiker gelezen kan worden.**
+**Vergelijk het met het opslaan van tekstdocumenten. Gebruik je een veelgebruikt bestandsformaat, dan is de kans groot dat de persoon die jouw rapport wil lezen, deze ook kan openen.**
 
 <figure id="pd4">
 <a href="media/Raamwerk_Uitwisselformaten_versie_0.91.png" target="_blank"><img src="media/Raamwerk_Uitwisselformaten_versie_0.91.png" alt=""></a>
@@ -17,6 +16,11 @@ representeren en uit te wisselen.**
 - Bedenk dat er in een Cloud omgeving vaak ook specifieke formaten bestaan die geoptimaliseerd zijn voor dit soort omgevingen.
 
 ## Overzicht geostandaarden uitwisselformaten
+
+Waar een informatiemodel de semantiek bepaalt, beschrijft een uitwisselformaat de
+vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
+wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
+representeren en uit te wisselen.
 
 In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
 
