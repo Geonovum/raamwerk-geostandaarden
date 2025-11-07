@@ -1,13 +1,17 @@
 # Application Programming Interfaces
 
-**Voor het kunnen vinden, raadplegen, en downloaden van geo-informatie op het
+**Een API dient als interface tussen verschillende softwareprogramma's.**
+**Het zorgt ervoor dat programma's op een gestandaardiseerde manier gegevens met elkaar kunnen uitwisselen.**
+**Vergelijk het met een stekker en een stopcontact. Door internationale afspraken is het mogelijk om in heel Europa met dezelfde stekker een apparaat van stroom te voorzien.**
+
+Voor het kunnen vinden, raadplegen, en downloaden van geo-informatie op het
 Internet zijn Application Programming Interfaces (API’s) in gebruik. API’s
 spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
-ervoor dat een applicatie automatisch toegang krijgt tot de data.**
+ervoor dat een applicatie automatisch toegang krijgt tot de data.
 
 <figure id="pd3">
-<a href="media/Raamwerk_API_versie_0.91.png" target="_blank"><img src="media/Raamwerk_API_versie_0.91.png" alt=""></a>
+<a href="media/APIs.png" target="_blank"><img src="media/APIs.png" alt=""></a>
 <figcaption>Application Programming Interfaces</figcaption>
 </figure>
 

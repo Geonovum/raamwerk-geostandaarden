@@ -1,12 +1,11 @@
 # Uitwisselformaten
 
 **Om data van aanbieder naar afnemer te krijgen zijn uitwisselformaten nodig.**
-
 **Door geo-informatie op te slaan en uit te wisselen in een afgesproken formaat zorg je ervoor dat jouw data door de software van de gebruiker gelezen kan worden.**
 **Vergelijk het met het opslaan van tekstdocumenten. Gebruik je een veelgebruikt bestandsformaat, dan is de kans groot dat de persoon die jouw rapport wil lezen, deze ook kan openen.**
 
 <figure id="pd4">
-<a href="media/Raamwerk_Uitwisselformaten_versie_0.91.png" target="_blank"><img src="media/Raamwerk_Uitwisselformaten_versie_0.91.png" alt=""></a>
+<a href="media/Uitwisselformaten.png" target="_blank"><img src="media/Uitwisselformaten.png" alt=""></a>
 <figcaption>Uitwisselformaten</figcaption>
 </figure>
 
