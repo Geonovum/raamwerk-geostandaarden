@@ -1,6 +1,16 @@
 # Informatiemodellen
 
-**Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geo-standaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
+**Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Doordat alle partijen binnen het domein deze afspraken volgen, is het mogelijk om data van de verschillende partijen (door de tijd heen) te vergelijken, uit te wisselen en te hergebruiken. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geo-standaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
+
+<figure id="pd1">
+<a href="media/Informatiemodellen.png" target="_blank"><img src="media/Informatiemodellen.png" alt=""></a>
+<figcaption>Informatiemodellen</figcaption>
+</figure>
+
+> Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
+  - Voor Informatiemodellen gebaseerd op NEN 3610: Doe een NEN3610 Conformiteitstoets.
+  - Structureer je informatiemodel conform MIM, denk aan Begrippenkaders en het verschil tussen een Conceptueel- en een Logisch Informatiemodel.
+  - Ontwerp een informatiemodel vanuit de gedachte van samenhang. Kijk naar hergebruik van Objecttypen en het verwijzen naar bestaande begrippenkaders. 
 
 ## NEN 3610 - Basismodel voor informatiemodellen
 
@@ -16,7 +26,7 @@ NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangri
 
 NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaande figuur 3.1 geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale  informatiemodellen weer.
 
-<figure id="pd">
+<figure id="pd-package">
 <a href="media/NEN3610StandaardenPackageDiagram.png" target="_blank"><img src="media/NEN3610StandaardenPackageDiagram.png" alt=""></a>
 <figcaption>UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
 </figure>
@@ -25,7 +35,7 @@ Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen sta
 
 <figure id="pd-piramide">
 <img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="">
-<figcaption>Vorige figuur 1 weergegeven in de 'NEN 3610 piramide'</figcaption>
+<figcaption>Vorige figuur weergegeven in de 'NEN 3610 piramide'</figcaption>
 </figure>
 
 ## MIM - Metamodel voor Informatiemodellering

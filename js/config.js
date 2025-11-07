@@ -68,7 +68,7 @@ var respecConfig =
   editors: 
  [
     {
-      name:       "Michel Grothe",
+      name:       "Niels Hoffmann",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     }, 
@@ -84,6 +84,11 @@ var respecConfig =
     },
     {
       name:       "Michel Grothe",
+      company:    "Geonovum",
+      companyURL: "https://www.geonovum.nl"
+    },
+    {
+      name:       "Niels Hoffmann",
       company:    "Geonovum",
       companyURL: "https://www.geonovum.nl"
     },
@@ -1137,6 +1142,21 @@ var respecConfig =
         editors:  ["Jesse Bakker, Arjen Santema, Kees TRautwein"],
         date:     "2024-03-01",
     },
+    "GeoParquet": 
+      {
+        title:    "OGC GeoParquet Standard version 1.1.0",
+        href:     "https://geoparquet.org/releases/v1.1.0/",
+        status:   "Incubating"
+      },
+      "COG": 
+      {
+        title:    "OGC Cloud Optimized GeoTIFF Standard, version 1.0",
+        href:     "https://docs.ogc.org/is/21-026/21-026.html",
+        status:   "Approved",
+        publisher:"Open Geospatial Consortium",
+        editors:  ["Joan Maso"],
+        date:     "2023-05-08"
+      }
   },
   postProcess:[custGHPG],   //-- Optioneel voor een multi document repository
 

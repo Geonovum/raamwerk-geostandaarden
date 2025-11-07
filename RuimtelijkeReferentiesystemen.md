@@ -1,6 +1,18 @@
 # Coördinaatreferentiesystemen
 
-**Geo-informatie is direct gekoppeld aan een locatie op aarde. Via het coördinaatreferentiesysteem leggen we coördinaten van een locatie vast. Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in gebruik. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen, die een .**
+**Geo-informatie is direct gekoppeld aan een locatie op aarde. Via het coördinaatreferentiesysteem leggen we coördinaten van een locatie vast. Door afspraken te maken over hoe de locatie berekend en geschreven is, en wanneer welk coördinaatreferentiesysteem gebruikt wordt, is er geen verwarring over waar een object zoals een gebouw zich bevindt.
+Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in gebruik. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.**
+
+<figure id="pd6">
+<a href="media/Coordinaatreferentiesystemen.png" target="_blank"><img src="media/Coordinaatreferentiesystemen.png" alt=""></a>
+<figcaption>Coördinaatreferentiesystemen</figcaption>
+</figure>
+
+> Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
+- Standaarden die opgesteld worden voor het Omgevingswet domein moeten RD ondersteunen (en uitwisselbaar zijn naar ETRS89)
+- Fouten in het juist definieren van coordinaatsystemen of onjuist transformeren tussen coordinaatsystemen kunnen verstrekkende gevolgen hebben. 
+- Niet elke analyse kan redelijkerwijs in elk coordinaatsysteem uitgevoerd worden, bijvoorbeeld omdat afstanden of oppervlaktes niet representatief hoeven te zijn in bepaalde coordinaatsystemen.
+
 
 ## Overzicht standaarden voor coördinaatreferentiesystemen
 

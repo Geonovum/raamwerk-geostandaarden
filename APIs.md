@@ -1,10 +1,27 @@
 # Application Programming Interfaces
 
-**Voor het kunnen vinden, raadplegen, en downloaden van geo-informatie op het
+**Een API dient als interface tussen verschillende softwareprogramma's.**
+**Het zorgt ervoor dat programma's op een gestandaardiseerde manier gegevens met elkaar kunnen uitwisselen.**
+**Vergelijk het met een stekker en een stopcontact. Door internationale afspraken is het mogelijk om in heel Europa met dezelfde stekker een apparaat van stroom te voorzien.**
+
+Voor het kunnen vinden, raadplegen, en downloaden van geo-informatie op het
 Internet zijn Application Programming Interfaces (API’s) in gebruik. API’s
 spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
-ervoor dat een applicatie automatisch toegang krijgt tot de data.**
+ervoor dat een applicatie automatisch toegang krijgt tot de data.
+
+<figure id="pd3">
+<a href="media/APIs.png" target="_blank"><img src="media/APIs.png" alt=""></a>
+<figcaption>Application Programming Interfaces</figcaption>
+</figure>
+
+> Denk bij het maken, gebruiken of doorontwikkelen van API's aan de volgende onderwerpen:
+  - Uitfaseren van WMS/WFS en inzetten op de nieuwe generatie OGC API's.
+  - De huidige versie van de OGC API's is nog gebaseerd op OAS 3.0.x, ondersteuning voor OAS 3.1 (json schema compatibiliteit) zit eraan te komen.
+  - De OGC API Standaarden worden nog verder uitgebreid, dit gebeurt via zogenaamde 'parts', 
+  check welke parts er aan komen met aanvullende functionaliteit die relevant kan zijn voor het beoogde gebruik. Deze informatie is terug te vinden op de 'Roadmap' van het OGC.
+  - De OGC API's sluiten aan bij de API Designrules van Kennisplatform API's.
+  
 
 ## Transitie naar nieuwe generatie API's
 
