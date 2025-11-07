@@ -16,6 +16,12 @@
   </thead>
   <tbody>
     <tr>
+      <td>4.2</td>
+      <td>November 2025</td>
+      <td>Concept</td>
+      <td>Versie met illustraties en samenvatting van de kernpunten per hoofdstuk om leesbaarheid te vergroten. </td>
+    </tr>
+    <tr>
       <td>4.1</td>
       <td>Maart 2025</td>
       <td>Actueel</td>
@@ -24,8 +30,8 @@
     <tr>
       <td>4.0</td>
       <td>Februari 2023</td>
-      <td>Actueel</td>
-      <td>Actuele versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context (geo-standaarden in samenhang). </td>
+      <td>Vervallen</td>
+      <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context (geo-standaarden in samenhang). </td>
     </tr>
     <tr>
       <td>3.0</td>
