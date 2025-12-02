@@ -1136,11 +1136,11 @@ var respecConfig =
     "SBB": 
       {
         title:    "Standaard voor het Beschrijven van Begrippen",
-        href:     "https://www.geonovum.nl/geo-standaarden/standaard-voor-beschrijven-van-begrippen-sbb#:~:text=De%20Standaard%20voor%20het%20beschrijven,kader%20voor%20het%20vastleggen%20begrippen.",
-        status:   "Versie ter vaststelling",
+        href:     "https://docs.geostandaarden.nl/nl-sbb/nl-sbb/",
+        status:   "Vastgestelde versie",
         publisher:"Geonovum",
         editors:  ["Jesse Bakker, Arjen Santema, Kees TRautwein"],
-        date:     "2024-03-01",
+        date:     "2024-10-10",
     },
     "GeoParquet": 
       {
