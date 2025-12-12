@@ -38,9 +38,11 @@ function custGHPG(respecConfig)
 //-------------------------------------------------------------------------------------
 var respecConfig = 
 {
+  //-- Invullen: de titel van de standaard of het document
+  title: "Raamwerk Geostandaarden 4.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  specStatus: "GN-WV",                  // Werk Versie
+  specStatus: "wv",                  // Werk Versie
   //specStatus: "GN-CV",                // Consultatie Versie
   //specStatus: "GN-VV",                // Vaststellings Versie
   //specStatus: "GN-DEF",               // Definitieve Versie
@@ -133,7 +135,7 @@ var respecConfig =
   //-- license: voor de geldende gebruiksvoorwaarden
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
-  licence: "cc-by",                 // Attribution, met bronvermelding
+  license: "cc-by",                 // Attribution, met bronvermelding
   
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
@@ -1172,18 +1174,4 @@ var respecConfig =
   //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
   //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
   previousMaturity: "GN-DEF",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
-
-  //-- Optionele parameters:
-  //emailComments: "mim@geonovum.nl",         // reactie mailadres, alleen bij CV!
-  //subtitle: "iets",                         // Subtitel van het document
-  //maxTocLevel: 3,                           // Aantal niveau's ToC, default is 0
-  //-- LOGO: Hier kan je een ander logo opgeven indien nodig
-  //logos: [{
-  //  src: "https://tools.geostandaarden.nl/respec/style/logos/OmgevingswetLogo.svg",
-  //  alt: "Standaarden Omgevingswet",
-  //  id: "TopLogo",
-  //  height: 67,
-  //  width: 300,
-  //  url: "https://www.geonovum.nl/geo-standaarden/omgevingswet/STOPTPOD"
-  // }],
 };
