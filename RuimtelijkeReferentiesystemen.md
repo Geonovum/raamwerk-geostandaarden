@@ -16,7 +16,7 @@ Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in g
 
 ## Overzicht standaarden voor coördinaatreferentiesystemen
 
-Een coördinaatreferentiesysteem (CRS) is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. De datum geeft de relatie van het coördinatensysteem met de aarde. 
+Een coördinaatreferentiesysteem (CRS) is opgebouwd uit een datum en een coördinatensysteem. Het coördinatensysteem definieert hoe coördinaten worden uitgedrukt, bijvoorbeeld cartesisch of geografisch. Het datum geeft de relatie van het coördinatensysteem met de aarde. 
 
 De in Nederland gebruikte coördinaatreferentiesystemen voor de opslag en uitwisseling van geo-informatie zijn onder te verdelen in verschillende groepen:
 
