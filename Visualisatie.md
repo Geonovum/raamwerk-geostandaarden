@@ -40,7 +40,7 @@ Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, et
 
 Ook in Nederlandse profielen worden visualisatieregels toegepast zoals in de [Visualisatieregels van de BGT](#bgtvoorbeeld).
 
-In tabel 4.1 zijn de geo-standaarden voor visualisatie opgenomen. 
+In tabel 4.1 zijn de  voor visualisatie opgenomen. 
 
 *Tabel 4.1 - Standaarden en specificaties voor visualisatie*
 

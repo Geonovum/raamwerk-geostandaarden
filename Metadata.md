@@ -14,11 +14,11 @@
 - Metadata kan geconverteerd worden vanuit de ISO standaarden naar de DCAT standaarden. 
 
 
-## Overzicht geo-standaarden metadata
+## Overzicht  metadata
 
 Er zijn verschillende niveaus waarop metadata aangemaakt worden. Metadata van data beschrijft de dataset of dataset reeks (ook dataset series). Metadata van services beschrijft de ‘service’ of API. In Nederland wordt het Nederlands metadataprofiel voor datasets en services toegepast. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services. Het is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereisten en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, wordt ook voldaan aan de INSPIRE profielen voor metadata.
 
-In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen meegenomen. Om naar datasets uit verschillende domeinen te kunnen zoeken, worden datasets in (open) dataportalen vaak beschreven met metadata conform de standaard DCAT ([[vocab-dcat-3]]). DCAT is een metadata standaard van W3C voor het uitwisselen van metadata tussen verschillende datacatalogi. In Nederland is daarvoor een applicatie profiel opgesteld ([[dcat-ap-nl]]), wat een nadere invulling is van het Europese “DCAT Application Profile for Data Portals in Europe" ([[dcat-ap]]) opgesteld. DCAT-AP wordt veel in Europese dataportalen gebruikt. DCAT-AP heeft een extensie GeoDCAT-AP ([[geodcat-ap]])voor het beschrijven van datasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. In tabel 7.1 zijn de geo-standaarden voor metadata opgenomen. 
+In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen meegenomen. Om naar datasets uit verschillende domeinen te kunnen zoeken, worden datasets in (open) dataportalen vaak beschreven met metadata conform de standaard DCAT ([[vocab-dcat-3]]). DCAT is een metadata standaard van W3C voor het uitwisselen van metadata tussen verschillende datacatalogi. In Nederland is daarvoor een applicatie profiel opgesteld ([[dcat-ap-nl]]), wat een nadere invulling is van het Europese “DCAT Application Profile for Data Portals in Europe" ([[dcat-ap]]) opgesteld. DCAT-AP wordt veel in Europese dataportalen gebruikt. DCAT-AP heeft een extensie GeoDCAT-AP ([[geodcat-ap]])voor het beschrijven van datasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. In tabel 7.1 zijn de  voor metadata opgenomen. 
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
 <table>

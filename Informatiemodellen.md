@@ -1,6 +1,6 @@
 # Informatiemodellen
 
-**Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Doordat alle partijen binnen het domein deze afspraken volgen, is het mogelijk om data van de verschillende partijen (door de tijd heen) te vergelijken, uit te wisselen en te hergebruiken. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geo-standaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
+**Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Doordat alle partijen binnen het domein deze afspraken volgen, is het mogelijk om data van de verschillende partijen (door de tijd heen) te vergelijken, uit te wisselen en te hergebruiken. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de  die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
 
 <figure id="pd1">
 <a href="media/Informatiemodellen.png" target="_blank"><img src="media/Informatiemodellen.png" alt=""></a>

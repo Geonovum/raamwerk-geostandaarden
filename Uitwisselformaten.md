@@ -21,7 +21,7 @@ vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
 wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
 representeren en uit te wisselen.
 
-In het overzicht van geo-standaarden voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
+In het overzicht van  voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
 
 -   Uitwisselstandaarden voor het uitwisselen van vectordata;
 -   Uitwisselstandaarden voor het uitwisselen van rasterdata;
@@ -274,7 +274,7 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
 
 **Validatie**
 
-Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze te valideren. Bij voorkeur gebeurt dit met geautomatiseerde processen, dan wel beschreven procedures en validatieregels. Validatie helpt om uitwisselformaten te laten voldoen aan de bij de geo-standaard horende validatieregels. Om te helpen bij validatie zijn validatietools beschikbaar. De tools zijn bedoeld als hulpmiddel om fouten in de toepassing van geo-standaarden te verminderen. 
+Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze te valideren. Bij voorkeur gebeurt dit met geautomatiseerde processen, dan wel beschreven procedures en validatieregels. Validatie helpt om uitwisselformaten te laten voldoen aan de bij de geo-standaard horende validatieregels. Om te helpen bij validatie zijn validatietools beschikbaar. De tools zijn bedoeld als hulpmiddel om fouten in de toepassing van  te verminderen. 
 
 Er zijn twee Nederlandse validators voor de validatie van GML (vectordata):
 - De [GML3.2 Simple Features validator](http://validatie.geostandaarden.nl/gml/simple-features) controleert of een GML 3.2 bestand voldoet aan het GML 3.2 Simple Feature profile, level 2

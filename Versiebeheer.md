@@ -17,7 +17,7 @@
   <tbody>
     <tr>
       <td>4.2</td>
-      <td>November 2025</td>
+      <td>December 2025</td>
       <td>Concept</td>
       <td>Versie met illustraties en samenvatting van de kernpunten per hoofdstuk om leesbaarheid te vergroten. </td>
     </tr>
@@ -31,7 +31,7 @@
       <td>4.0</td>
       <td>Februari 2023</td>
       <td>Vervallen</td>
-      <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context (geo-standaarden in samenhang). </td>
+      <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context ( in samenhang). </td>
     </tr>
     <tr>
       <td>3.0</td>
@@ -61,7 +61,7 @@
       <td>2.0</td>
       <td>Oktober 2007</td>
       <td>Vervallen</td>
-      <td>Versie 2.0 is een directe uitwerking geworden op NORA 2.0 voor de Geo-standaarden en zijn updates en wijzigingen uitgevoerd op basis van gebruikersbehoeften en laatste informatie INSPIRE.</td>
+      <td>Versie 2.0 is een directe uitwerking geworden op NORA 2.0 voor de  en zijn updates en wijzigingen uitgevoerd op basis van gebruikersbehoeften en laatste informatie INSPIRE.</td>
     </tr>
     <tr>
       <td>1.1</td>
