@@ -963,13 +963,11 @@ var respecConfig =
     },
     "JSON-FG":
       {
-        title:      "OGC Features and Geometries JSON - Part 1: Core version 0.2.2",
-        href:       "https://portal.ogc.org/files/107269",
+        title:      "OGC Features and Geometries JSON - Part 1: Core version 0.3",
+        href:       "https://docs.ogc.org/DRAFTS/21-045.html",
         status:     "Draft",
         publisher:  "Open Geospatial Consortium",
         editors:    ["Clemens Portele", "Panagiotis (Peter) A. Vretanos"],
-        //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
-        //date:       "2012-02-07",
     },
     "GIMEG": 
       {

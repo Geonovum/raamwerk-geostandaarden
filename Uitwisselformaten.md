@@ -91,7 +91,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
       <td> </td>
      </tr>
     <tr>
-      <td>OGC JSON Features and Geometries, version 0.2.2 **draft** [[JSON-FG]] </td>
+      <td>OGC Features and Geometries JSON - Part 1: Core, version 0.3 **draft** [[JSON-FG]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -279,6 +279,8 @@ Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze
 Er zijn twee Nederlandse validators voor de validatie van GML (vectordata):
 - De [GML3.2 Simple Features validator](http://validatie.geostandaarden.nl/gml/simple-features) controleert of een GML 3.2 bestand voldoet aan het GML 3.2 Simple Feature profile, level 2
 - De [Validator voor GML 2D geometrie](http://validatie.geostandaarden.nl/gml/geometrie-2d) controleert of de 2D geometrieën in een GML 3.x bestand conform ISO 19107 (Spatial Schema) zijn.
+
+Het valideren van JSON-FG kan gedaan worden met de [OGC-Checker](https://geonovum.github.io/ogc-checker/#/json-fg). In de [documentatie](https://github.com/Geonovum/ogc-checker) is beschreven welke requirements uit de JSON-FG specificatie wel en niet ondersteunt worden.
 
 **Handreiking Geometrie in model en GML**
 

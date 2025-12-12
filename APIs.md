@@ -403,3 +403,6 @@ Het is van belang om als service provider afspraken te maken met de service afne
 
 Voor het valideren van services (WMS en WFS) zijn [validators](https://validatie.geostandaarden.nl/) beschikbaar. Met de ETF validator kan de kwaliteit van de WMS en WFS voor het grootste deel getoetst worden.
 
+Voor het valideren van REST APIs op basis van de API Design Rules is een [validator](https://gitlab.com/commonground/don/adr-validator) ontwikkeld die inzicht geeft in de kwaliteit van API's.
+
+Voor het valideren van OGC API's (Features, Processes en Records) is een linter ontwikkeld: [OGC-Checker](https://geonovum.github.io/ogc-checker). In de documentatie in de [Git Repository](https://github.com/Geonovum/ogc-checker) is in detail te vinden welke requirements uit de veschillende specificaties exact ondersteund worden.
