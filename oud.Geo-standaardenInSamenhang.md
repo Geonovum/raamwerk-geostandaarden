@@ -1,8 +1,8 @@
-#  in samenhang
+# Geostandaarden in samenhang
 
-**Het doel van het Raamwerk van  is om uit de grote
+**Het doel van het Raamwerk van Geostandaarden is om uit de grote
 verscheidenheid aan standaarden die er zijn voor geo-informatie, de juiste set
-te kiezen. In combinatie kunnen deze  worden gebruikt om een
+te kiezen. In combinatie kunnen deze geostandaarden worden gebruikt om een
 Geo-Informatie Infrastructuur te realiseren. In een dergelijke infrastructuur
 spelen ze ieder een eigen rol.**
 

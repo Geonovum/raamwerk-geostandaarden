@@ -21,18 +21,18 @@ vorm of syntax waarin geo-informatie op basis van een bepaald informatiemodel
 wordt uitgewisseld. Er zijn verschillende manieren om geo-informatie te
 representeren en uit te wisselen.
 
-In het overzicht van  voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
+In het overzicht van geostandaarden voor uitwisselformaten zijn de onderwerpen onderscheiden en in onderstaande tabellen opgenomen:
 
--   Uitwisselstandaarden voor het uitwisselen van vectordata;
--   Uitwisselstandaarden voor het uitwisselen van rasterdata;
--   Uitwisselstandaarden voor het uitwisselen van sensordata;
--   Uitwisselstandaarden voor het uitwisselen van 3D data.
+- Uitwisselstandaarden voor het uitwisselen van vectordata;
+- Uitwisselstandaarden voor het uitwisselen van rasterdata;
+- Uitwisselstandaarden voor het uitwisselen van sensordata;
+- Uitwisselstandaarden voor het uitwisselen van 3D data.
 
 ## Vectordata uitwisselstandaarden
 
 De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten waarbij de geometrie wordt beschreven met behulp van: punt, lijn en vlak (2D) of met volvlakken (3D). De vectorrepresentatie is uitgebreid beschreven in de internationale standaard [[iso19107]]. Deze standaard geeft ook aanwijzingen voor het expliciet vastleggen van onderlinge relaties tussen geografische objecten. De ISO standaard is zeer uitgebreid. Voor de meeste toepassingen kan je goed uit de voeten met de door OGC opgestelde subset uit deze standaard: Simple Feature Access [[iso-19125-1-2004]].
 
-<aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC Simple Features profile voor GML [[GMLSF]] dat de Simple Features subset van geometrietypen, met als extra toevoeging cirkelbogen, toepast op  GML 3.2.1 [[ISO19136]].</aside>
+<aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kan je het beste gebruik maken van het OGC Simple Features profile voor GML [[GMLSF]] dat de Simple Features subset van geometrietypen, met als extra toevoeging cirkelbogen, toepast op GML 3.2.1 [[ISO19136]].</aside>
 
 Er komt steeds meer aandacht voor zogenaamde 'cloudnative' systemen. Dit zijn oplossingen die geheel gebaseerd zijn op de componenten die door grote cloudleveranciers geleverd worden. In deze systemen wordt veel gewerkt met het Parquet formaat, of het [[GeoParquet]] formaat voor geodata. 
 
@@ -274,7 +274,7 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
 
 **Validatie**
 
-Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze te valideren. Bij voorkeur gebeurt dit met geautomatiseerde processen, dan wel beschreven procedures en validatieregels. Validatie helpt om uitwisselformaten te laten voldoen aan de bij de geo-standaard horende validatieregels. Om te helpen bij validatie zijn validatietools beschikbaar. De tools zijn bedoeld als hulpmiddel om fouten in de toepassing van  te verminderen. 
+Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze te valideren. Bij voorkeur gebeurt dit met geautomatiseerde processen, dan wel beschreven procedures en validatieregels. Validatie helpt om uitwisselformaten te laten voldoen aan de bij de geo-standaard horende validatieregels. Om te helpen bij validatie zijn validatietools beschikbaar. De tools zijn bedoeld als hulpmiddel om fouten in de toepassing van geostandaarden te verminderen. 
 
 Er zijn twee Nederlandse validators voor de validatie van GML (vectordata):
 - De [GML3.2 Simple Features validator](http://validatie.geostandaarden.nl/gml/simple-features) controleert of een GML 3.2 bestand voldoet aan het GML 3.2 Simple Feature profile, level 2

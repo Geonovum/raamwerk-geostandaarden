@@ -25,7 +25,7 @@ De in Nederland gebruikte coördinaatreferentiesystemen voor de opslag en uitwis
 * **Verticale CRS-en** voor de vastlegging van hoogte en diepte ten opzichte van een referentievlak. Dit referentievlak is vaak gebaseerd op de richting van de zwaartekracht en valt normaal gesproken niet samen met oppervlak van een ellipsoïde;
 * **Samengestelde CRS-en** (in het Engels 'Compound CRS') zijn samengestelde CRS-en, bijvoorbeeld samengesteld uit een geprojecteerde CRS en een verticale CRS.
 
-Voor de definitie van CRS-en is een ISO standaard [[iso19111]] beschikbaar. De [[iso19111]] standaard geeft een beschrijving van de parameters die het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://docs.geostandaarden.nl/crs/crs/#naamgeving-van-crs) kunnen Name Type Specification (NTS), Uniform Resource names (URN), of Uniform Resource Locators (URL) worden gebruikt, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëren.  
+Voor de definitie van CRS-en is een ISO standaard [[iso19111]] beschikbaar. De [[iso19111]] standaard geeft een beschrijving van de parameters die het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://docs.geostandaarden.nl/crs/crs/#naamgeving-van-crs) kunnen Name Type Specification (NTS), Uniform Resource names (URN), of Uniform Resource Locators (URL) worden gebruikt, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëren.
 
 Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het specificeren hiervan vastgelegd in een specifieke richtlijn. 
 

@@ -31,7 +31,7 @@
       <td>4.0</td>
       <td>Februari 2023</td>
       <td>Vervallen</td>
-      <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context ( in samenhang). </td>
+      <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen, verkenningen en context (geostandaarden in samenhang). </td>
     </tr>
     <tr>
       <td>3.0</td>
@@ -61,7 +61,7 @@
       <td>2.0</td>
       <td>Oktober 2007</td>
       <td>Vervallen</td>
-      <td>Versie 2.0 is een directe uitwerking geworden op NORA 2.0 voor de  en zijn updates en wijzigingen uitgevoerd op basis van gebruikersbehoeften en laatste informatie INSPIRE.</td>
+      <td>Versie 2.0 is een directe uitwerking geworden op NORA 2.0 voor de geostandaarden en zijn updates en wijzigingen uitgevoerd op basis van gebruikersbehoeften en laatste informatie INSPIRE.</td>
     </tr>
     <tr>
       <td>1.1</td>

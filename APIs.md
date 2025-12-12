@@ -25,13 +25,13 @@ ervoor dat een applicatie automatisch toegang krijgt tot de data.
 
 ## Transitie naar nieuwe generatie API's
 
-De internationale  voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door een nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat geo-informatie onderdeel wordt van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk is.
+De internationale geostandaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door een nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat geo-informatie onderdeel wordt van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk is.
 
 Het OGC is de oude generatie 'services' standaarden langzaam aan het uit faseren. De nieuwe OGC API standaarden zijn deels in ontwikkeling, deels al goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. De eerste nieuwe OGC API standaarden zijn inmiddels ook op de Pas toe of Leg Uit Lijst van het Forum Standaardisatie geplaatst. Op de Pas toe of Leg Uit (PTLU) lijst staan nu de nieuwe generatie standaarden: OGC API Features en OGC API Tiles. De WMS en WFS-profielen zijn verhuisd naar de lijst van aanbevolen standaarden van het Forum Standaardisatie. Bestaande voorzieningen, die op de oude 'services' standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Maar we adviseren om de nieuwe OGC API’s te gaan gebruiken. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
 
-## Overzicht  API’s
+## Overzicht geostandaarden API’s
 
-In het overzicht van  voor API’s zijn de standaarden per thema in tabellen opgenomen:
+In het overzicht van geostandaarden voor API’s zijn de standaarden per thema in tabellen opgenomen:
 
 -   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 5.1);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC

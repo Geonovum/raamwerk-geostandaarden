@@ -13,13 +13,13 @@
 
 Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, etc.) wordt steeds belangrijker. Veel inhoudelijke domeinen overwegen het formeel vastleggen van een standaard visualisatie voor hun informatiemodel en zoeken een geschikte standaard om dit vast te leggen. OGC biedt hiervoor diverse specificaties: 
 
--   **Styled Layer Descriptor** (SLD) en **Symbology Encoding** (SE): Deze standaarden beschrijven samen de specificatie voor het beschrijven van visualisaties voor OGC services;
+- **Styled Layer Descriptor** (SLD) en **Symbology Encoding** (SE): Deze standaarden beschrijven samen de specificatie voor het beschrijven van visualisaties voor OGC services;
 
--   **Web Map Context Documents** (XML syntax) geeft de mogelijkheid om de status van een WMS client (viewer) vast te leggen. Denk aan een combinatie van een aantal WMS services, (subset) van een legenda, layers (styles, formats), inzoom schaal, etc.. Deze situatie kan op een client worden opgeslagen en worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map Context hebben;
+- **Web Map Context Documents** (XML syntax) geeft de mogelijkheid om de status van een WMS client (viewer) vast te leggen. Denk aan een combinatie van een aantal WMS services, (subset) van een legenda, layers (styles, formats), inzoom schaal, etc.. Deze situatie kan op een client worden opgeslagen en worden uitgewisseld naar andere WMS clients zodat deze dezelfde Web Map Context hebben;
 
--   **Mapbox Styles** is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele; 
+- **Mapbox Styles** is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele; 
 
--   **OGC API Styles** is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt;
+- **OGC API Styles** is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt;
 
 - **3D Tiles** is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen;
 
@@ -40,7 +40,7 @@ Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, et
 
 Ook in Nederlandse profielen worden visualisatieregels toegepast zoals in de [Visualisatieregels van de BGT](#bgtvoorbeeld).
 
-In tabel 4.1 zijn de  voor visualisatie opgenomen. 
+In tabel 4.1 zijn de geostandaarden voor visualisatie opgenomen. 
 
 *Tabel 4.1 - Standaarden en specificaties voor visualisatie*
 
@@ -69,7 +69,7 @@ In tabel 4.1 zijn de  voor visualisatie opgenomen.
       <td> </td>
      </tr>
     <tr>
-      <td>OGC Symbology Encoding Implementation Specification, version 1.1.0 [[SE11]]  </td>
+      <td>OGC Symbology Encoding Implementation Specification, version 1.1.0 [[SE11]] </td>
       <td> </td>
       <td> </td>
      </tr>
