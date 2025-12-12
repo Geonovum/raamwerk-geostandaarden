@@ -215,7 +215,7 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
   </thead>
   <tbody>
     <tr>
-      <td>OGC Observations and Measurements version 3.0 [[OMS3]] </td>
+      <td>OGC Observations, measurements and samples version 3.0 [[OMS3]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td>Informatiemodel Metingen [[IMMetingen]] </td>
      </tr>
