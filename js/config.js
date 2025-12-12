@@ -557,11 +557,20 @@ var respecConfig =
     },
     "OAPIF4":
       {
-        title:      "OGC 20-002: OGC API - Features - Part 4: Create, Replace, Update and Delete, Version 1.0.0 snapshot (editor's draft",
-        href:       "http://docs.ogc.org/DRAFTS/20-002.html",
+        title:      "OGC 20-002: OGC API - Features - Part 4: Create, Replace, Update and Delete, Version 1.0.0 (1.0.0-draft.2)",
+        href:       "https://portal.ogc.org/files/108198",
         status:     "Draft",
         publisher:  "Open Geospatial Consortium (OGC)",
         editors:    ["Panagiotis (Peter) A. Vretanos","Clemens Portele"],
+        //date:       "2022-05-11",
+    },
+    "OAPIF5":
+      {
+        title:      "OGC 23-058: OGC API - Features - Part 5 / OGC API - Common - Part 3: Schemas, Version 1.0.0 (1.0.0-draft.3)",
+        href:       "https://docs.ogc.org/DRAFTS/23-058r1.html",
+        status:     "Draft",
+        publisher:  "Open Geospatial Consortium (OGC)",
+        editors:    ["Clemens Portele","Panagiotis (Peter) A. Vretanos"],
         //date:       "2022-05-11",
     },
     "adr-mod-geo":

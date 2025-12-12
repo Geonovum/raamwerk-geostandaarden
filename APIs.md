@@ -120,7 +120,7 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
     <tr>
       <td>OGC API – Features Part 1 Core [[OAPIF1]] </td>
       <td>OGC API – Features as an INSPIRE download service [[INSGPOAPIF]] </td>
-      <td>API Design Rules Geomodule **Draft** [[adr-mod-geo]] </td>
+      <td>API Design Rules Geomodule [[adr-mod-geo]] </td>
      </tr>
     <tr>
       <td>OGC API – Features Part 2 CRS by reference v1.0.1 [[OAPIF2]] </td>
@@ -137,6 +137,12 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
       <td> </td>
       <td> </td>
     </tr>
+    <tr>
+      <td>OGC API – Features Part 5 Schemas **Draft** [[OAPIF5]] </td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
       <td>Web Feature Service (WFS) Implementation Specification, version 1.1.3 [[WFS11]] </td>
       <td>Technical Guidance for the implementation of Inspire Download Services. [[INSTGDS]] </td>
       <td>Nederlands WFS Profiel 1.0 op OGC WFS 1.1.0 [[NLWFS]] </td>
@@ -163,6 +169,11 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
      </tr>
   </tbody>
 </table>
+
+**Handreikingen**
+
+Handreikingen voor implementatie:
+  - [OGC API Features Guideline](https://docs.geostandaarden.nl/api/ogc-api-features-guideline/)
 
 ## Rasterdata API's
 
