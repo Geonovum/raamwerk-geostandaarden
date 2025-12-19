@@ -89,7 +89,7 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
     <tr>
       <td>Web Map Server (WMS) Implementation Specification, version 1.3.0 [[WMS]] </td>
       <td>Technical Guidance for the implementation of Inspire View Service. [[INSTGVS]] </td>
-      <td>Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.0 [[NLWMS]] </td>
+      <td>Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.1 [[NLWMS]] </td>
      </tr>
     <tr>
       <td>ISO 19128 Geographic Information – Web Map Service (WMS) [[iso-19128-2005]] </td>
@@ -143,14 +143,9 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
       <td> </td>
     </tr>
     <tr>
-      <td>Web Feature Service (WFS) Implementation Specification, version 1.1.3 [[WFS11]] </td>
-      <td>Technical Guidance for the implementation of Inspire Download Services. [[INSTGDS]] </td>
-      <td>Nederlands WFS Profiel 1.0 op OGC WFS 1.1.0 [[NLWFS]] </td>
-     </tr>
-    <tr>
       <td>ISO 19142, Geographic information - Web Feature Service (= WFS version 2.0) [[iso-19142-2010]], [[WFS]] </td>
-      <td> </td>
-      <td> </td>
+      <td>Technical Guidance for the implementation of Inspire Download Services. [[INSTGDS]]</td>
+      <td>Nederlands WFS Profiel 1.1 op OGC WFS 2.0 [[NLWFS]]  </td>
      </tr>
     <tr>
       <td>OGC Filter Encoding 2.0 Encoding Standard - With Corrigendum [[FE20]] </td>
@@ -265,7 +260,7 @@ Handreikingen voor implementatie:
   </thead>
   <tbody>
     <tr>
-      <td>OGC API - Records - Part 1: Core **Draft** [[OAPIRECORDS1]] </td>
+      <td>OGC API - Records - Part 1: Core [[OAPIRECORDS1]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -281,6 +276,9 @@ Handreikingen voor implementatie:
      </tr>
   </tbody>
 </table>
+
+<aside class="note">De [[INSTGDiS]] is gebaseerd op [[CSW]] version 2.0.2. Dit is de reden dat CSW 2.0.2 is opgenomen en niet CSW 3.0.
+ </aside>
 
 ## Map tile APIs
 
@@ -342,11 +340,6 @@ Handreikingen voor implementatie:
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>GeoSPARQL - A Geographic Query Language for RDF Data v1.0 [[GeoSPARQL]] </td>
-      <td> </td>
-      <td> </td>
-     </tr>
     <tr>
       <td>GeoSPARQL - A Geographic Query Language for RDF Data v1.1 [[GEOSPARQL11]] </td>
       <td> </td>
