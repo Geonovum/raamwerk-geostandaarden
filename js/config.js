@@ -303,8 +303,8 @@ var respecConfig =
     },
     "dcat-ap":
     {
-      title: "DCAT AP 3.0",
-      href: "https://semiceu.github.io/DCAT-AP/releases/3.0.0/",
+      title: "DCAT AP 3.0.1",
+      href: "https://semiceu.github.io/DCAT-AP/releases/3.0.1/",
       //status:       ["Adopted specification"],
       //authors:      ["Drafting Team Metadata and European Commission Joint Research Centre"],
       publisher: "European Commission",
