@@ -67,7 +67,7 @@ In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen
     </tr>
     <tr>
       <td>Data Catalog Vocabulary (DCAT) version 3.0 **W3C Recommendation** [[vocab-dcat-3]] </td>
-      <td>DCAT-AP 3.0 [[dcat-ap]] </td>
+      <td>DCAT-AP 3.0.1 [[dcat-ap]] </td>
       <td>DCAT-AP-NL 3.0 [[dcat-ap-nl]] </td>
     </tr>
    <tr>

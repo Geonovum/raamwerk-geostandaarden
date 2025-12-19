@@ -7,7 +7,12 @@
 <figcaption>Visualisatie</figcaption>
 </figure>
 
-> TBD
+> Visualisatie is bij uitstek het domein van 'gebruikerservaring' en gaat in die zin breder dan alleen vlakvullingen, lijnstijlen, symbologie, etc.. 
+- Betrek 'UX' (User Experience) ontwerpers.
+- Hou rekening met digitale toegankelijkheid en bedenk dat er ook in nieuwe technische raamwerken aandacht voor toegankelijkheid moet zijn.
+- Documenteer je stijlen (doel, schaalbereik, doelgroep, afhankelijkheden).
+- Bedenk dat er een nieuwe categorie 'gebruikers' bij komt in de vorm van AI-Agents die steeds vaker ook visuele informatie kunnen verwerken.
+
 
 ## Overzicht geostandaarden visualisatie
 
@@ -157,7 +162,7 @@ Voor de BGT|IMGeo zijn zeven presentaties beschikbaar. Deze zijn beschreven in d
 
 ### Kaartvisualisatie voor webapplicaties
 
-Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking webcartografie ontwikkeld. In de handreiking webcartografie [[HRWC]] vind je praktische tips over hoe je geo-informatie - waar mogelijk - binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden.
+Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking webcartografie ontwikkeld. In de handreiking webcartografie [[HRWC]] vind je praktische tips over hoe je geo-informatie - waar mogelijk - binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden. 
 
 ### Handreiking 3D Tiling
 
@@ -165,6 +170,6 @@ De handreiking 3D Tiling [[HR3DT]] heeft tot doel bij te dragen aan het breder g
 
 ### Toegankelijkheid & geo-informatie
 
-Sinds 1 juli 2018 geldt het [Tijdelijk besluit ‘Digitale toegankelijkheid overheid’](https://zoek.officielebekendmakingen.nl/stb-2018-141.html). Websites van de overheid moeten vanaf die datum verplicht voldoen aan de toegankelijkheidseisen voor mensen met een beperking. Dit besluit stelt echter in artikel 2 lid 2d expliciet dat het besluit niet van toepassing is op onlinekaarten. Het besluit volgt daarmee de [Europese richtlijn](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&qid=1481290140258&from=en) inzake de toegankelijkheid van de websites en mobiele applicaties van overheidsinstanties. Enige uitzondering is dat in het geval van kaarten voor navigatietoepassingen de essentiële informatie ook op een andere manier (lees: routebeschrijving in tekst) toegankelijk gemaakt moet worden. In de handreikingen digitaal toegankelijke locatiedata [[HRTOEG]] en de handreiking webcartografie vind je praktische tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden.
+Sinds 1 juli 2018 geldt het [Tijdelijk besluit ‘Digitale toegankelijkheid overheid’](https://zoek.officielebekendmakingen.nl/stb-2018-141.html). Websites van de overheid moeten vanaf die datum verplicht voldoen aan de toegankelijkheidseisen voor mensen met een beperking. Dit besluit stelt echter in artikel 2 lid 2d expliciet dat het besluit niet van toepassing is op onlinekaarten. Het besluit volgt daarmee de [Europese richtlijn](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&qid=1481290140258&from=en) inzake de toegankelijkheid van de websites en mobiele applicaties van overheidsinstanties. Enige uitzondering is dat in het geval van kaarten voor navigatietoepassingen de essentiële informatie ook op een andere manier (lees: routebeschrijving in tekst) toegankelijk gemaakt moet worden. In de handreikingen digitaal toegankelijke locatiedata [[HRTOEG]] en de handreiking webcartografie vind je praktische tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden. Naast de handreiking is er ook veel informatie te vinden bij: [digitoegankelijk.nl](https://www.digitoegankelijk.nl/aan-de-slag/tips/online-kaarten).
 
 <aside class="note">Dit document is de webversie van oorspronkelijk in januari 2015 gepubliceerde PDF document. Het is gebaseerd op Web Content Accessibility Guidelines (WCAG) 2.0 [[WCAG20]]. Er zijn al enige tijd vernieuwde toegankelijkheidseisen en wetgeving over digitale toegankelijkheid, gebaseerd op WCAG versie 2.1 [[WCAG21]]. Dit document is hier nog niet op aangepast.</aside>

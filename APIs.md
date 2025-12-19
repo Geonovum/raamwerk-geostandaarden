@@ -33,18 +33,18 @@ Het OGC is de oude generatie 'services' standaarden langzaam aan het uit faseren
 
 In het overzicht van geostandaarden voor API’s zijn de standaarden per thema in tabellen opgenomen:
 
--   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (tabel 5.1);
+-   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (sectie 5.3);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC
-    API Features en ATOM (tabel 5.2);
+    API Features en ATOM (sectie 5.4);
 -   API standaarden en specificaties voor het opvragen (downloaden) van
-    rasterdata: OGC WCS en OGC API Coverages (tabel 5.3);
+    rasterdata: OGC WCS en OGC API Coverages (sectie 5.5);
 -   API Standaarden en specificaties voor het opvragen (downloaden) van
-    sensordata: OGC SOS, OGC SensorThings API en OGC API Environmental Data Retrieval (tabel 5.4);
+    sensordata: OGC SOS, OGC SensorThings API en OGC API Environmental Data Retrieval (sectie 5.6);
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
-    CSW en OGC API Records (tabel 5.5);
+    CSW en OGC API Records (sectie 5.7);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
-    OGC API Tiles, 3D Tiles (tabel 5.6);
--   API standaarden en specificaties voor linked data: GeoSPARQL (Tabel 5.7).
+    OGC API Tiles, 3D Tiles (sectie 5.8);
+-   API standaarden en specificaties voor linked data: GeoSPARQL (sectie 5.9).
 
 In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook de OGC API standaarden die nog in ontwikkeling of draft zijn. Dit is bij elke standaard aangegeven.
 
@@ -348,12 +348,7 @@ Handreikingen voor implementatie:
   </tbody>
 </table>
 
-**Handreikingen**
-
-Handreikingen voor implementatie: 
-- NEN 3610 - Linked Data [[NLDP]]
-
-<aside class="note">GeoSPARQL heeft een interactiedeel en een beknopt informatiemodel (ontologie) voor geodata. Deze handreiking gaat vooral over het informatiemodel. Daarmee heeft deze verwijzing of noot ook een relatie met het hoofdstuk over informatiemodellen. </aside>
+<aside class="note">GeoSPARQL heeft een interactiedeel en een beknopt informatiemodel (ontologie) voor geodata.  Daarmee heeft deze standaard ook een relatie met het hoofdstuk over informatiemodellen. </aside>
  
 ## Kwaliteit van API’s
 

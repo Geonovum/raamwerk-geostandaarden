@@ -130,13 +130,13 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
       <td> </td>
       <td> </td>
      </tr>
-    <tr>
-      <td> </td>
-      <td>INSPIRE Data specifications </td>
-      <td>Nederlandse toepassingsprofielen </td>
-    </tr>
   </tbody>
 </table>
+
+**Handreikingen**
+
+Handreiking NEN 3610 en Linked Data: 
+- NEN 3610 - Linked Data [[NLDP]]
 
 ## Afstemming begrippenkaders
 Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er is een aantal mechanismen om die afstemming te sturen:
