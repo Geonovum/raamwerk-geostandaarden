@@ -55,8 +55,7 @@ jobs:
         run: |
           npm install -g pa11y
           pa11y snapshot.html \
-            --standard WCAG2.2AA
-            --ignore WCAG2.2.Principle4.Guideline4_1.4_1_1.F77 \
+            --ignore WCAG2AA.Principle4.Guideline4_1.4_1_1.F77 \
             > $CHECK_DIR/wcag-report.txt 2>&1 || echo "Geen WCAG-fouten gevonden." > $CHECK_DIR/wcag-report.txt
 
       - name: Serve snapshot over HTTP
