@@ -1,1 +1,2 @@
-Geen WCAG-fouten gevonden.
+[serious] color-contrast - Ensure the contrast between foreground and background colors meets WCAG 2 AA minimum contrast ratio thresholds (https://dequeuniversity.com/rules/axe/4.11/color-contrast?application=webdriverjs)
+[serious] link-name - Ensure links have discernible text (https://dequeuniversity.com/rules/axe/4.11/link-name?application=webdriverjs)
