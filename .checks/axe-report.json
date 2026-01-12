@@ -14,7 +14,7 @@
       "orientationAngle": 0,
       "orientationType": "landscape-primary"
     },
-    "timestamp": "2026-01-12T12:56:35.562Z",
+    "timestamp": "2026-01-12T14:23:31.712Z",
     "url": "http://localhost:8080/snapshot.html",
     "toolOptions": {
       "runOnly": {
@@ -53420,15 +53420,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53442,7 +53433,7 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Algemeen.png\" alt=\"\">",
+            "html": "<img src=\"media/Algemeen.png\" alt=\"Schematische weergave van het Raamwerk van geostandaarden, voorgesteld als een gebouw waarin de samenhang van standaarden wordt geïllustreerd.\">",
             "target": [
               "img[src$=\"Algemeen.png\"]"
             ]
@@ -53455,15 +53446,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53477,7 +53459,7 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Informatiemodellen.png\" alt=\"\">",
+            "html": "<img src=\"media/Informatiemodellen.png\" alt=\"Schematische weergave van informatiemodellen en hun plaats in het Raamwerk van geostandaarden.\">",
             "target": [
               "img[src$=\"Informatiemodellen.png\"]"
             ]
@@ -53490,15 +53472,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53512,9 +53485,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/NEN3610StandaardenPackageDiagram.png\" alt=\"\">",
+            "html": "<img src=\"media/NEN3610StandaardenPackageDiagram.png\" alt=\"UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen.\">",
             "target": [
-              "#pd-package > a[target=\"_blank\"] > img[alt=\"\"]"
+              "#pd-package > a[target=\"_blank\"] > img"
             ]
           },
           {
@@ -53525,15 +53498,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53547,9 +53511,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png\" alt=\"\">",
+            "html": "<img src=\"media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png\" alt=\"Logo van het Basisprogramma Informatiemodel NEN 3610\">",
             "target": [
-              "#pd-piramide > img[alt=\"\"]"
+              "#pd-piramide > img"
             ]
           },
           {
@@ -53560,15 +53524,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53582,7 +53537,7 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Visualisatie.png\" alt=\"\">",
+            "html": "<img src=\"media/Visualisatie.png\" alt=\"Schematische weergave van visualisatieregels voor geo-informatie, zoals symbologie en stijlen.\">",
             "target": [
               "img[src$=\"Visualisatie.png\"]"
             ]
@@ -53595,15 +53550,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53617,7 +53563,7 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/APIs.png\" alt=\"\">",
+            "html": "<img src=\"media/APIs.png\" alt=\"Diagram met een visualisate dat Application Programming Interfaces (API's) vergelijkbaar zijn met stekker en stopcontact en hoe dat binnen het Raamwerk van geostandaarden past.\">",
             "target": [
               "img[src$=\"APIs.png\"]"
             ]
@@ -53630,15 +53576,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53652,7 +53589,7 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Uitwisselformaten.png\" alt=\"\">",
+            "html": "<img src=\"media/Uitwisselformaten.png\" alt=\"Schematische weergave van uitwisselformaten voor geo-informatie.\">",
             "target": [
               "img[src$=\"Uitwisselformaten.png\"]"
             ]
@@ -53665,15 +53602,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53687,7 +53615,7 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Metadata.png\" alt=\"\">",
+            "html": "<img src=\"media/Metadata.png\" alt=\"Schematische weergave van metadata en hun rol in vindbaarheid en toepasbaarheid van datasets.\">",
             "target": [
               "img[src$=\"Metadata.png\"]"
             ]
@@ -53700,15 +53628,6 @@
                 "relatedNodes": [],
                 "impact": "critical",
                 "message": "Element has an alt attribute"
-              },
-              {
-                "id": "presentational-role",
-                "data": {
-                  "role": "presentation"
-                },
-                "relatedNodes": [],
-                "impact": "critical",
-                "message": "Element's default semantics were overridden with role=\"presentation\""
               }
             ],
             "all": [],
@@ -53722,9 +53641,9 @@
               }
             ],
             "impact": null,
-            "html": "<img src=\"media/Coordinaatreferentiesystemen.png\" alt=\"\">",
+            "html": "<img src=\"media/Coordinaatreferentiesystemen.png\" alt=\"Schematische weergave van coördinaatreferentiesystemen, met voorbeelden zoals RD, ETRS89 en WGS 84.\">",
             "target": [
-              "#pd6 > a[target=\"_blank\"] > img[alt=\"\"]"
+              "#pd6 > a[target=\"_blank\"] > img"
             ]
           }
         ]
@@ -60251,7 +60170,7 @@
       },
       {
         "id": "link-name",
-        "impact": "serious",
+        "impact": null,
         "tags": [
           "cat.name-role-value",
           "wcag2a",
@@ -62165,6 +62084,32 @@
               }
             ],
             "impact": null,
+            "html": "<a href=\"media/Algemeen.png\" target=\"_blank\"><img src=\"media/Algemeen.png\" alt=\"Schematische weergave van het Raamwerk van geostandaarden, voorgesteld als een gebouw waarin de samenhang van standaarden wordt geïllustreerd.\"></a>",
+            "target": [
+              "a[href$=\"Algemeen.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
             "html": "<a class=\"self-link\" href=\"#pd\">Figuur <bdi class=\"figno\">1</bdi></a>",
             "target": [
               "a[href$=\"#pd\"]"
@@ -63361,6 +63306,32 @@
               }
             ],
             "impact": null,
+            "html": "<a href=\"media/Informatiemodellen.png\" target=\"_blank\"><img src=\"media/Informatiemodellen.png\" alt=\"Schematische weergave van informatiemodellen en hun plaats in het Raamwerk van geostandaarden.\"></a>",
+            "target": [
+              "a[href$=\"Informatiemodellen.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
             "html": "<a class=\"self-link\" href=\"#pd1\">Figuur <bdi class=\"figno\">2</bdi></a>",
             "target": [
               "a[href$=\"#pd1\"]"
@@ -63442,6 +63413,32 @@
             "html": "<a href=\"https://www.nen.nl/en/nen-2660-2-2022-nl-291667\">NEN 2660:2022</a>",
             "target": [
               "#samenhang-internationale-en-nationale-standaarden > p:nth-child(3) > a"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
+            "html": "<a href=\"media/NEN3610StandaardenPackageDiagram.png\" target=\"_blank\"><img src=\"media/NEN3610StandaardenPackageDiagram.png\" alt=\"UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen.\"></a>",
+            "target": [
+              "#pd-package > a[target=\"_blank\"]"
             ]
           },
           {
@@ -64477,6 +64474,32 @@
               }
             ],
             "impact": null,
+            "html": "<a href=\"media/Visualisatie.png\" target=\"_blank\"><img src=\"media/Visualisatie.png\" alt=\"Schematische weergave van visualisatieregels voor geo-informatie, zoals symbologie en stijlen.\"></a>",
+            "target": [
+              "a[href$=\"Visualisatie.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
             "html": "<a class=\"self-link\" href=\"#pd2\">Figuur <bdi class=\"figno\">5</bdi></a>",
             "target": [
               "a[href$=\"#pd2\"]"
@@ -65280,6 +65303,32 @@
             "html": "<a class=\"self-link\" href=\"#application-programming-interfaces\" aria-label=\"Permalink for Section 5.\"></a>",
             "target": [
               "a[aria-label=\"Permalink for Section 5.\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
+            "html": "<a href=\"media/APIs.png\" target=\"_blank\"><img src=\"media/APIs.png\" alt=\"Diagram met een visualisate dat Application Programming Interfaces (API's) vergelijkbaar zijn met stekker en stopcontact en hoe dat binnen het Raamwerk van geostandaarden past.\"></a>",
+            "target": [
+              "a[href$=\"APIs.png\"]"
             ]
           },
           {
@@ -67386,6 +67435,32 @@
               }
             ],
             "impact": null,
+            "html": "<a href=\"media/Uitwisselformaten.png\" target=\"_blank\"><img src=\"media/Uitwisselformaten.png\" alt=\"Schematische weergave van uitwisselformaten voor geo-informatie.\"></a>",
+            "target": [
+              "a[href$=\"Uitwisselformaten.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
             "html": "<a class=\"self-link\" href=\"#pd4\">Figuur <bdi class=\"figno\">7</bdi></a>",
             "target": [
               "a[href$=\"#pd4\"]"
@@ -69110,6 +69185,32 @@
               }
             ],
             "impact": null,
+            "html": "<a href=\"media/Metadata.png\" target=\"_blank\"><img src=\"media/Metadata.png\" alt=\"Schematische weergave van metadata en hun rol in vindbaarheid en toepasbaarheid van datasets.\"></a>",
+            "target": [
+              "a[href$=\"Metadata.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
             "html": "<a class=\"self-link\" href=\"#pd5\">Figuur <bdi class=\"figno\">8</bdi></a>",
             "target": [
               "a[href$=\"#pd5\"]"
@@ -70047,6 +70148,32 @@
             "html": "<a class=\"self-link\" href=\"#coordinaatreferentiesystemen\" aria-label=\"Permalink for Section 8.\"></a>",
             "target": [
               "a[aria-label=\"Permalink for Section 8.\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "has-visible-text",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element has text that is visible to screen readers"
+              }
+            ],
+            "all": [],
+            "none": [
+              {
+                "id": "focusable-no-name",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element is not in tab order or has accessible text"
+              }
+            ],
+            "impact": null,
+            "html": "<a href=\"media/Coordinaatreferentiesystemen.png\" target=\"_blank\"><img src=\"media/Coordinaatreferentiesystemen.png\" alt=\"Schematische weergave van coördinaatreferentiesystemen, met voorbeelden zoals RD, ETRS89 en WGS 84.\"></a>",
+            "target": [
+              "#pd6 > a[target=\"_blank\"]"
             ]
           },
           {
@@ -80379,6 +80506,168 @@
             "target": [
               "hr"
             ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Algemeen.png\" alt=\"Schematische weergave van het Raamwerk van geostandaarden, voorgesteld als een gebouw waarin de samenhang van standaarden wordt geïllustreerd.\">",
+            "target": [
+              "img[src$=\"Algemeen.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Informatiemodellen.png\" alt=\"Schematische weergave van informatiemodellen en hun plaats in het Raamwerk van geostandaarden.\">",
+            "target": [
+              "img[src$=\"Informatiemodellen.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/NEN3610StandaardenPackageDiagram.png\" alt=\"UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen.\">",
+            "target": [
+              "#pd-package > a[target=\"_blank\"] > img"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png\" alt=\"Logo van het Basisprogramma Informatiemodel NEN 3610\">",
+            "target": [
+              "#pd-piramide > img"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Visualisatie.png\" alt=\"Schematische weergave van visualisatieregels voor geo-informatie, zoals symbologie en stijlen.\">",
+            "target": [
+              "img[src$=\"Visualisatie.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/APIs.png\" alt=\"Diagram met een visualisate dat Application Programming Interfaces (API's) vergelijkbaar zijn met stekker en stopcontact en hoe dat binnen het Raamwerk van geostandaarden past.\">",
+            "target": [
+              "img[src$=\"APIs.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Uitwisselformaten.png\" alt=\"Schematische weergave van uitwisselformaten voor geo-informatie.\">",
+            "target": [
+              "img[src$=\"Uitwisselformaten.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Metadata.png\" alt=\"Schematische weergave van metadata en hun rol in vindbaarheid en toepasbaarheid van datasets.\">",
+            "target": [
+              "img[src$=\"Metadata.png\"]"
+            ]
+          },
+          {
+            "any": [
+              {
+                "id": "no-focusable-content",
+                "data": null,
+                "relatedNodes": [],
+                "impact": "serious",
+                "message": "Element does not have focusable descendants"
+              }
+            ],
+            "all": [],
+            "none": [],
+            "impact": null,
+            "html": "<img src=\"media/Coordinaatreferentiesystemen.png\" alt=\"Schematische weergave van coördinaatreferentiesystemen, met voorbeelden zoals RD, ETRS89 en WGS 84.\">",
+            "target": [
+              "#pd6 > a[target=\"_blank\"] > img"
+            ]
           }
         ]
       },
@@ -84143,431 +84432,6 @@
               ".sidelabel"
             ],
             "failureSummary": "Fix any of the following:\n  Element has insufficient color contrast of 3.99 (foreground color: #ffffff, background color: #ff0000, font size: 12.0pt (16px), font weight: normal). Expected contrast ratio of 4.5:1"
-          }
-        ]
-      },
-      {
-        "id": "link-name",
-        "impact": "serious",
-        "tags": [
-          "cat.name-role-value",
-          "wcag2a",
-          "wcag244",
-          "wcag412",
-          "section508",
-          "section508.22.a",
-          "TTv5",
-          "TT6.a",
-          "EN-301-549",
-          "EN-9.2.4.4",
-          "EN-9.4.1.2",
-          "ACT",
-          "RGAAv4",
-          "RGAA-6.2.1"
-        ],
-        "description": "Ensure links have discernible text",
-        "help": "Links must have discernible text",
-        "helpUrl": "https://dequeuniversity.com/rules/axe/4.11/link-name?application=webdriverjs",
-        "nodes": [
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/Algemeen.png\" target=\"_blank\"><img src=\"media/Algemeen.png\" alt=\"\"></a>",
-            "target": [
-              "a[href$=\"Algemeen.png\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/Informatiemodellen.png\" target=\"_blank\"><img src=\"media/Informatiemodellen.png\" alt=\"\"></a>",
-            "target": [
-              "a[href$=\"Informatiemodellen.png\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/NEN3610StandaardenPackageDiagram.png\" target=\"_blank\"><img src=\"media/NEN3610StandaardenPackageDiagram.png\" alt=\"\"></a>",
-            "target": [
-              "#pd-package > a[target=\"_blank\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/Visualisatie.png\" target=\"_blank\"><img src=\"media/Visualisatie.png\" alt=\"\"></a>",
-            "target": [
-              "a[href$=\"Visualisatie.png\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/APIs.png\" target=\"_blank\"><img src=\"media/APIs.png\" alt=\"\"></a>",
-            "target": [
-              "a[href$=\"APIs.png\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/Uitwisselformaten.png\" target=\"_blank\"><img src=\"media/Uitwisselformaten.png\" alt=\"\"></a>",
-            "target": [
-              "a[href$=\"Uitwisselformaten.png\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/Metadata.png\" target=\"_blank\"><img src=\"media/Metadata.png\" alt=\"\"></a>",
-            "target": [
-              "a[href$=\"Metadata.png\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
-          },
-          {
-            "any": [
-              {
-                "id": "has-visible-text",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element does not have text that is visible to screen readers"
-              },
-              {
-                "id": "aria-label",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-label attribute does not exist or is empty"
-              },
-              {
-                "id": "aria-labelledby",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty"
-              },
-              {
-                "id": "non-empty-title",
-                "data": {
-                  "messageKey": "noAttr"
-                },
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element has no title attribute"
-              }
-            ],
-            "all": [],
-            "none": [
-              {
-                "id": "focusable-no-name",
-                "data": null,
-                "relatedNodes": [],
-                "impact": "serious",
-                "message": "Element is in tab order and does not have accessible text"
-              }
-            ],
-            "impact": "serious",
-            "html": "<a href=\"media/Coordinaatreferentiesystemen.png\" target=\"_blank\"><img src=\"media/Coordinaatreferentiesystemen.png\" alt=\"\"></a>",
-            "target": [
-              "#pd6 > a[target=\"_blank\"]"
-            ],
-            "failureSummary": "Fix all of the following:\n  Element is in tab order and does not have accessible text\n\nFix any of the following:\n  Element does not have text that is visible to screen readers\n  aria-label attribute does not exist or is empty\n  aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty\n  Element has no title attribute"
           }
         ]
       }
