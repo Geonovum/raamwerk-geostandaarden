@@ -3,7 +3,7 @@
 **Bij de opzet en ontwikkeling van een geo-informatie infrastructuur is het de uitdaging om steeds de juiste set standaarden te kiezen. Het Raamwerk van geostandaarden helpt daarbij. Het benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.**
 
 <figure id="pd">
-<a href="media/Algemeen.png" target="_blank"><img src="media/Algemeen.png" alt=""></a>
+<a href="media/Algemeen.png" target="_blank"><img src="media/Algemeen.png" alt="Schematische weergave van het Raamwerk van geostandaarden, voorgesteld als een gebouw waarin de samenhang van standaarden wordt geïllustreerd."></a>
 <figcaption>Overzicht van het raamwerk geillustreerd aan de hand van een gebouw</figcaption>
 </figure>
 

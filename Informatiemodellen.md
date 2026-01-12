@@ -3,7 +3,7 @@
 **Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Doordat alle partijen binnen het domein deze afspraken volgen, is het mogelijk om data van de verschillende partijen (door de tijd heen) te vergelijken, uit te wisselen en te hergebruiken. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geostandaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.**
 
 <figure id="pd1">
-<a href="media/Informatiemodellen.png" target="_blank"><img src="media/Informatiemodellen.png" alt=""></a>
+<a href="media/Informatiemodellen.png" target="_blank"><img src="media/Informatiemodellen.png" alt="Schematische weergave van informatiemodellen en hun plaats in het Raamwerk van geostandaarden."></a>
 <figcaption>Informatiemodellen</figcaption>
 </figure>
 
@@ -27,14 +27,14 @@ NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangri
 NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaande figuur 3.1 geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
 <figure id="pd-package">
-<a href="media/NEN3610StandaardenPackageDiagram.png" target="_blank"><img src="media/NEN3610StandaardenPackageDiagram.png" alt=""></a>
+<a href="media/NEN3610StandaardenPackageDiagram.png" target="_blank"><img src="media/NEN3610StandaardenPackageDiagram.png" alt="UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen."></a>
 <figcaption>UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
 </figure>
 
 Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen standaarden. NEN 3610 gebruikt bijvoorbeeld het MIM metamodel, afspraken uit ISO 19103 voor het gebruik van UML als modelleertaal, het geometriemodel uit ISO 19107, XML en linked data afspraken van W3C, het netwerkmodel uit INSPIRE Generic Conceptual Model (GCM). Sectorale modellen hergebruiken weer de NEN 3610 toepassing daarvan. In figuur 3.2 wordt de deze relatie tussen de verschillende kaders van standaarden in de NEN 3610 pyramide met domeinmodellen (de sectorale informatiemodellen) weergegeven.
 
 <figure id="pd-piramide">
-<img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="">
+<img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="Logo van het Basisprogramma Informatiemodel NEN 3610">
 <figcaption>Vorige figuur weergegeven in de 'NEN 3610 piramide'</figcaption>
 </figure>
 

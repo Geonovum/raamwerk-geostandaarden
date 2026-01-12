@@ -5,7 +5,7 @@
 **Vergelijk het met het opslaan van tekstdocumenten. Gebruik je een veelgebruikt bestandsformaat, dan is de kans groot dat de persoon die jouw rapport wil lezen, deze ook kan openen.**
 
 <figure id="pd4">
-<a href="media/Uitwisselformaten.png" target="_blank"><img src="media/Uitwisselformaten.png" alt=""></a>
+<a href="media/Uitwisselformaten.png" target="_blank"><img src="media/Uitwisselformaten.png" alt="Schematische weergave van uitwisselformaten voor geo-informatie."></a>
 <figcaption>Uitwisselformaten</figcaption>
 </figure>
 

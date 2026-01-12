@@ -4,7 +4,7 @@
 Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in gebruik. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.**
 
 <figure id="pd6">
-<a href="media/Coordinaatreferentiesystemen.png" target="_blank"><img src="media/Coordinaatreferentiesystemen.png" alt=""></a>
+<a href="media/Coordinaatreferentiesystemen.png" target="_blank"><img src="media/Coordinaatreferentiesystemen.png" alt="Schematische weergave van coördinaatreferentiesystemen, met voorbeelden zoals RD, ETRS89 en WGS 84."></a>
 <figcaption>Coördinaatreferentiesystemen</figcaption>
 </figure>
 
