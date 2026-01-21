@@ -34,7 +34,7 @@ NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-
 Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen standaarden. NEN 3610 gebruikt bijvoorbeeld het MIM metamodel, afspraken uit ISO 19103 voor het gebruik van UML als modelleertaal, het geometriemodel uit ISO 19107, XML en linked data afspraken van W3C, het netwerkmodel uit INSPIRE Generic Conceptual Model (GCM). Sectorale modellen hergebruiken weer de NEN 3610 toepassing daarvan. In figuur 3.2 wordt de deze relatie tussen de verschillende kaders van standaarden in de NEN 3610 pyramide met domeinmodellen (de sectorale informatiemodellen) weergegeven.
 
 <figure id="pd-piramide">
-<img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="Logo van het Basisprogramma Informatiemodel NEN 3610">
+<img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="Piramide die de positie van NEN 3610 illustreert in de gelaagdheid van standaarden.">
 <figcaption>Vorige figuur weergegeven in de 'NEN 3610 piramide'</figcaption>
 </figure>
 

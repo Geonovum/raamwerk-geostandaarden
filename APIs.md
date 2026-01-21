@@ -11,7 +11,7 @@ Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
 ervoor dat een applicatie automatisch toegang krijgt tot de data.
 
 <figure id="pd3">
-<a href="media/APIs.png" target="_blank"><img src="media/APIs.png" alt="Diagram met een visualisate dat Application Programming Interfaces (API's) vergelijkbaar zijn met stekker en stopcontact en hoe dat binnen het Raamwerk van geostandaarden past."></a>
+<a href="media/APIs.png" target="_blank"><img src="media/APIs.png" alt="Diagram met een visualisatie die illustreert dat Application Programming Interfaces (API's) vergelijkbaar zijn met een stekker en stopcontact en hoe dat binnen het Raamwerk van geostandaarden past."></a>
 <figcaption>Application Programming Interfaces</figcaption>
 </figure>
 
