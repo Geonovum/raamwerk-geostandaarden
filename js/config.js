@@ -39,7 +39,7 @@ var respecConfig =
   title: "Raamwerk Geostandaarden 4.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  specStatus: "wv",                  // Werk Versie
+  specStatus: "cv",                  // Werk Versie
   //specStatus: "GN-CV",                // Consultatie Versie
   //specStatus: "GN-VV",                // Vaststellings Versie
   //specStatus: "GN-DEF",               // Definitieve Versie
@@ -55,7 +55,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown" - JvG W3C aangepast, op 1 plek markdown aangeven    
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  //publishDate: "2025-03-25",  	    // Format is "YYYY-MM-DD"
+  publishDate: "2026-01-22",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/raamwerk-geostandaarden",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------

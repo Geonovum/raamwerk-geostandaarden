@@ -17,9 +17,9 @@
   <tbody>
     <tr>
       <td>4.2</td>
-      <td>December 2025</td>
-      <td>Concept</td>
-      <td>Versie met illustraties en samenvatting van de kernpunten per hoofdstuk om leesbaarheid te vergroten. </td>
+      <td>Januari 2026</td>
+      <td>Consultatie</td>
+      <td>Versie met illustraties en samenvatting van de kernpunten per hoofdstuk om leesbaarheid te vergroten. Update naar WCAG 2.2. </td>
     </tr>
     <tr>
       <td>4.1</td>
