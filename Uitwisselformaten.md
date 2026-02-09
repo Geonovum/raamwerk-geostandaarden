@@ -198,7 +198,7 @@ In Cloudnative omgevingen komt de [[COG]] Cloud Optimized GeoTIFF Standaard stee
 
 ## Sensordata uitwisselstandaarden
 
-Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellingen, grondwater, luchtverontreiniging, etc. Sensoren hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te kunnen worden. Voor de uitwisseling van waarnemingen en metingen (‘observations and measurements’) bestaan verschillende uitwisselformaten standaarden (tabel 6.3).
+Sensoren zijn apparaten of onderdelen van aparaten voor het meten van stoffen in water, grondsamenstellingen, grondwater, luchtverontreiniging, etc. Sensoren hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te kunnen worden. Voor de uitwisseling van waarnemingen en metingen (‘observations and measurements’) bestaan verschillende uitwisselformaten standaarden (tabel 6.3).
 
 *Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata*
 
@@ -241,7 +241,7 @@ Sensoren zijn apparaten voor het meten van stoffen in water, grondsamenstellinge
 
 ## 3D data uitwisselstandaarden
 
-Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen in de geografische ruimte, waarin de x-y en x-coördinaat zijn vastgelegd, kan je gebruik maken van de volgende standaarden (tabel 6.4).
+Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen in de geografische ruimte, waarin de x,y en z-coördinaat zijn vastgelegd, kan je gebruik maken van de volgende standaarden (tabel 6.4).
 
 *Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data*
 

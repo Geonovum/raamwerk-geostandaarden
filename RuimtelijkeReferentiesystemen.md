@@ -9,8 +9,8 @@ Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in g
 </figure>
 
 > Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
-- Standaarden die opgesteld worden voor het Omgevingswet domein moeten RD ondersteunen (en uitwisselbaar zijn naar ETRS89)
-- Fouten in het juist definieren van coordinaatsystemen of onjuist transformeren tussen coordinaatsystemen kunnen verstrekkende gevolgen hebben. 
+- Standaarden die opgesteld worden voor het Omgevingswetdomein moeten RD ondersteunen (en uitwisselbaar zijn naar ETRS89).
+- Fouten in het juist definieren van coordinaatsystemen of onjuist transformeren tussen coordinaatsystemen kunnen verstrekkende gevolgen hebben. Zie de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) voor detail informatie.
 - Niet elke analyse kan redelijkerwijs in elk coordinaatsysteem uitgevoerd worden, bijvoorbeeld omdat afstanden of oppervlaktes niet representatief hoeven te zijn in bepaalde coordinaatsystemen.
 
 
@@ -20,10 +20,10 @@ Een coördinaatreferentiesysteem (CRS) is opgebouwd uit een datum en een coördi
 
 De in Nederland gebruikte coördinaatreferentiesystemen voor de opslag en uitwisseling van geo-informatie zijn onder te verdelen in verschillende groepen:
 
-* **Geografische CRS-en** geven geografische coördinaten in graden (2D breedte en lengte (Engels: latitude en longitude) en voor 3D ook hoogte ten opzichte van een ellipsoïdisch model van het aardoppervlak;
-* **Geprojecteerde CRS-en** presenteren geo-informatie op een plat vlak in cartesische (x en y) coördinaten. Een geprojecteerd CRS is een afgeleide van een geografisch CRS, waarbij voor het afbeelden in het platte vlak een kaartprojectie wordt gebruikt;
-* **Verticale CRS-en** voor de vastlegging van hoogte en diepte ten opzichte van een referentievlak. Dit referentievlak is vaak gebaseerd op de richting van de zwaartekracht en valt normaal gesproken niet samen met oppervlak van een ellipsoïde;
-* **Samengestelde CRS-en** (in het Engels 'Compound CRS') zijn samengestelde CRS-en, bijvoorbeeld samengesteld uit een geprojecteerde CRS en een verticale CRS.
+* **Geografische CRS-en** geven geografische coördinaten in graden (2D breedte en lengte (Engels: latitude en longitude) en voor 3D ook hoogte ten opzichte van een ellipsoïdisch model van het aardoppervlak; (Bijvoorbeeld: ETRS89, WGS84)
+* **Geprojecteerde CRS-en** presenteren geo-informatie op een plat vlak in cartesische (x en y) coördinaten. Een geprojecteerd CRS is een afgeleide van een geografisch CRS, waarbij voor het afbeelden in het platte vlak een kaartprojectie wordt gebruikt; (Bijvoorbeeld: RD)
+* **Verticale CRS-en** voor de vastlegging van hoogte en diepte ten opzichte van een referentievlak. Dit referentievlak is vaak gebaseerd op de richting van de zwaartekracht en valt normaal gesproken niet samen met oppervlak van een ellipsoïde; (Bijvoorbeeld: NAP)
+* **Samengestelde CRS-en** (in het Engels 'Compound CRS') zijn samengestelde CRS-en, bijvoorbeeld samengesteld uit een geprojecteerde CRS en een verticale CRS. (Bijvoorbeeld: RDNAP)
 
 Voor de definitie van CRS-en is een ISO standaard [[iso19111]] beschikbaar. De [[iso19111]] standaard geeft een beschrijving van de parameters die het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://docs.geostandaarden.nl/crs/crs/#naamgeving-van-crs) kunnen Name Type Specification (NTS), Uniform Resource names (URN), of Uniform Resource Locators (URL) worden gebruikt, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëren.
 
@@ -34,7 +34,7 @@ De relevante CRS-en die gebruikt worden in het Nederlandse geo-informatie infras
 * Een **continentaal of regionaal CRS** is gekoppeld aan een tektonische plaat; hierdoor bewegen coördinaten in het CRS mee met de tektonische plaat;
 * Een **landelijk CRS** is vaak een geprojecteerd CRS dat zo is gekozen dat de vervormingen in het platte vlak minimaal zijn.
 
-De gebruikte stelsels binnen Nederland en hun bijbehorende EPSG-code zijn in bijlage A van de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) opgenomen.
+De gebruikte stelsels binnen Nederland en hun bijbehorende EPSG-code zijn in bijlage A van de [Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)](https://docs.geostandaarden.nl/crs/crs/) opgenomen. Verder bevat deze handreiking meer informatie over het juist toepassen van Coordinaatreferentiesystemen en de transformaties tussen systemen.
 
 In de onderstaande tabel 7.1 zijn de standaarden en specificaties benoemd, die van toepassing zijn op de CRS standaarden voor Nederland.
 
