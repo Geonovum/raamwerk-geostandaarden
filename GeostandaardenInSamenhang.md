@@ -22,6 +22,8 @@ De geostandaarden maken geo-informatie FAIR en zorgen voor de verbindende kracht
 - **Interoperable** (interoperabel). De data moeten meestal worden geïntegreerd met andere data. Bovendien moeten de data samenwerken met applicaties of workflows voor analyse, opslag en verwerking; 
 - **Reusable** (herbruikbaar). Het uiteindelijke doel van FAIR is het hergebruik van data te optimaliseren. Om dit te bereiken moeten metadata en data goed worden beschreven, zodat ze in verschillende situaties kunnen worden gerepliceerd en/of gecombineerd.
 
+Het raamwerk van FAIR principes wordt nog verder uitgewerkt met onderliggende voorwaarden. Daar wordt in dit raamwerk niet dieper op ingegaan.
+
 ## Internationale standaarden
 Voor de nationale geostandaarden geldt dat deze ontwikkeld zijn op basis van internationale standaarden, aangevuld met de voor Nederland geldende specifieke eisen. Op het moment dat een nationale standaard (een toepassingsprofiel genaamd) is ontwikkeld, geldt dat een nationale standaard leidend is. Is er geen nationale standaard, dan geldt de Europese standaard en als er geen Europese standaard is, geldt een internationale, wereldwijde standaard.
 

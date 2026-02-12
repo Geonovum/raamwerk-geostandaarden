@@ -29,8 +29,8 @@ Ruimtelijke Ordening (gezeteld in het Ministerie van Binnenlandse Zaken), die in
 van het Ministerie van Landbouw, Natuur en Voedselkwaliteit, het Ministerie van
 Economische Zaken, het Ministerie van Binnenlandse Zaken, het Ministerie van
 Defensie, het InterProvinciaal Overleg (IPO), de Vereniging Nederlandse
-Gemeenten (VNG), Unie van Waterschappen (UvW), het Kadaster en Rijksgeologische
-Dienst (TNO), Rijkswaterstaat, Netherlands Space Office (NSO), het Centraal
+Gemeenten (VNG), Unie van Waterschappen (UvW), het Kadaster en TNO Geologische Dienst Nederland (TNO-GDN), 
+Rijkswaterstaat, Netherlands Space Office (NSO), het Centraal
 bureau voor de Statistiek (CBS), het Rijksinstituut voor Volksgezondheid en
 Milieu (RIVM), Nederlands Instituut Publieke Veiligheid (NIPV) en Geonovum.
 
@@ -68,11 +68,9 @@ Het Raamwerk van Geostandaarden volgt de aanbevelingen van de Nederlandse Samenw
 
 De Nederlandse Overheid Referentie Architectuur (NORA) is het interoperabiliteitsraamwerk voor de Nederlandse overheid en vertaalt daartoe wetgeving, beleid en standaarden naar architectuurprincipes, beschrijvingen en modellen. Het is een beschrijving van uitgangspunten voor het inrichten van de informatiehuishouding van de Nederlandse overheid. NORA is relevant voor de uitvoering van alle publieke taken door publieke en private organisaties. De geostandaarden moeten ook passen binnen de [Nederlandse Overheids Referentie Architectuur](https://www.noraonline.nl/) (NORA), de architectuur van alle overheidsorganisaties in Nederland.
 
-Ook principes als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)) en [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) zijn belangrijk in NORA evenals voor de nationale geo-informatie infrastructuur.
+Kwaliteitsdoelen als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)) en [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) zijn belangrijk in NORA evenals voor de nationale geo-informatie infrastructuur.
 
-NORA stelt ook de “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie verplicht. Een basisset met [geostandaarden](https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden) staat ook op de 'pas-toe-of-leg-uit' lijst. De vermelding op deze lijst draagt bij aan de 'verankering' van de geostandaarden en geo-informatie infrastructuur in de nationale digitale overheid.
-
-Het Raamwerk van Geostandaarden is een aanvulling op en verdieping van het <a href='https://www.noraonline.nl/wiki/Geo' target='_blank'>NORA thema GEO</a>. 
+De “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie is ook verankerd in de NORA. Het Raamwerk van Geostandaarden is een aanvulling op en verdieping van het <a href='https://www.noraonline.nl/wiki/Geo' target='_blank'>NORA thema GEO</a>. 
 
 **INSPIRE Richtlijn**
 

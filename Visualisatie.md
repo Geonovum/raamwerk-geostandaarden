@@ -8,7 +8,7 @@
 </figure>
 
 > Visualisatie is bij uitstek het domein van 'gebruikerservaring' en gaat in die zin breder dan alleen vlakvullingen, lijnstijlen, symbologie, etc.. 
-- Betrek 'UX' (User Experience) ontwerpers.
+- Betrek 'UX' (User Experience) ontwerpers, en neem expliciet de cartografische blik daarin mee.
 - Hou rekening met digitale toegankelijkheid en bedenk dat er ook in nieuwe technische raamwerken aandacht voor toegankelijkheid moet zijn.
 - Documenteer je stijlen (doel, schaalbereik, doelgroep, afhankelijkheden).
 - Bedenk dat er een nieuwe categorie 'gebruikers' bij komt in de vorm van AI-Agents die steeds vaker ook visuele informatie kunnen verwerken.

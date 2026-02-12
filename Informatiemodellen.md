@@ -47,7 +47,12 @@ Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digit
 
 ## Overzicht standaarden informatiemodellen voor Nederland
 
-NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nader zijn uitgewerkt. Zo zijn er modellen voor de toepassingsdomeinen water (IMWA), openbare ruimte (IMBOR, IMSW), milieu (IMGeluid, IMAER), natuurbeheer (IMNA), verkeer en vervoer (IMWV,) kabels en leidingen (IMKL) en openbare orde en veiligheid (IMOOV, IMDBK, IMEV). Ook enkele nationale basisregistraties maken deel uit van de NEN 3610 familie, zoals de basisregistraties adressen en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een standaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). De documentatie over de sectormodellen gebaseerd op NEN 3610 is te vinden in het [Overzicht geo-standaarden](https://www.geonovum.nl/geo-standaarden/alle-standaarden).
+NEN 3610 is de basis van waaruit verschillende informatiemodellen nader zijn uitgewerkt. 
+Een aantal nationale basisregistraties maken deel uit van de NEN 3610 familie: de basisregistraties adressen en gebouwen (BAG/IMBAG), 
+grootschalige topografie (BGT/IMGEO), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). 
+Elk van deze informatiemodellen fungeert als een standaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). 
+Daarnaast wordt NEN 3610 toegepast in verschillende sectorale modellen. 
+Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 familie van modellen is gebaseerd.
 
 *Tabel 3.1 - Standaarden en specificaties met betrekking tot informatiemodellen*
 
@@ -135,8 +140,10 @@ NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nade
 
 **Handreikingen**
 
-Handreiking NEN 3610 en Linked Data: 
-- NEN 3610 - Linked Data [[NLDP]]
+Voor het NEN 3610 informatiemodel in ook een uitwerking in Linked Data gedaan.
+Dit technische rapport beschrijft de samenhang en verschillen tussen de UML - Object-oriëntatie en Linked Data. 
+In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en in het normatieve gedeelte is de NEN 3610 - Ontologie opgenomen
+- [NEN 3610 - Linked Data](https://docs.geostandaarden.nl/nen3610/nldp/) [[NLDP]]
 
 ## Afstemming begrippenkaders
 Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er is een aantal mechanismen om die afstemming te sturen:
@@ -153,5 +160,5 @@ Informatiemodellen zijn nog geen data en kunnen daarom alleen op conceptueel niv
 
 - NEN 3610:2022 conformiteit. NEN 3610:2022 bevat een abstracte testsuite voor het testen van de conformiteit van een informatiemodel aan NEN 3610. De regels en aanbevelingen van NEN 3610 zijn daarin vertaald naar conformiteitsklassen;
 - Er is een NEN 3610:2022 [template](https://register.geostandaarden.nl/?url=nen3610/index.html) beschikbaar voor UML modellering in Enterprise Architect;
-- Publicatie en implementatie van een NEN 3610 model in implementatieschema's wordt ondersteund door tooling. In de tooling zit een test op MIM conformiteit;
+- Publicatie en implementatie van een NEN 3610 model in implementatieschema's wordt ondersteund door tooling. Er is ook tooling die kan testen op MIM conformiteit;
 - Er is een handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschikbaar. Deze handreiking beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is een ondersteuning voor de toepassing van het basismodel geo-informatie (NEN 3610) en GML. De handreiking geeft onder meer uitleg over welke geometrieën er zijn, Simple Feature profielen en transformatieregels voor het kunnen genereren van GML uit UML.
