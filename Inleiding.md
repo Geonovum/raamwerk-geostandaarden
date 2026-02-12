@@ -29,8 +29,8 @@ Ruimtelijke Ordening (gezeteld in het Ministerie van Binnenlandse Zaken), die in
 van het Ministerie van Landbouw, Natuur en Voedselkwaliteit, het Ministerie van
 Economische Zaken, het Ministerie van Binnenlandse Zaken, het Ministerie van
 Defensie, het InterProvinciaal Overleg (IPO), de Vereniging Nederlandse
-Gemeenten (VNG), Unie van Waterschappen (UvW), het Kadaster en Rijksgeologische
-Dienst (TNO), Rijkswaterstaat, Netherlands Space Office (NSO), het Centraal
+Gemeenten (VNG), Unie van Waterschappen (UvW), het Kadaster en TNO Geologische Dienst Nederland (TNO-GDN), 
+Rijkswaterstaat, Netherlands Space Office (NSO), het Centraal
 bureau voor de Statistiek (CBS), het Rijksinstituut voor Volksgezondheid en
 Milieu (RIVM), Nederlands Instituut Publieke Veiligheid (NIPV) en Geonovum.
 
