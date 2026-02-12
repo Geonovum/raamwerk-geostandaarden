@@ -47,7 +47,12 @@ Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digit
 
 ## Overzicht standaarden informatiemodellen voor Nederland
 
-NEN 3610 is de basis van waaruit verschillende sectorale informatiemodellen nader zijn uitgewerkt. Zo zijn er modellen voor de toepassingsdomeinen water (IMWA), openbare ruimte (IMBOR, IMSW), milieu (IMGeluid, IMAER), natuurbeheer (IMNA), verkeer en vervoer (IMWV,) kabels en leidingen (IMKL) en openbare orde en veiligheid (IMOOV, IMDBK, IMEV). Ook enkele nationale basisregistraties maken deel uit van de NEN 3610 familie, zoals de basisregistraties adressen en gebouwen (BAG/IMBAG), grootschalige topografie (BGT/IMGEO), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). Elk van deze informatiemodellen fungeert als een standaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). Dit zijn slechts een aantal voorbeelden van informatiemodellen gebaseerd op NEN 3610 en is geen compleet overzicht. Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 familie van modellen is gebaseerd.
+NEN 3610 is de basis van waaruit verschillende informatiemodellen nader zijn uitgewerkt. 
+Een aantal nationale basisregistraties maken deel uit van de NEN 3610 familie: de basisregistraties adressen en gebouwen (BAG/IMBAG), 
+grootschalige topografie (BGT/IMGEO), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). 
+Elk van deze informatiemodellen fungeert als een standaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). 
+Daarnaast wordt NEN 3610 toegepast in verschillende sectorale modellen. 
+Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 familie van modellen is gebaseerd.
 
 *Tabel 3.1 - Standaarden en specificaties met betrekking tot informatiemodellen*
 
