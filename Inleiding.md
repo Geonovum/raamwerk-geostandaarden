@@ -119,7 +119,7 @@ vastleggen van stappen in het dagelijkse werkproces, planning of hoe de helpdesk
 Het Raamwerk van geostandaarden is vergeleken met de vorige versie teruggebracht naar een uitgebreide vorm, waarin de samenhang van de
 geostandaarden is benoemd en de geostandaarden zijn opgenomen als internationale standaard en indien van toepassing met de Europese en nationale toepassingsprofielen. 
 
-Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2](#-in-samenhang)
+Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geostandaarden-in-samenhang)
 beschrijft enige context en de geostandaarden in samenhang. 
 
 De geostandaarden zijn net als in de vorige versies van dit raamwerk verdeeld over zes categorieën: 
