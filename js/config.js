@@ -55,7 +55,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown" - JvG W3C aangepast, op 1 plek markdown aangeven    
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2026-01-22",  	    // Format is "YYYY-MM-DD"
+  publishDate: "2026-04-01",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/raamwerk-geostandaarden",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
@@ -134,6 +134,12 @@ var respecConfig =
   //licence: "cc-by-nd",            // bronvermelding, geen afgeleide werken (default)
   //licence: "cc0",                 // Public Domain Dedication
   license: "cc-by",                 // Attribution, met bronvermelding
+  publishVersion: " ",                
+  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
+  previousPublishDate: "2025-03-25",  	    // Format is "YYY-MM-DD"
+  //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
+  //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
+  previousMaturity: "def",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
 
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
@@ -1167,9 +1173,5 @@ var respecConfig =
   },
   postProcess: [custGHPG],   //-- Optioneel voor een multi document repository
 
-  //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2023-06-22",  	    // Format is "YYY-MM-DD"
-  //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
-  //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
-  previousMaturity: "GN-DEF",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
+
 };
