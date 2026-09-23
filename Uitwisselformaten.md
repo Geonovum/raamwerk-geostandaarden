@@ -58,7 +58,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
   </thead>
   <tbody>
     <tr>
-      <td>ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]] </td>
+      <td>ISO 19107 Geographic information - Spatial Schema [[iso19107]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td> </td>
      </tr>
@@ -84,7 +84,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
      </tr>
     <tr>
       <td>OGC GeoPackage Encoding Standard, version 1.4 [[GeoPackage]] </td>
-      <td>GeoPackage encoding of INSPIRE datasets. Inspire good practise. [[INSGPGeopackage]] </td>
+      <td>GeoPackage encoding of INSPIRE datasets. INSPIRE good practice. [[INSGPGeopackage]] </td>
       <td> </td>
      </tr>
     <tr>
@@ -117,10 +117,10 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
 
 ## Rasterdata uitwisselstandaarden
 
-De raster representatie gebruik je voor het vastleggen van gegevens waarbij aan ieder punt op het aardoppervlak een dynamische waarde wordt toegekend. Voorbeelden zijn de luchtdruk boven Nederland, waardes van een schadelijke stof, temperatuur of – zoals bij een foto - reflectiewaarden. In OGC en ISO/TC 211 termen heet dit een 'coverage'. Zo’n coverage wordt vaak geïmplementeerd door over het terrein een regelmatig grid van punten te leggen (een raster) en voor ieder punt een waarde op te nemen. Deze waarde is bijvoorbeeld een hoogteaanduiding bepaald met behulp van laser altimetrie, of de numerieke codering van een kleurenwaarde opgenomen in een satellietbeeld.
+De rasterrepresentatie gebruik je voor het vastleggen van gegevens waarbij aan ieder punt op het aardoppervlak een dynamische waarde wordt toegekend. Voorbeelden zijn de luchtdruk boven Nederland, waardes van een schadelijke stof, temperatuur of – zoals bij een foto - reflectiewaarden. In OGC en ISO/TC 211 termen heet dit een 'coverage'. Zo’n coverage wordt vaak geïmplementeerd door over het terrein een regelmatig grid van punten te leggen (een raster) en voor ieder punt een waarde op te nemen. Deze waarde is bijvoorbeeld een hoogteaanduiding bepaald met behulp van laser altimetrie, of de numerieke codering van een kleurenwaarde opgenomen in een satellietbeeld.
 Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2), zoals NETCDF en HDF5. Ook GeoTIFF (Geo Tagged Image File Format), waarbij georeferentie als tags in de file zijn opgenomen. Daarnaast zie je hier ook webstandaarden vermeld als JPEG2000 en PNG. De laatste wordt vooral toegepast in WMS.
 
-In Cloudnative omgevingen komt de [[COG]] Cloud Optimized GeoTIFF Standaard steeds vaker voor. Dit is een standaard waarbij GeoTIFF files bijzonder efficient over HTTP uitgewisseld kunnen worden.
+In cloudnative omgevingen komt de [[COG]] Cloud Optimized GeoTIFF Standaard steeds vaker voor. Dit is een standaard waarbij GeoTIFF-bestanden bijzonder efficiënt over HTTP uitgewisseld kunnen worden.
 
 *Tabel 6.2 - Uitwisselformaten standaarden en specificaties met betrekking tot rasterdata*
 
@@ -144,7 +144,7 @@ In Cloudnative omgevingen komt de [[COG]] Cloud Optimized GeoTIFF Standaard stee
       <td> </td>
      </tr>
     <tr>
-      <td>Hierarchical Data Format 1.0 [[HDF5]] </td>
+      <td>OGC Hierarchical Data Format Version 5 (HDF5) Core Standard 1.0 [[HDF5]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -198,7 +198,7 @@ In Cloudnative omgevingen komt de [[COG]] Cloud Optimized GeoTIFF Standaard stee
 
 ## Sensordata uitwisselstandaarden
 
-Sensoren zijn apparaten of onderdelen van aparaten voor het meten van stoffen in water, grondsamenstellingen, grondwater, luchtverontreiniging, etc. Sensoren hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te kunnen worden. Voor de uitwisseling van waarnemingen en metingen (‘observations and measurements’) bestaan verschillende uitwisselformaten standaarden (tabel 6.3).
+Sensoren zijn apparaten of onderdelen van apparaten voor het meten van stoffen in water, grondsamenstellingen, grondwater, luchtverontreiniging, etc. Sensoren hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te kunnen worden. Voor de uitwisseling van waarnemingen en metingen (‘observations and measurements’) bestaan verschillende uitwisselformaten standaarden (tabel 6.3).
 
 *Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata*
 
@@ -282,17 +282,17 @@ Er zijn twee Nederlandse validators voor de validatie van GML (vectordata):
 - De [GML3.2 Simple Features validator](http://validatie.geostandaarden.nl/gml/simple-features) controleert of een GML 3.2 bestand voldoet aan het GML 3.2 Simple Feature profile, level 2
 - De [Validator voor GML 2D geometrie](http://validatie.geostandaarden.nl/gml/geometrie-2d) controleert of de 2D geometrieën in een GML 3.x bestand conform ISO 19107 (Spatial Schema) zijn.
 
-Het valideren van JSON-FG kan gedaan worden met de [OGC-Checker](https://geonovum.github.io/ogc-checker/#/json-fg). In de [documentatie](https://github.com/Geonovum/ogc-checker) is beschreven welke requirements uit de JSON-FG specificatie wel en niet ondersteunt worden.
+Het valideren van JSON-FG kan gedaan worden met de [OGC-Checker](https://geonovum.github.io/ogc-checker/#/json-fg). In de [documentatie](https://github.com/Geonovum/ogc-checker) is beschreven welke requirements uit de JSON-FG-specificatie wel en niet ondersteund worden.
 
 **Handreiking Geometrie in model en GML**
 
 De handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is daarmee een ondersteuning voor de toepassing van de norm NEN 3610:2011 – Basismodel geo-informatie [NEN3610]. NEN 3610 gaat hierin niet verder dan verwijzing naar de relevante geo-informatie (ISO) normen. De ISO normen zijn uitgebreid. De handreiking Geometrie in model en GML is een praktische, vereenvoudigde introductie op de ISO norm. Voor de normatieve referentie verwijzen we naar de originele documenten. De handreiking kan als een zelfstandig document worden gelezen.
 
-**Handreiking lichte formaten geometrie**
+**Handreiking Geometrie in uitwisselingsformaten**
 
-Voor het uitwisselen van geo-informatie kan je kiezen uit verschillende uitwisselformaten. Wat het beste formaat is voor een toepassing, is afhankelijk van meerdere aspecten. In het bij de data behorende informatiemodel kunnen deze aspecten al naar voren komen – bijvoorbeeld de geometrietypes die worden vastgelegd, het gebruikte modelleerparadigma, etc. Maar vanuit één informatiemodel kunnen ook weer meerdere implementaties in uitwisselingsformaten afgeleid worden – beslissingen in het model sluiten dit niet per sé uit.
+Voor het uitwisselen van geo-informatie kan je kiezen uit verschillende uitwisselformaten. Wat het beste formaat is voor een toepassing, is afhankelijk van meerdere aspecten. In het bij de data behorende informatiemodel kunnen deze aspecten al naar voren komen – bijvoorbeeld de geometrietypes die worden vastgelegd, het gebruikte modelleerparadigma, etc. Maar vanuit één informatiemodel kunnen ook weer meerdere implementaties in uitwisselingsformaten afgeleid worden – beslissingen in het model sluiten dit niet per se uit.
 
-Daarom is voor vectorformaten een keuzehulp gemaakt: de handreiking 'Geometrie in uitwisselingsformaten' [[HRLFG]]. Deze legt ook de toepassing uit van de verschillende versies van GML. De handreiking geeft handvaten voor het kiezen van het juiste uitwisselformaat voor de juiste situatie, en geeft gedetaileerde informatie over het uitwisselen van geometrie in de lichte formaten HTML, GML, JSON, GeoPackage en RDF. Deze handreiking zet de belangrijkste aspecten op een rijtje en brengt deze in verband met gangbare toepassingen. De toepassing bepaalt namelijk wat de eisen aan de geometrieën zijn (zijn complexe types nodig? Is een hoge nauwkeurigheid van belang?), en welke verplichtingen aan de orde zijn in de keuze voor standaarden. De antwoorden op deze vragen kunnen al een indicatie geven van de geschiktheid van de uitwisselformaten. Daarnaast is het van belang om inzicht te hebben in de behoeften van gebruikers: is ondersteuning in bepaalde tools/frameworks van belang? Moeten de bestanden leesbaar zijn voor mensen en gemakkelijk te vinden? Hoe belangrijk is de semantiek van de data? Deze handreiking geeft handvaten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft in afzonderlijke hoofdstukken gedetailleerde informatie over het uitwisselen van geometrie in GML, HTML, JSON, GeoPackage en RDF. 
+Daarom is voor vectorformaten een keuzehulp gemaakt: de handreiking 'Geometrie in uitwisselingsformaten' [[HRLFG]]. Deze legt ook de toepassing uit van de verschillende versies van GML. Deze handreiking zet de belangrijkste aspecten op een rijtje en brengt deze in verband met gangbare toepassingen. De toepassing bepaalt namelijk wat de eisen aan de geometrieën zijn (zijn complexe types nodig? Is een hoge nauwkeurigheid van belang?), en welke verplichtingen aan de orde zijn in de keuze voor standaarden. De antwoorden op deze vragen kunnen al een indicatie geven van de geschiktheid van de uitwisselformaten. Daarnaast is het van belang om inzicht te hebben in de behoeften van gebruikers: is ondersteuning in bepaalde tools/frameworks van belang? Moeten de bestanden leesbaar zijn voor mensen en gemakkelijk te vinden? Hoe belangrijk is de semantiek van de data? Deze handreiking geeft handvaten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft in afzonderlijke hoofdstukken gedetailleerde informatie over het uitwisselen van geometrie in GML, HTML, JSON, GeoPackage en RDF. 
 
 **Wegwijzer 3D standaarden**
 

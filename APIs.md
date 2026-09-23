@@ -5,7 +5,7 @@
 **Vergelijk het met een stekker en een stopcontact. Door internationale afspraken is het mogelijk om in heel Europa met dezelfde stekker een apparaat van stroom te voorzien.**
 
 Voor het kunnen vinden, raadplegen, en downloaden van geo-informatie op het
-Internet zijn Application Programming Interfaces (API’s) in gebruik. API’s
+Internet zijn Application Programming Interfaces (API's) in gebruik. API's
 spelen een belangrijke rol op het Internet.
 Een API dient als interface tussen verschillende softwareprogramma's. Het zorgt
 ervoor dat een applicatie automatisch toegang krijgt tot de data.
@@ -20,18 +20,18 @@ ervoor dat een applicatie automatisch toegang krijgt tot de data.
   - De huidige versie van de OGC API's is nog gebaseerd op OAS 3.0.x, ondersteuning voor OAS 3.1 (json schema compatibiliteit) zit eraan te komen.
   - De OGC API Standaarden worden nog verder uitgebreid, dit gebeurt via zogenaamde 'parts', 
   check welke parts er aan komen met aanvullende functionaliteit die relevant kan zijn voor het beoogde gebruik. Deze informatie is terug te vinden op de 'Roadmap' van het OGC.
-  - De OGC API's sluiten aan bij de API Designrules van Kennisplatform API's.
+  - De OGC API's sluiten aan bij de API Design Rules van het Kennisplatform API's.
   
 
 ## Transitie naar nieuwe generatie API's
 
 De internationale geostandaarden voor API's komen veelal bij het [Open Geospatial Consortium (OGC)](https://www.ogc.org/) vandaan. De eerste generatie API standaarden, toen nog 'services' genaamd, zijn gebaseerd op XML en SOAP. Deze standaarden zijn nog steeds geldig en in gebruik, maar worden gaandeweg vervangen door een nieuwe generatie, die is gebaseerd op algemene Web architectuur, zoals REST. Het voordeel van deze nieuwe API's is dat geo-informatie onderdeel wordt van het ecosysteem van het Web en zo voor een veel breder publiek toegankelijk is.
 
-Het OGC is de oude generatie 'services' standaarden langzaam aan het uit faseren. De nieuwe OGC API standaarden zijn deels in ontwikkeling, deels al goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. De eerste nieuwe OGC API standaarden zijn inmiddels ook op de Pas toe of Leg Uit Lijst van het Forum Standaardisatie geplaatst. Op de Pas toe of Leg Uit (PTLU) lijst staan nu de nieuwe generatie standaarden: OGC API Features en OGC API Tiles. De WMS en WFS-profielen zijn verhuisd naar de lijst van aanbevolen standaarden van het Forum Standaardisatie. Bestaande voorzieningen, die op de oude 'services' standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Maar we adviseren om de nieuwe OGC API’s te gaan gebruiken. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
+Het OGC is de oude generatie 'services' standaarden langzaam aan het uit faseren. De nieuwe OGC API standaarden zijn deels in ontwikkeling, deels al goedgekeurd. Het is aan te raden om in nieuwe voorzieningen zoveel mogelijk de nieuwe OGC API standaarden toe te passen. De eerste nieuwe OGC API standaarden zijn inmiddels ook op de ‘pas toe of leg uit’-lijst van het Forum Standaardisatie geplaatst. Op die lijst staan nu de nieuwe generatie standaarden: OGC API Features en OGC API Tiles. De WMS en WFS-profielen zijn verhuisd naar de lijst van aanbevolen standaarden van het Forum Standaardisatie. Bestaande voorzieningen, die op de oude 'services' standaarden zijn gebaseerd kunnen nog langere tijd in de lucht gehouden worden. Maar we adviseren om de nieuwe OGC API's te gaan gebruiken. Het is ook mogelijk om OGC API's beschikbaar te stellen als laag bovenop oude generatie 'services'. Hiervoor is software beschikbaar.
 
-## Overzicht geostandaarden API’s
+## Overzicht geostandaarden API's
 
-In het overzicht van geostandaarden voor API’s zijn de standaarden per thema in tabellen opgenomen:
+In het overzicht van geostandaarden voor API's zijn de standaarden per thema in tabellen opgenomen:
 
 -   API standaarden voor het opvragen van webmaps: OGC WMS en OGC API Maps (sectie 5.3);
 -   API standaarden voor het bevragen (downloaden) van vectordata: OGC WFS, OGC
@@ -44,24 +44,24 @@ In het overzicht van geostandaarden voor API’s zijn de standaarden per thema i
     CSW en OGC API Records (sectie 5.7);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
     OGC API Tiles, 3D Tiles (sectie 5.8);
--   API standaarden en specificaties voor linked data: GeoSPARQL (sectie 5.9).
+-   API standaarden en specificaties voor Linked Data: GeoSPARQL (sectie 5.9).
 
 In onderstaand overzicht zijn de nieuwe generatie OGC API standaarden opgenomen die zijn goedgekeurd, maar ook de OGC API standaarden die nog in ontwikkeling of draft zijn. Dit is bij elke standaard aangegeven.
 
-### APIs en Linked Data
-APIs en Linked Data zijn twee verschillende manieren om gegevens beschikbaar te stellen via interfaces, maar tussen beide bestaat een bepaalde samenhang. In sommige situaties kun je als data aanbieder beter kiezen voor één van de twee, in sommige situaties kun je beide combineren.
+### API's en Linked Data
+API's en Linked Data zijn twee verschillende manieren om gegevens beschikbaar te stellen via interfaces, maar tussen beide bestaat een bepaalde samenhang. In sommige situaties kun je als data aanbieder beter kiezen voor één van de twee, in sommige situaties kun je beide combineren.
 
 De belangrijkste punten ter overweging zijn: 
 - Linked Data omvat zowel een datamodel standaard (RDF) als een interface standaard (SPARQL). 
-- APIs en Linked Data bedienen verschillend publiek. Het publiek voor APIs is groter: de meeste ontwikkelaars prefereren het. 
-- APIs kun je zien als veelgestelde vragen voorziening, terwijl een gebruiker met een Linked Data SPARQL endpoint zijn eigen vragen kan formuleren. 
-- In APIs wordt meestal de data als JSON verstuurd. Het is echter ook mogelijk om in een API Linked Data (RDF) te serveren. Aanbeveling: Geef altijd in eerste instantie GeoJSON terug, zoals voorgeschreven door de API Design Rules Geo-module [[adr-mod-geo]]. Geef alleen Linked Data als de gebruiker daarom vraagt. 
-- APIs worden vooral gebruikt om toegang tot data te regelen, terwijl Linked Data meestal een rol speelt op het niveau van metadata. Denk aan het Nederlands profiel op DCAT, [[dcat-ap-nl]], het Metamodel voor Informatie Modellering [[MIM]] en de standaard voor het beschrijven van begrippen [[SBB]]. 
+- API's en Linked Data bedienen verschillend publiek. Het publiek voor API's is groter: de meeste ontwikkelaars prefereren het. 
+- API's kun je zien als veelgestelde vragen voorziening, terwijl een gebruiker met een Linked Data SPARQL endpoint zijn eigen vragen kan formuleren. 
+- In API's wordt meestal de data als JSON verstuurd. Het is echter ook mogelijk om in een API Linked Data (RDF) te serveren. Aanbeveling: Geef altijd in eerste instantie GeoJSON terug, zoals voorgeschreven door de API Design Rules Geo-module [[adr-mod-geo]]. Geef alleen Linked Data als de gebruiker daarom vraagt. 
+- API's worden vooral gebruikt om toegang tot data te regelen, terwijl Linked Data meestal een rol speelt op het niveau van metadata. Denk aan het Nederlands profiel op DCAT, [[dcat-ap-nl]], het Metamodel voor Informatie Modellering [[MIM]] en de Nederlandse standaard voor het Beschrijven van Begrippen (NL-SBB) [[SBB]]. 
 
-<aside class="example">Een praktisch voorbeeld waar het wenselijk is om Linked Data in een API te serveren, is het toegankelijk maken van metadata in een catalogus. De aanbeveling in die situatie is om OGC API Records te gebruiken om DCAT-AP-NL (een op Linked Data RDF gebaseerde standaard) uit te wisselen. Echter, zelfs in die situatie moet nog steeds de API de metadata in JSON geven, tenzij de gebruiker om een linked data formaat (bijvoorbeeld turtle of rdf/xml) vraagt. 
+<aside class="example">Een praktisch voorbeeld waar het wenselijk is om Linked Data in een API te serveren, is het toegankelijk maken van metadata in een catalogus. De aanbeveling in die situatie is om OGC API Records te gebruiken om DCAT-AP-NL (een op Linked Data RDF gebaseerde standaard) uit te wisselen. Echter, zelfs in die situatie moet nog steeds de API de metadata in JSON geven, tenzij de gebruiker om een Linked Data-formaat (bijvoorbeeld turtle of rdf/xml) vraagt. 
 </aside>
 
-APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschrijving en in de API geserveerde data te linken aan de metadata (in DCAT-AP-NL), het informatiemodel (in MIM) en de begrippen en definities (in NL-SBB) heeft een gebruiker zowel de data zelf als alle informatie erover, binnen handbereik.
+API's en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschrijving en in de API geserveerde data te linken aan de metadata (in DCAT-AP-NL), het informatiemodel (in MIM) en de begrippen en definities (in NL-SBB) heeft een gebruiker zowel de data zelf als alle informatie erover, binnen handbereik.
 
 ## Web mapping API's
 
@@ -87,8 +87,8 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
       <td> </td> 
      </tr>
     <tr>
-      <td>Web Map Server (WMS) Implementation Specification, version 1.3.0 [[WMS]] </td>
-      <td>Technical Guidance for the implementation of Inspire View Service. [[INSTGVS]] </td>
+      <td>Web Map Service (WMS) Implementation Specification, version 1.3.0 [[WMS]] </td>
+      <td>Technical Guidance for the implementation of INSPIRE View Service. [[INSTGVS]] </td>
       <td>Nederlands profiel op ISO 19128 Geographic information — Web Map Server Interface versie 1.1 [[NLWMS]] </td>
      </tr>
     <tr>
@@ -120,12 +120,12 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
     <tr>
       <td>OGC API – Features Part 1 Core [[OAPIF1]] </td>
       <td>OGC API – Features as an INSPIRE download service [[INSGPOAPIF]] </td>
-      <td>API Design Rules Geomodule [[adr-mod-geo]] </td>
+      <td>API Design Rules Geo-module [[adr-mod-geo]] </td>
      </tr>
     <tr>
       <td>OGC API – Features Part 2 CRS by reference v1.0.1 [[OAPIF2]] </td>
       <td> </td>
-      <td>API Design Rules Geomodule [[adr-mod-geo]] </td>
+      <td>API Design Rules Geo-module [[adr-mod-geo]] </td>
      </tr>
     <tr>
       <td>OGC API – Features Part 3 Filtering version 1.0 [[OAPIF3]] </td>
@@ -144,7 +144,7 @@ APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschri
     </tr>
     <tr>
       <td>ISO 19142, Geographic information - Web Feature Service (= WFS version 2.0) [[iso-19142-2010]], [[WFS]] </td>
-      <td>Technical Guidance for the implementation of Inspire Download Services. [[INSTGDS]]</td>
+      <td>Technical Guidance for the implementation of INSPIRE Download Services. [[INSTGDS]]</td>
       <td>Nederlands WFS Profiel 1.1 op OGC WFS 2.0 [[NLWFS]]  </td>
      </tr>
     <tr>
@@ -195,7 +195,7 @@ Handreikingen voor implementatie:
      </tr>
     <tr>
       <td>OGC Web Coverage Service (WCS), version 2.1 [[WCS21]] </td>
-      <td>Technical Guidance for the implementation of Inspire Download Services using Web Coverage Services (WCS). [[INSTGDSWCS]] </td>
+      <td>Technical Guidance for the implementation of INSPIRE Download Services using Web Coverage Services (WCS). [[INSTGDSWCS]] </td>
       <td>Hetzelfde als het Europese profiel </td>
      </tr>
   </tbody>
@@ -266,7 +266,7 @@ Handreikingen voor implementatie:
      </tr>
     <tr>
       <td>OGC Catalogue Service for the Web (CSW) Implementation Specification, version 2.0.2 [[CSW]] </td>
-      <td>Technical Guidance for the implementation of Inspire Discovery Services. [[INSTGDiS]] </td>
+      <td>Technical Guidance for the implementation of INSPIRE Discovery Services. [[INSTGDiS]] </td>
       <td>Hetzelfde als het Europese profiel </td>
      </tr>
     <tr>
@@ -280,9 +280,9 @@ Handreikingen voor implementatie:
 <aside class="note">De [[INSTGDiS]] is gebaseerd op [[CSW]] version 2.0.2. Dit is de reden dat CSW 2.0.2 is opgenomen en niet CSW 3.0.
  </aside>
 
-## Map tile APIs
+## Map tile API's
 
-*Tabel 5.6 – API standaarden en specificaties voor map tiles: OGC Web Map Tile Service (WMTS,) OGC API - Tiles, en 3D Tiles*
+*Tabel 5.6 – API standaarden en specificaties voor map tiles: OGC Web Map Tile Service (WMTS), OGC API - Tiles en 3D Tiles*
 
 <table>
   <colgroup>
@@ -310,7 +310,7 @@ Handreikingen voor implementatie:
      </tr>
     <tr>
       <td>Web Map Tile Service Implementation Standard (WMTS) v1.0.0 [[WMTS]] </td>
-      <td>Technical Guidance for the implementation of Inspire View Service [[INSTGVS]] </td>
+      <td>Technical Guidance for the implementation of INSPIRE View Service [[INSTGVS]] </td>
       <td>Hetzelfde als het Europese profiel </td>
      </tr>
   </tbody>
@@ -324,7 +324,7 @@ Handreikingen voor implementatie:
 
 ## Linked Data API's
 
-*Tabel 5.7 – API standaarden en specificaties voor linked data: GeoSPARQL*
+*Tabel 5.7 – API standaarden en specificaties voor Linked Data: GeoSPARQL*
 
 <table>
   <colgroup>
@@ -350,21 +350,21 @@ Handreikingen voor implementatie:
 
 <aside class="note">GeoSPARQL heeft een interactiedeel en een beknopt informatiemodel (ontologie) voor geodata.  Daarmee heeft deze standaard ook een relatie met het hoofdstuk over informatiemodellen. </aside>
  
-## Kwaliteit van API’s
+## Kwaliteit van API's
 
-**API Strategie overheid (beleid) en REST Design Rules**
+**API Strategie overheid (beleid) en API Design Rules**
 
-In de Nederlandse API strategie en Rest Design Rules worden diverse aanbevelingen gedaan voor de kwaliteit van API's. 
+In de Nederlandse API Strategie en de API Design Rules worden diverse aanbevelingen gedaan voor de kwaliteit van API's. 
 
-De Nederlandse API Strategie [[NLAPIS]] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen zijn aangemeld voor plaatsing op de ‘Pas toe of leg uit’-lijst van het Forum Standaardisatie. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. 
+De Nederlandse API Strategie [[NLAPIS]] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen zijn aangemeld voor plaatsing op de ‘pas toe of leg uit’-lijst van het Forum Standaardisatie. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. 
 
-De [Rest Design Rules](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules) is een lijst afspraken, die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen. 
+De [API Design Rules](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules) zijn een lijst afspraken, die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen. 
 
 **Afspraken over quality of service**
 
 Het is van belang om als service provider afspraken te maken met de service afnemers over de dienstverlening. Om de kwaliteit van een service uit te drukken zijn door INSPIRE bijvoorbeeld de drie typen kwaliteitsnormen voor services gedefinieerd (tabel 5.8).
 
-*Tabel 5.8 – Voorbeeld van kwaliteitnormen voor services*
+*Tabel 5.8 – Voorbeeld van kwaliteitsnormen voor services*
 
 <table>
   <colgroup>
@@ -402,6 +402,6 @@ Het is van belang om als service provider afspraken te maken met de service afne
 
 Voor het valideren van services (WMS en WFS) zijn [validators](https://validatie.geostandaarden.nl/) beschikbaar. Met de ETF validator kan de kwaliteit van de WMS en WFS voor het grootste deel getoetst worden.
 
-Voor het valideren van REST APIs op basis van de API Design Rules is een [validator](https://gitlab.com/commonground/don/adr-validator) ontwikkeld die inzicht geeft in de kwaliteit van API's.
+Voor het valideren van REST API's op basis van de API Design Rules is een [validator](https://gitlab.com/commonground/don/adr-validator) ontwikkeld die inzicht geeft in de kwaliteit van API's.
 
-Voor het valideren van OGC API's (Features, Processes en Records) is een linter ontwikkeld: [OGC-Checker](https://geonovum.github.io/ogc-checker). In de documentatie in de [Git Repository](https://github.com/Geonovum/ogc-checker) is in detail te vinden welke requirements uit de veschillende specificaties exact ondersteund worden.
+Voor het valideren van OGC API's (Features, Processes en Records) is een linter ontwikkeld: [OGC-Checker](https://geonovum.github.io/ogc-checker). In de documentatie in de [Git Repository](https://github.com/Geonovum/ogc-checker) is in detail te vinden welke requirements uit de verschillende specificaties exact ondersteund worden.

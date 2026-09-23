@@ -245,15 +245,6 @@ var respecConfig =
       publisher: "Open Geospatial Consortium",
       //date:         ["April 2007"],
     },
-    "ISO19139":
-    {
-      title: "ISO/TS 19139:2007 Geographic information - Metadata - XML schema implementation",
-      href: "https://www.iso.org/standard/32557.html",
-      status: ["Adopted specification"],
-      //authors:      [""],
-      publisher: "International Organization for Standardization",
-      date: "April 2007",
-    },
     "inspire-irmd":
     {
       title: "Implementing Rules for Metadata",
@@ -276,7 +267,7 @@ var respecConfig =
     {
       title: "INSPIRE Metadata Implementing Rules: Technical Guidelines based on EN ISO 19115 and EN ISO 19119",
       href: "http://inspire.ec.europa.eu/documents/Metadata/INSPIRE_MD_IR_and_ISO_v1_2_20100616.pdf",
-      //status:       ["Tehnical Guidance"],
+      //status:       ["Technical Guidance"],
       authors: ["Drafting Team Metadata and European Commission Joint Research Centre"],
       publisher: "European Commission Joint Research Centre",
       date: "26 oktober 2007",
@@ -285,7 +276,7 @@ var respecConfig =
     {
       title: "Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007",
       href: "https://github.com/INSPIRE-MIF/technical-guidelines/blob/2022.2/metadata/metadata-iso19139/metadata-iso19139.adoc",
-      status: ["Tehnical Guidance"],
+      status: ["Technical Guidance"],
       authors: ["Temporary MIWP 2021-2024 sub-group 2.3.1"],
       publisher: "INSPIRE Maintenance and Implementation Group (MIG)",
       date: "1 augustus 2022",
@@ -399,7 +390,7 @@ var respecConfig =
     {
       title: "3D Tiles Specification 1.1",
       href: "http://www.opengis.net/doc/cs/3D-Tiles/1.1",
-      status: "Approved for pubic release",
+      status: "Approved for public release",
       publisher: "Open Geospatial Consortium (OGC)",
       editors: ["Patrick Cozzi", "Sean Lilley"],
       date: "2022-12-17",
@@ -644,7 +635,7 @@ var respecConfig =
     },
     "STAT":
     {
-      title: "OGC 17-079r1: OGC SensorThings API Part 1 - Tasking Core, Version 1.0",
+      title: "OGC 17-079r1: OGC SensorThings API Part 2 - Tasking Core, Version 1.0",
       href: "http://docs.opengeospatial.org/is/17-079r1/17-079r1.html",
       status: "Approved",
       publisher: "Open Geospatial Consortium (OGC)",
@@ -745,21 +736,11 @@ var respecConfig =
     },
     "NEN3610":
     {
-      title: "NEN 3610:2022 nl - BBasismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
+      title: "NEN 3610:2022 nl - Basismodel geo-informatie - Termen, definities, relaties en algemene regels voor de uitwisseling van informatie over aan de aarde gerelateerde ruimtelijke objecten",
       href: "https://www.nen.nl/nen-3610-2022-nl-296137",
       status: "Definitief",
       publisher: "NEN",
       date: "1 jun. 2022",
-    },
-    "ISO19107-2003":
-    {
-      title: "ISO 19107:2019 Geographic information — Spatial schema",
-      href: "https://www.iso.org/standard/66175.html",
-      status: "Published",
-      publisher: "ISO",
-      //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
-      //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
-      date: "2019-12",
     },
     "iso19126-2009":
     {
@@ -865,14 +846,6 @@ var respecConfig =
       publisher: "ISO",
       date: "January 2020",
     },
-    "isots19127":
-    {
-      title: "ISO/TS 19127 Geographic Information - Geodetic codes and parameters",
-      href: "https://www.iso.org/standard/41784.html",
-      status: "Published",
-      publisher: "ISO",
-      date: "June 2005",
-    },
     "iso6709":
     {
       title: "ISO 6709:2022 Standard representation of geographic point location by coordinates",
@@ -969,7 +942,7 @@ var respecConfig =
     },
     "INSGPGeopackage":
     {
-      title: "GeoPackage encoding of INSPIRE datasets. INSPIRE good practise",
+      title: "GeoPackage encoding of INSPIRE datasets. INSPIRE good practice",
       href: "https://inspire.ec.europa.eu/good-practice/geopackage-encoding-inspire-datasets",
       status: "Candidate",
       publisher: "INSPIRE",

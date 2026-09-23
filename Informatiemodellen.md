@@ -8,7 +8,7 @@
 </figure>
 
 > Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:
-  - Voor Informatiemodellen gebaseerd op NEN 3610: Doe een NEN3610 Conformiteitstoets.
+  - Voor Informatiemodellen gebaseerd op NEN 3610: Doe een NEN 3610-conformiteitstoets.
   - Structureer je informatiemodel conform MIM, denk aan Begrippenkaders en het verschil tussen een Conceptueel- en een Logisch Informatiemodel.
   - Ontwerp een informatiemodel vanuit de gedachte van samenhang. Kijk naar hergebruik van Objecttypen en het verwijzen naar bestaande begrippenkaders. 
 
@@ -24,14 +24,14 @@ De gebruiker van NEN 3610 is de informatiearchitect en informatiemodelleur, die 
 
 NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangrijk om te vermelden, is dat de structuur en opbouw van NEN 3610 conformeert aan de ISO 19100 serie. Aan deze ISO standaard moet geo-informatie voldoen in het kader van Europese regels (INSPIRE). Door de internationale afstemming is de structuur en opbouw van de Nederlandse informatiemodellen conform NEN 3610, vergelijkbaar met die van Europese standaarden. De Europese INSPIRE standaarden zijn geïmplementeerd aan de hand van 34 inhoudelijke thema’s, waarvoor 'dataspecificaties' zijn opgesteld. Nederlandse datasets, die onder INSPIRE vallen, worden conform deze Europese dataspecificaties aan de Europese geo-informatie infrastructuur beschikbaar gesteld.
 
-NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. Onderstaande figuur 3.1 geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
+NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. <a href="#pd-package"></a> geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
 <figure id="pd-package">
 <a href="media/NEN3610StandaardenPackageDiagram.png" target="_blank"><img src="media/NEN3610StandaardenPackageDiagram.png" alt="UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen."></a>
 <figcaption>UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</figcaption>
 </figure>
 
-Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen standaarden. NEN 3610 gebruikt bijvoorbeeld het MIM metamodel, afspraken uit ISO 19103 voor het gebruik van UML als modelleertaal, het geometriemodel uit ISO 19107, XML en linked data afspraken van W3C, het netwerkmodel uit INSPIRE Generic Conceptual Model (GCM). Sectorale modellen hergebruiken weer de NEN 3610 toepassing daarvan. In figuur 3.2 wordt de deze relatie tussen de verschillende kaders van standaarden in de NEN 3610 pyramide met domeinmodellen (de sectorale informatiemodellen) weergegeven.
+Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen standaarden. NEN 3610 gebruikt bijvoorbeeld het MIM metamodel, afspraken uit ISO 19103 voor het gebruik van UML als modelleertaal, het geometriemodel uit ISO 19107, XML- en Linked Data-afspraken van W3C, het netwerkmodel uit INSPIRE Generic Conceptual Model (GCM). Sectorale modellen hergebruiken weer de NEN 3610 toepassing daarvan. In <a href="#pd-piramide"></a> wordt deze relatie tussen de verschillende kaders van standaarden in de NEN 3610-piramide met domeinmodellen (de sectorale informatiemodellen) weergegeven.
 
 <figure id="pd-piramide">
 <img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="Piramide die de positie van NEN 3610 illustreert in de gelaagdheid van standaarden.">
@@ -49,7 +49,7 @@ Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digit
 
 NEN 3610 is de basis van waaruit verschillende informatiemodellen nader zijn uitgewerkt. 
 Een aantal nationale basisregistraties maken deel uit van de NEN 3610 familie: de basisregistraties adressen en gebouwen (BAG/IMBAG), 
-grootschalige topografie (BGT/IMGEO), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). 
+grootschalige topografie (BGT/IMGeo), topografie (BRT/IMTOP), kadastrale percelen, (BRK/IMKAD) en ondergrond (BRO/IMBRO). 
 Elk van deze informatiemodellen fungeert als een standaard voor het uitwisselen van geo-informatie binnen die sector of domein (de toepassingsprofielen). 
 Daarnaast wordt NEN 3610 toegepast in verschillende sectorale modellen. 
 Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 familie van modellen is gebaseerd.
@@ -83,7 +83,7 @@ Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 famil
     <tr>
       <td>ISO 19107 Geographic information - Spatial Schema [[iso19107]] </td>
       <td> </td>
-      <td>SBB: Standaard voor het Beschrijven van Begrippen [[SBB]]</td>
+      <td>NL-SBB: Nederlandse standaard voor het Beschrijven van Begrippen [[SBB]]</td>
      </tr>
     <tr>
       <td>ISO 19108 Geographic information - Temporal Schema [[iso19108]] </td>
@@ -140,7 +140,7 @@ Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 famil
 
 **Handreikingen**
 
-Voor het NEN 3610 informatiemodel in ook een uitwerking in Linked Data gedaan.
+Voor het NEN 3610-informatiemodel is ook een uitwerking in Linked Data gedaan.
 Dit technische rapport beschrijft de samenhang en verschillen tussen de UML - Object-oriëntatie en Linked Data. 
 In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en in het normatieve gedeelte is de NEN 3610 - Ontologie opgenomen
 - [NEN 3610 - Linked Data](https://docs.geostandaarden.nl/nen3610/nldp/) [[NLDP]]
@@ -149,10 +149,10 @@ In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en i
 Afstemming tussen begrippenkaders verhoogt de effectiviteit van informatievoorziening. Er is een aantal mechanismen om die afstemming te sturen:
 
 - NEN 3610 heeft een semantisch model dat de werkelijkheid indeelt naar generieke begrippen (of UML superklassen) van reëel object en virtuele ruimte, met daaronder een verdeling naar bijvoorbeeld bodem, water, begroeiing, functionele ruimte, juridische ruimte. Sectorale modellen zijn verplicht om hun begrippen hieraan te koppelen;
-- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. Begrippenkaders en registers voldoen aan de Standaard voor het Beschrijven van Begrippen [[SBB]]. De [NEN3610 conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is een voorbeeld van een register met begrippenkaders die voldoen aan de SBB standaard;
+- Informatiemodellen publiceren hun begrippen in registers. Registers worden via het web ontsloten. Begrippenkaders en registers voldoen aan de Nederlandse standaard voor het Beschrijven van Begrippen (NL-SBB) [[SBB]]. De [NEN 3610-conceptenbibliotheek](https://definities.geostandaarden.nl/nl/) is een voorbeeld van een register met begrippenkaders die voldoen aan NL-SBB;
 - Zoek bij het (door-)ontwikkelen van sectorale modellen samenwerking en afstemming tussen sectorale modellen;
 - Knowledge graphs kunnen helpen om begrippenkaders aan elkaar te verbinden.
-- De standaard voor het Beschrijven van Begrippen [[SBB]] zorgt voor interoperabiliteit tussen gepubliceerde begrippenkaders en vergemakkelijkt de afstemming tussen begrippen kaders als ook het verwijzen naar elkaars begrippen. 
+- NL-SBB [[SBB]] zorgt voor interoperabiliteit tussen gepubliceerde begrippenkaders en vergemakkelijkt de afstemming tussen begrippenkaders als ook het verwijzen naar elkaars begrippen. 
 
 ## Kwaliteit van informatiemodellen
 
