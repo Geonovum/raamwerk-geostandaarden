@@ -38,12 +38,11 @@ var respecConfig =
   //-- Invullen: de titel van de standaard of het document
   title: "Raamwerk Geostandaarden 4.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
-  //specStatus: "GN-BASIS",             // Basis Document
-  //specStatus: "vv",                  // Werk Versie
-  //specStatus: "GN-CV",                // Consultatie Versie
-  //specStatus: "GN-VV",                // Vaststellings Versie
-  specStatus: "def",                  // Definitieve Versie
-  //specStatus: "GN-DEF",               // Definitieve Versie
+  //specStatus: "basis",               // Basis Document
+  specStatus: "wv",                    // Vaststellings 
+  //specStatus: "cv",                  // Consultatie VersieVersie
+  //specStatus: "vv",                  // Vaststellings Versie
+  //specStatus: "def",                 // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
   //specType: "ST",                       // Standaard
@@ -137,10 +136,10 @@ var respecConfig =
   license: "cc-by",                 // Attribution, met bronvermelding
   publishVersion: " ",                
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2026-04-01",  	    // Format is "YYY-MM-DD"
-  //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
-  //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
-  previousMaturity: "vv",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
+  previousPublishDate: "2026-09-23",  	    // Format is "YYY-MM-DD"
+  //previousMaturity: "cv",                   // kies 1 van deze 2 regels  	  
+  //previousMaturity: "vv",  	                // kies 1 van deze 2 regels
+  previousMaturity: "def",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
 
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
