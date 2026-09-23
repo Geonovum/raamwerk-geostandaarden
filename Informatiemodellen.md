@@ -24,7 +24,7 @@ De gebruiker van NEN 3610 is de informatiearchitect en informatiemodelleur, die 
 
 NEN 3610 is afgestemd op en gerelateerd aan internationale standaarden. Belangrijk om te vermelden, is dat de structuur en opbouw van NEN 3610 conformeert aan de ISO 19100 serie. Aan deze ISO standaard moet geo-informatie voldoen in het kader van Europese regels (INSPIRE). Door de internationale afstemming is de structuur en opbouw van de Nederlandse informatiemodellen conform NEN 3610, vergelijkbaar met die van Europese standaarden. De Europese INSPIRE standaarden zijn geïmplementeerd aan de hand van 34 inhoudelijke thema’s, waarvoor 'dataspecificaties' zijn opgesteld. Nederlandse datasets, die onder INSPIRE vallen, worden conform deze Europese dataspecificaties aan de Europese geo-informatie infrastructuur beschikbaar gesteld.
 
-NEN 3610 heeft ook een relatie met de [NEN 2660:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667) die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. <a href="#pd-package"></a> geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
+NEN 3610 heeft ook een relatie met NEN 2660 (NEN 2660-1:2022 en [NEN 2660-2:2022](https://www.nen.nl/en/nen-2660-2-2022-nl-291667)), die regels geeft voor informatiemodellering van de gebouwde omgeving. Beide zijn op elkaar afgestemd. <a href="#pd-package"></a> geeft schematisch de relaties tussen overkoepelende standaarden, NEN 3610 en sectorale informatiemodellen weer.
 
 <figure id="pd-package">
 <a href="media/NEN3610StandaardenPackageDiagram.png" target="_blank"><img src="media/NEN3610StandaardenPackageDiagram.png" alt="UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen."></a>
@@ -76,7 +76,7 @@ Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 famil
       <td>MIM - Metamodel Informatie Modellering versie 1.2 [[MIM]] </td>
      </tr>
     <tr>
-      <td>ISO/TS 19103 Geographic Information - Conceptual schema language [[iso19103]] </td>
+      <td>ISO 19103:2024 Geographic Information - Conceptual schema language [[iso19103]] </td>
       <td>INSPIRE: Methodology for the development of data specifications [[inspire-mds]] </td>
       <td>NEN 3610:2022 Basismodel Geo-informatie. [[NEN3610]] </td>
      </tr>
@@ -91,7 +91,7 @@ Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 famil
       <td> </td>
      </tr>
     <tr>
-      <td>ISO 19109 Geographic information - Rules for application schema [[iso19109]] </td>
+      <td>ISO 19109:2025 Geographic information - General feature model and rules for application schema [[iso19109]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -116,7 +116,7 @@ Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 famil
       <td> </td>
      </tr>
     <tr>
-      <td>OGC Observations, measurements and samples version 3.0 [[OMS3]] </td>
+      <td>OGC Observations, measurements and samples version 3.0 [[OMS3]] (= ISO 19156:2023 [[iso19156]]) </td>
       <td> </td>
       <td> </td>
      </tr>

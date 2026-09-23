@@ -77,7 +77,7 @@ In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen
      </tr>
    <tr>
       <td> </td>
-      <td>GeoDCAT Application Profile for data portals in Europe version 3.0.0 [[geodcat-ap]] </td>
+      <td>GeoDCAT Application Profile for data portals in Europe version 3.1.0 [[geodcat-ap]] </td>
       <td> </td>
      </tr>
       </tbody>

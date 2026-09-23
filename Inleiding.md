@@ -74,7 +74,7 @@ De [‘pas toe of leg uit’-lijst](https://www.forumstandaardisatie.nl/open-sta
 
 **INSPIRE Richtlijn**
 
-Sinds 15 mei 2007 is de Europese kaderrichtlijn INSPIRE van kracht. Deze richtlijn heeft geleid tot de realisatie van de Europese geo-informatie infrastructuur. De invoering van INSPIRE is met een implementatiewet sinds 2009 in de Nederlandse <a href='https://wetten.overheid.nl/BWBR0026158/2022-05-01' target='_blank'>INSPIRE wet</a> verankerd. In een notendop verplicht de wet Europese lidstaten om geo-informatie (datasets) over 34 thema's te voorzien van metadata en de datasets ‘as is’ en Europees geharmoniseerd beschikbaar te stellen via netwerkdiensten (zoek-, view- en downloaddiensten). Dit alles volgens leveringsvoorwaarden die het gebruik niet onnodig belemmeren.
+Sinds 15 mei 2007 is de Europese kaderrichtlijn INSPIRE van kracht. Deze richtlijn heeft geleid tot de realisatie van de Europese geo-informatie infrastructuur. De invoering van INSPIRE is met een implementatiewet sinds 2009 in de Nederlandse <a href='https://wetten.overheid.nl/BWBR0026158/' target='_blank'>INSPIRE wet</a> verankerd. In een notendop verplicht de richtlijn de Europese lidstaten, en de Nederlandse wet de betrokken overheidsorganisaties, om geo-informatie (datasets) over 34 thema's te voorzien van metadata en de datasets ‘as is’ en Europees geharmoniseerd beschikbaar te stellen via netwerkdiensten (zoek-, view- en downloaddiensten). Dit alles volgens leveringsvoorwaarden die het gebruik niet onnodig belemmeren.
 De Europese kaderrichtlijn INSPIRE is in detail uitgewerkt in invoeringsregels, en voorzien van technische richtlijnen. Deze invoeringsregels en technische richtlijnen hebben geleid tot Europese profielen voor geostandaarden. Deze profielen zijn waar mogelijk ook verwerkt in Nederlandse profielen voor metadata, diverse data specificaties (informatiemodellen) en bijbehorende netwerkdiensten (API's).
 De in het Raamwerk genoemde Europese profielen voor geostandaarden volgen de lijn van de Europese geo-informatie infrastructuur volgens INSPIRE.
 
@@ -105,7 +105,7 @@ Praktijkrichtlijnen zijn producten die informatie geven, vaak met een technisch 
 Op zichzelf staande documentatie die als doel heeft een hulpmiddel te zijn, niet verplichtend maar ondersteunend.
 
 **Werkafspraak**
-Legt uit hoe wetgeving moet worden toegepast bij onduidelijkheden, discrepanties of fouten in de standaarden.
+Legt uit hoe een standaard moet worden toegepast bij onduidelijkheden, discrepanties of fouten in de standaard, of in relatie tot wetgeving.
 
 **Beheerdocumentatie**
 Documentatie met betrekking tot het beheerproces van de standaard. Deze
@@ -116,8 +116,7 @@ vastleggen van stappen in het dagelijkse werkproces, planning of hoe de helpdesk
 
 ## Leeswijzer
 
-Het Raamwerk van geostandaarden is vergeleken met de vorige versie teruggebracht naar een uitgebreide vorm, waarin de samenhang van de
-geostandaarden is benoemd en de geostandaarden zijn opgenomen als internationale standaard en indien van toepassing met de Europese en nationale toepassingsprofielen. 
+In het Raamwerk van geostandaarden is de samenhang van de geostandaarden benoemd. De geostandaarden zijn opgenomen als internationale standaard en, indien van toepassing, met de Europese en nationale toepassingsprofielen. 
 
 Dit eerste hoofdstuk biedt achtergrondinformatie over het document. [Hoofdstuk 2](#geostandaarden-in-samenhang)
 beschrijft enige context en de geostandaarden in samenhang. 

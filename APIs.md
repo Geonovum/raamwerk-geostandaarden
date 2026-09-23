@@ -17,7 +17,7 @@ ervoor dat een applicatie automatisch toegang krijgt tot de data.
 
 > Denk bij het maken, gebruiken of doorontwikkelen van API's aan de volgende onderwerpen:
   - Uitfaseren van WMS/WFS en inzetten op de nieuwe generatie OGC API's.
-  - De huidige versie van de OGC API's is nog gebaseerd op OAS 3.0.x, ondersteuning voor OAS 3.1 (json schema compatibiliteit) zit eraan te komen.
+  - De huidige OGC API-standaarden zijn gebaseerd op OpenAPI 3.0.x. Nieuwere versies van OpenAPI (3.1 en hoger, met volledige JSON Schema-compatibiliteit) worden nog niet door alle OGC API-standaarden ondersteund; controleer dit per standaard.
   - De OGC API Standaarden worden nog verder uitgebreid, dit gebeurt via zogenaamde 'parts', 
   check welke parts er aan komen met aanvullende functionaliteit die relevant kan zijn voor het beoogde gebruik. Deze informatie is terug te vinden op de 'Roadmap' van het OGC.
   - De OGC API's sluiten aan bij de API Design Rules van het Kennisplatform API's.
@@ -39,7 +39,7 @@ In het overzicht van geostandaarden voor API's zijn de standaarden per thema in 
 -   API standaarden en specificaties voor het opvragen (downloaden) van
     rasterdata: OGC WCS en OGC API Coverages (sectie 5.5);
 -   API Standaarden en specificaties voor het opvragen (downloaden) van
-    sensordata: OGC SOS, OGC SensorThings API en OGC API Environmental Data Retrieval (sectie 5.6);
+    sensordata: OGC SOS, OGC SensorThings API, OGC API Environmental Data Retrieval en OGC API Connected Systems (sectie 5.6);
 -   API Standaarden en specificaties voor bevragen van metadata catalogi: OGC
     CSW en OGC API Records (sectie 5.7);
 -   API standaarden en specificaties voor opvragen van kaarttegels: OGC WMTS,
@@ -203,7 +203,7 @@ Handreikingen voor implementatie:
 
 ## Sensordata API's 
 
-*Tabel 5.4 – API Standaarden en specificaties voor sensordata: OGC SOS, EDR API en SensorThings API*
+*Tabel 5.4 – API Standaarden en specificaties voor sensordata: OGC SOS, EDR API, SensorThings API en Connected Systems API*
 
 <table>
   <colgroup>
@@ -231,6 +231,16 @@ Handreikingen voor implementatie:
      </tr>
     <tr>
       <td>OGC API - Environmental Data Retrieval Standard, version 1.1 [[OAPIEDR]] </td>
+      <td> </td>
+      <td> </td>
+     </tr>
+    <tr>
+      <td>OGC API - Connected Systems - Part 1: Feature Resources, version 1.0 [[OAPICS1]] </td>
+      <td> </td>
+      <td> </td>
+     </tr>
+    <tr>
+      <td>OGC API - Connected Systems - Part 2: Dynamic Data, version 1.0 [[OAPICS2]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -356,13 +366,13 @@ Handreikingen voor implementatie:
 
 In de Nederlandse API Strategie en de API Design Rules worden diverse aanbevelingen gedaan voor de kwaliteit van API's. 
 
-De Nederlandse API Strategie [[NLAPIS]] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen zijn aangemeld voor plaatsing op de ‘pas toe of leg uit’-lijst van het Forum Standaardisatie. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. 
+De Nederlandse API Strategie [[NLAPIS]] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen, de API Design Rules, staan op de ‘pas toe of leg uit’-lijst van het Forum Standaardisatie en worden beheerd door Logius. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. 
 
 De [API Design Rules](https://forumstandaardisatie.nl/open-standaarden/rest-api-design-rules) zijn een lijst afspraken, die ontwikkelaars volgen tijdens het bouwen van een REST-API voor de publieke sector. Door de regels te hanteren wordt de API voorspelbaar. En dat is prettig voor andere ontwikkelaars die er gebruik van willen maken. Dankzij deze regels blijft het makkelijk voor organisaties om gegevens met elkaar uit te wisselen. 
 
 **Afspraken over quality of service**
 
-Het is van belang om als service provider afspraken te maken met de service afnemers over de dienstverlening. Om de kwaliteit van een service uit te drukken zijn door INSPIRE bijvoorbeeld de drie typen kwaliteitsnormen voor services gedefinieerd (tabel 5.8).
+Het is van belang om als service provider afspraken te maken met de service afnemers over de dienstverlening. Om de kwaliteit van een service uit te drukken zijn door INSPIRE bijvoorbeeld drie typen kwaliteitsnormen voor netwerkdiensten gedefinieerd in de [verordening netwerkdiensten](https://eur-lex.europa.eu/eli/reg/2009/976/oj) (tabel 5.8).
 
 *Tabel 5.8 – Voorbeeld van kwaliteitsnormen voor services*
 
@@ -381,17 +391,17 @@ Het is van belang om als service provider afspraken te maken met de service afne
   </thead>
   <tbody>
     <tr>
-      <td>Reliability </td>
-      <td>Reliability verwijst naar de hoeveelheid gefaalde requests die een systeem mag teruggeven in een afgesproken tijd. </td>
-      <td>Bijvoorbeeld 10 \* een gefaalde request voor een geo-service per week. </td>
+      <td>Capaciteit </td>
+      <td>Het aantal gelijktijdige verzoeken dat een service met gegarandeerde performance kan afhandelen. </td>
+      <td>Bijvoorbeeld minimaal 20 gelijktijdige verzoeken per seconde voor een view service. </td>
      </tr>
     <tr>
       <td>Beschikbaarheid </td>
-      <td>Beschikbaarheid meet het percentage van beschikbaarheid (uptime). Het uptime percentage = uptime / (uptime + downtime). </td>
-      <td>Bijvoorbeeld de geo-service dient in 98% van de requests beschikbaar te zijn. </td>
+      <td>Beschikbaarheid meet het percentage van de tijd dat de service beschikbaar is (uptime). Het uptime percentage = uptime / (uptime + downtime). </td>
+      <td>Bijvoorbeeld de geo-service dient 99% van de tijd beschikbaar te zijn. </td>
      </tr>
     <tr>
-      <td>Performance / response tijd </td>
+      <td>Performance (responstijd) </td>
       <td>De performance uitgedrukt in response tijd. </td>
       <td>Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden. </td>
      </tr>

@@ -328,12 +328,11 @@ var respecConfig =
     },
     "geodcat-ap":
     {
-      title: "GeoDCAT-AP 3.0.0",
-      href: "https://semiceu.github.io/GeoDCAT-AP/releases/3.0.0/",
-      //status:       "",
-      //authors:      "",
+      title: "GeoDCAT-AP 3.1.0",
+      href: "https://semiceu.github.io/GeoDCAT-AP/releases/3.1.0/",
+      status: "SEMIC Recommendation",
       publisher: "European Commission",
-      date: "04 October 2024",
+      date: "16 February 2026",
     },
     "SLD11":
     {
@@ -574,12 +573,12 @@ var respecConfig =
     "adr-mod-geo":
     {
       title: "API Design rules Module: Geospatial",
-      href: "https://docs.geostandaarden.nl/api/API-Strategie-mod-geo/",
+      href: "https://gitdocumentatie.logius.nl/publicatie/api/mod-geo/",
       status: "Vastgestelde versie",
-      publisher: "Geonovum",
+      publisher: "Logius",
       editors: ["Linda van den Brink"],
       authors: ["Pieter Bresters", "Linda van den Brink", "Paul van Genuchten", "George Mathijssen", "Mark Strijker"],
-      date: "23 mei 2023",
+      date: "7 maart 2024",
     },
     "WCS21":
     {
@@ -650,6 +649,22 @@ var respecConfig =
       publisher: "INSPIRE Maintenance and Implementation Group (MIG)",
       //editors:    ["Steve Liang","Tania Khalafbeigi"],
       //date:       "2019-01-08",
+    },
+    "OAPICS1":
+    {
+      title: "OGC 23-001: OGC API - Connected Systems - Part 1: Feature Resources, Version 1.0",
+      href: "https://docs.ogc.org/is/23-001/23-001.html",
+      status: "Approved",
+      publisher: "Open Geospatial Consortium (OGC)",
+      date: "2026-02-18",
+    },
+    "OAPICS2":
+    {
+      title: "OGC 23-002: OGC API - Connected Systems - Part 2: Dynamic Data, Version 1.0",
+      href: "https://docs.ogc.org/is/23-002/23-002.html",
+      status: "Approved",
+      publisher: "Open Geospatial Consortium (OGC)",
+      date: "2026-02-18",
     },
     "OAPIEDR":
     {
@@ -726,13 +741,13 @@ var respecConfig =
     },
     "MIM":
     {
-      title: "MIM - Metamodel Informatie Modellering",
+      title: "MIM - Metamodel Informatie Modellering, versie 1.2",
       href: "https://docs.geostandaarden.nl/mim/mim/",
       status: "Vastgesteld",
       publisher: "Geonovum",
       editors: ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
       authors: ["Lennart van Bergen", "Thies Mesdag", "Marco Brattinga", "Paul Janssen", "Pano Maria", "Johan Boer"],
-      date: "2022-02-17",
+      date: "2024-06-13",
     },
     "NEN3610":
     {
@@ -750,13 +765,13 @@ var respecConfig =
       publisher: "ISO",
       date: "2009-11",
     },
-    "isots19127":
+    "iso19127":
     {
-      title: "ISO/TS 19127:2005- Geographic information — Geodetic codes and parameters",
-      href: "https://www.iso.org/standard/41784.html",
+      title: "ISO 19127:2019 Geographic information — Geodetic register",
+      href: "https://www.iso.org/standard/67252.html",
       status: "Published",
       publisher: "ISO",
-      date: "2005-06",
+      date: "2019",
     },
     "iso19101":
     {
@@ -768,11 +783,11 @@ var respecConfig =
     },
     "iso19103":
     {
-      title: "ISO 19103:2015 Geographic information — Conceptual schema language",
-      href: "https://www.iso.org/standard/56734.html",
+      title: "ISO 19103:2024 Geographic information — Conceptual schema language",
+      href: "https://www.iso.org/standard/83454.html",
       status: "Published",
       publisher: "ISO",
-      date: "December 2015",
+      date: "September 2024",
     },
     "iso19107":
     {
@@ -792,11 +807,11 @@ var respecConfig =
     },
     "iso19109":
     {
-      title: "ISO 19109:2015 Geographic information — Rules for application schema",
-      href: "https://www.iso.org/standard/59193.html",
+      title: "ISO 19109:2025 Geographic information — General feature model and rules for application schema",
+      href: "https://www.iso.org/standard/84700.html",
       status: "Published",
       publisher: "ISO",
-      date: "December 2015",
+      date: "2025",
     },
     "iso19110":
     {
@@ -952,11 +967,12 @@ var respecConfig =
     },
     "JSON-FG":
     {
-      title: "OGC Features and Geometries JSON - Part 1: Core version 0.3",
-      href: "https://docs.ogc.org/DRAFTS/21-045.html",
-      status: "Draft",
+      title: "OGC 21-045r1: OGC Features and Geometries JSON - Part 1: Core, version 1.0",
+      href: "https://docs.ogc.org/is/21-045r1/21-045r1.html",
+      status: "Approved",
       publisher: "Open Geospatial Consortium",
       editors: ["Clemens Portele", "Panagiotis (Peter) A. Vretanos"],
+      date: "2026-05-21",
     },
     "GIMEG":
     {
@@ -1075,6 +1091,14 @@ var respecConfig =
       editors: ["James Tomkins", "Dominic Lowe"],
       //date:     "2016-09-09",
     },
+    "iso19156":
+    {
+      title: "ISO 19156:2023 Geographic information — Observations, measurements and samples",
+      href: "https://www.iso.org/standard/82463.html",
+      status: "Published",
+      publisher: "ISO",
+      date: "April 2023",
+    },
     "OMS3":
     {
       title: "OGC Abstract Specification Topic 20: Observations, measurements and samples version 3.0.0",
@@ -1087,7 +1111,7 @@ var respecConfig =
     "IMMetingen":
     {
       title: "Informatiemodel Metingen",
-      href: "https://www.sikb.nl/datastandaarden/richtlijnen/sikb0101",
+      href: "https://www.aquo.nl/index.php/IM_Metingen",
       status: "Vastgesteld",
       publisher: "SIKB en IHW",
       //editors:  [],
@@ -1110,6 +1134,13 @@ var respecConfig =
       publisher: "Open Geospatial Consortium",
       editors: ["Thomas H. Kolbe", "Tatjana Kutzner", "Carl Stephen Smyth", "Claus Nagel", "Carsten Roensdorf", "Charles Heazel"],
       date: "2021-09-13",
+    },
+    "CityGML3GML":
+    {
+      title: "OGC 21-006r2: OGC City Geography Markup Language (CityGML) Part 2: GML Encoding Standard version 3.0",
+      href: "https://docs.ogc.org/is/21-006r2/21-006r2.html",
+      status: "Approved",
+      publisher: "Open Geospatial Consortium",
     },
     "CityJSON":
     {
