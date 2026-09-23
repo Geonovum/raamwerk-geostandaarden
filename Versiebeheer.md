@@ -17,14 +17,14 @@
   <tbody>
     <tr>
       <td>4.2</td>
-      <td>Februari 2026</td>
-      <td>ter vaststelling</td>
+      <td>September 2026</td>
+      <td>Actueel</td>
       <td>Versie met illustraties en samenvatting van de kernpunten per hoofdstuk om leesbaarheid te vergroten. Update naar WCAG 2.2. </td>
     </tr>
     <tr>
       <td>4.1</td>
       <td>Maart 2025</td>
-      <td>Actueel</td>
+      <td>Vervallen</td>
       <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen en enkele tekstuele updates. </td>
     </tr>
     <tr>

@@ -39,9 +39,10 @@ var respecConfig =
   title: "Raamwerk Geostandaarden 4.2",
   //-- specStatus is verplicht! (activeer 1 van de volgende) --------------------------
   //specStatus: "GN-BASIS",             // Basis Document
-  specStatus: "vv",                  // Werk Versie
+  //specStatus: "vv",                  // Werk Versie
   //specStatus: "GN-CV",                // Consultatie Versie
   //specStatus: "GN-VV",                // Vaststellings Versie
+  specStatus: "def",                  // Definitieve Versie
   //specStatus: "GN-DEF",               // Definitieve Versie
   //-- specType is verplicht bij alle andere dan BASIS ---------------------------------
   //specType: "NO",                   // Norm
@@ -55,7 +56,7 @@ var respecConfig =
   format: "markdown",                 // altijd "markdown" - JvG W3C aangepast, op 1 plek markdown aangeven    
   //-- publishDate is verplicht -------------------------------------------------------
   //-- NB: in de werkversie uitzetten, want dan pakt Respec de pushdate ---------------
-  publishDate: "2026-04-01",  	    // Format is "YYYY-MM-DD"
+  publishDate: "2026-09-23",  	    // Format is "YYYY-MM-DD"
   //-- Repositorynaam op GitHub -------------------------------------------------------
   github: "https://github.com/geonovum/raamwerk-geostandaarden",
   //-- Repositorynaam/issues op GitHub ------------------------------------------------
@@ -136,10 +137,10 @@ var respecConfig =
   license: "cc-by",                 // Attribution, met bronvermelding
   publishVersion: " ",                
   //-- Voor dit blok geldt: alleen als er eerdere versies zijn en altijd beiden aan/uit! 
-  previousPublishDate: "2025-03-25",  	    // Format is "YYY-MM-DD"
+  previousPublishDate: "2026-04-01",  	    // Format is "YYY-MM-DD"
   //previousMaturity: "GN-CV",                   // kies 1 van deze 2 regels  	  
   //previousMaturity: "GN-VV",  	                // kies 1 van deze 2 regels
-  previousMaturity: "def",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
+  previousMaturity: "vv",  	                // kies 1 van deze 2 regels wilko heeft deze derde regel toegevoegd.
 
   //-- localBiblio: lokale bibliografie, voor verwijzigingen
   //-- NB: kijk eerst naar de beschikbare www.specref.org voor verwijziging 
