@@ -58,7 +58,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
   </thead>
   <tbody>
     <tr>
-      <td>ISO 19107 Geographic information - Spatial Schema [[iso19107]] </td>
+      <td>ISO 19107 Geographic information - Spatial Schema [[ISO-19107-2003]] </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td> </td>
      </tr>

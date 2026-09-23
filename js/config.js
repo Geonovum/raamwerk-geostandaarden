@@ -741,6 +741,16 @@ var respecConfig =
       publisher: "NEN",
       date: "1 jun. 2022",
     },
+    "ISO19107-2003":
+    {
+      title: "ISO 19107:2019 Geographic information — Spatial schema",
+      href: "https://www.iso.org/standard/66175.html",
+      status: "Published",
+      publisher: "ISO",
+      //editors:    ["Dick Krijtenburg", "Paul Janssen", "Lennart van Bergen"],
+      //authors:    ["Lennart van Bergen","Thies Mesdag", "Marco Brattinga","Paul Janssen", "Pano Maria", "Johan Boer"],
+      date: "2019-12",
+    },
     "iso19126-2009":
     {
       title: "ISO 19126:2009 Geographic information - Feature concept dictionaries and registers",
@@ -844,6 +854,14 @@ var respecConfig =
       status: "Published",
       publisher: "ISO",
       date: "January 2020",
+    },
+    "isots19127":
+    {
+      title: "ISO/TS 19127 Geographic Information - Geodetic codes and parameters",
+      href: "https://www.iso.org/standard/41784.html",
+      status: "Published",
+      publisher: "ISO",
+      date: "June 2005",
     },
     "iso6709":
     {
