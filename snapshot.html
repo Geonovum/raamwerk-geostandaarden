@@ -1,7 +1,7 @@
 <!DOCTYPE html><html lang="nl"><head>
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta content="text/html; charset=utf-8" http-equiv="content-type">
-<meta name="generator" content="ReSpec 35.8.0">
+<meta name="generator" content="ReSpec 37.2.0">
 <style>
 span.example-title{text-transform:none}
 :is(aside,div).example,div.illegal-example{padding:.5em;margin:1em 0;position:relative;clear:both}
@@ -36,6 +36,7 @@ dfn{cursor:pointer}
 .dfn-panel .marker{padding:.1em;margin-left:.5em;border-radius:.2em;text-align:center;white-space:nowrap;font-size:90%;color:#040b1c}
 .dfn-panel .marker.dfn-exported{background:#d1edfd;box-shadow:0 0 0 .125em #1ca5f940}
 .dfn-panel .marker.idl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
+.dfn-panel .marker.cddl-block{background:#8ccbf2;box-shadow:0 0 0 .125em #0670b161}
 .dfn-panel a:not(:hover){text-decoration:none!important;border-bottom:none!important}
 .dfn-panel a[href]:hover{border-bottom-width:1px}
 .dfn-panel ul{padding:0}
@@ -83,7 +84,7 @@ dfn{cursor:pointer}
 
           
           
-<link rel="stylesheet" href="./css/blockqoute.css">
+<link rel="stylesheet" href="./css/blockquote.css">
      
 <style id="respec-mainstyle">
 @keyframes pop{
@@ -101,13 +102,17 @@ a.bibref{text-decoration:none}
 .respec-offending-element{background:url(data:image/gif;base64,R0lGODdhBAADAPEAANv///8AAP///wAAACwAAAAABAADAEACBZQjmIAFADs=) bottom repeat-x}
 }
 #references :target{background:#eaf3ff;animation:pop .4s ease-in-out 0s 1}
+@media (prefers-color-scheme:dark){
+#references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
+}
+body:has(input[name=color-scheme][value=dark]:checked) #references :target{background:color-mix(in srgb, #eaf3ff 15%, transparent)}
 cite .bibref{font-style:italic}
 a[href].orcid{padding-left:4px;padding-right:4px}
 a[href].orcid>svg{margin-bottom:-2px}
 ol.tof,ul.tof{list-style:none outside none}
 .caption{margin-top:.5em;font-style:italic}
 #issue-summary>ul{column-count:2}
-#issue-summary li{list-style:none;display:inline-block}
+#issue-summary li{list-style:none}
 details.respec-tests-details{margin-left:1em;display:inline-block;vertical-align:top}
 details.respec-tests-details>*{padding-right:2em}
 details.respec-tests-details[open]{z-index:999999;position:absolute;border:thin solid #cad3e2;border-radius:.3em;background-color:#fff;padding-bottom:.5em}
@@ -116,7 +121,8 @@ details.respec-tests-details>ul{width:100%;margin-top:-.3em}
 details.respec-tests-details>li{padding-left:1em}
 .self-link:hover{opacity:1;text-decoration:none;background-color:transparent}
 aside.example .marker>a.self-link{color:inherit}
-.header-wrapper{display:flex;align-items:baseline;position:relative;left:-.5em}
+.header-wrapper{display:flex;align-items:baseline}
+:is(h2,h3,h4,h5,h6):not(#toc>h2,#abstract>h2,#sotd>h2,.head>h2):has(+a.self-link){position:relative;left:-.5em}
 :is(h2,h3,h4,h5,h6):not(#toch2)+a.self-link{color:inherit;order:-1;position:relative;left:-.7em;font-size:1rem;opacity:.5}
 :is(h2,h3,h4,h5,h6)+a.self-link::before{content:"§";text-decoration:none;color:var(--heading-text)}
 :is(h2,h3)+a.self-link{top:-.2em}
@@ -127,6 +133,8 @@ dd{margin-left:0}
 @media print{
 .removeOnSave{display:none}
 }
+body:has(input[name=color-scheme][value=light]:checked),head:not(:has(meta[name=color-scheme][content~=dark]))+body{color-scheme:light}
+body:has(input[name=color-scheme][value=dark]:checked){color-scheme:dark}
 </style>
 <style id="respec-nlgov">
 img.license{float:left;padding-right:5px;background:0 0}
@@ -1580,10 +1588,10 @@ img.license{float:left;padding-right:5px;background:0 0}
     }
   },
   "title": "Raamwerk Geostandaarden 4.2",
-  "specStatus": "vv",
+  "specStatus": "def",
   "specType": "HR",
   "format": "markdown",
-  "publishDate": "2026-04-01",
+  "publishDate": "2026-09-23",
   "github": "https://github.com/geonovum/raamwerk-geostandaarden",
   "issueBase": "https://github.com/geonovum/raamwerk-geostandaarden/issues",
   "editors": [
@@ -1633,8 +1641,8 @@ img.license{float:left;padding-right:5px;background:0 0}
   "shortName": "rw",
   "pubDomain": "rwgs",
   "publishVersion": " ",
-  "previousPublishDate": "2025-03-25",
-  "previousMaturity": "def"
+  "previousPublishDate": "2026-04-01",
+  "previousMaturity": "vv"
 }</script>
 <link rel="stylesheet" href="https://tools.geostandaarden.nl/respec/style/base.css"></head>
      
@@ -1644,12 +1652,12 @@ img.license{float:left;padding-right:5px;background:0 0}
     
     <h2>
       Geonovum Handreiking<br>
-      Versie ter vaststelling
-      <time class="dt-published" datetime="2026-04-01">01 april 2026</time>
+      Vastgestelde versie
+      <time class="dt-published" datetime="2026-09-23">23 september 2026</time>
     </h2>
     <dl>
       <dt>Deze versie:</dt><dd class="status">
-              <a class="u-url status" href="https://docs.geostandaarden.nl/rwgs/vv-hr-rw-20260401">https://docs.geostandaarden.nl/rwgs/vv-hr-rw-20260401</a>
+              <a class="u-url status" href="https://docs.geostandaarden.nl/rwgs/def-hr-rw-20260923">https://docs.geostandaarden.nl/rwgs/def-hr-rw-20260923</a>
             </dd>
       <dt>Laatst gepubliceerde versie:</dt><dd>
               <a href="https://docs.geostandaarden.nl/rwgs/rw/">https://docs.geostandaarden.nl/rwgs/rw/</a>
@@ -1658,7 +1666,7 @@ img.license{float:left;padding-right:5px;background:0 0}
       
       
       
-      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/rwgs/def-hr-rw-20250325">https://docs.geostandaarden.nl/rwgs/def-hr-rw-20250325</a></dd>
+      <dt>Vorige versie:</dt><dd><a href="https://docs.geostandaarden.nl/rwgs/vv-hr-rw-20260401">https://docs.geostandaarden.nl/rwgs/vv-hr-rw-20260401</a></dd>
       
       <dt>Redacteur:</dt>
       <dd class="editor p-author h-card vcard">
@@ -1683,7 +1691,9 @@ img.license{float:left;padding-right:5px;background:0 0}
       <dt>Doe mee:</dt><dd>
     <a href="https://github.com/geonovum/raamwerk-geostandaarden/">GitHub geonovum/raamwerk-geostandaarden</a>
   </dd><dd>
-    <a href="https://github.com/geonovum/raamwerk-geostandaarden/issues/">Dien een melding in</a>
+    <a href="https://github.com/geonovum/raamwerk-geostandaarden/issues/">All issues</a>
+  </dd><dd>
+    <a href="https://github.com/geonovum/raamwerk-geostandaarden/issues/new/choose">Dien een melding in</a>
   </dd><dd>
     <a href="https://github.com/geonovum/raamwerk-geostandaarden/commits/">Revisiehistorie</a>
   </dd><dd>
@@ -1698,23 +1708,18 @@ img.license{float:left;padding-right:5px;background:0 0}
             <a rel="license" href="https://creativecommons.org/licenses/by/4.0/legalcode" class="subfoot"><img class="license" src="https://docs.geostandaarden.nl/media/cc-by.svg" alt="Logo Creative Commons Attribution 4.0 International Public License"><br> Creative Commons Attribution 4.0 International Public License</a>
           </p>
     <hr title="Separator for header">
-  </div>
-          <section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Bij de opzet en ontwikkeling van een geo-informatie infrastructuur is het de uitdaging om steeds de juiste set standaarden te kiezen. Het Raamwerk van Geostandaarden helpt daarbij. Het benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.</p>
+  </div><section id="abstract" class="introductory"><h2>Samenvatting</h2><p>Bij de opzet en ontwikkeling van een geo-informatie infrastructuur is het de uitdaging om steeds de juiste set standaarden te kiezen. Het Raamwerk van Geostandaarden helpt daarbij. Het benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.</p>
 </section>
-          
-          
-          
-          <section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve conceptversie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel-en-doelgroep-van-het-raamwerk"><bdi class="secno">1.1 </bdi>Doel en doelgroep van het raamwerk</a></li><li class="tocline"><a class="tocxref" href="#status-van-het-raamwerk"><bdi class="secno">1.2 </bdi>Status van het raamwerk</a></li><li class="tocline"><a class="tocxref" href="#standaarden-documentatie"><bdi class="secno">1.3 </bdi>Standaarden documentatie</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.4 </bdi>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#geostandaarden-in-samenhang"><bdi class="secno">2. </bdi>Geostandaarden in samenhang</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nationale-geo-informatie-infrastructuur"><bdi class="secno">2.1 </bdi>Nationale geo-informatie infrastructuur</a></li><li class="tocline"><a class="tocxref" href="#fair-principes"><bdi class="secno">2.2 </bdi>FAIR principes</a></li><li class="tocline"><a class="tocxref" href="#internationale-standaarden"><bdi class="secno">2.3 </bdi>Internationale standaarden</a></li><li class="tocline"><a class="tocxref" href="#bomos"><bdi class="secno">2.4 </bdi>BOMOS</a></li></ol></li><li class="tocline"><a class="tocxref" href="#informatiemodellen"><bdi class="secno">3. </bdi>Informatiemodellen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nen-3610-basismodel-voor-informatiemodellen"><bdi class="secno">3.1 </bdi>NEN 3610 - Basismodel voor informatiemodellen</a></li><li class="tocline"><a class="tocxref" href="#samenhang-internationale-en-nationale-standaarden"><bdi class="secno">3.2 </bdi>Samenhang internationale en nationale standaarden</a></li><li class="tocline"><a class="tocxref" href="#mim-metamodel-voor-informatiemodellering"><bdi class="secno">3.3 </bdi>MIM - Metamodel voor Informatiemodellering</a></li><li class="tocline"><a class="tocxref" href="#overzicht-standaarden-informatiemodellen-voor-nederland"><bdi class="secno">3.4 </bdi>Overzicht standaarden informatiemodellen voor Nederland</a></li><li class="tocline"><a class="tocxref" href="#afstemming-begrippenkaders"><bdi class="secno">3.5 </bdi>Afstemming begrippenkaders</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-van-informatiemodellen"><bdi class="secno">3.6 </bdi>Kwaliteit van informatiemodellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#visualisatie"><bdi class="secno">4. </bdi>Visualisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-visualisatie"><bdi class="secno">4.1 </bdi>Overzicht geostandaarden visualisatie</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-en-visualisatie"><bdi class="secno">4.2 </bdi>Kwaliteit en visualisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#visualisatieregels-data-producten-en-informatiemodellen"><bdi class="secno">4.2.1 </bdi>Visualisatieregels data producten en informatiemodellen</a></li><li class="tocline"><a class="tocxref" href="#kaartvisualisatie-voor-webapplicaties"><bdi class="secno">4.2.2 </bdi>Kaartvisualisatie voor webapplicaties</a></li><li class="tocline"><a class="tocxref" href="#handreiking-3d-tiling"><bdi class="secno">4.2.3 </bdi>Handreiking 3D Tiling</a></li><li class="tocline"><a class="tocxref" href="#toegankelijkheid-geo-informatie"><bdi class="secno">4.2.4 </bdi>Toegankelijkheid &amp; geo-informatie</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#application-programming-interfaces"><bdi class="secno">5. </bdi>Application Programming Interfaces</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#transitie-naar-nieuwe-generatie-api-s"><bdi class="secno">5.1 </bdi>Transitie naar nieuwe generatie API's</a></li><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-api-s"><bdi class="secno">5.2 </bdi>Overzicht geostandaarden API’s</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#apis-en-linked-data"><bdi class="secno">5.2.1 </bdi>APIs en Linked Data</a></li></ol></li><li class="tocline"><a class="tocxref" href="#web-mapping-api-s"><bdi class="secno">5.3 </bdi>Web mapping API's</a></li><li class="tocline"><a class="tocxref" href="#vectordata-api-s"><bdi class="secno">5.4 </bdi>Vectordata API's</a></li><li class="tocline"><a class="tocxref" href="#rasterdata-api-s"><bdi class="secno">5.5 </bdi>Rasterdata API's</a></li><li class="tocline"><a class="tocxref" href="#sensordata-api-s"><bdi class="secno">5.6 </bdi>Sensordata API's</a></li><li class="tocline"><a class="tocxref" href="#metadata-api-s"><bdi class="secno">5.7 </bdi>Metadata API's</a></li><li class="tocline"><a class="tocxref" href="#map-tile-apis"><bdi class="secno">5.8 </bdi>Map tile APIs</a></li><li class="tocline"><a class="tocxref" href="#linked-data-api-s"><bdi class="secno">5.9 </bdi>Linked Data API's</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-van-api-s"><bdi class="secno">5.10 </bdi>Kwaliteit van API’s</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitwisselformaten"><bdi class="secno">6. </bdi>Uitwisselformaten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-uitwisselformaten"><bdi class="secno">6.1 </bdi>Overzicht geostandaarden uitwisselformaten</a></li><li class="tocline"><a class="tocxref" href="#vectordata-uitwisselstandaarden"><bdi class="secno">6.2 </bdi>Vectordata uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#rasterdata-uitwisselstandaarden"><bdi class="secno">6.3 </bdi>Rasterdata uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#sensordata-uitwisselstandaarden"><bdi class="secno">6.4 </bdi>Sensordata uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#x3d-data-uitwisselstandaarden"><bdi class="secno">6.5 </bdi>3D data uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-en-uitwisselformaten"><bdi class="secno">6.6 </bdi>Kwaliteit en uitwisselformaten</a></li></ol></li><li class="tocline"><a class="tocxref" href="#metadata"><bdi class="secno">7. </bdi>Metadata</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-metadata"><bdi class="secno">7.1 </bdi>Overzicht geostandaarden metadata</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-van-metadata"><bdi class="secno">7.2 </bdi>Kwaliteit van metadata</a></li><li class="tocline"><a class="tocxref" href="#verkenning"><bdi class="secno">7.3 </bdi>Verkenning</a></li></ol></li><li class="tocline"><a class="tocxref" href="#coordinaatreferentiesystemen"><bdi class="secno">8. </bdi>Coördinaatreferentiesystemen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-standaarden-voor-coordinaatreferentiesystemen"><bdi class="secno">8.1 </bdi>Overzicht standaarden voor coördinaatreferentiesystemen</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-en-crs-en"><bdi class="secno">8.2 </bdi>Kwaliteit en CRS-en</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</a></li></ol></li></ol></nav>
 
-          
-          
-          
 
-          
-          
-          
-          
-          <div><p><strong>Versiebeheer</strong></p>
+
+<section id="sotd" class="introductory"><h2>Status van dit document</h2><p>Dit is de definitieve versie van dit document. Wijzigingen naar aanleiding van consultaties zijn doorgevoerd.</p></section><nav id="toc"><h2 class="introductory" id="inhoudsopgave">Inhoudsopgave</h2><ol class="toc"><li class="tocline"><a class="tocxref" href="#abstract">Samenvatting</a></li><li class="tocline"><a class="tocxref" href="#sotd">Status van dit document</a></li><li class="tocline"><a class="tocxref" href="#inleiding"><bdi class="secno">1. </bdi>Inleiding</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#doel-en-doelgroep-van-het-raamwerk"><bdi class="secno">1.1 </bdi>Doel en doelgroep van het raamwerk</a></li><li class="tocline"><a class="tocxref" href="#status-van-het-raamwerk"><bdi class="secno">1.2 </bdi>Status van het raamwerk</a></li><li class="tocline"><a class="tocxref" href="#standaarden-documentatie"><bdi class="secno">1.3 </bdi>Standaarden documentatie</a></li><li class="tocline"><a class="tocxref" href="#leeswijzer"><bdi class="secno">1.4 </bdi>Leeswijzer</a></li></ol></li><li class="tocline"><a class="tocxref" href="#geostandaarden-in-samenhang"><bdi class="secno">2. </bdi>Geostandaarden in samenhang</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nationale-geo-informatie-infrastructuur"><bdi class="secno">2.1 </bdi>Nationale geo-informatie infrastructuur</a></li><li class="tocline"><a class="tocxref" href="#fair-principes"><bdi class="secno">2.2 </bdi>FAIR principes</a></li><li class="tocline"><a class="tocxref" href="#internationale-standaarden"><bdi class="secno">2.3 </bdi>Internationale standaarden</a></li><li class="tocline"><a class="tocxref" href="#bomos"><bdi class="secno">2.4 </bdi>BOMOS</a></li></ol></li><li class="tocline"><a class="tocxref" href="#informatiemodellen"><bdi class="secno">3. </bdi>Informatiemodellen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#nen-3610-basismodel-voor-informatiemodellen"><bdi class="secno">3.1 </bdi>NEN 3610 - Basismodel voor informatiemodellen</a></li><li class="tocline"><a class="tocxref" href="#samenhang-internationale-en-nationale-standaarden"><bdi class="secno">3.2 </bdi>Samenhang internationale en nationale standaarden</a></li><li class="tocline"><a class="tocxref" href="#mim-metamodel-voor-informatiemodellering"><bdi class="secno">3.3 </bdi>MIM - Metamodel voor Informatiemodellering</a></li><li class="tocline"><a class="tocxref" href="#overzicht-standaarden-informatiemodellen-voor-nederland"><bdi class="secno">3.4 </bdi>Overzicht standaarden informatiemodellen voor Nederland</a></li><li class="tocline"><a class="tocxref" href="#afstemming-begrippenkaders"><bdi class="secno">3.5 </bdi>Afstemming begrippenkaders</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-van-informatiemodellen"><bdi class="secno">3.6 </bdi>Kwaliteit van informatiemodellen</a></li></ol></li><li class="tocline"><a class="tocxref" href="#visualisatie"><bdi class="secno">4. </bdi>Visualisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-visualisatie"><bdi class="secno">4.1 </bdi>Overzicht geostandaarden visualisatie</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-en-visualisatie"><bdi class="secno">4.2 </bdi>Kwaliteit en visualisatie</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#visualisatieregels-data-producten-en-informatiemodellen"><bdi class="secno">4.2.1 </bdi>Visualisatieregels data producten en informatiemodellen</a></li><li class="tocline"><a class="tocxref" href="#kaartvisualisatie-voor-webapplicaties"><bdi class="secno">4.2.2 </bdi>Kaartvisualisatie voor webapplicaties</a></li><li class="tocline"><a class="tocxref" href="#handreiking-3d-tiling"><bdi class="secno">4.2.3 </bdi>Handreiking 3D Tiling</a></li><li class="tocline"><a class="tocxref" href="#toegankelijkheid-geo-informatie"><bdi class="secno">4.2.4 </bdi>Toegankelijkheid &amp; geo-informatie</a></li></ol></li></ol></li><li class="tocline"><a class="tocxref" href="#application-programming-interfaces"><bdi class="secno">5. </bdi>Application Programming Interfaces</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#transitie-naar-nieuwe-generatie-api-s"><bdi class="secno">5.1 </bdi>Transitie naar nieuwe generatie API's</a></li><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-api-s"><bdi class="secno">5.2 </bdi>Overzicht geostandaarden API’s</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#apis-en-linked-data"><bdi class="secno">5.2.1 </bdi>APIs en Linked Data</a></li></ol></li><li class="tocline"><a class="tocxref" href="#web-mapping-api-s"><bdi class="secno">5.3 </bdi>Web mapping API's</a></li><li class="tocline"><a class="tocxref" href="#vectordata-api-s"><bdi class="secno">5.4 </bdi>Vectordata API's</a></li><li class="tocline"><a class="tocxref" href="#rasterdata-api-s"><bdi class="secno">5.5 </bdi>Rasterdata API's</a></li><li class="tocline"><a class="tocxref" href="#sensordata-api-s"><bdi class="secno">5.6 </bdi>Sensordata API's</a></li><li class="tocline"><a class="tocxref" href="#metadata-api-s"><bdi class="secno">5.7 </bdi>Metadata API's</a></li><li class="tocline"><a class="tocxref" href="#map-tile-apis"><bdi class="secno">5.8 </bdi>Map tile APIs</a></li><li class="tocline"><a class="tocxref" href="#linked-data-api-s"><bdi class="secno">5.9 </bdi>Linked Data API's</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-van-api-s"><bdi class="secno">5.10 </bdi>Kwaliteit van API’s</a></li></ol></li><li class="tocline"><a class="tocxref" href="#uitwisselformaten"><bdi class="secno">6. </bdi>Uitwisselformaten</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-uitwisselformaten"><bdi class="secno">6.1 </bdi>Overzicht geostandaarden uitwisselformaten</a></li><li class="tocline"><a class="tocxref" href="#vectordata-uitwisselstandaarden"><bdi class="secno">6.2 </bdi>Vectordata uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#rasterdata-uitwisselstandaarden"><bdi class="secno">6.3 </bdi>Rasterdata uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#sensordata-uitwisselstandaarden"><bdi class="secno">6.4 </bdi>Sensordata uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#x3d-data-uitwisselstandaarden"><bdi class="secno">6.5 </bdi>3D data uitwisselstandaarden</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-en-uitwisselformaten"><bdi class="secno">6.6 </bdi>Kwaliteit en uitwisselformaten</a></li></ol></li><li class="tocline"><a class="tocxref" href="#metadata"><bdi class="secno">7. </bdi>Metadata</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-geostandaarden-metadata"><bdi class="secno">7.1 </bdi>Overzicht geostandaarden metadata</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-van-metadata"><bdi class="secno">7.2 </bdi>Kwaliteit van metadata</a></li><li class="tocline"><a class="tocxref" href="#verkenning"><bdi class="secno">7.3 </bdi>Verkenning</a></li></ol></li><li class="tocline"><a class="tocxref" href="#coordinaatreferentiesystemen"><bdi class="secno">8. </bdi>Coördinaatreferentiesystemen</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#overzicht-standaarden-voor-coordinaatreferentiesystemen"><bdi class="secno">8.1 </bdi>Overzicht standaarden voor coördinaatreferentiesystemen</a></li><li class="tocline"><a class="tocxref" href="#kwaliteit-en-crs-en"><bdi class="secno">8.2 </bdi>Kwaliteit en CRS-en</a></li></ol></li><li class="tocline"><a class="tocxref" href="#references"><bdi class="secno">A. </bdi>Referenties</a><ol class="toc"><li class="tocline"><a class="tocxref" href="#informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</a></li></ol></li></ol></nav>
+
+
+
+
+
+<div><p><strong>Versiebeheer</strong></p>
 <table>
   <colgroup>
     <col style="width: 7.5%;">
@@ -1733,14 +1738,14 @@ img.license{float:left;padding-right:5px;background:0 0}
   <tbody>
     <tr>
       <td>4.2</td>
-      <td>Februari 2026</td>
-      <td>ter vaststelling</td>
+      <td>September 2026</td>
+      <td>Actueel</td>
       <td>Versie met illustraties en samenvatting van de kernpunten per hoofdstuk om leesbaarheid te vergroten. Update naar WCAG 2.2. </td>
     </tr>
     <tr>
       <td>4.1</td>
       <td>Maart 2025</td>
-      <td>Actueel</td>
+      <td>Vervallen</td>
       <td>Versie met diverse updates met verwijzingen naar normatieve en informatieve referenties, handreikingen en enkele tekstuele updates. </td>
     </tr>
     <tr>
@@ -1793,14 +1798,12 @@ img.license{float:left;padding-right:5px;background:0 0}
     </tr>
   </tbody>
 </table></div>	
-          <section id="inleiding"><div class="header-wrapper"><h2 id="x1-inleiding"><bdi class="secno">1. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 1."></a></div>
+<section id="inleiding"><div class="header-wrapper"><h2 id="x1-inleiding"><bdi class="secno">1. </bdi>Inleiding</h2><a class="self-link" href="#inleiding" aria-label="Permalink for Section 1."></a></div>
 <p><strong>Bij de opzet en ontwikkeling van een geo-informatie infrastructuur is het de uitdaging om steeds de juiste set standaarden te kiezen. Het Raamwerk van geostandaarden helpt daarbij. Het benoemt de internationale en nationale standaarden die voor Nederland binnen het geo-domein van toepassing zijn voor aansluiting met andere domeinen. Het raamwerk houdt rekening met aansluiting op de Europese geo-informatie infrastructuur en borgt integratie van het geo-informatie domein in de Nederlandse digitale overheid.</strong></p>
 <figure id="pd">
 <a href="media/Algemeen.png" target="_blank"><img src="media/Algemeen.png" alt="Schematische weergave van het Raamwerk van geostandaarden, voorgesteld als een gebouw waarin de samenhang van standaarden wordt geïllustreerd."></a>
 <figcaption><a class="self-link" href="#pd">Figuur <bdi class="figno">1</bdi></a> <span class="fig-title">Overzicht van het raamwerk geillustreerd aan de hand van een gebouw</span></figcaption>
-</figure>
-
-<section id="doel-en-doelgroep-van-het-raamwerk"><div class="header-wrapper"><h3 id="x1-1-doel-en-doelgroep-van-het-raamwerk"><bdi class="secno">1.1 </bdi>Doel en doelgroep van het raamwerk</h3><a class="self-link" href="#doel-en-doelgroep-van-het-raamwerk" aria-label="Permalink for Section 1.1"></a></div>
+</figure><section id="doel-en-doelgroep-van-het-raamwerk"><div class="header-wrapper"><h3 id="x1-1-doel-en-doelgroep-van-het-raamwerk"><bdi class="secno">1.1 </bdi>Doel en doelgroep van het raamwerk</h3><a class="self-link" href="#doel-en-doelgroep-van-het-raamwerk" aria-label="Permalink for Section 1.1"></a></div>
 <p>Het Raamwerk van geostandaarden is geschreven voor iedereen die geodatasets vastlegt, uitwisselt en beheert en voor iedereen die informatiebeleid maakt. 
 Het doel van het Raamwerk van geostandaarden is om uit de grote verscheidenheid aan standaarden de juiste set te kiezen: die standaarden die nodig zijn om geodata vindbaar, toegankelijk, uitwisselbaar en herbruikbaar te maken. Wij baseren de keuzes voor standaarden in het Raamwerk op de volgende uitgangspunten: internationale aansluiting, volwassenheid en openheid van deze geostandaarden en brede adoptie en gebruik. Het toepassen van de in dit raamwerk opgenomen geostandaarden draagt bij aan een solide geo-informatie infrastructuur, in lijn met internationale ontwikkelingen en aansluitend op de nationale digitale overheid.</p>
 </section><section id="status-van-het-raamwerk"><div class="header-wrapper"><h3 id="x1-2-status-van-het-raamwerk"><bdi class="secno">1.2 </bdi>Status van het raamwerk</h3><a class="self-link" href="#status-van-het-raamwerk" aria-label="Permalink for Section 1.2"></a></div>
@@ -1891,7 +1894,7 @@ beschrijft enige context en de geostandaarden in samenhang. </p>
 <p>In de hoofdstukken 3 tot en met 8 zijn voor deze zes categorieën lijsten van geldende geostandaarden opgenomen (naar een hiërarchie van internationale, Europese en nationale geostandaarden) en komen aspecten van kwaliteit van de geostandaarden en eventueel uitgevoerde verkenningen aan de orde.</p>
 <p>Tot slot, zijn alle <a href="#references">normatieve referenties</a> – de verwijzingen naar de officiële standaarden documentatie – opgenomen.</p>
 </section></section>
-          <section id="geostandaarden-in-samenhang"><div class="header-wrapper"><h2 id="x2-geostandaarden-in-samenhang"><bdi class="secno">2. </bdi>Geostandaarden in samenhang</h2><a class="self-link" href="#geostandaarden-in-samenhang" aria-label="Permalink for Section 2."></a></div>
+<section id="geostandaarden-in-samenhang"><div class="header-wrapper"><h2 id="x2-geostandaarden-in-samenhang"><bdi class="secno">2. </bdi>Geostandaarden in samenhang</h2><a class="self-link" href="#geostandaarden-in-samenhang" aria-label="Permalink for Section 2."></a></div>
 <p><strong>Er zijn verschillende standaarden voor het vindbaar, toegankelijk, uitwisselbaar en herbruikbaar maken van geo-informatie. Het doel van het Raamwerk van geostandaarden is om uit de grote verscheidenheid aan standaarden voor geo-informatie, die geostandaarden te kiezen die passen bij de situatie, context en gestelde doelen. Elke standaard speelt een eigen rol en in samenhang toegepast zorgen ze voor de interoperabiliteit in een geo-informatie infrastructuur.</strong></p>
 <p>In dit hoofdstuk wordt belangrijke context voor het gebruik van geostandaarden beschreven, evenals de samenhang tussen de geostandaarden. Vanuit de nationale geo-informatie infrastructuur wordt inzicht gegeven in de wereld van de internationale standaarden, die richtinggevend zijn voor de Nederlandse geostandaarden. De nationale geo-informatie infrastructuur voldoet tevens aan de FAIR principes, hetgeen hier niet onvermeld mag blijven. De Nederlandse geostandaarden maken deel uit van de Nederlandse Overheids Referentie Architectuur (NORA) en worden beheerd volgens het Beheer- en OntwikkelModel voor Open Standaarden (kortweg BOMOS). </p>
 <section id="nationale-geo-informatie-infrastructuur"><div class="header-wrapper"><h3 id="x2-1-nationale-geo-informatie-infrastructuur"><bdi class="secno">2.1 </bdi>Nationale geo-informatie infrastructuur</h3><a class="self-link" href="#nationale-geo-informatie-infrastructuur" aria-label="Permalink for Section 2.1"></a></div>
@@ -1918,14 +1921,12 @@ beschrijft enige context en de geostandaarden in samenhang. </p>
 <p>Geonovum heeft het beheer van alle geostandaarden ingericht langs de lijnen van het <a href="https://www.logius.nl/diensten/bomos">Beheer- en Ontwikkelmodel voor Open Standaarden</a> (BOMOS). BOMOS is in beheer bij het Centrum voor Standaarden bij <a href="https://www.logius.nl/diensten/bomos">Logius</a>. 
 Geonovum gebruikt BOMOS voor alle standaarden die het in beheer heeft, om te garanderen dat deze open zijn volgens de definitie die BOMOS hieraan geeft. De toepassing van BOMOS zorgt er bovendien voor dat standaarden die Geonovum beheert en ontwikkelt in aanmerking komen voor plaatsing op de lijst verplichte standaarden en op de lijst met aanbevolen standaarden van het Forum Standaardisatie. Het gebruik van BOMOS voor het beheer van geostandaarden staat beschreven in <a href="https://docs.geostandaarden.nl/gbd/gsb/">beheerdocumentatie voor de geostandaarden</a>.</p>
 </section></section>
-          <section id="informatiemodellen"><div class="header-wrapper"><h2 id="x3-informatiemodellen"><bdi class="secno">3. </bdi>Informatiemodellen</h2><a class="self-link" href="#informatiemodellen" aria-label="Permalink for Section 3."></a></div>
+<section id="informatiemodellen"><div class="header-wrapper"><h2 id="x3-informatiemodellen"><bdi class="secno">3. </bdi>Informatiemodellen</h2><a class="self-link" href="#informatiemodellen" aria-label="Permalink for Section 3."></a></div>
 <p><strong>Een informatiemodel zet afspraken over begrippen en definities binnen een bepaald domein op een rij. Doordat alle partijen binnen het domein deze afspraken volgen, is het mogelijk om data van de verschillende partijen (door de tijd heen) te vergelijken, uit te wisselen en te hergebruiken. Dit vereenvoudigt de uitwisseling en hergebruik van informatie. In dit hoofdstuk beschrijven we de geostandaarden die de basis vormen van de informatiemodellen en beschrijvingen van geo-informatie.</strong></p>
 <figure id="pd1">
 <a href="media/Informatiemodellen.png" target="_blank"><img src="media/Informatiemodellen.png" alt="Schematische weergave van informatiemodellen en hun plaats in het Raamwerk van geostandaarden."></a>
 <figcaption><a class="self-link" href="#pd1">Figuur <bdi class="figno">2</bdi></a> <span class="fig-title">Informatiemodellen</span></figcaption>
-</figure>
-
-<blockquote>
+</figure><blockquote>
 <p>Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:</p>
 </blockquote>
 <ul>
@@ -1944,15 +1945,11 @@ De gebruiker van NEN 3610 is de informatiearchitect en informatiemodelleur, die 
 <figure id="pd-package">
 <a href="media/NEN3610StandaardenPackageDiagram.png" target="_blank"><img src="media/NEN3610StandaardenPackageDiagram.png" alt="UML packagediagram dat de relatie toont tussen nationale en internationale standaarden, NEN 3610 en sectorale informatiemodellen."></a>
 <figcaption><a class="self-link" href="#pd-package">Figuur <bdi class="figno">3</bdi></a> <span class="fig-title">UML Packagediagram van relatie tussen nationale -, internationale standaarden – NEN 3610 – sectorale modellen</span></figcaption>
-</figure>
-
-<p>Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen standaarden. NEN 3610 gebruikt bijvoorbeeld het MIM metamodel, afspraken uit ISO 19103 voor het gebruik van UML als modelleertaal, het geometriemodel uit ISO 19107, XML en linked data afspraken van W3C, het netwerkmodel uit INSPIRE Generic Conceptual Model (GCM). Sectorale modellen hergebruiken weer de NEN 3610 toepassing daarvan. In figuur 3.2 wordt de deze relatie tussen de verschillende kaders van standaarden in de NEN 3610 pyramide met domeinmodellen (de sectorale informatiemodellen) weergegeven.</p>
+</figure><p>Met het «import» statement wordt bedoeld dat een afhankelijkheid is tussen standaarden. NEN 3610 gebruikt bijvoorbeeld het MIM metamodel, afspraken uit ISO 19103 voor het gebruik van UML als modelleertaal, het geometriemodel uit ISO 19107, XML en linked data afspraken van W3C, het netwerkmodel uit INSPIRE Generic Conceptual Model (GCM). Sectorale modellen hergebruiken weer de NEN 3610 toepassing daarvan. In figuur 3.2 wordt de deze relatie tussen de verschillende kaders van standaarden in de NEN 3610 pyramide met domeinmodellen (de sectorale informatiemodellen) weergegeven.</p>
 <figure id="pd-piramide">
 <img src="media/Basisprogramma_Infomodel_NEN_3610_stelsel_logo_Groot.png" alt="Piramide die de positie van NEN 3610 illustreert in de gelaagdheid van standaarden.">
 <figcaption><a class="self-link" href="#pd-piramide">Figuur <bdi class="figno">4</bdi></a> <span class="fig-title">Vorige figuur weergegeven in de 'NEN 3610 piramide'</span></figcaption>
-</figure>
-
-</section><section id="mim-metamodel-voor-informatiemodellering"><div class="header-wrapper"><h3 id="x3-3-mim-metamodel-voor-informatiemodellering"><bdi class="secno">3.3 </bdi>MIM - Metamodel voor Informatiemodellering</h3><a class="self-link" href="#mim-metamodel-voor-informatiemodellering" aria-label="Permalink for Section 3.3"></a></div>
+</figure></section><section id="mim-metamodel-voor-informatiemodellering"><div class="header-wrapper"><h3 id="x3-3-mim-metamodel-voor-informatiemodellering"><bdi class="secno">3.3 </bdi>MIM - Metamodel voor Informatiemodellering</h3><a class="self-link" href="#mim-metamodel-voor-informatiemodellering" aria-label="Permalink for Section 3.3"></a></div>
 <p>Het Metamodel voor informatiemodellering [<cite><a class="bibref" data-link-type="biblio" href="#bib-mim" title="MIM - Metamodel Informatie Modellering">MIM</a></cite>] is een standaard die het metamodel beschrijft waarmee informatiemodellen – ook voor andere dan geo-informatie - worden gemaakt. Het beschrijft de metaklassen, metastructuur en metagegevens die de grondslag vormen voor een informatiemodel. Doel van MIM is het standaardiseren van de methode van informatiemodelleren. Hierdoor wordt afstemming tussen informatiemodellen, vergelijkbaarheid in publicatie en gebruik van gemeenschappelijke tooling mogelijk. Conformiteit aan MIM faciliteert het ontstaan van een overheidsbreed stelsel van vergelijkbare en samenhangende informatiemodellen. 
 Het MIM metamodel is conceptueel beschreven en uitgewerkt voor toepassing in UML en in Linked Data. </p>
 <p>Om NEN 3610 informatiemodellen interoperabel te maken in de context van de digitale overheid, gebruikt NEN 3610 als metamodel de Nederlandse standaard voor meta-informatiemodellering. NEN 3610 conformeert aan MIM.</p>
@@ -2044,9 +2041,7 @@ Onderstaande tabel geeft weer op welke ISO- en OGC-standaarden de NEN 3610 famil
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-<p><strong>Handreikingen</strong></p>
+</table><p><strong>Handreikingen</strong></p>
 <p>Voor het NEN 3610 informatiemodel in ook een uitwerking in Linked Data gedaan.
 Dit technische rapport beschrijft de samenhang en verschillen tussen de UML - Object-oriëntatie en Linked Data. 
 In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en in het normatieve gedeelte is de NEN 3610 - Ontologie opgenomen</p>
@@ -2071,14 +2066,12 @@ In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en i
 <li>Er is een handreiking <a href="https://docs.geostandaarden.nl/nen3610/gimeg/">Geometrie in model en GML</a> beschikbaar. Deze handreiking beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is een ondersteuning voor de toepassing van het basismodel geo-informatie (NEN 3610) en GML. De handreiking geeft onder meer uitleg over welke geometrieën er zijn, Simple Feature profielen en transformatieregels voor het kunnen genereren van GML uit UML.</li>
 </ul>
 </section></section>
-          <section id="visualisatie"><div class="header-wrapper"><h2 id="x4-visualisatie"><bdi class="secno">4. </bdi>Visualisatie</h2><a class="self-link" href="#visualisatie" aria-label="Permalink for Section 4."></a></div>
+<section id="visualisatie"><div class="header-wrapper"><h2 id="x4-visualisatie"><bdi class="secno">4. </bdi>Visualisatie</h2><a class="self-link" href="#visualisatie" aria-label="Permalink for Section 4."></a></div>
 <p><strong>Om geo-informatie te presenteren op een kaart worden er visualisatieregels opgesteld. Denk bijvoorbeeld aan vlakvullingen, lijnstijlen, symbologie, etc.. Diverse domeinen hebben een standaard voor visualisatie gedefinieerd voor een informatiemodel. Door die regels te volgen, ziet een bepaald type gegevens er altijd hetzelfde uit in een visualisatie.</strong></p>
 <figure id="pd2">
 <a href="media/Visualisatie.png" target="_blank"><img src="media/Visualisatie.png" alt="Schematische weergave van visualisatieregels voor geo-informatie, zoals symbologie en stijlen."></a>
 <figcaption><a class="self-link" href="#pd2">Figuur <bdi class="figno">5</bdi></a> <span class="fig-title">Visualisatie</span></figcaption>
-</figure>
-
-<blockquote>
+</figure><blockquote>
 <p>Visualisatie is bij uitstek het domein van 'gebruikerservaring' en gaat in die zin breder dan alleen vlakvullingen, lijnstijlen, symbologie, etc.. </p>
 </blockquote>
 <ul>
@@ -2103,7 +2096,7 @@ In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en i
 <li><p><strong>Indexed 3D Scene Layers</strong> (i3S) is ook een goedgekeurde OGC community standaard. Het specificeert een formaat, opgebouwd uit gestandaardiseerde lagen, voor efficiënte 3D visualisatie op het web.</p>
 </li>
 </ul>
-<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="4"><span>Noot</span></div><aside class="">3D visualisatie wordt steeds belangrijker. Hiervoor zijn verschillende
+<div class="note" role="note" id="issue-container-generatedID"><div role="heading" class="note-title marker" id="h-note" aria-level="4"><span>Noot</span></div><aside class=""><p>3D visualisatie wordt steeds belangrijker. Hiervoor zijn verschillende
     desktop-applicaties beschikbaar die bijvoorbeeld CityGML, Google SketchUp en
     andere formaten veelal gecombineerd kunnen gebruiken voor visualisaties. OGC
     services hiervoor zijn nog niet als standaard(en) uitgekristalliseerd, hier
@@ -2112,9 +2105,8 @@ In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en i
     beiden als doel hebben 3D services op het web zonder plug-ins voor browsers
     (op basis van HTML5). Beiden komen vanuit W3C en het is nog onduidelijk
     welke richting het precies op gaat. KML en Collada zijn tevens prima
-    geschikt voor 3D visualisatie.</aside></div>
-
-<p> Europese profielen voor visualisatie zijn beschikbaar in de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze zijn beschreven in SLD en SE voor de Europese INSPIRE profielen; in de hoofdstukken 11 van de INSPIRE data specificaties is portrayal gedefinieerd volgens <strong>Styled Layer Descriptor</strong> en <strong>Symbology Encoding</strong>.</p>
+    geschikt voor 3D visualisatie.</p>
+</aside></div><p> Europese profielen voor visualisatie zijn beschikbaar in de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze zijn beschreven in SLD en SE voor de Europese INSPIRE profielen; in de hoofdstukken 11 van de INSPIRE data specificaties is portrayal gedefinieerd volgens <strong>Styled Layer Descriptor</strong> en <strong>Symbology Encoding</strong>.</p>
 <p>Ook in Nederlandse profielen worden visualisatieregels toegepast zoals in de <a href="#bgtvoorbeeld">Visualisatieregels van de BGT</a>.</p>
 <p>In tabel 4.1 zijn de geostandaarden voor visualisatie opgenomen. </p>
 <p><em>Tabel 4.1 - Standaarden en specificaties voor visualisatie</em></p>
@@ -2178,16 +2170,12 @@ In het handboek gedeelte worden de UML - RDF transformatieregels beschreven en i
       <td> </td>
      </tr> 
   </tbody>
-</table>
-
-</section><section id="kwaliteit-en-visualisatie"><div class="header-wrapper"><h3 id="x4-2-kwaliteit-en-visualisatie"><bdi class="secno">4.2 </bdi>Kwaliteit en visualisatie</h3><a class="self-link" href="#kwaliteit-en-visualisatie" aria-label="Permalink for Section 4.2"></a></div>
+</table></section><section id="kwaliteit-en-visualisatie"><div class="header-wrapper"><h3 id="x4-2-kwaliteit-en-visualisatie"><bdi class="secno">4.2 </bdi>Kwaliteit en visualisatie</h3><a class="self-link" href="#kwaliteit-en-visualisatie" aria-label="Permalink for Section 4.2"></a></div>
 <section id="visualisatieregels-data-producten-en-informatiemodellen"><div class="header-wrapper"><h4 id="x4-2-1-visualisatieregels-data-producten-en-informatiemodellen"><bdi class="secno">4.2.1 </bdi>Visualisatieregels data producten en informatiemodellen</h4><a class="self-link" href="#visualisatieregels-data-producten-en-informatiemodellen" aria-label="Permalink for Section 4.2.1"></a></div>
 <p>Een visualisatie is geen onderdeel van een informatiemodel of dataproduct, maar is een apart aspect. Alleen over de visualisatie van teksten wordt indien nodig iets gezegd in de informatiemodellen. De visualisatie van objecten en dataproducten wordt beschreven in visualisatieregels. Deze worden vastgelegd in een bijlage of in een handreiking. In elke visualisatieregel is vastgelegd van welke selectie van objecten dit de visualisatie is (zie voorbeeld 1 hieronder). </p>
 <aside class="example" id="bgtvoorbeeld"><div class="marker">
     <a class="self-link" href="#bgtvoorbeeld">Voorbeeld<bdi> 1</bdi></a><span class="example-title">: Visualisatieregels van de BGT</span>
-  </div>
-
-<p>Voor de BGT|IMGeo zijn zeven presentaties beschikbaar. Deze zijn beschreven in de <a href="https://docs.geostandaarden.nl/bgt/def-hr-visualisatie-20181015/">Handreiking BGT\IMGeo Visualisatieregels 2.3
+  </div><p>Voor de BGT|IMGeo zijn zeven presentaties beschikbaar. Deze zijn beschreven in de <a href="https://docs.geostandaarden.nl/bgt/def-hr-visualisatie-20181015/">Handreiking BGT\IMGeo Visualisatieregels 2.3
 (2018)</a>:</p>
 <ul>
 <li><u>Standaardvisualisatie</u>: een visualisatie voor het gebruik van de
@@ -2226,16 +2214,14 @@ op de BGT/IMGeo-inhoud.</li>
 <li><u>Planvisualisatie</u>: een visualisatie voor het gebruik van de
 planinformatie-inhoud.</li>
 </ul>
-</aside>
-
-</section><section id="kaartvisualisatie-voor-webapplicaties"><div class="header-wrapper"><h4 id="x4-2-2-kaartvisualisatie-voor-webapplicaties"><bdi class="secno">4.2.2 </bdi>Kaartvisualisatie voor webapplicaties</h4><a class="self-link" href="#kaartvisualisatie-voor-webapplicaties" aria-label="Permalink for Section 4.2.2"></a></div>
+</aside></section><section id="kaartvisualisatie-voor-webapplicaties"><div class="header-wrapper"><h4 id="x4-2-2-kaartvisualisatie-voor-webapplicaties"><bdi class="secno">4.2.2 </bdi>Kaartvisualisatie voor webapplicaties</h4><a class="self-link" href="#kaartvisualisatie-voor-webapplicaties" aria-label="Permalink for Section 4.2.2"></a></div>
 <p>Voor ontwikkelaars van geografische webapplicaties, is in 2010 de handreiking webcartografie ontwikkeld. In de handreiking webcartografie [<cite><a class="bibref" data-link-type="biblio" href="#bib-hrwc" title="Handreiking webcartografie">HRWC</a></cite>] vind je praktische tips over hoe je geo-informatie - waar mogelijk - binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden. </p>
 </section><section id="handreiking-3d-tiling"><div class="header-wrapper"><h4 id="x4-2-3-handreiking-3d-tiling"><bdi class="secno">4.2.3 </bdi>Handreiking 3D Tiling</h4><a class="self-link" href="#handreiking-3d-tiling" aria-label="Permalink for Section 4.2.3"></a></div>
 <p>De handreiking 3D Tiling [<cite><a class="bibref" data-link-type="biblio" href="#bib-hr3dt" title="Handreiking 3d Tiling">HR3DT</a></cite>] heeft tot doel bij te dragen aan het breder gebruik van 3D data in Nederland met de adoptie van 3D Tiles in het bijzonder. Door best practises (praktische richtlijnen) te bieden voor de implementatie van 3D Tiles, kunnen verschillende systemen en softwareoplossingen (tools) beter met elkaar samenwerken, wat cruciaal is voor de uitwisseling van de visualisaties van 3D data in GIS applicaties en digital twins. Via de best practises biedt de handreiking mogelijkheden voor bredere acceptatie en verspreiding van 3D Tiles binnen de Nederlandse gebruiksgemeenschap en vele verschillende belanghebbende organisaties.</p>
 </section><section id="toegankelijkheid-geo-informatie"><div class="header-wrapper"><h4 id="x4-2-4-toegankelijkheid-geo-informatie"><bdi class="secno">4.2.4 </bdi>Toegankelijkheid &amp; geo-informatie</h4><a class="self-link" href="#toegankelijkheid-geo-informatie" aria-label="Permalink for Section 4.2.4"></a></div>
 <p>Sinds 1 juli 2018 geldt het <a href="https://zoek.officielebekendmakingen.nl/stb-2018-141.html">Tijdelijk besluit ‘Digitale toegankelijkheid overheid’</a>. Websites van de overheid moeten vanaf die datum verplicht voldoen aan de toegankelijkheidseisen voor mensen met een beperking. Dit besluit stelt echter in artikel 2 lid 2d expliciet dat het besluit niet van toepassing is op onlinekaarten. Het besluit volgt daarmee de <a href="https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&amp;qid=1481290140258&amp;from=en">Europese richtlijn</a> inzake de toegankelijkheid van de websites en mobiele applicaties van overheidsinstanties. Enige uitzondering is dat in het geval van kaarten voor navigatietoepassingen de essentiële informatie ook op een andere manier (lees: routebeschrijving in tekst) toegankelijk gemaakt moet worden. In de handreikingen digitaal toegankelijke locatiedata [<cite><a class="bibref" data-link-type="biblio" href="#bib-hrtoeg" title="Handreiking digitaal toegankelijk locatiedata">HRTOEG</a></cite>] en de handreiking webcartografie vind je praktische tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden. Naast de handreiking is er ook veel informatie te vinden bij: <a href="https://www.digitoegankelijk.nl/aan-de-slag/tips/online-kaarten">digitoegankelijk.nl</a>.</p>
 </section></section></section>
-          <section id="application-programming-interfaces"><div class="header-wrapper"><h2 id="x5-application-programming-interfaces"><bdi class="secno">5. </bdi>Application Programming Interfaces</h2><a class="self-link" href="#application-programming-interfaces" aria-label="Permalink for Section 5."></a></div>
+<section id="application-programming-interfaces"><div class="header-wrapper"><h2 id="x5-application-programming-interfaces"><bdi class="secno">5. </bdi>Application Programming Interfaces</h2><a class="self-link" href="#application-programming-interfaces" aria-label="Permalink for Section 5."></a></div>
 <p><strong>Een API dient als interface tussen verschillende softwareprogramma's.</strong>
 <strong>Het zorgt ervoor dat programma's op een gestandaardiseerde manier gegevens met elkaar kunnen uitwisselen.</strong>
 <strong>Vergelijk het met een stekker en een stopcontact. Door internationale afspraken is het mogelijk om in heel Europa met dezelfde stekker een apparaat van stroom te voorzien.</strong></p>
@@ -2247,9 +2233,7 @@ ervoor dat een applicatie automatisch toegang krijgt tot de data.</p>
 <figure id="pd3">
 <a href="media/APIs.png" target="_blank"><img src="media/APIs.png" alt="Diagram met een visualisatie die illustreert dat Application Programming Interfaces (API's) vergelijkbaar zijn met een stekker en stopcontact en hoe dat binnen het Raamwerk van geostandaarden past."></a>
 <figcaption><a class="self-link" href="#pd3">Figuur <bdi class="figno">6</bdi></a> <span class="fig-title">Application Programming Interfaces</span></figcaption>
-</figure>
-
-<blockquote>
+</figure><blockquote>
 <p>Denk bij het maken, gebruiken of doorontwikkelen van API's aan de volgende onderwerpen:</p>
 </blockquote>
 <ul>
@@ -2291,10 +2275,8 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
 </ul>
 <aside class="example" id="example-2"><div class="marker">
     <a class="self-link" href="#example-2">Voorbeeld<bdi> 2</bdi></a>
-  </div>Een praktisch voorbeeld waar het wenselijk is om Linked Data in een API te serveren, is het toegankelijk maken van metadata in een catalogus. De aanbeveling in die situatie is om OGC API Records te gebruiken om DCAT-AP-NL (een op Linked Data RDF gebaseerde standaard) uit te wisselen. Echter, zelfs in die situatie moet nog steeds de API de metadata in JSON geven, tenzij de gebruiker om een linked data formaat (bijvoorbeeld turtle of rdf/xml) vraagt. 
-</aside>
-
-<p>APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschrijving en in de API geserveerde data te linken aan de metadata (in DCAT-AP-NL), het informatiemodel (in MIM) en de begrippen en definities (in NL-SBB) heeft een gebruiker zowel de data zelf als alle informatie erover, binnen handbereik.</p>
+  </div><p>Een praktisch voorbeeld waar het wenselijk is om Linked Data in een API te serveren, is het toegankelijk maken van metadata in een catalogus. De aanbeveling in die situatie is om OGC API Records te gebruiken om DCAT-AP-NL (een op Linked Data RDF gebaseerde standaard) uit te wisselen. Echter, zelfs in die situatie moet nog steeds de API de metadata in JSON geven, tenzij de gebruiker om een linked data formaat (bijvoorbeeld turtle of rdf/xml) vraagt. </p>
+</aside><p>APIs en Linked Data kunnen samen een krachtig geheel vormen. Door de API beschrijving en in de API geserveerde data te linken aan de metadata (in DCAT-AP-NL), het informatiemodel (in MIM) en de begrippen en definities (in NL-SBB) heeft een gebruiker zowel de data zelf als alle informatie erover, binnen handbereik.</p>
 </section></section><section id="web-mapping-api-s"><div class="header-wrapper"><h3 id="x5-3-web-mapping-api-s"><bdi class="secno">5.3 </bdi>Web mapping API's</h3><a class="self-link" href="#web-mapping-api-s" aria-label="Permalink for Section 5.3"></a></div>
 <p><em>Tabel 5.1 - API standaarden en specificaties voor web mapping: OGC WMS en OGC API Maps</em></p>
 <table>
@@ -2327,9 +2309,7 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-</section><section id="vectordata-api-s"><div class="header-wrapper"><h3 id="x5-4-vectordata-api-s"><bdi class="secno">5.4 </bdi>Vectordata API's</h3><a class="self-link" href="#vectordata-api-s" aria-label="Permalink for Section 5.4"></a></div>
+</table></section><section id="vectordata-api-s"><div class="header-wrapper"><h3 id="x5-4-vectordata-api-s"><bdi class="secno">5.4 </bdi>Vectordata API's</h3><a class="self-link" href="#vectordata-api-s" aria-label="Permalink for Section 5.4"></a></div>
 <p><em>Tabel 5.2 – API standaarden en specificaties voor vectordata: OGC WFS, OGC API – Features en ATOM</em></p>
 <table>
   <colgroup>
@@ -2391,9 +2371,7 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-<p><strong>Handreikingen</strong></p>
+</table><p><strong>Handreikingen</strong></p>
 <p>Handreikingen voor implementatie:</p>
 <ul>
 <li><a href="https://docs.geostandaarden.nl/api/ogc-api-features-guideline/">OGC API Features Guideline</a></li>
@@ -2425,9 +2403,7 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td>Hetzelfde als het Europese profiel </td>
      </tr>
   </tbody>
-</table>
-
-</section><section id="sensordata-api-s"><div class="header-wrapper"><h3 id="x5-6-sensordata-api-s"><bdi class="secno">5.6 </bdi>Sensordata API's</h3><a class="self-link" href="#sensordata-api-s" aria-label="Permalink for Section 5.6"></a></div>
+</table></section><section id="sensordata-api-s"><div class="header-wrapper"><h3 id="x5-6-sensordata-api-s"><bdi class="secno">5.6 </bdi>Sensordata API's</h3><a class="self-link" href="#sensordata-api-s" aria-label="Permalink for Section 5.6"></a></div>
 <p><em>Tabel 5.4 – API Standaarden en specificaties voor sensordata: OGC SOS, EDR API en SensorThings API</em></p>
 <table>
   <colgroup>
@@ -2464,9 +2440,7 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td> Hetzelfde als het Europese profiel </td>
      </tr>
   </tbody>
-</table>
-
-</section><section id="metadata-api-s"><div class="header-wrapper"><h3 id="x5-7-metadata-api-s"><bdi class="secno">5.7 </bdi>Metadata API's</h3><a class="self-link" href="#metadata-api-s" aria-label="Permalink for Section 5.7"></a></div>
+</table></section><section id="metadata-api-s"><div class="header-wrapper"><h3 id="x5-7-metadata-api-s"><bdi class="secno">5.7 </bdi>Metadata API's</h3><a class="self-link" href="#metadata-api-s" aria-label="Permalink for Section 5.7"></a></div>
 <p><em>Tabel 5.5 – API Standaarden en specificaties voor metadata: OGC CSW en OGC API - Records</em></p>
 <table>
   <colgroup>
@@ -2498,12 +2472,8 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-<div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Noot</span></div><aside class="">De [<cite><a class="bibref" data-link-type="biblio" href="#bib-instgdis" title="Technical Guidance for the implementation of Inspire Discovery Service, version 3.1">INSTGDiS</a></cite>] is gebaseerd op [<cite><a class="bibref" data-link-type="biblio" href="#bib-csw" title="Catalogue Services 3.0 - General Model">CSW</a></cite>] version 2.0.2. Dit is de reden dat CSW 2.0.2 is opgenomen en niet CSW 3.0.
- </aside></div>
-
-</section><section id="map-tile-apis"><div class="header-wrapper"><h3 id="x5-8-map-tile-apis"><bdi class="secno">5.8 </bdi>Map tile APIs</h3><a class="self-link" href="#map-tile-apis" aria-label="Permalink for Section 5.8"></a></div>
+</table><div class="note" role="note" id="issue-container-generatedID-0"><div role="heading" class="note-title marker" id="h-note-0" aria-level="4"><span>Noot</span></div><aside class=""><p>De [<cite><a class="bibref" data-link-type="biblio" href="#bib-instgdis" title="Technical Guidance for the implementation of Inspire Discovery Service, version 3.1">INSTGDiS</a></cite>] is gebaseerd op [<cite><a class="bibref" data-link-type="biblio" href="#bib-csw" title="Catalogue Services 3.0 - General Model">CSW</a></cite>] version 2.0.2. Dit is de reden dat CSW 2.0.2 is opgenomen en niet CSW 3.0.</p>
+</aside></div></section><section id="map-tile-apis"><div class="header-wrapper"><h3 id="x5-8-map-tile-apis"><bdi class="secno">5.8 </bdi>Map tile APIs</h3><a class="self-link" href="#map-tile-apis" aria-label="Permalink for Section 5.8"></a></div>
 <p><em>Tabel 5.6 – API standaarden en specificaties voor map tiles: OGC Web Map Tile Service (WMTS,) OGC API - Tiles, en 3D Tiles</em></p>
 <table>
   <colgroup>
@@ -2535,9 +2505,7 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td>Hetzelfde als het Europese profiel </td>
      </tr>
   </tbody>
-</table>
-
-<p><strong>Handreikingen</strong></p>
+</table><p><strong>Handreikingen</strong></p>
 <p>Handreikingen voor implementatie:</p>
 <ul>
 <li><a href="https://docs.geostandaarden.nl/serv/vt/">Praktijkrichtlijn Vector Tiling (2021)</a></li>
@@ -2565,11 +2533,8 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-<div class="note" role="note" id="issue-container-generatedID-1"><div role="heading" class="note-title marker" id="h-note-1" aria-level="4"><span>Noot</span></div><aside class="">GeoSPARQL heeft een interactiedeel en een beknopt informatiemodel (ontologie) voor geodata.  Daarmee heeft deze standaard ook een relatie met het hoofdstuk over informatiemodellen. </aside></div>
- 
-</section><section id="kwaliteit-van-api-s"><div class="header-wrapper"><h3 id="x5-10-kwaliteit-van-api-s"><bdi class="secno">5.10 </bdi>Kwaliteit van API’s</h3><a class="self-link" href="#kwaliteit-van-api-s" aria-label="Permalink for Section 5.10"></a></div>
+</table><div class="note" role="note" id="issue-container-generatedID-1"><div role="heading" class="note-title marker" id="h-note-1" aria-level="4"><span>Noot</span></div><aside class=""><p>GeoSPARQL heeft een interactiedeel en een beknopt informatiemodel (ontologie) voor geodata.  Daarmee heeft deze standaard ook een relatie met het hoofdstuk over informatiemodellen. </p>
+</aside></div></section><section id="kwaliteit-van-api-s"><div class="header-wrapper"><h3 id="x5-10-kwaliteit-van-api-s"><bdi class="secno">5.10 </bdi>Kwaliteit van API’s</h3><a class="self-link" href="#kwaliteit-van-api-s" aria-label="Permalink for Section 5.10"></a></div>
 <p><strong>API Strategie overheid (beleid) en REST Design Rules</strong></p>
 <p>In de Nederlandse API strategie en Rest Design Rules worden diverse aanbevelingen gedaan voor de kwaliteit van API's. </p>
 <p>De Nederlandse API Strategie [<cite><a class="bibref" data-link-type="biblio" href="#bib-nlapis" title="API Strategie Algemeen (Nederlandse API Strategie I)">NLAPIS</a></cite>] bestaat uit een informatief deel over beleid, gebruikerswensen, architectuur en een normatief deel met ontwerprichtlijnen voor API's. Deze ontwerprichtlijnen zijn aangemeld voor plaatsing op de ‘Pas toe of leg uit’-lijst van het Forum Standaardisatie. Zowel de API Strategie als de ontwerprichtlijnen voor API's worden actief doorontwikkeld. </p>
@@ -2607,24 +2572,19 @@ OGC API Tiles, 3D Tiles (sectie 5.8);</li>
       <td>Bijvoorbeeld een 800\*600 pixels image met 8bit kleuren dient een response tijd te hebben van maximaal 5 seconden. </td>
      </tr>
   </tbody>
-</table>
-
-<p><strong>Validators</strong></p>
+</table><p><strong>Validators</strong></p>
 <p>Voor het valideren van services (WMS en WFS) zijn <a href="https://validatie.geostandaarden.nl/">validators</a> beschikbaar. Met de ETF validator kan de kwaliteit van de WMS en WFS voor het grootste deel getoetst worden.</p>
 <p>Voor het valideren van REST APIs op basis van de API Design Rules is een <a href="https://gitlab.com/commonground/don/adr-validator">validator</a> ontwikkeld die inzicht geeft in de kwaliteit van API's.</p>
 <p>Voor het valideren van OGC API's (Features, Processes en Records) is een linter ontwikkeld: <a href="https://geonovum.github.io/ogc-checker">OGC-Checker</a>. In de documentatie in de <a href="https://github.com/Geonovum/ogc-checker">Git Repository</a> is in detail te vinden welke requirements uit de veschillende specificaties exact ondersteund worden.</p>
 </section></section>
-          <section id="uitwisselformaten"><div class="header-wrapper"><h2 id="x6-uitwisselformaten"><bdi class="secno">6. </bdi>Uitwisselformaten</h2><a class="self-link" href="#uitwisselformaten" aria-label="Permalink for Section 6."></a></div>
+<section id="uitwisselformaten"><div class="header-wrapper"><h2 id="x6-uitwisselformaten"><bdi class="secno">6. </bdi>Uitwisselformaten</h2><a class="self-link" href="#uitwisselformaten" aria-label="Permalink for Section 6."></a></div>
 <p><strong>Om data van aanbieder naar afnemer te krijgen zijn uitwisselformaten nodig.</strong>
 <strong>Door geo-informatie op te slaan en uit te wisselen in een afgesproken formaat zorg je ervoor dat jouw data door de software van de gebruiker gelezen kan worden.</strong>
 <strong>Vergelijk het met het opslaan van tekstdocumenten. Gebruik je een veelgebruikt bestandsformaat, dan is de kans groot dat de persoon die jouw rapport wil lezen, deze ook kan openen.</strong></p>
 <figure id="pd4">
 <a href="media/Uitwisselformaten.png" target="_blank"><img src="media/Uitwisselformaten.png" alt="Schematische weergave van uitwisselformaten voor geo-informatie."></a>
 <figcaption><a class="self-link" href="#pd4">Figuur <bdi class="figno">7</bdi></a> <span class="fig-title">Uitwisselformaten</span></figcaption>
-</figure>
-
-
-<blockquote>
+</figure><blockquote>
 <p>Denk bij het maken, gebruiken of doorontwikkelen van uitwisselformaten aan de volgende onderwerpen:</p>
 </blockquote>
 <ul>
@@ -2645,9 +2605,8 @@ representeren en uit te wisselen.</p>
 </ul>
 </section><section id="vectordata-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-2-vectordata-uitwisselstandaarden"><bdi class="secno">6.2 </bdi>Vectordata uitwisselstandaarden</h3><a class="self-link" href="#vectordata-uitwisselstandaarden" aria-label="Permalink for Section 6.2"></a></div>
 <p>De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten waarbij de geometrie wordt beschreven met behulp van: punt, lijn en vlak (2D) of met volvlakken (3D). De vectorrepresentatie is uitgebreid beschreven in de internationale standaard [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19107" title="ISO 19107:2019 Geographic information — Spatial schema">iso19107</a></cite>]. Deze standaard geeft ook aanwijzingen voor het expliciet vastleggen van onderlinge relaties tussen geografische objecten. De ISO standaard is zeer uitgebreid. Voor de meeste toepassingen kan je goed uit de voeten met de door OGC opgestelde subset uit deze standaard: Simple Feature Access [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso-19125-1-2004" title="Geographic information -- Simple feature access -- Part 1: Common architecture">iso-19125-1-2004</a></cite>].</p>
-<div class="note" role="note" id="issue-container-generatedID-2"><div role="heading" class="note-title marker" id="h-note-2" aria-level="4"><span>Noot</span></div><aside class="">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kun je het beste gebruik maken van de nieuwe [<cite><a class="bibref" data-link-type="biblio" href="#bib-json-fg" title="OGC Features and Geometries JSON - Part 1: Core version 0.3">JSON-FG</a></cite>] standaard die hier ondersteuning voor heeft.
-
-<p>Het OGC Simple Features profile voor GML [<cite><a class="bibref" data-link-type="biblio" href="#bib-gmlsf" title="Geography Markup Language (GML) simple features profile (with Corrigendum) (2.0)">GMLSF</a></cite>] dat de Simple Features subset van geometrietypen beschrijft, met als extra toevoeging cirkelbogen, toepast op GML 3.2.1 [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19136" title="ISO 19136-1:2020 Geographic information — Geography Markup Language (GML) — Part 1: Fundamentals">ISO19136</a></cite>] biedt deze ondersteuning ook.</p></aside></div><p></p>
+<div class="note" role="note" id="issue-container-generatedID-2"><div role="heading" class="note-title marker" id="h-note-2" aria-level="4"><span>Noot</span></div><aside class=""><p>Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kun je het beste gebruik maken van de nieuwe [<cite><a class="bibref" data-link-type="biblio" href="#bib-json-fg" title="OGC Features and Geometries JSON - Part 1: Core version 0.3">JSON-FG</a></cite>] standaard die hier ondersteuning voor heeft.</p><p>Het OGC Simple Features profile voor GML [<cite><a class="bibref" data-link-type="biblio" href="#bib-gmlsf" title="Geography Markup Language (GML) simple features profile (with Corrigendum) (2.0)">GMLSF</a></cite>] dat de Simple Features subset van geometrietypen beschrijft, met als extra toevoeging cirkelbogen, toepast op GML 3.2.1 [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19136" title="ISO 19136-1:2020 Geographic information — Geography Markup Language (GML) — Part 1: Fundamentals">ISO19136</a></cite>] biedt deze ondersteuning ook.</p><p></p>
+</aside></div><p></p>
 <p>Er komt steeds meer aandacht voor zogenaamde 'cloudnative' systemen. Dit zijn oplossingen die geheel gebaseerd zijn op de componenten die door grote cloudleveranciers geleverd worden. In deze systemen wordt veel gewerkt met het Parquet formaat, of het [<cite><a class="bibref" data-link-type="biblio" href="#bib-geoparquet" title="OGC GeoParquet Standard version 1.1.0">GeoParquet</a></cite>] formaat voor geodata. </p>
 <p>Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).</p>
 <p><em>Tabel 6.1 – Uitwisselformaten standaarden en specificaties met betrekking tot vectordata</em></p>
@@ -2721,9 +2680,7 @@ representeren en uit te wisselen.</p>
       <td> </td>
     </tr>
   </tbody>
-</table>
-
-</section><section id="rasterdata-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-3-rasterdata-uitwisselstandaarden"><bdi class="secno">6.3 </bdi>Rasterdata uitwisselstandaarden</h3><a class="self-link" href="#rasterdata-uitwisselstandaarden" aria-label="Permalink for Section 6.3"></a></div>
+</table></section><section id="rasterdata-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-3-rasterdata-uitwisselstandaarden"><bdi class="secno">6.3 </bdi>Rasterdata uitwisselstandaarden</h3><a class="self-link" href="#rasterdata-uitwisselstandaarden" aria-label="Permalink for Section 6.3"></a></div>
 <p>De raster representatie gebruik je voor het vastleggen van gegevens waarbij aan ieder punt op het aardoppervlak een dynamische waarde wordt toegekend. Voorbeelden zijn de luchtdruk boven Nederland, waardes van een schadelijke stof, temperatuur of – zoals bij een foto - reflectiewaarden. In OGC en ISO/TC 211 termen heet dit een 'coverage'. Zo’n coverage wordt vaak geïmplementeerd door over het terrein een regelmatig grid van punten te leggen (een raster) en voor ieder punt een waarde op te nemen. Deze waarde is bijvoorbeeld een hoogteaanduiding bepaald met behulp van laser altimetrie, of de numerieke codering van een kleurenwaarde opgenomen in een satellietbeeld.
 Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2), zoals NETCDF en HDF5. Ook GeoTIFF (Geo Tagged Image File Format), waarbij georeferentie als tags in de file zijn opgenomen. Daarnaast zie je hier ook webstandaarden vermeld als JPEG2000 en PNG. De laatste wordt vooral toegepast in WMS.</p>
 <p>In Cloudnative omgevingen komt de [<cite><a class="bibref" data-link-type="biblio" href="#bib-cog" title="OGC Cloud Optimized GeoTIFF Standard, version 1.0">COG</a></cite>] Cloud Optimized GeoTIFF Standaard steeds vaker voor. Dit is een standaard waarbij GeoTIFF files bijzonder efficient over HTTP uitgewisseld kunnen worden.</p>
@@ -2798,9 +2755,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>  
   </tbody>
-</table>
-
-</section><section id="sensordata-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-4-sensordata-uitwisselstandaarden"><bdi class="secno">6.4 </bdi>Sensordata uitwisselstandaarden</h3><a class="self-link" href="#sensordata-uitwisselstandaarden" aria-label="Permalink for Section 6.4"></a></div>
+</table></section><section id="sensordata-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-4-sensordata-uitwisselstandaarden"><bdi class="secno">6.4 </bdi>Sensordata uitwisselstandaarden</h3><a class="self-link" href="#sensordata-uitwisselstandaarden" aria-label="Permalink for Section 6.4"></a></div>
 <p>Sensoren zijn apparaten of onderdelen van aparaten voor het meten van stoffen in water, grondsamenstellingen, grondwater, luchtverontreiniging, etc. Sensoren hebben ook een positie en de resultaten van de metingen dienen uitgewisseld te kunnen worden. Voor de uitwisseling van waarnemingen en metingen (‘observations and measurements’) bestaan verschillende uitwisselformaten standaarden (tabel 6.3).</p>
 <p><em>Tabel 6.3 – Uitwisselformaten standaarden en specificaties met betrekking tot sensordata</em></p>
 <table>
@@ -2838,9 +2793,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-</section><section id="x3d-data-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-5-3d-data-uitwisselstandaarden"><bdi class="secno">6.5 </bdi>3D data uitwisselstandaarden</h3><a class="self-link" href="#x3d-data-uitwisselstandaarden" aria-label="Permalink for Section 6.5"></a></div>
+</table></section><section id="x3d-data-uitwisselstandaarden"><div class="header-wrapper"><h3 id="x6-5-3d-data-uitwisselstandaarden"><bdi class="secno">6.5 </bdi>3D data uitwisselstandaarden</h3><a class="self-link" href="#x3d-data-uitwisselstandaarden" aria-label="Permalink for Section 6.5"></a></div>
 <p>Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen in de geografische ruimte, waarin de x,y en z-coördinaat zijn vastgelegd, kan je gebruik maken van de volgende standaarden (tabel 6.4).</p>
 <p><em>Tabel 6.4 – Uitwisselformaten standaarden en specificaties met betrekking tot 3D data</em></p>
 <table>
@@ -2868,9 +2821,7 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-</section><section id="kwaliteit-en-uitwisselformaten"><div class="header-wrapper"><h3 id="x6-6-kwaliteit-en-uitwisselformaten"><bdi class="secno">6.6 </bdi>Kwaliteit en uitwisselformaten</h3><a class="self-link" href="#kwaliteit-en-uitwisselformaten" aria-label="Permalink for Section 6.6"></a></div>
+</table></section><section id="kwaliteit-en-uitwisselformaten"><div class="header-wrapper"><h3 id="x6-6-kwaliteit-en-uitwisselformaten"><bdi class="secno">6.6 </bdi>Kwaliteit en uitwisselformaten</h3><a class="self-link" href="#kwaliteit-en-uitwisselformaten" aria-label="Permalink for Section 6.6"></a></div>
 <p><strong>Validatie</strong></p>
 <p>Een belangrijk kwaliteitsaspect van een uitwisselformaat is de mogelijkheid deze te valideren. Bij voorkeur gebeurt dit met geautomatiseerde processen, dan wel beschreven procedures en validatieregels. Validatie helpt om uitwisselformaten te laten voldoen aan de bij de geo-standaard horende validatieregels. Om te helpen bij validatie zijn validatietools beschikbaar. De tools zijn bedoeld als hulpmiddel om fouten in de toepassing van geostandaarden te verminderen. </p>
 <p>Er zijn twee Nederlandse validators voor de validatie van GML (vectordata):</p>
@@ -2887,14 +2838,12 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
 <p><strong>Wegwijzer 3D standaarden</strong></p>
 <p>De Wegwijzer 3D standaarden is een wegwijzer over het uitwisselen van 3D data [<cite><a class="bibref" data-link-type="biblio" href="#bib-hrww3d" title="Wegwijzer 3D standaarden">HRWW3D</a></cite>]. Het geeft een overzicht van de verschillende bestandsformaten die je hiervoor kunt gebruiken, geeft handvatten voor het kiezen van het juiste formaat voor de juiste situatie, en geeft in afzonderlijke hoofdstukken gedetailleerde informatie over het uitwisselen van 3D data in CityJSON, CityGML, 3D Tiles, I3S, IFC en LAZ.</p>
 </section></section>
-          <section id="metadata"><div class="header-wrapper"><h2 id="x7-metadata"><bdi class="secno">7. </bdi>Metadata</h2><a class="self-link" href="#metadata" aria-label="Permalink for Section 7."></a></div>
+<section id="metadata"><div class="header-wrapper"><h2 id="x7-metadata"><bdi class="secno">7. </bdi>Metadata</h2><a class="self-link" href="#metadata" aria-label="Permalink for Section 7."></a></div>
 <p><strong>Metadata zijn gegevens die de data of dataset beschrijven. Hierdoor wordt data vindbaar en krijg je een eerste indruk van de toepasbaarheid voor gebruik. Karakteristieken van de data, zoals de eigenaar en de actualiteit, worden vastgelegd met metadata. Door overal dezelfde karakteristieken te gebruiken om data(sets) te beschrijven en dit op dezelfde manier te doen, ofwel te standaardiseren, is het nog makkelijker om verschillende datasets met elkaar te vergelijken en te doorzoeken.</strong></p>
 <figure id="pd5">
 <a href="media/Metadata.png" target="_blank"><img src="media/Metadata.png" alt="Schematische weergave van metadata en hun rol in vindbaarheid en toepasbaarheid van datasets."></a>
 <figcaption><a class="self-link" href="#pd5">Figuur <bdi class="figno">8</bdi></a> <span class="fig-title">Metadata</span></figcaption>
-</figure>
-
-<blockquote>
+</figure><blockquote>
 <p>Denk bij het maken, gebruiken of doorontwikkelen van metadata aan de volgende onderwerpen:</p>
 </blockquote>
 <ul>
@@ -2967,12 +2916,8 @@ Er zijn verschillende geostandaarden voor coverages of rasterdata (zie tabel 6.2
       <td> </td>
      </tr>
       </tbody>
-</table>
-
-<div class="note" role="note" id="issue-container-generatedID-3"><div role="heading" class="note-title marker" id="h-note-3" aria-level="4"><span>Noot</span></div><aside class="">De [<cite><a class="bibref" data-link-type="biblio" href="#bib-inspire-tg-metadata" title="Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007">inspire-TG-metadata</a></cite>] is gebaseerd op [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19115-2003" title="ISO 19115:2003  Geographic information -- Metadata">ISO19115-2003</a></cite>]. Dit is de reden dat het NL profiel ook op [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19115-2003" title="ISO 19115:2003  Geographic information -- Metadata">ISO19115-2003</a></cite>] is gebaseerd en niet op [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19115-2014" title="ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals">ISO19115-2014</a></cite>].
- </aside></div>
-
-</section><section id="kwaliteit-van-metadata"><div class="header-wrapper"><h3 id="x7-2-kwaliteit-van-metadata"><bdi class="secno">7.2 </bdi>Kwaliteit van metadata</h3><a class="self-link" href="#kwaliteit-van-metadata" aria-label="Permalink for Section 7.2"></a></div>
+</table><div class="note" role="note" id="issue-container-generatedID-3"><div role="heading" class="note-title marker" id="h-note-3" aria-level="4"><span>Noot</span></div><aside class=""><p>De [<cite><a class="bibref" data-link-type="biblio" href="#bib-inspire-tg-metadata" title="Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007">inspire-TG-metadata</a></cite>] is gebaseerd op [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19115-2003" title="ISO 19115:2003  Geographic information -- Metadata">ISO19115-2003</a></cite>]. Dit is de reden dat het NL profiel ook op [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19115-2003" title="ISO 19115:2003  Geographic information -- Metadata">ISO19115-2003</a></cite>] is gebaseerd en niet op [<cite><a class="bibref" data-link-type="biblio" href="#bib-iso19115-2014" title="ISO 19115-1:2014 Geographic information — Metadata — Part 1: Fundamentals">ISO19115-2014</a></cite>].</p>
+</aside></div></section><section id="kwaliteit-van-metadata"><div class="header-wrapper"><h3 id="x7-2-kwaliteit-van-metadata"><bdi class="secno">7.2 </bdi>Kwaliteit van metadata</h3><a class="self-link" href="#kwaliteit-van-metadata" aria-label="Permalink for Section 7.2"></a></div>
 <p><strong>Handleiding Metadatakwaliteit</strong></p>
 <p>Het kwaliteitsbeleid voor metadata is vastgelegd in de <a href="https://www.geonovum.nl/uploads/documents/Handleiding%20metadata%20monitoring%20v0.5.pdf">Handleiding metadatakwaliteit</a>. Met behulp van de handleiding kan aan de hand van 26 elementen, die in de metadata-standaarden zijn beschreven, de kwaliteit van metadata worden beoordeeld.</p>
 <p><strong>Validatie</strong></p>
@@ -2982,15 +2927,13 @@ naast de Nederlandse validator ook de <a href="https://inspire.ec.europa.eu/vali
 </section><section id="verkenning"><div class="header-wrapper"><h3 id="x7-3-verkenning"><bdi class="secno">7.3 </bdi>Verkenning</h3><a class="self-link" href="#verkenning" aria-label="Permalink for Section 7.3"></a></div>
 <p>Methoden en technieken om data te zoeken, vinden en ontsluiten staan niet stil. Eind 2021 is een verkenning uitgevoerd naar de toekomst van metadata standaarden. In de <a href="https://docs.geostandaarden.nl/vtm/cv-al-vrk-20211125/#d1e9">Verkenning Toekomstbeelden Metadata</a> tekent zich een ontwikkeling af naar meer samenhang en verbinding tussen verschillende metadata standaarden. Aansluiting op generieke standaarden, zoals DCAT en het leggen van relaties tussen data, modellen, begrippen en datacatalogi is daarom van belang. Ook het beter verbinden van aanbieders en gebruikers van data is een aandachtsgebied.</p>
 </section></section>
-          <section id="coordinaatreferentiesystemen"><div class="header-wrapper"><h2 id="x8-coordinaatreferentiesystemen"><bdi class="secno">8. </bdi>Coördinaatreferentiesystemen</h2><a class="self-link" href="#coordinaatreferentiesystemen" aria-label="Permalink for Section 8."></a></div>
+<section id="coordinaatreferentiesystemen"><div class="header-wrapper"><h2 id="x8-coordinaatreferentiesystemen"><bdi class="secno">8. </bdi>Coördinaatreferentiesystemen</h2><a class="self-link" href="#coordinaatreferentiesystemen" aria-label="Permalink for Section 8."></a></div>
 <p><strong>Geo-informatie is direct gekoppeld aan een locatie op aarde. Via het coördinaatreferentiesysteem leggen we coördinaten van een locatie vast. Door afspraken te maken over hoe de locatie berekend en geschreven is, en wanneer welk coördinaatreferentiesysteem gebruikt wordt, is er geen verwarring over waar een object zoals een gebouw zich bevindt.
 Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in gebruik. RD, ETRS89 en WGS 84 zijn bekende voorbeelden van coördinaatreferentiesystemen.</strong></p>
 <figure id="pd6">
 <a href="media/Coordinaatreferentiesystemen.png" target="_blank"><img src="media/Coordinaatreferentiesystemen.png" alt="Schematische weergave van coördinaatreferentiesystemen, met voorbeelden zoals RD, ETRS89 en WGS 84."></a>
 <figcaption><a class="self-link" href="#pd6">Figuur <bdi class="figno">9</bdi></a> <span class="fig-title">Coördinaatreferentiesystemen</span></figcaption>
-</figure>
-
-<blockquote>
+</figure><blockquote>
 <p>Denk bij het maken, gebruiken of doorontwikkelen van informatiemodellen aan de volgende onderwerpen:</p>
 </blockquote>
 <ul>
@@ -3053,9 +2996,7 @@ Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in g
       <td> </td>
      </tr>
   </tbody>
-</table>
-
-</section><section id="kwaliteit-en-crs-en"><div class="header-wrapper"><h3 id="x8-2-kwaliteit-en-crs-en"><bdi class="secno">8.2 </bdi>Kwaliteit en CRS-en</h3><a class="self-link" href="#kwaliteit-en-crs-en" aria-label="Permalink for Section 8.2"></a></div>
+</table></section><section id="kwaliteit-en-crs-en"><div class="header-wrapper"><h3 id="x8-2-kwaliteit-en-crs-en"><bdi class="secno">8.2 </bdi>Kwaliteit en CRS-en</h3><a class="self-link" href="#kwaliteit-en-crs-en" aria-label="Permalink for Section 8.2"></a></div>
 <p>CRS-en zelf zijn geen geografische data, de kwaliteit van geografische data valt of staat met het goed vastleggen van het gebruikte coördinaatreferentiesysteem. Zonder informatie over het gebruikte CRS zijn coördinaten getallen zonder betekenis, het is namelijk niet duidelijk wat de relatie van de getallen is met de aarde.</p>
 <p>In de <a href="https://docs.geostandaarden.nl/crs/crs/">Handreiking Gebruik coördinaatreferentiesystemen bij uitwisseling en visualisatie van geo-informatie (2022)</a> worden achtergronden bij CRS-en en diverse aandachtspunten besproken bij het omgaan met CRS-en, zoals:</p>
 <ul>
@@ -3066,11 +3007,6 @@ Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in g
 <li>Ondersteuning van CRS-en in uitwisselingsformaten en software(bibliotheken).</li>
 </ul>
 </section></section>
-          
-          
-          
-          
-     
 
 <section id="references" class="appendix"><div class="header-wrapper"><h2 id="a-referenties"><bdi class="secno">A. </bdi>Referenties</h2><a class="self-link" href="#references" aria-label="Permalink for Appendix A."></a></div><section id="informatieve-referenties">
     <div class="header-wrapper"><h3 id="a-1-informatieve-referenties"><bdi class="secno">A.1 </bdi>Informatieve referenties</h3><a class="self-link" href="#informatieve-referenties" aria-label="Permalink for Appendix A.1"></a></div>
@@ -3281,9 +3217,9 @@ Voor Nederland zijn meerdere standaarden voor coördinaatreferentiesystemen in g
     </dd><dt id="bib-rdf11-concepts">[rdf11-concepts]</dt><dd>
       <a href="https://www.w3.org/TR/rdf11-concepts/"><cite>RDF 1.1 Concepts and Abstract Syntax</cite></a>. Richard Cyganiak; David Wood; Markus Lanthaler.  W3C. 25 February 2014. W3C Recommendation. URL: <a href="https://www.w3.org/TR/rdf11-concepts/">https://www.w3.org/TR/rdf11-concepts/</a>
     </dd><dt id="bib-rfc4287">[rfc4287]</dt><dd>
-      <a href="https://www.rfc-editor.org/rfc/rfc4287"><cite>The Atom Syndication Format</cite></a>. M. Nottingham, Ed.; R. Sayre, Ed. IETF. December 2005. Proposed Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc4287">https://www.rfc-editor.org/rfc/rfc4287</a>
+      <a href="https://www.rfc-editor.org/info/rfc4287/"><cite>The Atom Syndication Format</cite></a>. M. Nottingham, Ed.; R. Sayre, Ed. IETF. December 2005. Proposed Standard. URL: <a href="https://www.rfc-editor.org/info/rfc4287/">https://www.rfc-editor.org/info/rfc4287/</a>
     </dd><dt id="bib-rfc7946">[rfc7946]</dt><dd>
-      <a href="https://www.rfc-editor.org/rfc/rfc7946"><cite>The GeoJSON Format</cite></a>. H. Butler; M. Daly; A. Doyle; S. Gillies; S. Hagen; T. Schaub.  IETF. August 2016. Proposed Standard. URL: <a href="https://www.rfc-editor.org/rfc/rfc7946">https://www.rfc-editor.org/rfc/rfc7946</a>
+      <a href="https://www.rfc-editor.org/info/rfc7946/"><cite>The GeoJSON Format</cite></a>. H. Butler; M. Daly; A. Doyle; S. Gillies; S. Hagen; T. Schaub.  IETF. August 2016. Proposed Standard. URL: <a href="https://www.rfc-editor.org/info/rfc7946/">https://www.rfc-editor.org/info/rfc7946/</a>
     </dd><dt id="bib-sbb">[SBB]</dt><dd>
       <a href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/"><cite>Standaard voor het Beschrijven van Begrippen</cite></a>.  Geonovum. 2024-10-10. Vastgestelde versie. URL: <a href="https://docs.geostandaarden.nl/nl-sbb/nl-sbb/">https://docs.geostandaarden.nl/nl-sbb/nl-sbb/</a>
     </dd><dt id="bib-se11">[SE11]</dt><dd>
@@ -3332,8 +3268,11 @@ function setupPanel() {
 }
 
 function panelListener() {
-  /** @type {HTMLElement} */
+  /** @type {HTMLElement | null} */
   let panel = null;
+  /**
+   * @param {KeyboardEvent|MouseEvent} event
+   */
   return event => {
     const { target, type } = event;
 
@@ -3341,24 +3280,34 @@ function panelListener() {
 
     // For keys, we only care about Enter key to activate the panel
     // otherwise it's activated via a click.
-    if (type === "keydown" && event.key !== "Enter") return;
+    if (
+      type === "keydown" &&
+      /** @type {KeyboardEvent} */ (event).key !== "Enter"
+    )
+      return;
 
     const action = deriveAction(event);
 
     switch (action) {
       case "show": {
         hidePanel(panel);
-        /** @type {HTMLElement} */
+        /** @type {HTMLElement | null} */
         const dfn = target.closest("dfn, .index-term");
+        if (!dfn?.id) break;
         panel = document.getElementById(`dfn-panel-for-${dfn.id}`);
-        const coords = deriveCoordinates(event);
+        if (!panel) break;
+        const coords = deriveCoordinates(
+          /** @type {MouseEvent|KeyboardEvent} */ (event)
+        );
         displayPanel(dfn, panel, coords);
         break;
       }
       case "dock": {
-        panel.style.left = null;
-        panel.style.top = null;
-        panel.classList.add("docked");
+        if (panel) {
+          panel.style.left = "";
+          panel.style.top = "";
+          panel.classList.add("docked");
+        }
         break;
       }
       case "hide": {
@@ -3409,7 +3358,8 @@ function deriveAction(event) {
     if (hitALink) {
       return target.classList.contains("self-link") ? "hide" : "dock";
     }
-    const panel = target.closest(".dfn-panel");
+
+    const panel = /** @type {HTMLElement} */ (target.closest(".dfn-panel"));
     return panel.classList.contains("docked") ? "hide" : "none";
   }
   if (document.querySelector(".dfn-panel:not([hidden])")) {
@@ -3453,9 +3403,9 @@ function displayPanel(dfn, panel, { x, y }) {
     const newLeft = Math.max(MARGIN, x + MARGIN - panelRect.width);
     const newCaretOffset = left - newLeft;
     panel.style.left = `${newLeft}px`;
-    /** @type {HTMLElement} */
+    /** @type {HTMLElement | null} */
     const caret = panel.querySelector(".caret");
-    caret.style.left = `${newCaretOffset}px`;
+    if (caret) caret.style.left = `${newCaretOffset}px`;
   }
 
   // As it's a dialog, we trap focus.
@@ -3504,6 +3454,9 @@ function trapFocus(panel, dfn) {
 function createTrapListener(anchors, panel, dfn) {
   const lastIndex = anchors.length - 1;
   let currentIndex = 0;
+  /**
+   * @param {KeyboardEvent} event
+   */
   return event => {
     switch (event.key) {
       // Hitting "Tab" traps us in a nice loop around elements.
@@ -3533,10 +3486,10 @@ function createTrapListener(anchors, panel, dfn) {
   };
 }
 
-/** @param {HTMLElement} panel */
+/** @param {HTMLElement | null} panel */
 function hidePanel(panel) {
   if (!panel) return;
   panel.hidden = true;
   panel.classList.remove("docked");
 }
-})()</script><div class="sidelabel">Geonovum Handreiking - Versie ter vaststelling</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
+})()</script><div class="sidelabel">Geonovum Handreiking - Vastgestelde versie</div><script src="https://gitdocumentatie.logius.nl/publicatie/respec/fixup.js"></script></body></html>
