@@ -8,7 +8,7 @@
 </figure>
 
 > Denk bij het maken, gebruiken of doorontwikkelen van metadata aan de volgende onderwerpen:
-- Ook, of misschien juist, met de ontwikkelingen van AI (Artificiele Intelligentie) blijft metadata belangrijk. 
+- Ook, of misschien juist, met de ontwikkelingen van AI (Artificiële Intelligentie) blijft metadata belangrijk. 
 - Bedenk voor welke doelgroep de metadata is en pas deze daar op aan. Een technisch publiek heeft behoefte aan doorverwijzingen naar meer technische beschrijvingen terwijl vanuit een beleidsoptiek verwijzing naar de (juridische) kaders belangrijk kan zijn.
 - Bedenk dat er veel tooling is waarmee metadata gemaakt kan worden, deze tooling slaat de metadata vervolgens op in een van de relevante standaarden. De standaarden spelen dan nog steeds een grote rol bij de uitwisselbaarheid en uniformiteit van metadata maar zijn niet vanzelfsprekend zichtbaar in de gebruikersinterface.
 - Metadata kan geconverteerd worden vanuit de ISO standaarden naar de DCAT standaarden. 
@@ -18,7 +18,7 @@
 
 Er zijn verschillende niveaus waarop metadata aangemaakt worden. Metadata van data beschrijft de dataset of dataset reeks (ook dataset series). Metadata van services beschrijft de ‘service’ of API. In Nederland wordt het Nederlands metadataprofiel voor datasets en services toegepast. Dit profiel is gebaseerd op de ISO 19115 voor data en ISO 19119 voor services. Het is een uitbreiding, maar ook verdere specificatie van de Europese INSPIRE metadata vereisten en specifieke behoeften van de gebruikers in Nederland. Met de Nederlandse profielen voor metadata, wordt ook voldaan aan de INSPIRE profielen voor metadata.
 
-In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen meegenomen. Om naar datasets uit verschillende domeinen te kunnen zoeken, worden datasets in (open) dataportalen vaak beschreven met metadata conform de standaard DCAT ([[vocab-dcat-3]]). DCAT is een metadata standaard van W3C voor het uitwisselen van metadata tussen verschillende datacatalogi. In Nederland is daarvoor een applicatie profiel opgesteld ([[dcat-ap-nl]]), wat een nadere invulling is van het Europese “DCAT Application Profile for Data Portals in Europe" ([[dcat-ap]]) opgesteld. DCAT-AP wordt veel in Europese dataportalen gebruikt. DCAT-AP heeft een extensie GeoDCAT-AP ([[geodcat-ap]])voor het beschrijven van datasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. In tabel 7.1 zijn de geostandaarden voor metadata opgenomen. 
+In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen meegenomen. Om naar datasets uit verschillende domeinen te kunnen zoeken, worden datasets in (open) dataportalen vaak beschreven met metadata conform de standaard DCAT ([[vocab-dcat-3]]). DCAT is een metadata standaard van W3C voor het uitwisselen van metadata tussen verschillende datacatalogi. In Nederland is daarvoor een applicatieprofiel opgesteld ([[dcat-ap-nl]]), dat een nadere invulling is van het Europese “DCAT Application Profile for Data Portals in Europe” ([[dcat-ap]]). DCAT-AP wordt veel in Europese dataportalen gebruikt. DCAT-AP heeft een extensie GeoDCAT-AP ([[geodcat-ap]]) voor het beschrijven van datasets, dataset series en services. Deze extensie is eveneens afgestemd op INSPIRE. In tabel 7.1 zijn de geostandaarden voor metadata opgenomen. 
 
 *Tabel 7.1 - Standaarden en specificaties met betrekking tot metadata standaarden*
 <table>
@@ -36,7 +36,7 @@ In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen
   </thead>
   <tbody>
     <tr>
-      <td>ISO 19115:2003, Geographic information - Metadata1 [[ISO19115-2003]] </td>
+      <td>ISO 19115:2003, Geographic information - Metadata [[ISO19115-2003]] </td>
       <td>Technical Guidance for the implementation of INSPIRE dataset and service metadata based on ISO/TS 19139:2007 [[inspire-TG-metadata]] </td>
       <td> Nederlands profiel ISO 19115 voor geografie, versie 2.1.0 [[NLISO19115]] </td>
     </tr>
@@ -72,7 +72,7 @@ In de Nederlandse metadataprofielen is ook de aansluiting op andere dataportalen
     </tr>
    <tr>
       <td> </td>
-      <td>DCAT-AP High Value Datasets ** Semic Recommendation ** version 3.0.0 [[dcat-ap-hvd]] </td>
+      <td>DCAT-AP High Value Datasets **SEMIC Recommendation** version 3.0.0 [[dcat-ap-hvd]] </td>
       <td> </td>
      </tr>
    <tr>
@@ -94,7 +94,7 @@ Het kwaliteitsbeleid voor metadata is vastgelegd in de [Handleiding metadatakwal
 
 **Validatie**
 
-Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators controleren de correcte toepassing van het Nederlands metadataprofiel voor datasets en voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadata van respectivelijk datasets en services conform het Nederlands profiel. 
+Voor het toetsen van metadata zijn er validators beschikbaar. Deze validators controleren de correcte toepassing van het Nederlands metadataprofiel voor datasets en voor services. De [validator Nederlands metadataprofiel op ISO 19115 en op ISO 19119](https://validatie.geostandaarden.nl/) valideert de metadata van respectievelijk datasets en services conform het Nederlands profiel. 
 
 Voor metadata van datasets of services, die voor INSPIRE zijn aangemerkt, gelden er specifiekere vereisten. Gebruik daarvoor
 naast de Nederlandse validator ook de [Europese INSPIRE validator](https://inspire.ec.europa.eu/validator/home/index.html) om metadata te valideren.

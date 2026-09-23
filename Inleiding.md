@@ -4,7 +4,7 @@
 
 <figure id="pd">
 <a href="media/Algemeen.png" target="_blank"><img src="media/Algemeen.png" alt="Schematische weergave van het Raamwerk van geostandaarden, voorgesteld als een gebouw waarin de samenhang van standaarden wordt geïllustreerd."></a>
-<figcaption>Overzicht van het raamwerk geillustreerd aan de hand van een gebouw</figcaption>
+<figcaption>Overzicht van het raamwerk geïllustreerd aan de hand van een gebouw</figcaption>
 </figure>
 
 ## Doel en doelgroep van het raamwerk
@@ -38,9 +38,9 @@ De taken van het GI-beraad zijn strategisch van aard, waarbij het GI-beraad de M
 
 **Forum Standaardisatie**
 
-Het Forum Standaardisatie adviseert de Nederlandse overheid over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open standaarden</a>. Het Forum Standaardisatie voert het beheer over twee lijsten, namelijk de lijst met verplichte open standaarden voor ‘pas toe of leg uit’ en een lijst met aanbevolen open standaarden.
+Het Forum Standaardisatie adviseert de Nederlandse overheid over het gebruik van <a href='https://www.forumstandaardisatie.nl/open-standaarden' target='_blank'>open standaarden</a>. Het Forum Standaardisatie voert het beheer over twee lijsten, namelijk de lijst met verplichte open standaarden (de ‘pas toe of leg uit’-lijst) en een lijst met aanbevolen open standaarden.
 
-Voor de standaarden op de ‘pas toe of leg uit’ lijst met open standaarden geldt dat (semi-) publieke organisaties het 'pas toe of leg uit'-principe moeten volgen. Een aantal standaarden uit het Raamwerk van Geostandaarden staat op de<a href='https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden' target='_blank'> ‘pas toe of leg uit’ lijst</a> van het Forum Standaardisatie.
+Voor de standaarden op de ‘pas toe of leg uit’-lijst geldt dat (semi-)publieke organisaties het ‘pas toe of leg uit’-principe moeten volgen. Een aantal standaarden uit het Raamwerk van geostandaarden staat op de <a href='https://www.forumstandaardisatie.nl/open-standaarden/geo-standaarden' target='_blank'>‘pas toe of leg uit’-lijst</a> van het Forum Standaardisatie.
 
 **NEN normcommissie Geo-informatie**
 
@@ -62,20 +62,20 @@ komen, onderhouden en publiceren van elementen van de geodetische infrastructuur
 waarin de afspraken en standaarden voor de coördinaatreferentiesystemen worden
 gemaakt en beheerd.
 
-Het Raamwerk van Geostandaarden volgt de aanbevelingen van de Nederlandse Samenwerking Geodetische Infrastructuur (NSGI) ten aanzien van coördinaatreferentiesystemen.
+Het Raamwerk van geostandaarden volgt de aanbevelingen van de Nederlandse Samenwerking Geodetische Infrastructuur (NSGI) ten aanzien van coördinaatreferentiesystemen.
 
 **Nederlandse Overheid Referentie Architectuur (NORA)**
 
-De Nederlandse Overheid Referentie Architectuur (NORA) is het interoperabiliteitsraamwerk voor de Nederlandse overheid en vertaalt daartoe wetgeving, beleid en standaarden naar architectuurprincipes, beschrijvingen en modellen. Het is een beschrijving van uitgangspunten voor het inrichten van de informatiehuishouding van de Nederlandse overheid. NORA is relevant voor de uitvoering van alle publieke taken door publieke en private organisaties. De geostandaarden moeten ook passen binnen de [Nederlandse Overheids Referentie Architectuur](https://www.noraonline.nl/) (NORA), de architectuur van alle overheidsorganisaties in Nederland.
+De Nederlandse Overheid Referentie Architectuur (NORA) is het interoperabiliteitsraamwerk voor de Nederlandse overheid en vertaalt daartoe wetgeving, beleid en standaarden naar architectuurprincipes, beschrijvingen en modellen. Het is een beschrijving van uitgangspunten voor het inrichten van de informatiehuishouding van de Nederlandse overheid. NORA is relevant voor de uitvoering van alle publieke taken door publieke en private organisaties. De geostandaarden moeten ook passen binnen de [Nederlandse Overheid Referentie Architectuur](https://www.noraonline.nl/) (NORA), de architectuur van alle overheidsorganisaties in Nederland.
 
 Kwaliteitsdoelen als [Vindbaarheid](https://www.noraonline.nl/wiki/Vindbaar_(Doel)), [Toegankelijkheid](https://www.noraonline.nl/wiki/Toegankelijk_(Doel)) en [Transparantie](https://www.noraonline.nl/wiki/Transparant_(Doel)) zijn belangrijk in NORA evenals voor de nationale geo-informatie infrastructuur.
 
-De “[pas-toe-of-leg-uit](https://www.forumstandaardisatie.nl/open-standaarden)” lijst van het Forum Standaardisatie is ook verankerd in de NORA. Het Raamwerk van Geostandaarden is een aanvulling op en verdieping van het <a href='https://www.noraonline.nl/wiki/Geo' target='_blank'>NORA thema GEO</a>. 
+De [‘pas toe of leg uit’-lijst](https://www.forumstandaardisatie.nl/open-standaarden) van het Forum Standaardisatie is ook verankerd in de NORA. Het Raamwerk van geostandaarden is een aanvulling op en verdieping van het <a href='https://www.noraonline.nl/wiki/Geo' target='_blank'>NORA thema GEO</a>. 
 
 **INSPIRE Richtlijn**
 
 Sinds 15 mei 2007 is de Europese kaderrichtlijn INSPIRE van kracht. Deze richtlijn heeft geleid tot de realisatie van de Europese geo-informatie infrastructuur. De invoering van INSPIRE is met een implementatiewet sinds 2009 in de Nederlandse <a href='https://wetten.overheid.nl/BWBR0026158/2022-05-01' target='_blank'>INSPIRE wet</a> verankerd. In een notendop verplicht de wet Europese lidstaten om geo-informatie (datasets) over 34 thema's te voorzien van metadata en de datasets ‘as is’ en Europees geharmoniseerd beschikbaar te stellen via netwerkdiensten (zoek-, view- en downloaddiensten). Dit alles volgens leveringsvoorwaarden die het gebruik niet onnodig belemmeren.
-De Europese kaderrichtlijn INSPIRE is in detail uitgewerkt in invoeringsregels, en voorzien van technische richtlijnen. Deze invoeringsregels en technische richtlijnen hebben geleid tot Europese profielen voor geostandaarden. Deze profielen zijn waar mogelijk ook verwerkt in Nederlandse profielen voor metadata, diverse data specificaties (informatiemodellen) en bijbehorende netwerkdiensten (API’s).
+De Europese kaderrichtlijn INSPIRE is in detail uitgewerkt in invoeringsregels, en voorzien van technische richtlijnen. Deze invoeringsregels en technische richtlijnen hebben geleid tot Europese profielen voor geostandaarden. Deze profielen zijn waar mogelijk ook verwerkt in Nederlandse profielen voor metadata, diverse data specificaties (informatiemodellen) en bijbehorende netwerkdiensten (API's).
 De in het Raamwerk genoemde Europese profielen voor geostandaarden volgen de lijn van de Europese geo-informatie infrastructuur volgens INSPIRE.
 
 
@@ -102,7 +102,7 @@ Een standaard waarbij door de term informatiemodel te hanteren wordt aangegeven 
 Praktijkrichtlijnen zijn producten die informatie geven, vaak met een technisch karakter, die nodig is voor het toepassen van standaarden. Een praktijkrichtlijn hoort altijd bij een norm of standaard.
 
 **Handreiking**
-Op zichzelf staande documentatie dat als doel heeft een hulpmiddel te zijn, niet verplichtend maar ondersteunend.
+Op zichzelf staande documentatie die als doel heeft een hulpmiddel te zijn, niet verplichtend maar ondersteunend.
 
 **Werkafspraak**
 Legt uit hoe wetgeving moet worden toegepast bij onduidelijkheden, discrepanties of fouten in de standaarden.
@@ -125,7 +125,7 @@ beschrijft enige context en de geostandaarden in samenhang.
 De geostandaarden zijn net als in de vorige versies van dit raamwerk verdeeld over zes categorieën: 
 - Geostandaarden voor [informatiemodellen](#informatiemodellen);
 - Geostandaarden voor [visualisatie](#visualisatie);
-- Geostandaarden voor [Application Programming Interfaces (API’s)](#application-programming-interfaces); 
+- Geostandaarden voor [Application Programming Interfaces (API's)](#application-programming-interfaces); 
 - Geostandaarden voor [uitwisselformaten](#uitwisselformaten);
 - Geostandaarden voor [metadata](#metadata); en 
 - Geostandaarden voor [coördinaatreferentiesystemen](#coordinaatreferentiesystemen).
