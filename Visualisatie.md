@@ -24,22 +24,18 @@ Het standaardiseren van visualisatie (vlakvullingen, lijnstijlen, symbologie, et
 
 - **Mapbox Styles** is een de-facto standaard uit de markt voor webvisualisatie van geo-informatie. Het versiebeheer van deze specificatie is niet beschreven en dit raamwerk verwijst daarom niet naar een specifieke versie maar naar de meest actuele; 
 
-- **OGC API Styles** is een nieuwe OGC standaard om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt;
+- **OGC API Styles** is een OGC-standaard in ontwikkeling (draft) om stijlen en hun metadata (visualisatieregels) op te vragen, te bewerken en te valideren via een API. De stijlen zelf kunnen in SLD 1.0, SLD 1.1 of Mapbox Styles zijn uitgedrukt;
 
 - **3D Tiles** is een goedgekeurde OGC community standaard voor het publiceren van 3D geo-informatie als tiles. Deze standaard bevat ook 3D Tiles Styles, een manier om declaratieve visualisatiespecificaties te beschrijven die je op tilesets kunt toepassen;
 
 - **Indexed 3D Scene Layers** (i3S) is ook een goedgekeurde OGC community standaard. Het specificeert een formaat, opgebouwd uit gestandaardiseerde lagen, voor efficiënte 3D visualisatie op het web.
 
-<aside class="note">3D visualisatie wordt steeds belangrijker. Hiervoor zijn verschillende
-    desktop-applicaties beschikbaar die bijvoorbeeld CityGML, Google SketchUp en
-    andere formaten veelal gecombineerd kunnen gebruiken voor visualisaties. OGC
-    services hiervoor zijn nog niet als standaard(en) uitgekristalliseerd, hier
-    wordt momenteel aan gewerkt. Intussen worden meestal de-facto standaarden
-    toegepast. Interessante ontwikkelingen vanuit W3C zijn: XML3D en X3D die
-    beiden als doel hebben 3D services op het web zonder plug-ins voor browsers
-    (op basis van HTML5). Beiden komen vanuit W3C en het is nog onduidelijk
-    welke richting het precies op gaat. KML en Collada zijn tevens prima
-    geschikt voor 3D visualisatie.</aside>
+<aside class="note">3D-visualisatie wordt steeds belangrijker. Voor het publiceren en
+    visualiseren van 3D geo-informatie op het web zijn inmiddels OGC Community Standards
+    beschikbaar, zoals 3D Tiles en I3S (zie hierboven). Voor het uitwisselen van 3D-data
+    worden daarnaast onder meer CityGML, CityJSON, IFC en glTF gebruikt. De
+    Wegwijzer 3D standaarden [[HRWW3D]]
+    en de handreiking 3D Tiling [[HR3DT]] helpen bij het kiezen van het juiste formaat.</aside>
 
  Europese profielen voor visualisatie zijn beschikbaar in de vorm van visualisatieregels voor dataproducten en informatiemodellen. Deze zijn beschreven in SLD en SE voor de Europese INSPIRE profielen; in de hoofdstukken 11 van de INSPIRE data specificaties is portrayal gedefinieerd volgens **Styled Layer Descriptor** en **Symbology Encoding**.
 
@@ -170,4 +166,6 @@ De handreiking 3D Tiling [[HR3DT]] heeft tot doel bij te dragen aan het breder g
 
 ### Toegankelijkheid & geo-informatie
 
-Sinds 1 juli 2018 geldt het [Tijdelijk besluit ‘Digitale toegankelijkheid overheid’](https://zoek.officielebekendmakingen.nl/stb-2018-141.html). Websites van de overheid moeten vanaf die datum verplicht voldoen aan de toegankelijkheidseisen voor mensen met een beperking. Dit besluit stelt echter in artikel 2 lid 2d expliciet dat het besluit niet van toepassing is op onlinekaarten. Het besluit volgt daarmee de [Europese richtlijn](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&qid=1481290140258&from=en) inzake de toegankelijkheid van de websites en mobiele applicaties van overheidsinstanties. Enige uitzondering is dat in het geval van kaarten voor navigatietoepassingen de essentiële informatie ook op een andere manier (lees: routebeschrijving in tekst) toegankelijk gemaakt moet worden. In de handreiking digitaal toegankelijke locatiedata [[HRTOEG]] en de handreiking webcartografie vind je praktische tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden. Naast de handreiking is er ook veel informatie te vinden bij: [digitoegankelijk.nl](https://www.digitoegankelijk.nl/aan-de-slag/tips/online-kaarten).
+Sinds 1 juli 2018 geldt het [Tijdelijk besluit ‘Digitale toegankelijkheid overheid’](https://wetten.overheid.nl/BWBR0040936/). Websites en mobiele applicaties van de overheid moeten sindsdien voldoen aan de Europese norm EN 301 549, wat voor webcontent neerkomt op de succescriteria van WCAG 2.1 op niveau A en AA. WCAG 2.2 is de meest recente versie van de W3C-richtlijnen; het verdient aanbeveling daar bij nieuwe toepassingen al aan te voldoen. Dit besluit stelt echter in artikel 2 lid 2d expliciet dat het besluit niet van toepassing is op onlinekaarten. Het besluit volgt daarmee de [Europese richtlijn](https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32016L2102&qid=1481290140258&from=en) inzake de toegankelijkheid van de websites en mobiele applicaties van overheidsinstanties. Enige uitzondering is dat in het geval van kaarten voor navigatietoepassingen de essentiële informatie ook op een andere manier (lees: routebeschrijving in tekst) toegankelijk gemaakt moet worden. In de handreiking digitaal toegankelijke locatiedata [[HRTOEG]] en de handreiking webcartografie vind je praktische tips over hoe je geo-informatie - waar mogelijk - wel binnen de bedoelingen van de toegankelijkheidseisen kunt aanbieden. Naast de handreiking is er ook veel informatie te vinden bij: [digitoegankelijk.nl](https://www.digitoegankelijk.nl/aan-de-slag/tips/online-kaarten).
+
+Sinds 28 juni 2025 geldt bovendien de [European Accessibility Act](https://eur-lex.europa.eu/eli/dir/2019/882/oj) (Richtlijn (EU) 2019/882). Die stelt toegankelijkheidseisen aan bepaalde producten en diensten van bedrijven, waardoor ook kaarttoepassingen buiten de overheid met toegankelijkheidseisen te maken kunnen krijgen.

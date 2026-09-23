@@ -34,7 +34,7 @@ De vectorrepresentatie wordt gebruikt voor het vastleggen van discrete objecten 
 
 <aside class="note">Een uitzondering geldt voor cirkelbogen. Wil je geo-objecten met cirkelbogen beschrijven dan kun je het beste gebruik maken van de nieuwe [[JSON-FG]] standaard die hier ondersteuning voor heeft.
 
-Het OGC Simple Features profile voor GML [[GMLSF]] dat de Simple Features subset van geometrietypen beschrijft, met als extra toevoeging cirkelbogen, toepast op GML 3.2.1 [[ISO19136]] biedt deze ondersteuning ook.</aside>
+Het OGC Simple Features profile voor GML [[GMLSF]] dat de Simple Features subset van geometrietypen beschrijft, met als extra toevoeging cirkelbogen, toepast op GML 3.2.1 [[iso-19136-2007]] biedt deze ondersteuning ook.</aside>
 
 Er komt steeds meer aandacht voor zogenaamde 'cloudnative' systemen. Dit zijn oplossingen die geheel gebaseerd zijn op de componenten die door grote cloudleveranciers geleverd worden. In deze systemen wordt veel gewerkt met het Parquet formaat, of het [[GeoParquet]] formaat voor geodata. 
 
@@ -93,7 +93,7 @@ Voor de uitwisseling van vectordata bestaan de volgende standaarden (tabel 6.1).
       <td> </td>
      </tr>
     <tr>
-      <td>OGC Features and Geometries JSON - Part 1: Core, version 0.3 **draft** [[JSON-FG]] </td>
+      <td>OGC Features and Geometries JSON (JSON-FG) - Part 1: Core, version 1.0 [[JSON-FG]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -217,7 +217,7 @@ Sensoren zijn apparaten of onderdelen van apparaten voor het meten van stoffen i
   </thead>
   <tbody>
     <tr>
-      <td>OGC Observations, measurements and samples version 3.0 [[OMS3]] </td>
+      <td>OGC Observations, measurements and samples version 3.0 [[OMS3]] (= ISO 19156:2023 [[iso19156]]) </td>
       <td>INSPIRE Guidelines for the encoding of spatial data [[inspire-gen]] </td>
       <td>Informatiemodel Metingen [[IMMetingen]] </td>
      </tr>
@@ -260,7 +260,7 @@ Om 3-dimensionele data uit te wisselen, dus data over objecten en verschijnselen
   </thead>
   <tbody>
     <tr>
-      <td>OGC City Geography Markup Language (CityGML) Encoding Standard version 3.0 [[CityGML3]] </td>
+      <td>OGC City Geography Markup Language (CityGML) Part 2: GML Encoding Standard version 3.0 [[CityGML3GML]] </td>
       <td> </td>
       <td> </td>
      </tr>
@@ -286,7 +286,7 @@ Het valideren van JSON-FG kan gedaan worden met de [OGC-Checker](https://geonovu
 
 **Handreiking Geometrie in model en GML**
 
-De handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is daarmee een ondersteuning voor de toepassing van de norm NEN 3610:2011 – Basismodel geo-informatie [NEN3610]. NEN 3610 gaat hierin niet verder dan verwijzing naar de relevante geo-informatie (ISO) normen. De ISO normen zijn uitgebreid. De handreiking Geometrie in model en GML is een praktische, vereenvoudigde introductie op de ISO norm. Voor de normatieve referentie verwijzen we naar de originele documenten. De handreiking kan als een zelfstandig document worden gelezen.
+De handreiking [Geometrie in model en GML](https://docs.geostandaarden.nl/nen3610/gimeg/) beschrijft de toepassing van geometrie in informatiemodellering en de implementatie daarvan in GML. Het is daarmee een ondersteuning voor de toepassing van de norm NEN 3610 – Basismodel geo-informatie [[NEN3610]]. NEN 3610 gaat hierin niet verder dan verwijzing naar de relevante geo-informatie (ISO) normen. De ISO normen zijn uitgebreid. De handreiking Geometrie in model en GML is een praktische, vereenvoudigde introductie op de ISO norm. Voor de normatieve referentie verwijzen we naar de originele documenten. De handreiking kan als een zelfstandig document worden gelezen.
 
 **Handreiking Geometrie in uitwisselingsformaten**
 

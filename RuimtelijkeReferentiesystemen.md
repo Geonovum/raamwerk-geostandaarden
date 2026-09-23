@@ -27,7 +27,7 @@ De in Nederland gebruikte coördinaatreferentiesystemen voor de opslag en uitwis
 
 Voor de definitie van CRS-en is een ISO standaard [[iso19111]] beschikbaar. De [[iso19111]] standaard geeft een beschrijving van de parameters die het CRS definiëren. Voor [specificatie en naamgeving van een CRS](https://docs.geostandaarden.nl/crs/crs/#naamgeving-van-crs) kunnen Name Type Specification (NTS), Uniform Resource names (URN), of Uniform Resource Locators (URL) worden gebruikt, waarin bijvoorbeeld EPSG-codes kunnen worden opgenomen die verwijzen naar de parameters die het CRS definiëren.
 
-Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het specificeren hiervan vastgelegd in een specifieke richtlijn. 
+Voor uitwisseling in het kader van INSPIRE zijn de te gebruiken CRS-en en het specificeren hiervan vastgelegd in een specifieke richtlijn [[inspire-crs]]. 
 
 De relevante CRS-en die gebruikt worden in de Nederlandse geo-informatie infrastructuur, kunnen ook worden ingedeeld naar hun geografische toepassingsgebied:
 * Een **wereldwijd CRS** is een CRS dat gemiddeld zo goed mogelijk bij de gehele aarde aansluit. Wereldwijde CRS-en zijn bedoeld voor kleinschalige of wereldwijde toepassingen, bijvoorbeeld wereldkaarten, satellietnavigatie en het beschrijven van processen zoals zeestromingen en platentektoniek. Wereldwijde CRS-en zijn minder geschikt voor het nauwkeurig vastleggen van geo-informatie, doordat in een wereldwijd CRS de coördinaten tijdsafhankelijk zijn als gevolg van platentektoniek;
@@ -70,7 +70,7 @@ In de onderstaande tabel 8.1 zijn de standaarden en specificaties benoemd, die v
       <td> </td>
      </tr>
     <tr>
-      <td>ISO/TS 19127 Geographic Information – Geodetic codes and parameters [[isots19127]] </td>
+      <td>ISO 19127:2019 Geographic information – Geodetic register [[iso19127]] </td>
       <td> </td>
       <td> </td>
      </tr>
